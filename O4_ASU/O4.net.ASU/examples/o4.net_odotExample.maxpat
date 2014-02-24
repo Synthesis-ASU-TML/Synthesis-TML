@@ -100,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 134.0, 125.0, 30.0 ],
+					"patching_rect" : [ 13.0, 265.5, 125.0, 30.0 ],
 					"text" : "prepend an osc stream "
 				}
 
@@ -115,7 +115,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 219.0, 429.0, 50.0, 14.0 ],
-					"text" : "666"
+					"text" : "656"
 				}
 
 			}
@@ -129,7 +129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.666672, 429.0, 50.0, 14.0 ],
-					"text" : "678"
+					"text" : "276"
 				}
 
 			}
@@ -143,7 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 429.0, 50.0, 14.0 ],
-					"text" : "1606"
+					"text" : "1739"
 				}
 
 			}
@@ -218,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 339.0, 374.0, 101.0, 14.0 ],
-					"text" : "/test/random3 666"
+					"text" : "/test/random3 656"
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 662.111084, 390.0, 50.0, 14.0 ],
-					"text" : "800"
+					"text" : "741"
 				}
 
 			}
@@ -260,7 +260,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 609.777771, 390.0, 50.0, 14.0 ],
-					"text" : "543"
+					"text" : "1845"
 				}
 
 			}
@@ -274,7 +274,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 557.111084, 390.0, 50.0, 14.0 ],
-					"text" : "1515"
+					"text" : "1933"
 				}
 
 			}
@@ -366,7 +366,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 488.0, 335.0, 83.0, 36.0 ],
-					"text" : "/random3 800\n/random2 543\n/random1 1515",
+					"text" : "/random3 741\n/random2 1845\n/random1 1933",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -550,7 +550,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 335.0, 90.0, 46.0 ],
-					"text" : "/test/random1 1606\n/test/random2 678\n/test/random3 666",
+					"text" : "/test/random1 1739\n/test/random2 276\n/test/random3 656",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
