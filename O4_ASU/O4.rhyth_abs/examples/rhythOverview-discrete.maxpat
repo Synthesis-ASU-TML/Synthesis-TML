@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1920.0, 899.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,13 +31,102 @@
 				"box" : 				{
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
+					"id" : "obj-20",
+					"linecount" : 2,
+					"maxclass" : "o.message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 860.333313, 810.58374, 205.499939, 26.0 ],
+					"text" : "/timetag 2014-02-25T04:41:43.732728Z\n/rhyth/play/add 0.\n",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"linecount" : 6,
+					"maxclass" : "o.message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.333313, 322.253479, 205.499939, 66.0 ],
+					"text" : "/rhyth/range/min 405.\n/rhyth/type \"data\"\n/rhyth/range/max 1206.\n/rhyth/record/onset/count 4\n/rhyth/record/onset/trigger 0\n/timetag 2014-02-25T04:41:52.517665Z\n",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 1 ],
+					"border" : 1,
+					"id" : "obj-14",
+					"maxclass" : "bpatcher",
+					"name" : "rhythPhrase.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 823.833374, 434.0, 506.0, 159.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-17",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 139.0, 174.0, 150.0, 36.0 ],
+					"text" : "TWO OUTLETS FROM RECORDER: 1 is time and other other is data"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 562.0, 182.447876, 103.0, 16.0 ],
+					"text" : "metro 100 @active 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 562.0, 207.93573, 69.0, 16.0 ],
+					"text" : "random 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1150.496216, 754.58374, 88.0, 26.0 ],
+					"patching_rect" : [ 1137.32959, 754.58374, 88.0, 26.0 ],
 					"text" : "outlet 2: fmat of selected phrase"
 				}
 
@@ -52,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 844.996033, 756.58374, 82.0, 26.0 ],
+					"patching_rect" : [ 831.829468, 756.58374, 82.0, 26.0 ],
 					"text" : "outlet 1: osc output data"
 				}
 
@@ -62,13 +151,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-10",
-					"linecount" : 4,
+					"linecount" : 6,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.333313, 254.535889, 205.499939, 46.0 ],
-					"text" : "/rhyth/record/marker/count \"setrow\" 3 0.113636 3 5\n/rhyth/record/marker/trigger 0\n/timetag 2014-02-24T06:26:38.543308Z\n",
+					"patching_rect" : [ 65.333313, 254.535889, 205.499939, 66.0 ],
+					"text" : "/rhyth/range/min 170.\n/rhyth/type \"time\"\n/rhyth/range/max 360.\n/rhyth/record/onset/count 4\n/rhyth/record/onset/trigger 0\n/timetag 2014-02-25T04:41:52.517189Z\n",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -78,13 +167,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-9",
-					"linecount" : 2,
+					"linecount" : 5,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.333313, 451.758362, 205.499939, 26.0 ],
-					"text" : "/rhyth/phrase/fmat 180. 170. 167. 180. 210. 226. 226. 226. 226. 226. 226. 226.",
+					"patching_rect" : [ 65.333313, 451.758362, 205.499939, 56.0 ],
+					"text" : "/rhyth/phrase/min 0.\n/rhyth/phrase/max 190.\n/rhyth/type \"time\"\n/rhyth/phrase/sel 1\n/timetag 2014-02-25T04:41:52.517569Z\n",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -94,13 +183,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 9,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 65.333313, 647.67804, 205.499939, 26.0 ],
-					"text" : "/timetag 2014-02-24T06:25:42.728830Z\n/rhyth/play/mult 1.\n",
+					"patching_rect" : [ 65.333313, 647.67804, 205.499939, 96.0 ],
+					"text" : "/timetag 2014-02-25T04:41:28.217232Z\n/rhyth/play/value/normalized 0.\n/rhyth/play/value/raw 90\n/rhyth/play/index 36\n/rhyth/play/add 0.\n/rhyth/play/loop 0\n/rhyth/play/mult 1.\n/rhyth/play/rotate 0\n/rhyth/play/transform \"normal\"\n",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -185,7 +274,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1089.496094, 631.67804, 68.0, 16.0 ],
+					"patching_rect" : [ 1076.32959, 631.67804, 68.0, 16.0 ],
 					"text" : "arguments: 1"
 				}
 
@@ -243,38 +332,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 846.996033, 611.67804, 118.0, 20.0 ],
+					"patching_rect" : [ 833.829468, 611.67804, 118.0, 20.0 ],
 					"text" : "3. rhythPlay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Helvetica",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-119",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 846.996033, 397.835327, 122.5, 20.0 ],
-					"text" : "2. rhythPhrase"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Helvetica",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-120",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 846.996033, 417.835327, 150.0, 16.0 ],
-					"text" : "PHRASE RETRIVAL"
 				}
 
 			}
@@ -333,7 +392,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 846.996033, 631.67804, 150.0, 16.0 ],
+					"patching_rect" : [ 833.829468, 631.67804, 150.0, 16.0 ],
 					"text" : "DATA PLAYBACK"
 				}
 
@@ -426,7 +485,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1136.0, 758.58374, 20.0, 20.0 ]
+					"patching_rect" : [ 1122.833496, 758.58374, 20.0, 20.0 ]
 				}
 
 			}
@@ -454,7 +513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.833374, -11.75, 291.0, 26.0 ],
-					"text" : "tml.rhyth_abs",
+					"text" : "O4.rhyth_abs",
 					"underline" : 1
 				}
 
@@ -943,9 +1002,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "rhythRecord.maxpat",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.833374, 254.535889, 104.0, 134.0 ]
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 292.833374, 266.535889, 104.0, 117.0 ]
 				}
 
 			}
@@ -988,32 +1047,45 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "" ],
-					"patching_rect" : [ 836.999939, 647.67804, 318.000061, 97.905724 ],
+					"patching_rect" : [ 823.833435, 647.67804, 318.000061, 97.905724 ],
 					"varname" : "rhythPlay"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 2 ],
-					"border" : 1,
-					"id" : "obj-52",
-					"maxclass" : "bpatcher",
-					"name" : "rhythPhrase.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 836.996094, 434.0, 506.0, 159.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -1064,16 +1136,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 302.333374, 602.0, 812.833374, 602.0, 812.833374, 424.0, 833.333374, 424.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
@@ -1138,20 +1211,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 302.333374, 397.535889, 281.833313, 397.535889, 281.833313, 244.535889, 261.333252, 244.535889 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
 				}
 
 			}
@@ -1166,20 +1248,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
+					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 302.333374, 393.009583, 846.496094, 393.009583 ],
-					"source" : [ "obj-6", 0 ]
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
+					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -1248,33 +1329,25 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "rhythPhrase.maxpat",
-				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth.ASU",
+				"name" : "rhythPlay.maxpat",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rhythPlay.maxpat",
-				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth.ASU",
+				"name" : "rhythPhrase.maxpat",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhythRecord.maxpat",
-				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth.ASU",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "createfolder.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.editor.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "ftm.mess.mxo",
@@ -1293,23 +1366,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "labs.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "icst.button.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.prepend.mxo",
+				"name" : "ftm.editor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.value.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1325,7 +1398,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "ftm.value.mxo",
+				"name" : "createfolder.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "labs.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "icst.button.mxo",
 				"type" : "iLaX"
 			}
 , 			{
