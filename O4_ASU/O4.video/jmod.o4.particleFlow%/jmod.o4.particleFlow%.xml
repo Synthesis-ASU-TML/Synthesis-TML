@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='attraction' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 0.000000 </item>
+    <item name='attractionVel' type='array' priority='0' mixweight='1'>0.001000 0.002000 0.003000 0.004000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
+    <item name='inputGain' type='decimal' priority='0' mixweight='1'>10.000000</item>
+    <item name='inputSlideDown' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='inputSlideUp' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/color' type='array' priority='0' mixweight='1'>0.995294 0.604706 0.604706 0.534247 </item>
+    <item name='layer0/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer0/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer0/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer0/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer0/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer0/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer0/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer0/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer0/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer1/color' type='array' priority='0' mixweight='1'>0.005490 0.927843 0.153067 0.671233 </item>
+    <item name='layer1/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer1/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer1/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer1/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer1/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer1/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer1/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer1/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer1/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer1/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer1/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer2/color' type='array' priority='0' mixweight='1'>0.084941 0.005882 0.994118 0.739726 </item>
+    <item name='layer2/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer2/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer2/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer2/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer2/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer2/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer2/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer2/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer2/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer2/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer2/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer3/color' type='array' priority='0' mixweight='1'>0.993725 0.206275 0.914980 1.000000 </item>
+    <item name='layer3/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer3/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer3/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer3/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer3/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer3/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer3/position' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
+    <item name='layer3/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer3/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer3/texName' type='string' priority='0' mixweight='1'>none</item>
+    <item name='layer3/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='maxDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='maxMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='modAmount' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='modInvert' type='decimal' priority='0' mixweight='1'>0.010000</item>
+    <item name='modOp' type='string' priority='0' mixweight='1'>/</item>
+    <item name='modThreshold' type='decimal' priority='0' mixweight='1'>0.300000</item>
+    <item name='reread' type='array' priority='0' mixweight='1'>0</item>
+    <item name='res' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='reset' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='respawn' type='array' priority='0' mixweight='1'>50.000000 100.000000 150.000000 200.000000 </item>
+    <item name='scaler' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='speed' type='array' priority='0' mixweight='1'>0.400000 0.800000 0.600000 1.000000 </item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+  <preset number='2' name='flamequads'>
+    <item name='attraction' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 0.000000 </item>
+    <item name='attractionVel' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
+    <item name='inputGain' type='decimal' priority='0' mixweight='1'>10.000000</item>
+    <item name='inputSlideDown' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='inputSlideUp' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/color' type='array' priority='0' mixweight='1'>0.900000 0.000000 0.000000 0.109589 </item>
+    <item name='layer0/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer0/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer0/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer0/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/meshDim' type='array' priority='0' mixweight='1'>257.000000 144.000000 </item>
+    <item name='layer0/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer0/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer0/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer0/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer0/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='maxDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='maxMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='modAmount' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='modInvert' type='decimal' priority='0' mixweight='1'>0.010000</item>
+    <item name='modOp' type='string' priority='0' mixweight='1'>/</item>
+    <item name='modThreshold' type='decimal' priority='0' mixweight='1'>0.300000</item>
+    <item name='reread' type='array' priority='0' mixweight='1'>0</item>
+    <item name='res' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='reset' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='respawn' type='array' priority='0' mixweight='1'>50.000000 100.000000 150.000000 200.000000 </item>
+    <item name='scaler' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='speed' type='array' priority='0' mixweight='1'>0.400000 0.800000 0.600000 1.000000 </item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+  <preset number='3' name='colortest'>
+    <item name='attraction' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 0.000000 </item>
+    <item name='attractionVel' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
+    <item name='inputGain' type='decimal' priority='0' mixweight='1'>10.000000</item>
+    <item name='inputSlideDown' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='inputSlideUp' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/color' type='array' priority='0' mixweight='1'>0.900000 0.000000 0.000000 0.109589 </item>
+    <item name='layer0/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer0/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer0/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer0/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/meshDim' type='array' priority='0' mixweight='1'>257.000000 144.000000 </item>
+    <item name='layer0/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer0/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer0/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer0/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer0/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='maxDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='maxMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='modAmount' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='modInvert' type='decimal' priority='0' mixweight='1'>0.010000</item>
+    <item name='modOp' type='string' priority='0' mixweight='1'>/</item>
+    <item name='modThreshold' type='decimal' priority='0' mixweight='1'>0.300000</item>
+    <item name='reread' type='array' priority='0' mixweight='1'>0</item>
+    <item name='res' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='reset' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='respawn' type='array' priority='0' mixweight='1'>50.000000 100.000000 150.000000 200.000000 </item>
+    <item name='scaler' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='speed' type='array' priority='0' mixweight='1'>0.400000 0.800000 0.600000 1.000000 </item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+  <preset number='4' name='ashy'>
+    <item name='attraction' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 0.000000 </item>
+    <item name='attractionVel' type='array' priority='0' mixweight='1'>0.001000 0.002000 0.003000 0.004000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
+    <item name='inputGain' type='decimal' priority='0' mixweight='1'>10.000000</item>
+    <item name='inputSlideDown' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='inputSlideUp' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/color' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 0.534247 </item>
+    <item name='layer0/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer0/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer0/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer0/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer0/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer0/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer0/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer0/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer0/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer1/color' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 0.671233 </item>
+    <item name='layer1/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer1/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer1/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer1/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer1/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer1/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer1/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer1/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer1/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer1/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer1/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer2/color' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 0.739726 </item>
+    <item name='layer2/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer2/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer2/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer2/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer2/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer2/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer2/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer2/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer2/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer2/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer2/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer3/color' type='array' priority='0' mixweight='1'>0.926013 0.007320 0.227807 1.000000 </item>
+    <item name='layer3/draw_mode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer3/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer3/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer3/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer3/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer3/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer3/position' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
+    <item name='layer3/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer3/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer3/texName' type='string' priority='0' mixweight='1'>none</item>
+    <item name='layer3/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='maxDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='maxMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='modAmount' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='modInvert' type='decimal' priority='0' mixweight='1'>0.010000</item>
+    <item name='modOp' type='string' priority='0' mixweight='1'>/</item>
+    <item name='modThreshold' type='decimal' priority='0' mixweight='1'>0.300000</item>
+    <item name='reread' type='array' priority='0' mixweight='1'>0</item>
+    <item name='res' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='reset' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='respawn' type='array' priority='0' mixweight='1'>50.000000 100.000000 150.000000 200.000000 </item>
+    <item name='scaler' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='speed' type='array' priority='0' mixweight='1'>0.400000 0.800000 0.600000 1.000000 </item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+  <preset number='5' name='flames'>
+    <item name='attraction' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 0.000000 </item>
+    <item name='attractionVel' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
+    <item name='inputGain' type='decimal' priority='0' mixweight='1'>10.000000</item>
+    <item name='inputSlideDown' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='inputSlideUp' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/color' type='array' priority='0' mixweight='1'>1.000000 0.809333 0.133333 0.520548 </item>
+    <item name='layer0/draw_mode' type='integer' priority='0' mixweight='1'>8</item>
+    <item name='layer0/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer0/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer0/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer0/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer0/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer0/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer0/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer0/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer0/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer1/color' type='array' priority='0' mixweight='1'>0.600000 0.360000 0.000000 0.575342 </item>
+    <item name='layer1/draw_mode' type='integer' priority='0' mixweight='1'>8</item>
+    <item name='layer1/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer1/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer1/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer1/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer1/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer1/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer1/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer1/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer1/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer1/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer2/color' type='array' priority='0' mixweight='1'>0.666667 0.120000 0.000000 0.589041 </item>
+    <item name='layer2/draw_mode' type='integer' priority='0' mixweight='1'>8</item>
+    <item name='layer2/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer2/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer2/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer2/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer2/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer2/position' type='array' priority='0' mixweight='1'>0</item>
+    <item name='layer2/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer2/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer2/texName' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer2/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='layer3/color' type='array' priority='0' mixweight='1'>0.866667 0.000000 0.000000 0.630137 </item>
+    <item name='layer3/draw_mode' type='integer' priority='0' mixweight='1'>8</item>
+    <item name='layer3/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer3/initialPositions' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='layer3/line_width' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer3/meshDim' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='layer3/point_size' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='layer3/position' type='array' priority='0' mixweight='1'>0.000000 0.000000 0.000000 </item>
+    <item name='layer3/scale' type='array' priority='0' mixweight='1'>1.000000 1.000000 0.000000 </item>
+    <item name='layer3/texDisplace' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer3/texName' type='string' priority='0' mixweight='1'>none</item>
+    <item name='layer3/texOut' type='string' priority='0' mixweight='1'>0</item>
+    <item name='maxDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='maxMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minDampening' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='minMass' type='array' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='modAmount' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='modInvert' type='decimal' priority='0' mixweight='1'>0.010000</item>
+    <item name='modOp' type='string' priority='0' mixweight='1'>/</item>
+    <item name='modThreshold' type='decimal' priority='0' mixweight='1'>0.300000</item>
+    <item name='reread' type='array' priority='0' mixweight='1'>0</item>
+    <item name='res' type='array' priority='0' mixweight='1'>256.000000 144.000000 </item>
+    <item name='reset' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='respawn' type='array' priority='0' mixweight='1'>50.000000 100.000000 150.000000 200.000000 </item>
+    <item name='scaler' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='speed' type='array' priority='0' mixweight='1'>0.400000 0.800000 0.600000 1.000000 </item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+</jamoma>

@@ -1,0 +1,106 @@
+<jittershader name="led_shader">
+	<description>
+	Make video look like led wall
+	</description>		
+	<param name="blur" type="float" default="1.0">
+	</param>
+	<param name="gain" type="float" default="1.5">
+	</param>
+	<language name="glsl" version="1.0">	
+		<bind param="blur" program="fp" />
+		<bind param="gain" program="fp" />
+		<program name="vp" type="vertex">
+
+<![CDATA[
+
+varying vec2 texcoord0;
+varying vec2 texcoord1;
+varying vec2 texcoord2;
+varying vec2 texcoord3;
+varying vec2 texcoord4;
+varying vec2 texcoord5;
+varying vec2 texcoord6;
+varying vec2 texcoord7;
+
+void main()
+{
+	// perform standard transform on vertex
+	gl_Position = ftransform();
+    
+	// transform texcoords
+	texcoord0 = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+	texcoord1 = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+	texcoord2 = vec2(gl_TextureMatrix[2] * gl_MultiTexCoord2);
+	texcoord3 = vec2(gl_TextureMatrix[3] * gl_MultiTexCoord3);
+	texcoord4 = vec2(gl_TextureMatrix[4] * gl_MultiTexCoord4);
+	texcoord5 = vec2(gl_TextureMatrix[5] * gl_MultiTexCoord5);
+	texcoord6 = vec2(gl_TextureMatrix[6] * gl_MultiTexCoord6);
+	texcoord7 = vec2(gl_TextureMatrix[7] * gl_MultiTexCoord7);
+}
+]]>
+</program>
+
+<program name="fp" type="fragment">
+
+<![CDATA[
+
+uniform sampler2DRect tex;
+
+varying vec2 texcoord0;
+
+
+vec2 TexelKernel[13];
+float BlurWeights[13];
+
+uniform float blur;
+uniform float gain;
+
+
+void main()
+{	
+
+	
+	TexelKernel[0] = vec2(-6, 0);
+	TexelKernel[1] = vec2(-5, 0);
+	TexelKernel[2] = vec2(-4, 0);
+	TexelKernel[3] = vec2(-3, 0);
+	TexelKernel[4] = vec2(-2, 0);
+	TexelKernel[5] = vec2(-1, 0);
+	TexelKernel[6] = vec2(0, 0);
+	TexelKernel[7] = vec2(1, 0);
+	TexelKernel[8] = vec2(2, 0);
+	TexelKernel[9] = vec2(3, 0);
+	TexelKernel[10] = vec2(4, 0);
+	TexelKernel[11] = vec2(5, 0);
+	TexelKernel[12] = vec2(6, 0);
+
+	BlurWeights[0] = 0.002216;
+   	BlurWeights[1] =     0.008764;
+	BlurWeights[2] =     0.026995;
+	BlurWeights[3] =     0.064759;
+	BlurWeights[4] =     0.120985;
+	BlurWeights[5] =     0.176033;
+	BlurWeights[6] =     0.199471;
+	BlurWeights[7] =     0.176033;
+	BlurWeights[8] =     0.120985;
+	BlurWeights[9] =     0.064759;
+	BlurWeights[10] =     0.026995;
+	BlurWeights[11] =     0.008764;
+	BlurWeights[12] =     0.002216;
+	
+	vec4 color = vec4(0.0, 0.0, 0.0, 0.0);
+	
+	for (int i = 0; i<13; i++)
+	{	
+		color += texture2DRect(tex, texcoord0 + TexelKernel[i] / blur ) * BlurWeights[i];
+	}	
+	
+	gl_FragColor = color * gain;
+	
+} 
+
+
+]]>
+		</program>
+	</language>
+</jittershader>
