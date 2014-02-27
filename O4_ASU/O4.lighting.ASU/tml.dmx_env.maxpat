@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 198.0, 50.0, 14.0 ],
+					"patching_rect" : [ 427.0, 217.0, 50.0, 14.0 ],
 					"text" : "1"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 218.0, 37.0, 214.5, 16.0 ],
+					"patching_rect" : [ 215.0, 56.0, 214.5, 16.0 ],
 					"text" : "t b b b"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 271.0, 297.0, 49.0, 16.0 ],
+					"patching_rect" : [ 268.0, 316.0, 49.0, 16.0 ],
 					"text" : "onebang"
 				}
 
@@ -78,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 265.0, 47.0, 16.0 ],
+					"patching_rect" : [ 268.0, 284.0, 47.0, 16.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 412.5, 167.0, 32.5, 16.0 ],
+					"patching_rect" : [ 409.5, 186.0, 32.5, 16.0 ],
 					"text" : "== 4"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 412.5, 132.0, 34.0, 16.0 ],
+					"patching_rect" : [ 409.5, 151.0, 34.0, 16.0 ],
 					"text" : "zl len"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 413.5, 96.0, 63.0, 16.0 ],
+					"patching_rect" : [ 410.5, 115.0, 63.0, 16.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -132,8 +132,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 218.0, -4.0, 25.0, 25.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 215.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 218.0, 265.0, 25.0, 25.0 ]
+					"patching_rect" : [ 215.0, 284.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -157,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 157.0, 56.0, 14.0 ],
+					"patching_rect" : [ 282.0, 176.0, 56.0, 14.0 ],
 					"text" : "#2, #1 #3"
 				}
 
@@ -171,7 +171,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 218.0, 96.0, 153.0, 16.0 ],
+					"patching_rect" : [ 215.0, 115.0, 153.0, 16.0 ],
 					"text" : "sel 1 0"
 				}
 
@@ -184,7 +184,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 218.0, 67.0, 20.0, 20.0 ]
+					"patching_rect" : [ 215.0, 86.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -197,7 +197,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.0, 265.0, 50.0, 14.0 ],
+					"patching_rect" : [ 113.0, 284.0, 50.0, 14.0 ],
 					"text" : "40."
 				}
 
@@ -211,7 +211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 157.0, 64.0, 14.0 ],
+					"patching_rect" : [ 215.0, 176.0, 64.0, 14.0 ],
 					"text" : "#1, #2 #3"
 				}
 
@@ -225,7 +225,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 212.0, 100.0, 16.0 ],
+					"patching_rect" : [ 215.0, 231.0, 100.0, 16.0 ],
 					"text" : "line 0."
 				}
 
@@ -245,7 +245,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 422.0, 252.0, 280.5, 252.0 ],
+					"midpoints" : [ 419.0, 271.0, 277.5, 271.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -273,7 +273,7 @@
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 280.5, 322.0, 204.0, 322.0, 204.0, 63.0, 227.5, 63.0 ],
+					"midpoints" : [ 277.5, 341.0, 201.0, 341.0, 201.0, 82.0, 224.5, 82.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -292,7 +292,7 @@
 					"destination" : [ "obj-16", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 325.25, 70.0, 381.0, 70.0, 381.0, 294.0, 310.5, 294.0 ],
+					"midpoints" : [ 322.25, 89.0, 378.0, 89.0, 378.0, 313.0, 307.5, 313.0 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -396,7 +396,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }

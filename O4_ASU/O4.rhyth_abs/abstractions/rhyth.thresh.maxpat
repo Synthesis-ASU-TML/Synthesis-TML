@@ -60,7 +60,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 163.0, 50.0, 14.0 ],
-					"text" : "0.001621"
+					"text" : "0.004999"
 				}
 
 			}
@@ -102,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 245.0, 50.0, 14.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 191.0, 104.0, 65.0, 16.0 ],
-					"text" : "zl stream 60"
+					"text" : "zl stream 20"
 				}
 
 			}

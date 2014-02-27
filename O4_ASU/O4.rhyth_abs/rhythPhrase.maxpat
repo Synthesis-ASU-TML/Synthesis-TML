@@ -9,7 +9,7 @@
 		}
 ,
 		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
-		"bgcolor" : [ 1.0, 0.62, 0.6, 0.62 ],
+		"bgcolor" : [ 0.54, 1.0, 0.55, 0.62 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -38,7 +38,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 768.07135, 263.632629, 150.0, 18.0 ],
-					"text" : "/type/time",
+					"text" : "/type \"time\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1634.34021, -828.907715, 194.0, 38.0 ],
-					"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-24-2014/markers"
+					"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-26-2014/markers"
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1242.110352, -632.735779, 194.0, 38.0 ],
-					"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-24-2014/markers/01-marker.txt"
+					"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-26-2014/markers/01-marker.txt"
 				}
 
 			}
@@ -112,7 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1497.148682, -550.735779, 194.0, 38.0 ],
-					"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-24-2014/rhythms/01-rhythm.txt"
+					"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-26-2014/rhythms/01-rhythm.txt"
 				}
 
 			}
@@ -126,7 +126,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 195.000015, -583.0, 118.499985, 16.0 ],
-					"text" : "setrow 1 0.181818 1 8"
+					"text" : "setrow 5 0.863636 5 38"
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1311.0, 615.0, 62.0, 16.0 ],
-					"text" : "299."
+					"text" : "189."
 				}
 
 			}
@@ -180,7 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1374.0, 611.587463, 21.0, 27.0 ],
-					"text" : "213."
+					"text" : "180."
 				}
 
 			}
@@ -2292,7 +2292,7 @@
 					"persistence" : 1,
 					"presentation_rect" : [ 93.5, -632.087524, 83.365234, 16.0 ],
 					"scope" : 0,
-					"serialized_objects" : [ [ "fmat", 1 ], [ 1, "size", 6, 1 ], [ 1, "set", 0, 0, 180.0, 189.0, 177.0, 191.0, 351.0, 182.0 ] ],
+					"serialized_objects" : [ [ "fmat", 1 ], [ 1, "size", 40, 1 ], [ 1, "set", 0, 0, 370.0, 510.0, 510.0, 463.0, 468.0, 392.0, 392.0, 510.0, 510.0, 460.0, 460.0, 420.0, 420.0, 850.0, 850.0, 400.0, 400.0, 630.0, 630.0, 931.0, 931.0, 530.0, 530.0, 575.0, 575.0, 181.0, 181.0, 190.0, 190.0, 1080.0, 1080.0, 130.0, 130.0, 500.0, 500.0, 310.0, 310.0, 3349.0, 4373.0, 10050.0 ] ],
 					"text" : "fmat"
 				}
 
@@ -2456,7 +2456,7 @@
 					"persistence" : 1,
 					"presentation_rect" : [ 1121.708252, 555.699524, 100.365234, 16.0 ],
 					"scope" : 0,
-					"serialized_objects" : [ [ "fmat", 2 ], [ 2, "size", 2, 1 ], [ 2, "set", 0, 0, 213.0, 299.0 ] ],
+					"serialized_objects" : [ [ "fmat", 2 ], [ 2, "size", 2, 1 ], [ 2, "set", 0, 0, 180.0, 189.0 ] ],
 					"text" : "fmat"
 				}
 
@@ -2610,7 +2610,7 @@
 					"persistence" : 1,
 					"presentation_rect" : [ 226.000015, -662.0, 114.947731, 16.0 ],
 					"scope" : 0,
-					"serialized_objects" : [ [ "mat", 3 ], [ 3, "size", 0, 3 ] ],
+					"serialized_objects" : [ [ "mat", 3 ], [ 3, "size", 6, 3 ], [ 3, "row", 0, 0, 0, 0 ], [ 3, "row", 1, 0.045455, 1, 2 ], [ 3, "row", 2, 0.068182, 2, 3 ], [ 3, "row", 3, 0.818182, 3, 36 ], [ 3, "row", 4, 0.840909, 4, 37 ], [ 3, "row", 5, 0.863636, 5, 38 ] ],
 					"text" : "mat"
 				}
 
@@ -3247,7 +3247,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-282",
 					"maxclass" : "number",
-					"maximum" : 0,
+					"maximum" : 4,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -3693,7 +3693,7 @@
 					"patching_rect" : [ 888.535706, -948.249573, 89.0, 16.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 20.796814, 85.0, 16.0 ],
-					"text" : "total: 5"
+					"text" : "total: 39"
 				}
 
 			}
@@ -5120,7 +5120,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 145.135498, 553.0, 50.0, 116.0 ],
-									"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-24-2014/markers"
+									"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-26-2014/markers"
 								}
 
 							}
@@ -5135,7 +5135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 237.635498, 221.0, 50.0, 105.0 ],
-									"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-24-2014"
+									"text" : "jul_laptop:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/2-26-2014"
 								}
 
 							}
@@ -7445,7 +7445,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 143.0, 268.0, 50.0, 16.0 ],
-									"text" : "2"
+									"text" : "6"
 								}
 
 							}
@@ -7692,7 +7692,7 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-88",
-					"items" : [ "2-24-2014", ",", "synthesisWorkshop" ],
+					"items" : [ "2-24-2014", ",", "2-25-2014", ",", "2-26-2014", ",", "movement-2", ",", "movement-3", ",", "synthesisWorkshop" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

@@ -4,6 +4,7 @@ DEPENDENCIES:
 CNMAT externals - http://cnmat.berkeley.edu/downloads
 zeroconf library - included
 oscjavaformax - included
+Mira - http://cycling74.com/products/mira/
 
 INSTRUCTIONS:
 1. Download and Install latest version of Max/MSP (run in 32bit mode) + odot externals included in CNMAT library (http://cnmat.berkeley.edu/downloads)

@@ -207,7 +207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 134.0, 703.0, 50.0, 34.0 ],
-					"text" : "0 192.168.1.136"
+					"text" : "0 169.254.229.207"
 				}
 
 			}
@@ -1538,7 +1538,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "bang", "test - random numbers" ],
+					"outlettype" : [ "", "", "bang", "rhyth - time series" ],
 					"patching_rect" : [ 480.75, 125.5, 841.0, 16.0 ],
 					"text" : "t l l b #1"
 				}
@@ -1565,7 +1565,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "FullPacket" ],
 					"patching_rect" : [ 12.0, 48.5, 25.0, 25.0 ]
 				}
 
