@@ -3,237 +3,10 @@
  KEYCUE "O4-init-iStage" 
  
  
- 	 	 	 	 /CONFIG /splashOut 99 1 /splash 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /brcosa% 99 1 /orsize% 99 1 /input% 99 1 /motion% 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /voiceOut 99 1 /Voice 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-nim 99 1 /sf-whisperscape 99 1 /sf-ilya 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 
+ 	 	 	 	 /CONFIG /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /brcosa% 99 1 /orsize% 99 1 /input% 99 1 /motion% 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /nav.env~ 99 1 /nav.env~.1 99 1 /nav.env~.2 99 1 /nav.env~.3 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-nim 99 1 /sf-whisperscape 99 1 /sf-ilya 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
- # 
- # Module /splashOut 
- 	 	 	 	 /splashOut/audio/active 0 
- 	 	 	 	 /splashOut/audio/gain 0.000000 
- 	 	 	 	 /splashOut/audio/mute 1 
- 	 	 	 	 /splashOut/limiter/active 1 
- 	 	 	 	 /splashOut/limiter/dcblocker/active 1 
- 	 	 	 	 /splashOut/limiter/lookahead 64 
- 	 	 	 	 /splashOut/limiter/mode exponential 
- 	 	 	 	 /splashOut/limiter/postamp 0.000000 
- 	 	 	 	 /splashOut/limiter/preamp 6.000000 
- 	 	 	 	 /splashOut/limiter/release 300.000000 
- 	 	 	 	 /splashOut/limiter/threshold -1.000000 
- 	 	 	 	 /splashOut/numSpeakers 8 
- 	 	 	 	 /splashOut/offset 0 
- 	 	 	 	 /splashOut/record/filetype default 
- 	 	 	 	 /splashOut/record/samptype default 
- 	 	 	 	 /splashOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
- 	 	 	 	 /splashOut/view/freeze 0 
- 	 	 	 	 /splashOut/view/highlight 0 
- # 
- # Module /splash 
- 	 	 	 	 /splash/grain/in/module/name 0 
- 	 	 	 	 /splash/onsetVar/in/module/name /micEnv 
- 	 	 	 	 /splash/pVar/in/module/name 0 
- 	 	 	 	 /splash/pitch/in/module/name 0 
- 	 	 	 	 /splash/position/in/module/name 0 
- 	 	 	 	 /splash/size/in/module/name 0 
- 	 	 	 	 /splash/speed/in/module/name 0 
- 	 	 	 	 /splash/trig/in/module/name 0 
- 	 	 	 	 /splash/turn/in/module/name 0 
- 	 	 	 	 /splash/grain/in/module/instance 0 
- 	 	 	 	 /splash/onsetVar/in/module/instance 0 
- 	 	 	 	 /splash/pVar/in/module/instance 0 
- 	 	 	 	 /splash/pitch/in/module/instance 0 
- 	 	 	 	 /splash/position/in/module/instance 0 
- 	 	 	 	 /splash/size/in/module/instance 0 
- 	 	 	 	 /splash/speed/in/module/instance 0 
- 	 	 	 	 /splash/trig/in/module/instance 0 
- 	 	 	 	 /splash/turn/in/module/instance 0 
- 	 	 	 	 /splash/grain/function 0 
- 	 	 	 	 /splash/grain/function/symmetry 0 
- 	 	 	 	 /splash/onsetVar/function exponential 
- 	 	 	 	 /splash/onsetVar/function/symmetry 0 
- 	 	 	 	 /splash/pVar/function 0 
- 	 	 	 	 /splash/pVar/function/symmetry 0 
- 	 	 	 	 /splash/pitch/function 0 
- 	 	 	 	 /splash/pitch/function/symmetry 0 
- 	 	 	 	 /splash/position/function 0 
- 	 	 	 	 /splash/position/function/symmetry 0 
- 	 	 	 	 /splash/size/function 0 
- 	 	 	 	 /splash/size/function/symmetry 0 
- 	 	 	 	 /splash/speed/function 0 
- 	 	 	 	 /splash/speed/function/symmetry 0 
- 	 	 	 	 /splash/trig/function 0 
- 	 	 	 	 /splash/trig/function/symmetry 0 
- 	 	 	 	 /splash/turn/function 0 
- 	 	 	 	 /splash/turn/function/symmetry 0 
- 	 	 	 	 /splash/grain/function/parameter2 0.000000 
- 	 	 	 	 /splash/onsetVar/function/parameter2 0.000000 
- 	 	 	 	 /splash/pVar/function/parameter2 0.000000 
- 	 	 	 	 /splash/pitch/function/parameter2 0.000000 
- 	 	 	 	 /splash/position/function/parameter2 0.000000 
- 	 	 	 	 /splash/size/function/parameter2 0.000000 
- 	 	 	 	 /splash/speed/function/parameter2 0.000000 
- 	 	 	 	 /splash/trig/function/parameter2 0.000000 
- 	 	 	 	 /splash/turn/function/parameter2 0.000000 
- 	 	 	 	 /splash/grain/function/parameter1 0.000000 
- 	 	 	 	 /splash/onsetVar/function/parameter1 0.000000 
- 	 	 	 	 /splash/pVar/function/parameter1 0.000000 
- 	 	 	 	 /splash/pitch/function/parameter1 0.000000 
- 	 	 	 	 /splash/position/function/parameter1 0.000000 
- 	 	 	 	 /splash/size/function/parameter1 0.000000 
- 	 	 	 	 /splash/speed/function/parameter1 0.000000 
- 	 	 	 	 /splash/trig/function/parameter1 0.000000 
- 	 	 	 	 /splash/turn/function/parameter1 0.000000 
- 	 	 	 	 /splash/grain/in/module/parameter 0 
- 	 	 	 	 /splash/onsetVar/in/module/parameter /out/final 
- 	 	 	 	 /splash/pVar/in/module/parameter 0 
- 	 	 	 	 /splash/pitch/in/module/parameter 0 
- 	 	 	 	 /splash/position/in/module/parameter 0 
- 	 	 	 	 /splash/size/in/module/parameter 0 
- 	 	 	 	 /splash/speed/in/module/parameter 0 
- 	 	 	 	 /splash/trig/in/module/parameter 0 
- 	 	 	 	 /splash/turn/in/module/parameter 0 
- 	 	 	 	 /splash/audio/gain 56.000000 
- 	 	 	 	 /splash/audio/mute 1 
- 	 	 	 	 /splash/buffer/file dialog_box 
- 	 	 	 	 /splash/grain/duration 450.000000 
- 	 	 	 	 /splash/grain/in/module/listindex 1 
- 	 	 	 	 /splash/grain/mute 0 
- 	 	 	 	 /splash/grain/offset 0.000000 
- 	 	 	 	 /splash/grain/overlap 50 
- 	 	 	 	 /splash/grain/ramp/time 0 
- 	 	 	 	 /splash/grain/scale/bypass 1 
- 	 	 	 	 /splash/grain/scale/input/max 0.000000 
- 	 	 	 	 /splash/grain/scale/input/min 0.000000 
- 	 	 	 	 /splash/grain/scale/max 1.000000 
- 	 	 	 	 /splash/grain/scale/min 0.000000 
- 	 	 	 	 /splash/grain/scale/mode 0 
- 	 	 	 	 /splash/grain/slide/down 0 
- 	 	 	 	 /splash/grain/slide/up 0 
- 	 	 	 	 /splash/grain/trigger 0.000000 
- 	 	 	 	 /splash/mapperGate/gain 2 
- 	 	 	 	 /splash/mapperGate/onsetVar 1 
- 	 	 	 	 /splash/mapperGate/pitch 2 
- 	 	 	 	 /splash/mapperGate/pitchVar 2 
- 	 	 	 	 /splash/mapperGate/position 0 
- 	 	 	 	 /splash/mapperGate/size 2 
- 	 	 	 	 /splash/mapperGate/speed 2 
- 	 	 	 	 /splash/mapperGate/trigger 2 
- 	 	 	 	 /splash/mapperGate/turn 0 
- 	 	 	 	 /splash/mod/gain 50.000000 
- 	 	 	 	 /splash/mod/onsetVar 5000.000000 
- 	 	 	 	 /splash/mod/pitch 1000.000000 
- 	 	 	 	 /splash/mod/pitchVar 1000.000000 
- 	 	 	 	 /splash/mod/position 0.000000 
- 	 	 	 	 /splash/mod/size 1000.000000 
- 	 	 	 	 /splash/mod/speed 0.000000 
- 	 	 	 	 /splash/mod/trigger 32.000000 
- 	 	 	 	 /splash/mod/turn 0.000000 
- 	 	 	 	 /splash/onsetVar/in/module/listindex 1 
- 	 	 	 	 /splash/onsetVar/mute 1 
- 	 	 	 	 /splash/onsetVar/offset 0.000000 
- 	 	 	 	 /splash/onsetVar/ramp/time 0 
- 	 	 	 	 /splash/onsetVar/scale/bypass 0 
- 	 	 	 	 /splash/onsetVar/scale/input/max 1.000000 
- 	 	 	 	 /splash/onsetVar/scale/input/min 0.000000 
- 	 	 	 	 /splash/onsetVar/scale/max 1.000000 
- 	 	 	 	 /splash/onsetVar/scale/min 0.000000 
- 	 	 	 	 /splash/onsetVar/scale/mode 0 
- 	 	 	 	 /splash/onsetVar/slide/down 8 
- 	 	 	 	 /splash/onsetVar/slide/up 0 
- 	 	 	 	 /splash/pVar/in/module/listindex 1 
- 	 	 	 	 /splash/pVar/mute 0 
- 	 	 	 	 /splash/pVar/offset 0.000000 
- 	 	 	 	 /splash/pVar/ramp/time 0 
- 	 	 	 	 /splash/pVar/scale/bypass 1 
- 	 	 	 	 /splash/pVar/scale/input/max 0.000000 
- 	 	 	 	 /splash/pVar/scale/input/min 0.000000 
- 	 	 	 	 /splash/pVar/scale/max 1.000000 
- 	 	 	 	 /splash/pVar/scale/min 0.000000 
- 	 	 	 	 /splash/pVar/scale/mode 0 
- 	 	 	 	 /splash/pVar/slide/down 0 
- 	 	 	 	 /splash/pVar/slide/up 0 
- 	 	 	 	 /splash/pan/mode 0 
- 	 	 	 	 /splash/pan/rate 1.000000 
- 	 	 	 	 /splash/pan/spread 1.000000 
- 	 	 	 	 /splash/pitch/in/module/listindex 1 
- 	 	 	 	 /splash/pitch/mute 0 
- 	 	 	 	 /splash/pitch/offset 0.000000 
- 	 	 	 	 /splash/pitch/ramp/time 0 
- 	 	 	 	 /splash/pitch/scale/bypass 1 
- 	 	 	 	 /splash/pitch/scale/input/max 0.000000 
- 	 	 	 	 /splash/pitch/scale/input/min 0.000000 
- 	 	 	 	 /splash/pitch/scale/max 1.000000 
- 	 	 	 	 /splash/pitch/scale/min 0.000000 
- 	 	 	 	 /splash/pitch/scale/mode 0 
- 	 	 	 	 /splash/pitch/slide/down 0 
- 	 	 	 	 /splash/pitch/slide/up 0 
- 	 	 	 	 /splash/pitch/transpose 0.000000 
- 	 	 	 	 /splash/pitch/variation 0.000000 
- 	 	 	 	 /splash/position/in/module/listindex 1 
- 	 	 	 	 /splash/position/mute 0 
- 	 	 	 	 /splash/position/offset 0.000000 
- 	 	 	 	 /splash/position/onset_variation 500.000000 
- 	 	 	 	 /splash/position/position 0.000000 
- 	 	 	 	 /splash/position/ramp/time 0 
- 	 	 	 	 /splash/position/scale/bypass 1 
- 	 	 	 	 /splash/position/scale/input/max 0.000000 
- 	 	 	 	 /splash/position/scale/input/min 0.000000 
- 	 	 	 	 /splash/position/scale/max 1.000000 
- 	 	 	 	 /splash/position/scale/min 0.000000 
- 	 	 	 	 /splash/position/scale/mode 0 
- 	 	 	 	 /splash/position/slide/down 0 
- 	 	 	 	 /splash/position/slide/up 0 
- 	 	 	 	 /splash/position/speed 0.000000 
- 	 	 	 	 /splash/size/in/module/listindex 1 
- 	 	 	 	 /splash/size/mute 0 
- 	 	 	 	 /splash/size/offset 0.000000 
- 	 	 	 	 /splash/size/ramp/time 0 
- 	 	 	 	 /splash/size/scale/bypass 1 
- 	 	 	 	 /splash/size/scale/input/max 0.000000 
- 	 	 	 	 /splash/size/scale/input/min 0.000000 
- 	 	 	 	 /splash/size/scale/max 1.000000 
- 	 	 	 	 /splash/size/scale/min 0.000000 
- 	 	 	 	 /splash/size/scale/mode 0 
- 	 	 	 	 /splash/size/slide/down 0 
- 	 	 	 	 /splash/size/slide/up 0 
- 	 	 	 	 /splash/speed/in/module/listindex 1 
- 	 	 	 	 /splash/speed/mute 0 
- 	 	 	 	 /splash/speed/offset 0.000000 
- 	 	 	 	 /splash/speed/ramp/time 0 
- 	 	 	 	 /splash/speed/scale/bypass 1 
- 	 	 	 	 /splash/speed/scale/input/max 0.000000 
- 	 	 	 	 /splash/speed/scale/input/min 0.000000 
- 	 	 	 	 /splash/speed/scale/max 1.000000 
- 	 	 	 	 /splash/speed/scale/min 0.000000 
- 	 	 	 	 /splash/speed/scale/mode 0 
- 	 	 	 	 /splash/speed/slide/down 0 
- 	 	 	 	 /splash/speed/slide/up 0 
- 	 	 	 	 /splash/trig/in/module/listindex 1 
- 	 	 	 	 /splash/trig/mute 0 
- 	 	 	 	 /splash/trig/offset 0.000000 
- 	 	 	 	 /splash/trig/ramp/time 0 
- 	 	 	 	 /splash/trig/scale/bypass 1 
- 	 	 	 	 /splash/trig/scale/input/max 0.000000 
- 	 	 	 	 /splash/trig/scale/input/min 0.000000 
- 	 	 	 	 /splash/trig/scale/max 1.000000 
- 	 	 	 	 /splash/trig/scale/min 0.000000 
- 	 	 	 	 /splash/trig/scale/mode 0 
- 	 	 	 	 /splash/trig/slide/down 0 
- 	 	 	 	 /splash/trig/slide/up 0 
- 	 	 	 	 /splash/turn/in/module/listindex 1 
- 	 	 	 	 /splash/turn/mute 0 
- 	 	 	 	 /splash/turn/offset 0.000000 
- 	 	 	 	 /splash/turn/ramp/time 0 
- 	 	 	 	 /splash/turn/scale/bypass 1 
- 	 	 	 	 /splash/turn/scale/input/max 0.000000 
- 	 	 	 	 /splash/turn/scale/input/min 0.000000 
- 	 	 	 	 /splash/turn/scale/max 1.000000 
- 	 	 	 	 /splash/turn/scale/min 0.000000 
- 	 	 	 	 /splash/turn/scale/mode 0 
- 	 	 	 	 /splash/turn/slide/down 0 
- 	 	 	 	 /splash/turn/slide/up 0 
- 	 	 	 	 /splash/view/freeze 0 
- 	 	 	 	 /splash/view/highlight 0 
  # 
  # Module /waterOut 
  	 	 	 	 /waterOut/audio/active 0 
@@ -690,7 +463,6 @@
  	 	 	 	 /crisp1/view/highlight 0 
  # 
  # Module /highSusOut 
- 	 	 	 	 /highSusOut/alias /highSusOut/alias/remove 
  	 	 	 	 /highSusOut/audio/active 0 
  	 	 	 	 /highSusOut/audio/gain 0.000000 
  	 	 	 	 /highSusOut/audio/mute 1 
@@ -951,10 +723,9 @@
  	 	 	 	 /orsize%/zoomY 1.000000 
  # 
  # Module /input% 
- 	 	 	 	 /input%/alias /input%/alias/remove 
  	 	 	 	 /input%/active 0 
  	 	 	 	 /input%/camera/camera Camera 
- 	 	 	 	 /input%/camera/device IIDC FireWire Video 
+ 	 	 	 	 /input%/camera/device IIDC 
  	 	 	 	 /input%/camera/size 1 
  	 	 	 	 /input%/camera/updaterate 1 
  	 	 	 	 /input%/desktop/offset/x 0 
@@ -1008,7 +779,6 @@
  	 	 	 	 /motion%/view/highlight 0 
  # 
  # Module /centerX 
- 	 	 	 	 /centerX/alias /centerX/alias/remove 
  	 	 	 	 /centerX/function 0 
  	 	 	 	 /centerX/function/symmetry 0 
  	 	 	 	 /centerX/function/parameter2 0.000000 
@@ -1201,7 +971,6 @@
  	 	 	 	 /width/visualize 1 
  # 
  # Module /all 
- 	 	 	 	 /all/alias /all/alias/remove 
  	 	 	 	 /all/function 0 
  	 	 	 	 /all/function/symmetry 0 
  	 	 	 	 /all/function/parameter2 0.000000 
@@ -1221,7 +990,7 @@
  	 	 	 	 /all/scale/input/min 0.000020 
  	 	 	 	 /all/scale/max 1.000000 
  	 	 	 	 /all/scale/min 0.000000 
- 	 	 	 	 /all/scale/mode 5 
+ 	 	 	 	 /all/scale/mode 3 
  	 	 	 	 /all/scale/window 2193 
  	 	 	 	 /all/schmitt/debounce 100 
  	 	 	 	 /all/schmitt/lower 0.400000 
@@ -1266,7 +1035,6 @@
  	 	 	 	 /large/visualize 1 
  # 
  # Module /small 
- 	 	 	 	 /small/alias /small/alias/remove 
  	 	 	 	 /small/function 0 
  	 	 	 	 /small/function/symmetry 0 
  	 	 	 	 /small/function/parameter2 0.000000 
@@ -1286,7 +1054,7 @@
  	 	 	 	 /small/scale/input/min 0.000020 
  	 	 	 	 /small/scale/max 1.000000 
  	 	 	 	 /small/scale/min 0.000000 
- 	 	 	 	 /small/scale/mode 5 
+ 	 	 	 	 /small/scale/mode 3 
  	 	 	 	 /small/scale/window 1959 
  	 	 	 	 /small/schmitt/debounce 100 
  	 	 	 	 /small/schmitt/lower 0.400000 
@@ -1297,6 +1065,86 @@
  	 	 	 	 /small/view/freeze 0 
  	 	 	 	 /small/view/highlight none 
  	 	 	 	 /small/visualize 1 
+ # 
+ # Module /nav.env~ 
+ 	 	 	 	 /nav.env~/clip 1 
+ 	 	 	 	 /nav.env~/env/cutoff 850 
+ 	 	 	 	 /nav.env~/env/on 1 
+ 	 	 	 	 /nav.env~/env/period 20 
+ 	 	 	 	 /nav.env~/gain 100.000000 
+ 	 	 	 	 /nav.env~/pre-slide/down 2 
+ 	 	 	 	 /nav.env~/pre-slide/up 2 
+ 	 	 	 	 /nav.env~/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/max 1.000000 
+ 	 	 	 	 /nav.env~/scale/min 0.000000 
+ 	 	 	 	 /nav.env~/scale/mode 1 
+ 	 	 	 	 /nav.env~/scale/window 1000 
+ 	 	 	 	 /nav.env~/slide/down 10 
+ 	 	 	 	 /nav.env~/slide/up 1 
+ 	 	 	 	 /nav.env~/view/freeze 0 
+ 	 	 	 	 /nav.env~/view/highlight 0 
+ 	 	 	 	 /nav.env~/visualize 1 
+ # 
+ # Module /nav.env~.1 
+ 	 	 	 	 /nav.env~.1/clip 1 
+ 	 	 	 	 /nav.env~.1/env/cutoff 850 
+ 	 	 	 	 /nav.env~.1/env/on 1 
+ 	 	 	 	 /nav.env~.1/env/period 20 
+ 	 	 	 	 /nav.env~.1/gain 100.000000 
+ 	 	 	 	 /nav.env~.1/pre-slide/down 2 
+ 	 	 	 	 /nav.env~.1/pre-slide/up 2 
+ 	 	 	 	 /nav.env~.1/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~.1/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~.1/scale/max 1.000000 
+ 	 	 	 	 /nav.env~.1/scale/min 0.000000 
+ 	 	 	 	 /nav.env~.1/scale/mode 1 
+ 	 	 	 	 /nav.env~.1/scale/window 1000 
+ 	 	 	 	 /nav.env~.1/slide/down 10 
+ 	 	 	 	 /nav.env~.1/slide/up 1 
+ 	 	 	 	 /nav.env~.1/view/freeze 0 
+ 	 	 	 	 /nav.env~.1/view/highlight 0 
+ 	 	 	 	 /nav.env~.1/visualize 1 
+ # 
+ # Module /nav.env~.2 
+ 	 	 	 	 /nav.env~.2/clip 1 
+ 	 	 	 	 /nav.env~.2/env/cutoff 850 
+ 	 	 	 	 /nav.env~.2/env/on 1 
+ 	 	 	 	 /nav.env~.2/env/period 20 
+ 	 	 	 	 /nav.env~.2/gain 100.000000 
+ 	 	 	 	 /nav.env~.2/pre-slide/down 2 
+ 	 	 	 	 /nav.env~.2/pre-slide/up 2 
+ 	 	 	 	 /nav.env~.2/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~.2/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~.2/scale/max 1.000000 
+ 	 	 	 	 /nav.env~.2/scale/min 0.000000 
+ 	 	 	 	 /nav.env~.2/scale/mode 1 
+ 	 	 	 	 /nav.env~.2/scale/window 1000 
+ 	 	 	 	 /nav.env~.2/slide/down 10 
+ 	 	 	 	 /nav.env~.2/slide/up 1 
+ 	 	 	 	 /nav.env~.2/view/freeze 0 
+ 	 	 	 	 /nav.env~.2/view/highlight 0 
+ 	 	 	 	 /nav.env~.2/visualize 1 
+ # 
+ # Module /nav.env~.3 
+ 	 	 	 	 /nav.env~.3/clip 1 
+ 	 	 	 	 /nav.env~.3/env/cutoff 850 
+ 	 	 	 	 /nav.env~.3/env/on 1 
+ 	 	 	 	 /nav.env~.3/env/period 20 
+ 	 	 	 	 /nav.env~.3/gain 100.000000 
+ 	 	 	 	 /nav.env~.3/pre-slide/down 2 
+ 	 	 	 	 /nav.env~.3/pre-slide/up 2 
+ 	 	 	 	 /nav.env~.3/scale/input/max 0.000000 
+ 	 	 	 	 /nav.env~.3/scale/input/min 0.000000 
+ 	 	 	 	 /nav.env~.3/scale/max 1.000000 
+ 	 	 	 	 /nav.env~.3/scale/min 0.000000 
+ 	 	 	 	 /nav.env~.3/scale/mode 1 
+ 	 	 	 	 /nav.env~.3/scale/window 1000 
+ 	 	 	 	 /nav.env~.3/slide/down 10 
+ 	 	 	 	 /nav.env~.3/slide/up 1 
+ 	 	 	 	 /nav.env~.3/view/freeze 0 
+ 	 	 	 	 /nav.env~.3/view/highlight 0 
+ 	 	 	 	 /nav.env~.3/visualize 1 
  # 
  # Module /subWoof 
  	 	 	 	 /subWoof/audio/bypass 0 
@@ -1349,7 +1197,6 @@
  	 	 	 	 /sources/view/highlight none 
  # 
  # Module /ambicontrol 
- 	 	 	 	 /ambicontrol/alias /ambicontrol/alias/remove 
  	 	 	 	 /ambicontrol/clock/on 1 
  	 	 	 	 /ambicontrol/center 0.000000 0.000000 0.000000 
  	 	 	 	 /ambicontrol/clock/interval 39.000000 
@@ -1416,7 +1263,6 @@
  	 	 	 	 /eaCrumOut/view/highlight 0 
  # 
  # Module /PVSpectral 
- 	 	 	 	 /PVSpectral/alias /PVSpectral/alias/remove 
  	 	 	 	 /PVSpectral/grain/in/module/name 0 
  	 	 	 	 /PVSpectral/onsetVar/in/module/name 0 
  	 	 	 	 /PVSpectral/pVar/in/module/name 0 
@@ -2058,7 +1904,6 @@
  	 	 	 	 /lowSus1/view/highlight 0 
  # 
  # Module /winderOut 
- 	 	 	 	 /winderOut/alias /winderOut/alias/remove 
  	 	 	 	 /winderOut/audio/active 0 
  	 	 	 	 /winderOut/audio/gain 0.000000 
  	 	 	 	 /winderOut/audio/mute 1 
@@ -2286,7 +2131,6 @@
  	 	 	 	 /winder/view/highlight 0 
  # 
  # Module /ED-rogs-3 
- 	 	 	 	 /ED-rogs-3/alias /ED-rogs-3/alias/remove 
  	 	 	 	 /ED-rogs-3/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-3/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-3/pVar/in/module/name /centerX 
@@ -2701,7 +2545,6 @@
  	 	 	 	 /ED-rogs-2/view/highlight 0 
  # 
  # Module /ED-rogs-1 
- 	 	 	 	 /ED-rogs-1/alias /ED-rogs-1/alias/remove 
  	 	 	 	 /ED-rogs-1/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-1/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-1/pVar/in/module/name /centerX 
@@ -2907,233 +2750,6 @@
  	 	 	 	 /ED-rogs-1/turn/slide/up 0 
  	 	 	 	 /ED-rogs-1/view/freeze 0 
  	 	 	 	 /ED-rogs-1/view/highlight 0 
- # 
- # Module /voiceOut 
- 	 	 	 	 /voiceOut/audio/active 0 
- 	 	 	 	 /voiceOut/audio/gain 0.000000 
- 	 	 	 	 /voiceOut/audio/mute 1 
- 	 	 	 	 /voiceOut/limiter/active 1 
- 	 	 	 	 /voiceOut/limiter/dcblocker/active 1 
- 	 	 	 	 /voiceOut/limiter/lookahead 64 
- 	 	 	 	 /voiceOut/limiter/mode exponential 
- 	 	 	 	 /voiceOut/limiter/postamp 0.000000 
- 	 	 	 	 /voiceOut/limiter/preamp 6.000000 
- 	 	 	 	 /voiceOut/limiter/release 300.000000 
- 	 	 	 	 /voiceOut/limiter/threshold -1.000000 
- 	 	 	 	 /voiceOut/numSpeakers 8 
- 	 	 	 	 /voiceOut/offset 0 
- 	 	 	 	 /voiceOut/record/filetype default 
- 	 	 	 	 /voiceOut/record/samptype default 
- 	 	 	 	 /voiceOut/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
- 	 	 	 	 /voiceOut/view/freeze 0 
- 	 	 	 	 /voiceOut/view/highlight 0 
- # 
- # Module /Voice 
- 	 	 	 	 /Voice/grain/in/module/name 0 
- 	 	 	 	 /Voice/onsetVar/in/module/name 0 
- 	 	 	 	 /Voice/pVar/in/module/name /centerX 
- 	 	 	 	 /Voice/pitch/in/module/name 0 
- 	 	 	 	 /Voice/position/in/module/name 0 
- 	 	 	 	 /Voice/size/in/module/name 0 
- 	 	 	 	 /Voice/speed/in/module/name /small 
- 	 	 	 	 /Voice/trig/in/module/name /small 
- 	 	 	 	 /Voice/turn/in/module/name 0 
- 	 	 	 	 /Voice/grain/in/module/instance 0 
- 	 	 	 	 /Voice/onsetVar/in/module/instance 0 
- 	 	 	 	 /Voice/pVar/in/module/instance 0 
- 	 	 	 	 /Voice/pitch/in/module/instance 0 
- 	 	 	 	 /Voice/position/in/module/instance 0 
- 	 	 	 	 /Voice/size/in/module/instance 0 
- 	 	 	 	 /Voice/speed/in/module/instance 0 
- 	 	 	 	 /Voice/trig/in/module/instance 0 
- 	 	 	 	 /Voice/turn/in/module/instance 0 
- 	 	 	 	 /Voice/grain/function 0 
- 	 	 	 	 /Voice/grain/function/symmetry 0 
- 	 	 	 	 /Voice/onsetVar/function 0 
- 	 	 	 	 /Voice/onsetVar/function/symmetry 0 
- 	 	 	 	 /Voice/pVar/function 0 
- 	 	 	 	 /Voice/pVar/function/symmetry 0 
- 	 	 	 	 /Voice/pitch/function 0 
- 	 	 	 	 /Voice/pitch/function/symmetry 0 
- 	 	 	 	 /Voice/position/function 0 
- 	 	 	 	 /Voice/position/function/symmetry 0 
- 	 	 	 	 /Voice/size/function 0 
- 	 	 	 	 /Voice/size/function/symmetry 0 
- 	 	 	 	 /Voice/speed/function 0 
- 	 	 	 	 /Voice/speed/function/symmetry 0 
- 	 	 	 	 /Voice/trig/function 0 
- 	 	 	 	 /Voice/trig/function/symmetry 0 
- 	 	 	 	 /Voice/turn/function 0 
- 	 	 	 	 /Voice/turn/function/symmetry 0 
- 	 	 	 	 /Voice/grain/function/parameter2 0.000000 
- 	 	 	 	 /Voice/onsetVar/function/parameter2 0.000000 
- 	 	 	 	 /Voice/pVar/function/parameter2 0.000000 
- 	 	 	 	 /Voice/pitch/function/parameter2 0.000000 
- 	 	 	 	 /Voice/position/function/parameter2 0.000000 
- 	 	 	 	 /Voice/size/function/parameter2 0.000000 
- 	 	 	 	 /Voice/speed/function/parameter2 0.000000 
- 	 	 	 	 /Voice/trig/function/parameter2 0.000000 
- 	 	 	 	 /Voice/turn/function/parameter2 0.000000 
- 	 	 	 	 /Voice/grain/function/parameter1 0.000000 
- 	 	 	 	 /Voice/onsetVar/function/parameter1 0.000000 
- 	 	 	 	 /Voice/pVar/function/parameter1 0.000000 
- 	 	 	 	 /Voice/pitch/function/parameter1 0.000000 
- 	 	 	 	 /Voice/position/function/parameter1 0.000000 
- 	 	 	 	 /Voice/size/function/parameter1 0.000000 
- 	 	 	 	 /Voice/speed/function/parameter1 0.000000 
- 	 	 	 	 /Voice/trig/function/parameter1 0.000000 
- 	 	 	 	 /Voice/turn/function/parameter1 0.000000 
- 	 	 	 	 /Voice/grain/in/module/parameter 0 
- 	 	 	 	 /Voice/onsetVar/in/module/parameter 0 
- 	 	 	 	 /Voice/pVar/in/module/parameter /out/final 
- 	 	 	 	 /Voice/pitch/in/module/parameter 0 
- 	 	 	 	 /Voice/position/in/module/parameter 0 
- 	 	 	 	 /Voice/size/in/module/parameter 0 
- 	 	 	 	 /Voice/speed/in/module/parameter /out/final 
- 	 	 	 	 /Voice/trig/in/module/parameter /action 
- 	 	 	 	 /Voice/turn/in/module/parameter 0 
- 	 	 	 	 /Voice/audio/gain 80.000000 
- 	 	 	 	 /Voice/audio/mute 1 
- 	 	 	 	 /Voice/buffer/file Macintosh 
- 	 	 	 	 /Voice/grain/duration 700.000000 
- 	 	 	 	 /Voice/grain/in/module/listindex 1 
- 	 	 	 	 /Voice/grain/mute 0 
- 	 	 	 	 /Voice/grain/offset 0.000000 
- 	 	 	 	 /Voice/grain/overlap 50 
- 	 	 	 	 /Voice/grain/ramp/time 0 
- 	 	 	 	 /Voice/grain/scale/bypass 1 
- 	 	 	 	 /Voice/grain/scale/input/max 0.000000 
- 	 	 	 	 /Voice/grain/scale/input/min 0.000000 
- 	 	 	 	 /Voice/grain/scale/max 1.000000 
- 	 	 	 	 /Voice/grain/scale/min 0.000000 
- 	 	 	 	 /Voice/grain/scale/mode 0 
- 	 	 	 	 /Voice/grain/slide/down 0 
- 	 	 	 	 /Voice/grain/slide/up 0 
- 	 	 	 	 /Voice/grain/trigger 50.000000 
- 	 	 	 	 /Voice/mapperGate/gain 2 
- 	 	 	 	 /Voice/mapperGate/onsetVar 2 
- 	 	 	 	 /Voice/mapperGate/pitch 0 
- 	 	 	 	 /Voice/mapperGate/pitchVar 0 
- 	 	 	 	 /Voice/mapperGate/position 0 
- 	 	 	 	 /Voice/mapperGate/size 2 
- 	 	 	 	 /Voice/mapperGate/speed 1 
- 	 	 	 	 /Voice/mapperGate/trigger 2 
- 	 	 	 	 /Voice/mapperGate/turn 2 
- 	 	 	 	 /Voice/mod/gain -37.000000 
- 	 	 	 	 /Voice/mod/onsetVar 0.000000 
- 	 	 	 	 /Voice/mod/pitch 70.000000 
- 	 	 	 	 /Voice/mod/pitchVar 500.000000 
- 	 	 	 	 /Voice/mod/position 0.000000 
- 	 	 	 	 /Voice/mod/size -300.000000 
- 	 	 	 	 /Voice/mod/speed 1.000000 
- 	 	 	 	 /Voice/mod/trigger -41.000000 
- 	 	 	 	 /Voice/mod/turn -5.000000 
- 	 	 	 	 /Voice/onsetVar/in/module/listindex 1 
- 	 	 	 	 /Voice/onsetVar/mute 0 
- 	 	 	 	 /Voice/onsetVar/offset 0.000000 
- 	 	 	 	 /Voice/onsetVar/ramp/time 0 
- 	 	 	 	 /Voice/onsetVar/scale/bypass 1 
- 	 	 	 	 /Voice/onsetVar/scale/input/max 0.000000 
- 	 	 	 	 /Voice/onsetVar/scale/input/min 0.000000 
- 	 	 	 	 /Voice/onsetVar/scale/max 1.000000 
- 	 	 	 	 /Voice/onsetVar/scale/min 0.000000 
- 	 	 	 	 /Voice/onsetVar/scale/mode 0 
- 	 	 	 	 /Voice/onsetVar/slide/down 0 
- 	 	 	 	 /Voice/onsetVar/slide/up 0 
- 	 	 	 	 /Voice/pVar/in/module/listindex 1 
- 	 	 	 	 /Voice/pVar/mute 1 
- 	 	 	 	 /Voice/pVar/offset 0.000000 
- 	 	 	 	 /Voice/pVar/ramp/time 0 
- 	 	 	 	 /Voice/pVar/scale/bypass 1 
- 	 	 	 	 /Voice/pVar/scale/input/max 1.000000 
- 	 	 	 	 /Voice/pVar/scale/input/min -1.000000 
- 	 	 	 	 /Voice/pVar/scale/max 1.000000 
- 	 	 	 	 /Voice/pVar/scale/min 0.000000 
- 	 	 	 	 /Voice/pVar/scale/mode 0 
- 	 	 	 	 /Voice/pVar/slide/down 0 
- 	 	 	 	 /Voice/pVar/slide/up 0 
- 	 	 	 	 /Voice/pan/mode 0 
- 	 	 	 	 /Voice/pan/rate 0.000000 
- 	 	 	 	 /Voice/pan/spread 1.000000 
- 	 	 	 	 /Voice/pitch/in/module/listindex 1 
- 	 	 	 	 /Voice/pitch/mute 0 
- 	 	 	 	 /Voice/pitch/offset 0.000000 
- 	 	 	 	 /Voice/pitch/ramp/time 0 
- 	 	 	 	 /Voice/pitch/scale/bypass 1 
- 	 	 	 	 /Voice/pitch/scale/input/max 0.000000 
- 	 	 	 	 /Voice/pitch/scale/input/min 0.000000 
- 	 	 	 	 /Voice/pitch/scale/max 1.000000 
- 	 	 	 	 /Voice/pitch/scale/min 0.000000 
- 	 	 	 	 /Voice/pitch/scale/mode 0 
- 	 	 	 	 /Voice/pitch/slide/down 0 
- 	 	 	 	 /Voice/pitch/slide/up 0 
- 	 	 	 	 /Voice/pitch/transpose -1200.000000 
- 	 	 	 	 /Voice/pitch/variation 0.000000 
- 	 	 	 	 /Voice/position/in/module/listindex 1 
- 	 	 	 	 /Voice/position/mute 0 
- 	 	 	 	 /Voice/position/offset 0.000000 
- 	 	 	 	 /Voice/position/onset_variation 0.000000 
- 	 	 	 	 /Voice/position/position 0.090949 
- 	 	 	 	 /Voice/position/ramp/time 0 
- 	 	 	 	 /Voice/position/scale/bypass 1 
- 	 	 	 	 /Voice/position/scale/input/max 0.000000 
- 	 	 	 	 /Voice/position/scale/input/min 0.000000 
- 	 	 	 	 /Voice/position/scale/max 1.000000 
- 	 	 	 	 /Voice/position/scale/min 0.000000 
- 	 	 	 	 /Voice/position/scale/mode 0 
- 	 	 	 	 /Voice/position/slide/down 0 
- 	 	 	 	 /Voice/position/slide/up 0 
- 	 	 	 	 /Voice/position/speed 0.001000 
- 	 	 	 	 /Voice/size/in/module/listindex 1 
- 	 	 	 	 /Voice/size/mute 0 
- 	 	 	 	 /Voice/size/offset 0.000000 
- 	 	 	 	 /Voice/size/ramp/time 0 
- 	 	 	 	 /Voice/size/scale/bypass 1 
- 	 	 	 	 /Voice/size/scale/input/max 0.000000 
- 	 	 	 	 /Voice/size/scale/input/min 0.000000 
- 	 	 	 	 /Voice/size/scale/max 1.000000 
- 	 	 	 	 /Voice/size/scale/min 0.000000 
- 	 	 	 	 /Voice/size/scale/mode 0 
- 	 	 	 	 /Voice/size/slide/down 0 
- 	 	 	 	 /Voice/size/slide/up 0 
- 	 	 	 	 /Voice/speed/in/module/listindex 1 
- 	 	 	 	 /Voice/speed/mute 1 
- 	 	 	 	 /Voice/speed/offset 0.000000 
- 	 	 	 	 /Voice/speed/ramp/time 0 
- 	 	 	 	 /Voice/speed/scale/bypass 1 
- 	 	 	 	 /Voice/speed/scale/input/max 1.000000 
- 	 	 	 	 /Voice/speed/scale/input/min 0.000000 
- 	 	 	 	 /Voice/speed/scale/max 1.000000 
- 	 	 	 	 /Voice/speed/scale/min 0.000000 
- 	 	 	 	 /Voice/speed/scale/mode 0 
- 	 	 	 	 /Voice/speed/slide/down 13 
- 	 	 	 	 /Voice/speed/slide/up 0 
- 	 	 	 	 /Voice/trig/in/module/listindex 1 
- 	 	 	 	 /Voice/trig/mute 1 
- 	 	 	 	 /Voice/trig/offset 0.000000 
- 	 	 	 	 /Voice/trig/ramp/time 0 
- 	 	 	 	 /Voice/trig/scale/bypass 1 
- 	 	 	 	 /Voice/trig/scale/input/max 1.000000 
- 	 	 	 	 /Voice/trig/scale/input/min 0.000000 
- 	 	 	 	 /Voice/trig/scale/max 1.000000 
- 	 	 	 	 /Voice/trig/scale/min 0.000000 
- 	 	 	 	 /Voice/trig/scale/mode 0 
- 	 	 	 	 /Voice/trig/slide/down 0 
- 	 	 	 	 /Voice/trig/slide/up 0 
- 	 	 	 	 /Voice/turn/in/module/listindex 1 
- 	 	 	 	 /Voice/turn/mute 0 
- 	 	 	 	 /Voice/turn/offset 0.000000 
- 	 	 	 	 /Voice/turn/ramp/time 0 
- 	 	 	 	 /Voice/turn/scale/bypass 1 
- 	 	 	 	 /Voice/turn/scale/input/max 0.000000 
- 	 	 	 	 /Voice/turn/scale/input/min 0.000000 
- 	 	 	 	 /Voice/turn/scale/max 1.000000 
- 	 	 	 	 /Voice/turn/scale/min 0.000000 
- 	 	 	 	 /Voice/turn/scale/mode 0 
- 	 	 	 	 /Voice/turn/slide/down 0 
- 	 	 	 	 /Voice/turn/slide/up 0 
- 	 	 	 	 /Voice/view/freeze 0 
- 	 	 	 	 /Voice/view/highlight 0 
  # 
  # Module /glitchOut 
  	 	 	 	 /glitchOut/audio/active 0 
@@ -3383,7 +2999,6 @@
  	 	 	 	 /pant2Out/view/highlight 0 
  # 
  # Module /scratch 
- 	 	 	 	 /scratch/alias /scratch/alias/remove 
  	 	 	 	 /scratch/grain/in/module/name 0 
  	 	 	 	 /scratch/onsetVar/in/module/name /micEnv 
  	 	 	 	 /scratch/pVar/in/module/name /centerX 
@@ -3818,7 +3433,6 @@
  	 	 	 	 /glass/view/highlight 0 
  # 
  # Module /sf-nim 
- 	 	 	 	 /sf-nim/alias /sf-nim/alias/remove 
  	 	 	 	 /sf-nim/open 0 
  	 	 	 	 /sf-nim/play 0 
  	 	 	 	 /sf-nim/audio/gain 100.000000 
@@ -3839,7 +3453,6 @@
  	 	 	 	 /sf-whisperscape/view/highlight 0 
  # 
  # Module /sf-ilya 
- 	 	 	 	 /sf-ilya/alias /sf-ilya/alias/remove 
  	 	 	 	 /sf-ilya/open 0 
  	 	 	 	 /sf-ilya/play 0 
  	 	 	 	 /sf-ilya/audio/gain 100.000000 

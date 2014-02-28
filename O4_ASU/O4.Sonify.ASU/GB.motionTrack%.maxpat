@@ -150,7 +150,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -442,7 +441,7 @@
 ,
 					"patching_rect" : [ 426.0, 294.0, 46.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 135.454544, 6.636353, 46.0, 19.0 ],
+					"presentation_rect" : [ 144.454544, 6.636353, 46.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
