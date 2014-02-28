@@ -30,6 +30,35 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 30.0,
+					"frgb" : 0.0,
+					"id" : "obj-141",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1371.164062, 377.896484, 252.144531, 40.0 ],
+					"text" : "NOTE:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 20.0,
+					"frgb" : 0.0,
+					"id" : "obj-110",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1371.164062, 417.896484, 257.0, 51.0 ],
+					"text" : "to connect to enttec ODE, make sure wifi is off!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-74",
 					"maxclass" : "newobj",
@@ -536,7 +565,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 762.722717, 247.567825, 50.0, 16.0 ],
-					"text" : "104"
+					"text" : "93"
 				}
 
 			}
@@ -1977,13 +2006,13 @@
 									"fontname" : "Helvetica",
 									"fontsize" : 10.0,
 									"id" : "obj-4",
-									"linecount" : 8,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 343.0, 149.086792, 50.0, 74.0 ],
-									"text" : "22 45 101 140 33 91 132 69 25 122 228 93 27 121 215 82"
+									"text" : "11 14 15 9 16 33 36 20 8 23 27 16 19 57 27 35"
 								}
 
 							}
@@ -4166,13 +4195,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-2",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 152.0, 121.0, 290.0, 18.0 ],
-									"text" : "26 25 32 22 120 121 91 45 216 229 132 100 84 94 70 140"
+									"text" : "18 8 15 11 57 23 33 14 27 27 36 15 35 16 20 9"
 								}
 
 							}
