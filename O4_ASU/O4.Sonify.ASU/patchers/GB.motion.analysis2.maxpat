@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 570.0, 84.0, 785.0, 530.0 ],
@@ -544,102 +545,6 @@
 					"source" : [ "obj-62", 0 ]
 				}
 
-			}
- ],
-		"parameters" : 		{
-			"obj-36::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-48::obj-69" : [ "live.tab", "live.tab", 0 ],
-			"obj-56::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-47::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-35::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-51::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-45::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-34::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "jmod.nav.scale.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.scale",
-				"patcherrelativepath" : "../../../Jamoma/jmod.nav.scale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jalg.nav.scale.maxpat",
-				"bootpath" : "/Code/Git/MaxLibraries/Nav/Jamoma/jmod.nav.scale",
-				"patcherrelativepath" : "../../../Jamoma/jmod.nav.scale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.qom.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/qom",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/qom",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.message.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.stats.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.delta.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
