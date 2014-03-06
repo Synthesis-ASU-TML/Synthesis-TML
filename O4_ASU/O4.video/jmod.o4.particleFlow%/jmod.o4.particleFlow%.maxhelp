@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 46.0, 1280.0, 706.0 ],
+		"rect" : [ 0.0, 46.0, 1279.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -194,7 +194,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -215,6 +215,79 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-14",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 735.0, 210.0, 75.0, 36.0 ],
+									"text" : "particle id number"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1110.0, 585.0, 30.0, 21.0 ],
+									"presentation_rect" : [ 1079.0, 578.0, 0.0, 0.0 ],
+									"text" : "age"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1110.0, 405.0, 75.0, 21.0 ],
+									"presentation_rect" : [ 1077.0, 407.0, 0.0, 0.0 ],
+									"text" : "y position"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 885.0, 405.0, 75.0, 21.0 ],
+									"text" : "x position"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 1110.0, 90.0, 64.0, 21.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -251,7 +324,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1020.0, 585.0, 50.0, 21.0 ]
+									"patching_rect" : [ 1050.0, 585.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -265,7 +338,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1020.0, 405.0, 50.0, 21.0 ]
+									"patching_rect" : [ 1050.0, 405.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -279,7 +352,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 795.0, 405.0, 50.0, 21.0 ]
+									"patching_rect" : [ 825.0, 405.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -306,7 +379,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1020.0, 480.0, 42.0, 21.0 ],
+									"patching_rect" : [ 1050.0, 480.0, 42.0, 21.0 ],
 									"text" : "zl nth"
 								}
 
@@ -320,7 +393,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1020.0, 300.0, 42.0, 21.0 ],
+									"patching_rect" : [ 1050.0, 300.0, 42.0, 21.0 ],
 									"text" : "zl nth"
 								}
 
@@ -334,7 +407,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 795.0, 300.0, 42.0, 21.0 ],
+									"patching_rect" : [ 825.0, 300.0, 42.0, 21.0 ],
 									"text" : "zl nth"
 								}
 
@@ -355,7 +428,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1020.0, 510.0, 157.0, 65.0 ],
+									"patching_rect" : [ 1050.0, 510.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"setminmax" : [ 0.0, 200.0 ],
 									"setstyle" : 5,
@@ -379,7 +452,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1020.0, 330.0, 157.0, 65.0 ],
+									"patching_rect" : [ 1050.0, 330.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"setminmax" : [ -100.0, 100.0 ],
 									"setstyle" : 5,
@@ -404,7 +477,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 795.0, 330.0, 157.0, 65.0 ],
+									"patching_rect" : [ 825.0, 330.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"setminmax" : [ -100.0, 100.0 ],
 									"setstyle" : 5,
@@ -422,7 +495,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1020.0, 435.0, 105.0, 21.0 ],
+									"patching_rect" : [ 1050.0, 435.0, 105.0, 21.0 ],
 									"text" : "jit.spill @plane 2"
 								}
 
@@ -436,7 +509,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1020.0, 255.0, 105.0, 21.0 ],
+									"patching_rect" : [ 1050.0, 255.0, 105.0, 21.0 ],
 									"text" : "jit.spill @plane 1"
 								}
 
@@ -450,7 +523,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 795.0, 255.0, 105.0, 21.0 ],
+									"patching_rect" : [ 825.0, 255.0, 105.0, 21.0 ],
 									"text" : "jit.spill @plane 0"
 								}
 
@@ -465,7 +538,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 840.0, 75.0, 112.0, 21.0 ],
+									"patching_rect" : [ 870.0, 75.0, 112.0, 21.0 ],
 									"text" : "r species_1_stats"
 								}
 
@@ -478,7 +551,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 795.0, 90.0, 20.0, 20.0 ]
+									"patching_rect" : [ 825.0, 90.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -491,7 +564,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 795.0, 120.0, 47.0, 21.0 ],
+									"patching_rect" : [ 825.0, 120.0, 47.0, 21.0 ],
 									"text" : "gate 1"
 								}
 
@@ -505,14 +578,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1080.0, 120.0, 57.0, 19.0 ],
+									"patching_rect" : [ 1110.0, 120.0, 57.0, 19.0 ],
 									"text" : "plane -1"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"cols" : 10000,
+									"cols" : 36862,
 									"colwidth" : 200,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -521,7 +594,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 825.0, 165.0, 375.0, 50.0 ],
+									"patching_rect" : [ 855.0, 165.0, 375.0, 50.0 ],
 									"rows" : 1
 								}
 
@@ -585,6 +658,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -597,7 +679,7 @@
 									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 849.5, 107.5, 832.5, 107.5 ],
+									"midpoints" : [ 879.5, 107.5, 862.5, 107.5 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -652,7 +734,7 @@
 									"destination" : [ "obj-57", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1029.5, 579.5, 1029.5, 579.5 ],
+									"midpoints" : [ 1059.5, 579.5, 1059.5, 579.5 ],
 									"source" : [ "obj-32", 0 ]
 								}
 
@@ -689,7 +771,7 @@
 									"destination" : [ "obj-44", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 744.5, 287.5, 827.5, 287.5 ],
+									"midpoints" : [ 744.5, 287.5, 857.5, 287.5 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -699,7 +781,7 @@
 									"destination" : [ "obj-45", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 744.5, 287.5, 1052.5, 287.5 ],
+									"midpoints" : [ 744.5, 287.5, 1082.5, 287.5 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -709,7 +791,7 @@
 									"destination" : [ "obj-46", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 744.5, 467.5, 1052.5, 467.5 ],
+									"midpoints" : [ 744.5, 467.5, 1082.5, 467.5 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -719,7 +801,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1089.5, 151.5, 834.5, 151.5 ],
+									"midpoints" : [ 1119.5, 151.5, 864.5, 151.5 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -747,7 +829,7 @@
 									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 485.700012, 544.0, 728.099976, 544.0, 728.099976, 78.0, 832.5, 78.0 ],
+									"midpoints" : [ 485.700012, 544.0, 728.099976, 544.0, 728.099976, 78.0, 862.5, 78.0 ],
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -757,7 +839,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 804.5, 162.0, 834.5, 162.0 ],
+									"midpoints" : [ 834.5, 162.0, 864.5, 162.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -767,7 +849,7 @@
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 804.5, 141.0, 804.5, 141.0 ],
+									"midpoints" : [ 834.5, 141.0, 834.5, 141.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -777,7 +859,7 @@
 									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 804.5, 240.0, 1029.5, 240.0 ],
+									"midpoints" : [ 834.5, 240.0, 1059.5, 240.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -787,7 +869,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 804.5, 240.0, 1005.0, 240.0, 1005.0, 432.0, 1029.5, 432.0 ],
+									"midpoints" : [ 834.5, 240.0, 1035.0, 240.0, 1035.0, 432.0, 1059.5, 432.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -840,7 +922,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -995,7 +1077,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1495,7 +1577,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2081,7 +2163,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2102,6 +2184,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 20.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 75.0, 187.0, 29.0 ],
+									"text" : "Position modulation"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -2130,20 +2226,25 @@
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-40",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 495.0, 600.0, 315.0, 21.0 ],
-									"text" : "Set the number of vertices in the mesh (x/y values)"
+									"patching_rect" : [ 510.0, 525.0, 184.0, 40.0 ],
+									"text" : "Set the number of vertices in the mesh (x/y values)."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2152,13 +2253,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 495.0, 465.0, 360.0, 123.0 ],
+									"patching_rect" : [ 960.0, 375.0, 364.0, 127.0 ],
 									"text" : "Choose the initialization positions for the particles. These are the positions the vertices start at when the mesh is reset or the dimensions are changed. They're also the positions towards which the particles are pushed back by the attraction and attractionVel forces.\n\n\"grid\" sets the particles in a grid. \"noise\" sets the particles in random positions."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2167,13 +2270,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 345.0, 175.0, 36.0 ],
-									"text" : "Set the color and transparency of the mesh."
+									"patching_rect" : [ 525.0, 360.0, 165.0, 40.0 ],
+									"text" : "Set the color and opacity of the mesh."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2182,13 +2287,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 390.0, 175.0, 36.0 ],
+									"patching_rect" : [ 510.0, 405.0, 180.0, 40.0 ],
 									"text" : "Scale the mesh in 3d space (xyz coordinates)."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2197,13 +2304,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 420.0, 150.0, 36.0 ],
+									"patching_rect" : [ 525.0, 450.0, 180.0, 40.0 ],
 									"text" : "Position the mesh in 3d space (xyz coordinates)."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2212,13 +2321,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 300.0, 206.0, 36.0 ],
+									"patching_rect" : [ 510.0, 315.0, 180.0, 40.0 ],
 									"text" : "Set the size of the lines in the \"lines\" draw mode."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2227,13 +2338,15 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 255.0, 201.0, 36.0 ],
+									"patching_rect" : [ 495.0, 270.0, 195.0, 40.0 ],
 									"text" : "Set the size of dots in the \"points\" draw mode."
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
@@ -2242,7 +2355,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 645.0, 210.0, 195.0, 36.0 ],
+									"patching_rect" : [ 480.0, 225.0, 210.0, 40.0 ],
 									"text" : "Select the basic shape used to draw the vertices of the mesh."
 								}
 
@@ -2253,12 +2366,12 @@
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-29",
-									"linecount" : 4,
+									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.0, 90.0, 345.0, 65.0 ],
-									"text" : "The visualization parameters of each species can be set independently. Here, we're looking at only one species.\n\nThe particles are drawn using the jit.gl.render object, so "
+									"patching_rect" : [ 555.0, 75.0, 390.0, 94.0 ],
+									"text" : "The visualization parameters of each species can be set independently. Here, we're looking at only one species.\n\nThe majority of the controls found in the panel are simply exposed GUI versions of drawing parameters for the [jit.gl.mesh] object, since [jit.gl.mesh] is used to draw the particles."
 								}
 
 							}
@@ -2289,7 +2402,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 960.0, 165.0, 90.0, 21.0 ],
+									"patching_rect" : [ 810.0, 195.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 45.0, 75.0, 21.0 ],
 									"text" : "layer 1"
@@ -2305,7 +2418,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 285.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 315.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 165.0, 75.0, 21.0 ],
 									"text" : "line width"
@@ -2321,7 +2434,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 585.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 615.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 465.0, 90.0, 21.0 ],
 									"text" : "texture out"
@@ -2337,7 +2450,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 555.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 585.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 435.0, 93.0, 21.0 ],
 									"text" : "texture warp"
@@ -2353,7 +2466,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 525.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 555.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 405.0, 90.0, 21.0 ],
 									"text" : "texture"
@@ -2369,7 +2482,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 495.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 525.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 375.0, 90.0, 21.0 ],
 									"text" : "dimensions"
@@ -2385,7 +2498,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 465.0, 105.0, 21.0 ],
+									"patching_rect" : [ 705.0, 495.0, 105.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 345.0, 105.0, 21.0 ],
 									"text" : "initial positions"
@@ -2402,7 +2515,7 @@
 									"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 960.0, 195.0, 135.0, 420.0 ],
+									"patching_rect" : [ 810.0, 225.0, 135.0, 420.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 75.0, 135.0, 420.0 ]
 								}
@@ -2417,7 +2530,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 195.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 225.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 75.0, 75.0, 21.0 ],
 									"text" : "enable"
@@ -2433,7 +2546,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 225.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 255.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 105.0, 90.0, 21.0 ],
 									"text" : "draw mode"
@@ -2449,7 +2562,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 255.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 285.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 135.0, 75.0, 21.0 ],
 									"text" : "point size"
@@ -2465,7 +2578,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 330.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 360.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 195.0, 75.0, 21.0 ],
 									"text" : "color"
@@ -2481,7 +2594,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 435.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 465.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 315.0, 75.0, 21.0 ],
 									"text" : "position"
@@ -2497,7 +2610,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 855.0, 405.0, 90.0, 21.0 ],
+									"patching_rect" : [ 705.0, 435.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 45.0, 285.0, 75.0, 21.0 ],
 									"text" : "scale"
@@ -2552,7 +2665,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 960.0, 165.0, 135.0, 450.0 ],
+									"patching_rect" : [ 810.0, 195.0, 135.0, 450.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 45.0, 135.0, 450.0 ]
 								}
@@ -2625,14 +2738,14 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
-						"gridsize" : [ 5.0, 5.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -2646,6 +2759,20 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 20.0,
+									"frgb" : 0.0,
+									"id" : "obj-16",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 75.0, 187.0, 29.0 ],
+									"text" : "Position matrix"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"fontname" : "Verdana",
@@ -2762,15 +2889,15 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-5",
 									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 90.0, 345.0, 166.0 ],
+									"patching_rect" : [ 15.0, 120.0, 328.0, 140.0 ],
 									"text" : "The position matrix is a 2-plane float32 video stream that provides the basic movement in the particle system, displaying the particles from their initial positions..\n\nIn order to run correctly, the particle system must receive a position matrix input containing information representing the location, direction and velocity of movement. The velocity field output of the [o4.fluids] module contains all this data and is a good source for the position matrix. Experimenting with other 2-plane float32 matrices may, however, yield interesting results."
 								}
 
@@ -2972,14 +3099,14 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 72.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
-						"gridsize" : [ 5.0, 5.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -3005,7 +3132,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 495.0, 345.0, 156.0 ],
+									"patching_rect" : [ 40.0, 495.0, 345.0, 156.0 ],
 									"presentation_rect" : [ 178.0, 497.0, 0.0, 0.0 ],
 									"text" : "{op} - the position modulation effect is acheived by combining the position modulation matrix with the basic position matrix using [jit.op]. The {op} parameter selects the operation used to combine the two streams of matrices.\n\n/ is the default and gives the \"silhouette\" effect, but other operations give different results. Modulus (%), for example, creates an effect that looks like the image is being repeatedly sucked away into various drains.\n\nNot all of the available operations have been tested, and not all will work, but experimentation may yield interesting results."
 								}
@@ -3024,7 +3151,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 160.0, 435.0, 345.0, 47.0 ],
+									"patching_rect" : [ 40.0, 435.0, 345.0, 47.0 ],
 									"presentation_rect" : [ 185.0, 453.0, 0.0, 0.0 ],
 									"text" : "{amount}: controls the degree to which the position modulation matrix is blended into the standard position matrix, and thus the intensity of the position modulation effect."
 								}
@@ -3039,7 +3166,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 75.0, 187.0, 29.0 ],
+									"patching_rect" : [ 15.0, 75.0, 187.0, 29.0 ],
 									"text" : "Position modulation"
 								}
 
@@ -3053,7 +3180,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 510.0, 585.0, 162.0, 21.0 ],
+									"patching_rect" : [ 390.0, 585.0, 162.0, 21.0 ],
 									"text" : "jcom.oscroute /destination"
 								}
 
@@ -3066,7 +3193,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.0, 615.0, 114.0, 21.0 ],
+									"patching_rect" : [ 390.0, 615.0, 114.0, 21.0 ],
 									"text" : "s particles_osc_in"
 								}
 
@@ -3080,7 +3207,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 510.0, 150.0, 60.0, 21.0 ],
+									"patching_rect" : [ 390.0, 150.0, 60.0, 21.0 ],
 									"text" : "r gui_init"
 								}
 
@@ -3094,7 +3221,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 510.0, 180.0, 300.0, 385.0 ],
+									"patching_rect" : [ 390.0, 180.0, 300.0, 385.0 ],
 									"presentation_rect" : [ 90.0, 90.0, 300.0, 385.0 ]
 								}
 
@@ -3118,11 +3245,11 @@
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-67",
-									"linecount" : 8,
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.0, 110.0, 270.0, 104.0 ],
+									"patching_rect" : [ 15.0, 120.0, 345.0, 92.0 ],
 									"text" : "The {position modulation matrix} input accepts standard video matrices (4 plane 2-dimensional char). Depending on the settings in the position modulation section, the particles can be set to \"stick\" to light or dark parts of the image. This can be useful for working with figures - the particles can be made to cling to a person's body, forming a silhouette, or to surround and avoid them."
 								}
 
@@ -3139,7 +3266,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 815.0, 495.0, 346.0, 71.0 ],
+									"patching_rect" : [ 695.0, 495.0, 346.0, 71.0 ],
 									"text" : "{invert}: inverts the colors of the modulation input. If using the camera as a modulation input, values closer to 0. will cause the particles to cluster into brighter areas of the image and avoid darker areas. Values closer to 1. will cause particles to cluster in dark areas and avoid bright ones."
 								}
 
@@ -3156,7 +3283,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 815.0, 450.0, 315.0, 35.0 ],
+									"patching_rect" : [ 695.0, 450.0, 315.0, 35.0 ],
 									"text" : "{threshold}: uses [jit.op @op >] to do simple noise filtering on the modulation input."
 								}
 
@@ -3185,7 +3312,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 519.5, 574.5, 519.5, 574.5 ],
+									"midpoints" : [ 399.5, 574.5, 399.5, 574.5 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -3229,7 +3356,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -3252,13 +3379,42 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
+									"fontsize" : 20.0,
+									"frgb" : 0.0,
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 75.0, 187.0, 29.0 ],
+									"text" : "Position modulation"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Verdana",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-67",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 120.0, 270.0, 104.0 ],
+									"text" : "The {position modulation matrix} input accepts standard video matrices (4 plane 2-dimensional char). Depending on the settings in the position modulation section, the particles can be set to \"stick\" to light or dark parts of the image. This can be useful for working with figures - the particles can be made to cling to a person's body, forming a silhouette, or to surround and avoid them."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 720.0, 630.0, 162.0, 21.0 ],
+									"patching_rect" : [ 345.0, 600.0, 162.0, 21.0 ],
 									"text" : "jcom.oscroute /destination"
 								}
 
@@ -3271,7 +3427,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 720.0, 660.0, 114.0, 21.0 ],
+									"patching_rect" : [ 345.0, 630.0, 114.0, 21.0 ],
 									"text" : "s particles_osc_in"
 								}
 
@@ -3285,7 +3441,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 720.0, 195.0, 60.0, 21.0 ],
+									"patching_rect" : [ 345.0, 165.0, 60.0, 21.0 ],
 									"text" : "r gui_init"
 								}
 
@@ -3299,7 +3455,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 720.0, 225.0, 300.0, 385.0 ],
+									"patching_rect" : [ 345.0, 195.0, 300.0, 385.0 ],
 									"presentation_rect" : [ 90.0, 90.0, 300.0, 385.0 ]
 								}
 
@@ -3326,7 +3482,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 425.0, 150.0, 19.0 ],
+									"patching_rect" : [ 660.0, 135.0, 150.0, 19.0 ],
 									"text" : "reread:"
 								}
 
@@ -3337,11 +3493,11 @@
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-51",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 530.0, 641.0, 43.0 ],
+									"patching_rect" : [ 660.0, 240.0, 315.0, 67.0 ],
 									"text" : "minDamping/maxDamping: sets the damping factor applied to the particles, which determines how they retain energy. The higher the damping factor, the more quickly a particle will lose energy/decelerate. Values within the range set by these parameters are distributed across the particles."
 								}
 
@@ -3356,7 +3512,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 455.0, 324.0, 67.0 ],
+									"patching_rect" : [ 660.0, 165.0, 324.0, 67.0 ],
 									"text" : "minMass/maxMass: sets the mass of the particles, which determines how they respond to stimulation from the incoming position matrix. The more mass a particle has, the more energy it takes to accelerate it. Values within the range set by these parameters are distributed across the particles."
 								}
 
@@ -3371,7 +3527,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 365.0, 419.0, 55.0 ],
+									"patching_rect" : [ 660.0, 75.0, 419.0, 55.0 ],
 									"text" : "respawn: when the particles either die or are blown out of the visible region, they are reset to their initial positions. The respawn value determines how many particles are reset at each step. Higher values mean that the particle field will regenerate more quickly."
 								}
 
@@ -3385,45 +3541,46 @@
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-30",
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 205.0, 615.0, 23.0 ],
-									"text" : "speed: sets the speed particle movement. Values above 1. tend to make the particles accelerate away to infinity. "
+									"patching_rect" : [ 165.0, 435.0, 180.0, 71.0 ],
+									"text" : "{speed}: sets the speed of particle movement. Values above 1. tend to make the particles accelerate away to infinity. "
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"bubbleside" : 3,
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-26",
-									"linecount" : 4,
+									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 155.0, 145.0, 555.0, 59.0 ],
-									"text" : "attraction: at each frame, the system checks the distance and direction  from every particle to its initialization position. It then \"teleports\" each particle back towards its initial position. The telportation range is scaled by the attraction value: e.g., if attraction is set to 0.1, a particle will be teleported 10% of the distance to its initial position. The teleportation overrides the forces in the simulation."
+									"patching_rect" : [ 645.0, 345.0, 304.0, 144.0 ],
+									"text" : "{attraction}: at each frame, the system checks the distance and direction  from every particle to its initialization position. It then \"teleports\" each particle back towards its initial position.\n\nThe telportation range is scaled by the attraction value: e.g., if attraction is set to 0.1, a particle will be teleported 10% of the distance to its initial position.\n\nThe teleportation overrides the forces in the simulation."
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubblepoint" : 0.86,
 									"bubbleside" : 3,
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"frgb" : 0.0,
 									"id" : "obj-11",
-									"linecount" : 4,
+									"linecount" : 13,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 85.0, 690.0, 59.0 ],
-									"text" : "attractionVel: at each frame, the system checks the distance and direction  from every particle to its initialization position. It then applies a force pushing each particle back towards its initial position. This force is scaled by the attracionVel value: e.g., if attractionVel is set to 0.1, a particle will be pushed with 10% of the force that would be needed to return it to its initial position. This force is calculated together with the other forces in the simulation (e.g., displacements from the position matrix stream)."
+									"patching_rect" : [ 15.0, 255.0, 323.0, 168.0 ],
+									"text" : "{attractionVel}: at each frame, the system checks the distance and direction from every particle to its initialization position. It then applies a force pushing each particle back towards its initial position.\n\nThis force is scaled by the attracionVel value: e.g., if attractionVel is set to 0.1, a particle will be pushed with 10% of the force that would be needed to return it to its initial position.\n\nThis force is calculated together with the other forces in the simulation (e.g., displacements from the position matrix stream)."
 								}
 
 							}
@@ -3513,7 +3670,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 72.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -4585,7 +4742,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1280.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
