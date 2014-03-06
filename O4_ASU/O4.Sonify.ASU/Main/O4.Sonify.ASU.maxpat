@@ -1494,7 +1494,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 5.0, 298.0, 297.0, 355.0 ],
+						"rect" : [ 3.0, 294.0, 297.0, 355.0 ],
 						"bgcolor" : [ 0.884659, 0.884659, 0.884659, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1778,12 +1778,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 472.0, 566.0, 95.0, 18.0 ],
-									"text" : "/track.1/fader 0"
+									"text" : "/parameter_values_end"
 								}
 
 							}
@@ -6296,7 +6297,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 7.0, 302.0, 303.0, 473.0 ],
+						"rect" : [ 810.0, 67.0, 304.0, 473.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -12262,15 +12263,15 @@
 			}
 , 			{
 				"name" : "o4.net_recv.maxpat",
-				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network",
-				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network",
+				"bootpath" : "/Users/synthesis/.Trash/tml.oz.network",
+				"patcherrelativepath" : "../../../../../.Trash/tml.oz.network",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_send.maxpat",
-				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network",
-				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network",
+				"bootpath" : "/Users/synthesis/.Trash/tml.oz.network",
+				"patcherrelativepath" : "../../../../../.Trash/tml.oz.network",
 				"type" : "JSON",
 				"implicit" : 1
 			}
