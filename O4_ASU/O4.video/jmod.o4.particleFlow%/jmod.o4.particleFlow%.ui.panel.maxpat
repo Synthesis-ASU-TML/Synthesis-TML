@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 6,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 179.0, 306.0, 984.0, 685.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -79,7 +80,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 30.0, 494.999969, 62.0, 20.0 ],
-					"presentation_rect" : [ 28.790001, 435.940002, 0.0, 0.0 ],
 					"text" : "zl change"
 				}
 
@@ -122,7 +122,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 60.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 460.889984, 56.350006, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -137,7 +136,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 450.0, 135.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 450.480011, 131.350006, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -152,7 +150,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.0, 210.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 460.160004, 208.770004, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -167,7 +164,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 765.0, 1875.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 771.0, 1788.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -182,7 +178,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 1650.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 809.0, 1562.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -197,7 +192,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 780.0, 1545.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 771.0, 1460.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -212,7 +206,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 510.0, 1290.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 513.0, 1199.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -227,7 +220,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 1200.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 510.0, 1115.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -242,7 +234,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 495.0, 1095.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 489.0, 1012.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -453,8 +444,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 282.0, 658.0, 525.0, 19.0 ],
-					"text" : "jcom.parameter #1/color @type array @ramp/drive none @description Sets mesh color for #1",
+					"patching_rect" : [ 282.0, 658.0, 561.0, 19.0 ],
+					"text" : "jcom.parameter #1/color @type decimalArray @ramp/drive none @description Sets mesh color for #1",
 					"varname" : "dim[1]"
 				}
 
@@ -606,7 +597,7 @@
 					"patching_rect" : [ 60.000008, 1815.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 390.0, 95.0, 20.0 ],
-					"text" : "hello"
+					"text" : "\"0\""
 				}
 
 			}
@@ -725,7 +716,7 @@
 					"patching_rect" : [ 75.000008, 1485.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 330.0, 95.0, 20.0 ],
-					"text" : "0ucasdf"
+					"text" : "\"0\""
 				}
 
 			}
@@ -833,8 +824,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 225.0, 1245.0, 570.0, 31.0 ],
-					"text" : "jcom.parameter #1/meshDim @type array @range/clipmode none @repetitions/allow 0 @ramp/drive none @description Dimensions of #1",
+					"patching_rect" : [ 225.0, 1245.0, 581.0, 31.0 ],
+					"text" : "jcom.parameter #1/meshDim @type decimalArray @range/clipmode none @repetitions/allow 0 @ramp/drive none @description Dimensions of #1",
 					"varname" : "attractionVel[1]"
 				}
 
@@ -945,8 +936,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 224.0, 938.21228, 544.0, 31.0 ],
-					"text" : "jcom.parameter #1/scale @type array @range/clipmode none @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description Scale #1",
+					"patching_rect" : [ 224.0, 938.21228, 600.0, 31.0 ],
+					"text" : "jcom.parameter #1/scale @type decimalArray @range/clipmode none @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description Scale #1",
 					"varname" : "attractionVel[5]"
 				}
 
@@ -1056,8 +1047,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 224.0, 1058.21228, 558.0, 31.0 ],
-					"text" : "jcom.parameter #1/position @type array @range/clipmode none @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description Position #1",
+					"patching_rect" : [ 224.0, 1058.21228, 605.0, 31.0 ],
+					"text" : "jcom.parameter #1/position @type decimalArray @range/clipmode none @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description Position #1",
 					"varname" : "attractionVel[2]"
 				}
 
@@ -1686,7 +1677,7 @@
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 544.5, 716.363586 ],
+					"midpoints" : [ 546.5, 716.363586 ],
 					"source" : [ "obj-56", 1 ]
 				}
 

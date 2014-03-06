@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 891.0, 359.0, 300.0, 385.0 ],
+		"rect" : [ 27.0, 143.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -760,7 +760,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 307.0, 167.0 ],
+						"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -779,7 +779,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1502,8 +1501,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 150.0, 598.0, 31.0 ],
-									"text" : "jcom.parameter respawn @type array @range/clipmode none @repetitions/allow 0 @ramp/drive none @description \"//Respawn rate.\"",
+									"patching_rect" : [ 375.0, 150.0, 569.0, 31.0 ],
+									"text" : "jcom.parameter respawn @type decimalArray @range/clipmode none @repetitions/allow 0 @ramp/drive none @description \"//Respawn rate.\"",
 									"varname" : "respawn"
 								}
 
@@ -1518,8 +1517,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 280.0, 588.0, 31.0 ],
-									"text" : "jcom.parameter reread @type array @range/clipmode none @repetitions/allow 0 @ramp/drive none @description \"//Reread rate.\"",
+									"patching_rect" : [ 375.0, 280.0, 559.0, 31.0 ],
+									"text" : "jcom.parameter reread @type decimalArray @range/clipmode none @repetitions/allow 0 @ramp/drive none @description \"//Reread rate.\"",
 									"varname" : "reread"
 								}
 
@@ -1534,8 +1533,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 420.0, 548.0, 31.0 ],
-									"text" : "jcom.parameter minMass @type array @range/clipmode both @range/bounds 1. 10. @repetitions/allow 0 @ramp/drive none @description \"//Minimum mass of particles.\"",
+									"patching_rect" : [ 375.0, 420.0, 587.0, 31.0 ],
+									"text" : "jcom.parameter minMass @type decimalArray @range/clipmode both @range/bounds 1. 10. @repetitions/allow 0 @ramp/drive none @description \"//Minimum mass of particles.\"",
 									"varname" : "minMass"
 								}
 
@@ -1550,8 +1549,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 555.0, 551.0, 31.0 ],
-									"text" : "jcom.parameter maxMass @type array @range/clipmode both @range/bounds 1. 10. @repetitions/allow 0 @ramp/drive none @description \"//Maximum mass of particles.\"",
+									"patching_rect" : [ 375.0, 555.0, 590.0, 31.0 ],
+									"text" : "jcom.parameter maxMass @type decimalArray @range/clipmode both @range/bounds 1. 10. @repetitions/allow 0 @ramp/drive none @description \"//Maximum mass of particles.\"",
 									"varname" : "maxMass"
 								}
 
@@ -1566,8 +1565,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 690.0, 574.0, 31.0 ],
-									"text" : "jcom.parameter minDampening @type array @range/clipmode both @range/bounds 0. 5. @repetitions/allow 0 @ramp/drive none @description \"//Minimum damping of particle motion.\"",
+									"patching_rect" : [ 375.0, 690.0, 603.0, 31.0 ],
+									"text" : "jcom.parameter minDampening @type decimalArray @range/clipmode both @range/bounds 0. 5. @repetitions/allow 0 @ramp/drive none @description \"//Minimum damping of particle motion.\"",
 									"varname" : "minDampening"
 								}
 
@@ -1582,8 +1581,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 375.0, 825.0, 605.0, 31.0 ],
-									"text" : "jcom.parameter maxDampening @type array @description \"//Maximum damping of particle motion.\" @range/bounds 0. 50. @range/clipmode both @ramp/drive none @repetitions/allow 0",
+									"patching_rect" : [ 375.0, 825.0, 563.0, 31.0 ],
+									"text" : "jcom.parameter maxDampening @type decimalArray @description \"//Maximum damping of particle motion.\" @range/bounds 0. 50. @range/clipmode both @ramp/drive none @repetitions/allow 0",
 									"varname" : "maxDampening"
 								}
 
@@ -1764,7 +1763,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 90.0, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 307, 211, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 1280, 750, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -2880,7 +2879,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 210.0, 300.0, 22.0, 22.0 ]
 				}
 
@@ -3261,7 +3260,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 511.0, 104.0, 675.0, 480.0 ],
+						"rect" : [ 306.0, 69.0, 675.0, 480.0 ],
 						"bgcolor" : [ 0.86413, 0.86413, 0.86413, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3776,7 +3775,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 15.0, 90.0, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 511, 104, 1186, 584, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 306, 69, 981, 549, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -3985,8 +3984,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 345.0, 640.0, 393.0, 31.0 ],
-					"text" : "jcom.parameter res @type array @range/clipmode none @repetitions/allow 0 @ramp/drive none @description \"//Resolution of particle system\"",
+					"patching_rect" : [ 345.0, 640.0, 542.0, 31.0 ],
+					"text" : "jcom.parameter res @type decimalArray @range/clipmode none @repetitions/allow 0 @ramp/drive none @description \"//Resolution of particle system\"",
 					"varname" : "res"
 				}
 
@@ -4001,8 +4000,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 351.0, 1200.0, 582.0, 31.0 ],
-					"text" : "jcom.parameter attractionVel @type array @range/clipmode both @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description \"Applies a scaleable force pushing particles back toward their original positions.\"",
+					"patching_rect" : [ 351.0, 1200.0, 601.0, 31.0 ],
+					"text" : "jcom.parameter attractionVel @type decimalArray @range/clipmode both @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description \"Applies a scaleable force pushing particles back toward their original positions.\"",
 					"varname" : "attractionVel"
 				}
 
@@ -4017,8 +4016,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 351.0, 1325.0, 569.0, 31.0 ],
-					"text" : "jcom.parameter attraction @type array @range/clipmode both @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description \"Factor by which particles are teleported back toward their original positions.\"",
+					"patching_rect" : [ 351.0, 1325.0, 586.0, 31.0 ],
+					"text" : "jcom.parameter attraction @type decimalArray @range/clipmode both @range/bounds 0. 1. @repetitions/allow 0 @ramp/drive none @description \"Factor by which particles are teleported back toward their original positions.\"",
 					"varname" : "attraction"
 				}
 
@@ -4033,8 +4032,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 351.0, 1450.0, 597.0, 31.0 ],
-					"text" : "jcom.parameter speed @type array @range/clipmode both @range/bounds 0. 2. @repetitions/allow 0 @ramp/drive none @description \"Speed of particle movement.\"",
+					"patching_rect" : [ 351.0, 1450.0, 567.0, 31.0 ],
+					"text" : "jcom.parameter speed @type decimalArray @range/clipmode both @range/bounds 0. 2. @repetitions/allow 0 @ramp/drive none @description \"Speed of particle movement.\"",
 					"varname" : "speed"
 				}
 
