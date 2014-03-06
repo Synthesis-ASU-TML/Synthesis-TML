@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 314.0, 483.0, 431.0, 283.0 ],
+		"rect" : [ 305.0, 269.0, 431.0, 283.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -113,9 +113,9 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 1503.0, 383.0 ],
+						"rect" : [ 888.0, 872.0, 1504.0, 361.0 ],
 						"bglocked" : 1,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -134,6 +134,78 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.284065, 0.252337, 0.681089, 1.0 ],
+									"bgcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 6.0,
+									"gradient" : 1,
+									"id" : "obj-345",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.262955, -169.0, 32.5, 11.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 244.0, 141.0, 32.5, 11.0 ],
+									"text" : "Water",
+									"textcolor" : [ 0.974868, 0.941438, 1.0, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-353",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 150.262955, -154.0, 24.0, 20.0 ],
+									"text" : "t 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.284065, 0.252337, 0.681089, 1.0 ],
+									"bgcolor2" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 6.0,
+									"gradient" : 1,
+									"id" : "obj-272",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 105.0, -169.0, 32.5, 11.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 220.0, 141.0, 23.0, 11.0 ],
+									"text" : "foam",
+									"textcolor" : [ 0.974868, 0.941438, 1.0, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-274",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 105.0, -154.0, 24.0, 20.0 ],
+									"text" : "t 2"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 6.0,
@@ -164,7 +236,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 57.0, -169.0, 33.0, 11.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 197.587204, 141.579971, 22.756744, 11.0 ],
+									"presentation_rect" : [ 197.587204, 141.579971, 23.0, 11.0 ],
 									"text" : "soup",
 									"textcolor" : [ 0.974868, 0.941438, 1.0, 1.0 ],
 									"textjustification" : 1
@@ -195,12 +267,20 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "preset", "int", "preset", "int" ],
-									"patching_rect" : [ 35.999969, -124.0, 100.0, 40.0 ],
+									"patching_rect" : [ 37.5, -124.0, 100.0, 40.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 99.999939, 386.533447, 223.0, 136.5 ],
 									"preset_data" : [ 										{
 											"number" : 1,
-											"data" : [ 5, "obj-265", "number", "int", 0, 5, "obj-259", "slider", "float", 0.0, 11, "obj-266", "swatch", "list", 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 0.5, 5, "obj-232", "umenu", "int", 0, 5, "obj-237", "umenu", "int", 0, 5, "obj-264", "number", "int", 0, 5, "obj-263", "slider", "float", 0.0, 11, "obj-82", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 7, "obj-381", "multislider", "list", 0.0, 0.0, 0.0, 5, "obj-455", "toggle", "int", 0, 5, "obj-377", "toggle", "int", 0, 11, "obj-83", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-257", "number", "int", 116, 5, "obj-456", "slider", "float", 0.0, 5, "obj-239", "umenu", "int", 2, 5, "obj-243", "umenu", "int", 0, 5, "obj-256", "number", "int", 86, 5, "obj-255", "slider", "float", 4.892883, 5, "obj-253", "slider", "float", 90.75515, 11, "obj-258", "swatch", "list", 0.035872, 0.0, 0.705721, 1.0, 0.675138, 1.0, 0.352861, 11, "obj-84", "swatch", "list", 0.876923, 0.988581, 1.0, 1.0, 0.515464, 1.0, 0.938462, 5, "obj-453", "toggle", "int", 1, 7, "obj-375", "multislider", "list", 0.0, 0.0, 0.0, 5, "obj-371", "toggle", "int", 0, 5, "obj-108", "dial", "float", 65.980225, 5, "obj-454", "slider", "float", 20.0, 11, "obj-85", "swatch", "list", 0.262807, 0.138462, 1.0, 1.0, 0.690722, 1.0, 0.569231, 5, "obj-249", "number", "int", 30, 6, "obj-86", "multislider", "list", 0.0, 0.0, 5, "obj-451", "toggle", "int", 1, 5, "obj-226", "umenu", "int", 2, 5, "obj-230", "umenu", "int", 0, 5, "obj-248", "number", "int", 8, 5, "obj-247", "slider", "float", 16.255438, 5, "obj-245", "slider", "float", 76.887871, 11, "obj-250", "swatch", "list", 0.0, 0.736538, 0.398981, 1.0, 0.423616, 1.0, 0.368269, 11, "obj-56", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 7, "obj-362", "multislider", "list", 0.0, 0.0, 0.0, 5, "obj-352", "toggle", "int", 0, 5, "obj-452", "slider", "float", 20.0, 11, "obj-44", "swatch", "list", 0.123077, 0.015226, 0.0, 1.0, 0.020619, 1.0, 0.061538, 5, "obj-450", "toggle", "int", 1, 5, "obj-439", "slider", "float", 10.652174, 7, "obj-87", "multislider", "list", 1000.0, 671.052612, 1000.0, 5, "obj-327", "number", "int", 109, 11, "obj-29", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-134", "slider", "float", 2.052043, 5, "obj-323", "number", "int", 102, 11, "obj-330", "swatch", "list", 1.0, 0.888753, 0.845919, 1.0, 0.046333, 1.0, 0.92296, 5, "obj-441", "slider", "float", 8.532591, 5, "obj-205", "umenu", "int", 2, 5, "obj-136", "umenu", "int", 0, 5, "obj-244", "slider", "float", 73.806267, 7, "obj-276", "multislider", "list", 333.275146, 18.432915, 1000.0, 5, "obj-364", "toggle", "int", 0, 11, "obj-21", "swatch", "list", 1.0, 0.896907, 0.230769, 1.0, 0.14433, 1.0, 0.615385, 7, "obj-19", "multislider", "list", 434.210541, 789.473633, 0.0 ]
+											"data" : [ 5, "obj-265", "number", "int", 27, 5, "obj-259", "slider", "float", 100.0, 11, "obj-266", "swatch", "list", 0.953846, 0.0, 0.151605, 1.0, 0.97351, 1.0, 0.476923, 5, "obj-232", "umenu", "int", 5, 5, "obj-237", "umenu", "int", 1, 5, "obj-264", "number", "int", 23, 5, "obj-263", "slider", "float", 1.863965, 11, "obj-82", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 7, "obj-381", "multislider", "list", 0.0, 0.0, 537.036987, 5, "obj-455", "toggle", "int", 1, 5, "obj-377", "toggle", "int", 1, 11, "obj-83", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-257", "number", "int", 116, 5, "obj-456", "slider", "float", 10.518518, 5, "obj-239", "umenu", "int", 2, 5, "obj-243", "umenu", "int", 0, 5, "obj-256", "number", "int", 86, 5, "obj-255", "slider", "float", 4.892883, 5, "obj-253", "slider", "float", 90.75515, 11, "obj-258", "swatch", "list", 0.035872, 0.0, 0.705721, 1.0, 0.675138, 1.0, 0.352861, 11, "obj-84", "swatch", "list", 0.876923, 0.988581, 1.0, 1.0, 0.515464, 1.0, 0.938462, 5, "obj-453", "toggle", "int", 1, 7, "obj-375", "multislider", "list", 111.111107, 185.185196, 1000.0, 5, "obj-371", "toggle", "int", 1, 5, "obj-108", "dial", "float", 65.980225, 5, "obj-454", "slider", "float", 20.0, 11, "obj-85", "swatch", "list", 0.262807, 0.138462, 1.0, 1.0, 0.690722, 1.0, 0.569231, 5, "obj-249", "number", "int", 30, 6, "obj-86", "multislider", "list", 0.0, 0.0, 5, "obj-451", "toggle", "int", 1, 5, "obj-226", "umenu", "int", 2, 5, "obj-230", "umenu", "int", 0, 5, "obj-248", "number", "int", 8, 5, "obj-247", "slider", "float", 16.255438, 5, "obj-245", "slider", "float", 76.887871, 11, "obj-250", "swatch", "list", 0.0, 0.736538, 0.398981, 1.0, 0.423616, 1.0, 0.368269, 11, "obj-56", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 7, "obj-362", "multislider", "list", 0.0, 0.0, 1000.0, 5, "obj-352", "toggle", "int", 1, 5, "obj-452", "slider", "float", 20.0, 11, "obj-44", "swatch", "list", 0.123077, 0.015226, 0.0, 1.0, 0.020619, 1.0, 0.061538, 5, "obj-450", "toggle", "int", 1, 5, "obj-439", "slider", "float", 10.652174, 7, "obj-87", "multislider", "list", 1000.0, 671.052612, 1000.0, 5, "obj-327", "number", "int", 109, 11, "obj-29", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-134", "slider", "float", 2.052043, 5, "obj-323", "number", "int", 102, 11, "obj-330", "swatch", "list", 1.0, 0.888753, 0.845919, 1.0, 0.046333, 1.0, 0.92296, 5, "obj-441", "slider", "float", 8.532591, 5, "obj-205", "umenu", "int", 2, 5, "obj-136", "umenu", "int", 0, 5, "obj-244", "slider", "float", 73.806267, 7, "obj-276", "multislider", "list", 407.40741, 185.185196, 1000.0, 5, "obj-364", "toggle", "int", 1, 11, "obj-21", "swatch", "list", 1.0, 0.896907, 0.230769, 1.0, 0.14433, 1.0, 0.615385, 7, "obj-19", "multislider", "list", 434.210541, 789.473633, 0.0 ]
+										}
+, 										{
+											"number" : 2,
+											"data" : [ 5, "obj-265", "number", "int", 17, 5, "obj-259", "slider", "float", 100.0, 11, "obj-266", "swatch", "list", 1.0, 0.938462, 0.965359, 1.0, 0.927152, 1.0, 0.969231, 5, "obj-232", "umenu", "int", 5, 5, "obj-237", "umenu", "int", 1, 5, "obj-264", "number", "int", 8, 5, "obj-263", "slider", "float", 1.602086, 11, "obj-82", "swatch", "list", 0.019341, 0.030769, 0.0, 1.0, 0.228571, 1.0, 0.015385, 7, "obj-381", "multislider", "list", 240.740723, 0.0, 500.0, 5, "obj-455", "toggle", "int", 1, 5, "obj-377", "toggle", "int", 0, 11, "obj-83", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-257", "number", "int", 116, 5, "obj-456", "slider", "float", 20.0, 5, "obj-239", "umenu", "int", 2, 5, "obj-243", "umenu", "int", 0, 5, "obj-256", "number", "int", 86, 5, "obj-255", "slider", "float", 3.317755, 5, "obj-253", "slider", "float", 100.0, 11, "obj-258", "swatch", "list", 0.984615, 0.0, 0.117371, 1.0, 0.980132, 1.0, 0.492308, 11, "obj-84", "swatch", "list", 0.0, 0.218874, 0.461538, 1.0, 0.587629, 1.0, 0.230769, 5, "obj-453", "toggle", "int", 1, 7, "obj-375", "multislider", "list", 0.0, 0.0, 1000.0, 5, "obj-371", "toggle", "int", 1, 5, "obj-108", "dial", "float", 65.980225, 5, "obj-454", "slider", "float", 20.0, 11, "obj-85", "swatch", "list", 0.0, 0.148454, 0.276923, 1.0, 0.57732, 1.0, 0.138462, 5, "obj-249", "number", "int", 159, 6, "obj-86", "multislider", "list", 0.0, 0.0, 5, "obj-451", "toggle", "int", 1, 5, "obj-226", "umenu", "int", 2, 5, "obj-230", "umenu", "int", 0, 5, "obj-248", "number", "int", 148, 5, "obj-247", "slider", "float", 2.807501, 5, "obj-245", "slider", "float", 100.0, 11, "obj-250", "swatch", "list", 0.0, 0.328477, 0.953846, 1.0, 0.609272, 1.0, 0.476923, 11, "obj-56", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 7, "obj-362", "multislider", "list", 0.0, 0.0, 481.481506, 5, "obj-352", "toggle", "int", 1, 5, "obj-452", "slider", "float", 20.0, 11, "obj-44", "swatch", "list", 0.030769, 0.001903, 0.0, 1.0, 0.010309, 1.0, 0.015385, 5, "obj-450", "toggle", "int", 1, 5, "obj-439", "slider", "float", 20.0, 7, "obj-87", "multislider", "list", 1000.0, 1000.0, 907.894714, 5, "obj-327", "number", "int", 311, 11, "obj-29", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-134", "slider", "float", 0.0, 5, "obj-323", "number", "int", 423, 11, "obj-330", "swatch", "list", 1.0, 1.0, 1.0, 1.0, 0.668874, 1.0, 1.0, 5, "obj-441", "slider", "float", 15.703703, 5, "obj-205", "umenu", "int", 2, 5, "obj-136", "umenu", "int", 0, 5, "obj-244", "slider", "float", 55.384613, 7, "obj-276", "multislider", "list", 92.592598, 55.55558, 1000.0, 5, "obj-364", "toggle", "int", 1, 11, "obj-21", "swatch", "list", 1.0, 0.896907, 0.230769, 1.0, 0.14433, 1.0, 0.615385, 7, "obj-19", "multislider", "list", 131.578918, 1000.0, 13.157904 ]
+										}
+, 										{
+											"number" : 3,
+											"data" : [ 5, "obj-265", "number", "int", 17, 5, "obj-259", "slider", "float", 100.0, 11, "obj-266", "swatch", "list", 1.0, 0.938462, 0.965359, 1.0, 0.927152, 1.0, 0.969231, 5, "obj-232", "umenu", "int", 5, 5, "obj-237", "umenu", "int", 1, 5, "obj-264", "number", "int", 8, 5, "obj-263", "slider", "float", 1.602086, 11, "obj-82", "swatch", "list", 0.019341, 0.030769, 0.0, 1.0, 0.228571, 1.0, 0.015385, 7, "obj-381", "multislider", "list", 240.740723, 0.0, 500.0, 5, "obj-455", "toggle", "int", 1, 5, "obj-377", "toggle", "int", 0, 11, "obj-83", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-257", "number", "int", 116, 5, "obj-456", "slider", "float", 20.0, 5, "obj-239", "umenu", "int", 2, 5, "obj-243", "umenu", "int", 0, 5, "obj-256", "number", "int", 86, 5, "obj-255", "slider", "float", 3.317755, 5, "obj-253", "slider", "float", 100.0, 11, "obj-258", "swatch", "list", 0.984615, 0.0, 0.117371, 1.0, 0.980132, 1.0, 0.492308, 11, "obj-84", "swatch", "list", 0.0, 0.218874, 0.461538, 1.0, 0.587629, 1.0, 0.230769, 5, "obj-453", "toggle", "int", 1, 7, "obj-375", "multislider", "list", 0.0, 0.0, 1000.0, 5, "obj-371", "toggle", "int", 0, 5, "obj-108", "dial", "float", 65.980225, 5, "obj-454", "slider", "float", 20.0, 11, "obj-85", "swatch", "list", 0.0, 0.148454, 0.276923, 1.0, 0.57732, 1.0, 0.138462, 5, "obj-249", "number", "int", 159, 6, "obj-86", "multislider", "list", 0.0, 0.0, 5, "obj-451", "toggle", "int", 1, 5, "obj-226", "umenu", "int", 2, 5, "obj-230", "umenu", "int", 0, 5, "obj-248", "number", "int", 148, 5, "obj-247", "slider", "float", 2.807501, 5, "obj-245", "slider", "float", 100.0, 11, "obj-250", "swatch", "list", 0.0, 0.328477, 0.953846, 1.0, 0.609272, 1.0, 0.476923, 11, "obj-56", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 7, "obj-362", "multislider", "list", 0.0, 0.0, 481.481506, 5, "obj-352", "toggle", "int", 0, 5, "obj-452", "slider", "float", 20.0, 11, "obj-44", "swatch", "list", 0.030769, 0.001903, 0.0, 1.0, 0.010309, 1.0, 0.015385, 5, "obj-450", "toggle", "int", 1, 5, "obj-439", "slider", "float", 20.0, 7, "obj-87", "multislider", "list", 1000.0, 1000.0, 907.894714, 5, "obj-327", "number", "int", 311, 11, "obj-29", "swatch", "list", 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 0.0, 5, "obj-134", "slider", "float", 0.0, 5, "obj-323", "number", "int", 423, 11, "obj-330", "swatch", "list", 1.0, 1.0, 1.0, 1.0, 0.668874, 1.0, 1.0, 5, "obj-441", "slider", "float", 15.703703, 5, "obj-205", "umenu", "int", 2, 5, "obj-136", "umenu", "int", 0, 5, "obj-244", "slider", "float", 55.384613, 7, "obj-276", "multislider", "list", 92.592598, 55.55558, 1000.0, 5, "obj-364", "toggle", "int", 0, 11, "obj-21", "swatch", "list", 0.046154, 0.498493, 1.0, 1.0, 0.587629, 1.0, 0.523077, 7, "obj-19", "multislider", "list", 131.578918, 1000.0, 13.157904 ]
 										}
  ]
 								}
@@ -5094,7 +5174,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1320.0, 778.0, 150.0, 33.0 ],
-									"text" : "/light/oz/platform/state/xy/1/pos 0.399464 0.321311",
+									"text" : "/light/oz/platform/state/xy/1/onoff 0",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -7385,8 +7465,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 206.543045, 1072.813965, 59.0, 31.0 ],
-									"text" : "58 0 0 0 0 0"
+									"patching_rect" : [ 206.543045, 1072.813965, 62.0, 31.0 ],
+									"text" : "60 0 0 0 0 0"
 								}
 
 							}
@@ -7972,7 +8052,7 @@
 									"id" : "obj-231",
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 2,
-									"num_lines_presentation" : 0,
+									"num_lines_presentation" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -8027,7 +8107,7 @@
 									"id" : "obj-228",
 									"maxclass" : "live.tab",
 									"num_lines_patching" : 3,
-									"num_lines_presentation" : 0,
+									"num_lines_presentation" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "float" ],
@@ -9659,7 +9739,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 797.0, 400.0, 55.0, 72.0 ],
-													"text" : "/sound/oz/platform/state/levels 58 0 0 0 0 0"
+													"text" : "/sound/oz/platform/state/levels 60 0 0 0 0 0"
 												}
 
 											}
@@ -13419,10 +13499,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-274", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-272", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-277", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-273", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-106", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-274", 0 ]
 								}
 
 							}
@@ -13717,6 +13815,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-353", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-345", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-45", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -13748,6 +13855,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-352", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-106", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-353", 0 ]
 								}
 
 							}
@@ -15372,214 +15488,214 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-1::obj-243" : [ "umenu[8]", "umenu", 0 ],
-			"obj-1::obj-233" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-1::obj-330" : [ "swatch[8]", "swatch", 0 ],
-			"obj-1::obj-87" : [ "multislider[9]", "multislider", 0 ],
-			"obj-1::obj-375" : [ "multislider[19]", "multislider", 0 ],
-			"obj-1::obj-84" : [ "swatch[6]", "swatch", 0 ],
-			"obj-1::obj-18" : [ "multislider[4]", "multislider", 0 ],
-			"obj-1::obj-327" : [ "number[15]", "number[1]", 0 ],
-			"obj-1::obj-371" : [ "toggle[3]", "toggle", 0 ],
-			"obj-1::obj-174" : [ "slider", "slider", 0 ],
-			"obj-1::obj-269" : [ "toggle[5]", "toggle[5]", 0 ],
-			"obj-1::obj-19" : [ "multislider[17]", "multislider", 0 ],
-			"obj-1::obj-73" : [ "slider[6]", "slider[6]", 0 ],
-			"obj-1::obj-97" : [ "slider[12]", "slider[7]", 0 ],
-			"obj-1::obj-276" : [ "multislider[11]", "multislider", 0 ],
-			"obj-1::obj-238" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-1::obj-455" : [ "toggle[10]", "toggle", 0 ],
-			"obj-1::obj-453" : [ "toggle[9]", "toggle", 0 ],
-			"obj-1::obj-253" : [ "slider[10]", "slider[8]", 0 ],
-			"obj-1::obj-21" : [ "swatch", "swatch", 0 ],
-			"obj-1::obj-332" : [ "live.tab[11]", "live.tab", 0 ],
 			"obj-1::obj-159" : [ "live.tab[9]", "live.tab", 0 ],
-			"obj-1::obj-221" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-1::obj-216" : [ "live.toggle[8]", "live.toggle", 0 ],
-			"obj-1::obj-441" : [ "slider[14]", "slider[8]", 0 ],
-			"obj-1::obj-250" : [ "swatch[9]", "swatch", 0 ],
-			"obj-1::obj-211" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-1::obj-226" : [ "umenu[3]", "umenu", 0 ],
-			"obj-1::obj-329" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-1::obj-16" : [ "multislider[7]", "multislider", 0 ],
-			"obj-1::obj-377" : [ "toggle[4]", "toggle", 0 ],
-			"obj-1::obj-364" : [ "toggle[2]", "toggle", 0 ],
-			"obj-1::obj-85" : [ "swatch[7]", "swatch", 0 ],
-			"obj-1::obj-206" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-1::obj-362" : [ "multislider[12]", "multislider", 0 ],
-			"obj-1::obj-273" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-1::obj-259" : [ "slider[11]", "slider[8]", 0 ],
-			"obj-1::obj-108" : [ "dial", "dial", 0 ],
-			"obj-1::obj-355" : [ "slider[7]", "slider[7]", 0 ],
-			"obj-1::obj-166" : [ "umenu[1]", "umenu[1]", 0 ],
-			"obj-1::obj-265" : [ "number[12]", "number[1]", 0 ],
-			"obj-1::obj-171" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-1::obj-228" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-1::obj-17" : [ "multislider[3]", "multislider", 0 ],
-			"obj-1::obj-255" : [ "number[7]", "number[1]", 0 ],
-			"obj-1::obj-220" : [ "live.toggle[12]", "live.toggle", 0 ],
-			"obj-1::obj-452" : [ "slider[15]", "slider[8]", 0 ],
-			"obj-1::obj-245" : [ "slider[9]", "slider[8]", 0 ],
+			"obj-1::obj-371" : [ "toggle[3]", "toggle", 0 ],
 			"obj-1::obj-215" : [ "live.toggle[7]", "live.toggle", 0 ],
-			"obj-1::obj-232" : [ "umenu[5]", "umenu", 0 ],
-			"obj-1::obj-230" : [ "umenu[4]", "umenu", 0 ],
-			"obj-1::obj-398" : [ "number[16]", "number", 0 ],
-			"obj-1::obj-86" : [ "multislider[5]", "multislider", 0 ],
-			"obj-1::obj-56" : [ "swatch[3]", "swatch", 0 ],
-			"obj-1::obj-323" : [ "number[14]", "number[1]", 0 ],
-			"obj-1::obj-163" : [ "slider[5]", "slider[5]", 0 ],
-			"obj-1::obj-263" : [ "number[10]", "number[1]", 0 ],
-			"obj-1::obj-178" : [ "slider[1]", "slider", 0 ],
-			"obj-1::obj-456" : [ "slider[17]", "slider[8]", 0 ],
-			"obj-1::obj-160" : [ "live.tab[10]", "live.tab", 0 ],
-			"obj-1::obj-116" : [ "flonum[1]", "flonum", 0 ],
-			"obj-1::obj-208" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-1::obj-454" : [ "slider[16]", "slider[8]", 0 ],
-			"obj-1::obj-256" : [ "number[8]", "number[1]", 0 ],
-			"obj-1::obj-219" : [ "live.toggle[11]", "live.toggle", 0 ],
-			"obj-1::obj-247" : [ "number[4]", "number[1]", 0 ],
-			"obj-1::obj-236" : [ "multislider", "multislider", 0 ],
-			"obj-1::obj-214" : [ "live.toggle[6]", "live.toggle", 0 ],
-			"obj-1::obj-237" : [ "umenu[6]", "umenu", 0 ],
-			"obj-1::obj-205" : [ "umenu[2]", "umenu", 0 ],
-			"obj-1::obj-82" : [ "swatch[4]", "swatch", 0 ],
-			"obj-1::obj-44" : [ "swatch[2]", "swatch", 0 ],
-			"obj-1::obj-381" : [ "multislider[20]", "multislider", 0 ],
-			"obj-1::obj-172" : [ "multislider[14]", "multislider[14]", 0 ],
-			"obj-1::obj-30" : [ "multislider[6]", "multislider", 0 ],
-			"obj-1::obj-175" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-1::obj-266" : [ "swatch[11]", "swatch", 0 ],
-			"obj-1::obj-231" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-1::obj-223" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-1::obj-257" : [ "number[9]", "number[1]", 0 ],
-			"obj-1::obj-136" : [ "umenu", "umenu", 0 ],
-			"obj-1::obj-218" : [ "live.toggle[10]", "live.toggle", 0 ],
-			"obj-1::obj-450" : [ "toggle[7]", "toggle", 0 ],
-			"obj-1::obj-248" : [ "number[5]", "number[1]", 0 ],
-			"obj-1::obj-213" : [ "live.toggle[5]", "live.toggle", 0 ],
-			"obj-1::obj-439" : [ "slider[13]", "slider[8]", 0 ],
-			"obj-1::obj-239" : [ "umenu[7]", "umenu", 0 ],
-			"obj-1::obj-416" : [ "toggle", "toggle", 0 ],
-			"obj-1::obj-134" : [ "number[3]", "number[1]", 0 ],
-			"obj-1::obj-413" : [ "toggle[6]", "toggle", 0 ],
-			"obj-1::obj-234" : [ "multislider[8]", "multislider[8]", 0 ],
-			"obj-1::obj-424" : [ "number", "number", 0 ],
-			"obj-1::obj-83" : [ "swatch[5]", "swatch", 0 ],
-			"obj-1::obj-352" : [ "toggle[1]", "toggle", 0 ],
-			"obj-1::obj-29" : [ "swatch[1]", "swatch", 0 ],
-			"obj-1::obj-39" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-1::obj-275" : [ "flonum[3]", "flonum[3]", 0 ],
-			"obj-1::obj-121" : [ "multislider[15]", "multislider[15]", 0 ],
-			"obj-1::obj-70" : [ "multislider[16]", "multislider[16]", 0 ],
-			"obj-1::obj-235" : [ "slider[3]", "slider[3]", 0 ],
-			"obj-1::obj-264" : [ "number[11]", "number[1]", 0 ],
-			"obj-1::obj-324" : [ "live.text", "live.text", 0 ],
-			"obj-1::obj-6" : [ "multislider[2]", "multislider", 0 ],
+			"obj-1::obj-255" : [ "number[7]", "number[1]", 0 ],
 			"obj-1::obj-244" : [ "slider[8]", "slider[8]", 0 ],
-			"obj-1::obj-222" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-1::obj-230" : [ "umenu[4]", "umenu", 0 ],
+			"obj-1::obj-30" : [ "multislider[6]", "multislider", 0 ],
+			"obj-1::obj-375" : [ "multislider[19]", "multislider", 0 ],
+			"obj-1::obj-87" : [ "multislider[9]", "multislider", 0 ],
 			"obj-1::obj-451" : [ "toggle[8]", "toggle", 0 ],
-			"obj-1::obj-258" : [ "swatch[10]", "swatch", 0 ],
+			"obj-1::obj-86" : [ "multislider[5]", "multislider", 0 ],
+			"obj-1::obj-330" : [ "swatch[8]", "swatch", 0 ],
+			"obj-1::obj-174" : [ "slider", "slider", 0 ],
+			"obj-1::obj-247" : [ "number[4]", "number[1]", 0 ],
+			"obj-1::obj-84" : [ "swatch[6]", "swatch", 0 ],
+			"obj-1::obj-355" : [ "slider[7]", "slider[7]", 0 ],
+			"obj-1::obj-6" : [ "multislider[2]", "multislider", 0 ],
+			"obj-1::obj-259" : [ "slider[11]", "slider[8]", 0 ],
+			"obj-1::obj-236" : [ "multislider", "multislider", 0 ],
+			"obj-1::obj-235" : [ "slider[3]", "slider[3]", 0 ],
+			"obj-1::obj-39" : [ "live.toggle[17]", "live.toggle", 0 ],
+			"obj-1::obj-216" : [ "live.toggle[8]", "live.toggle", 0 ],
+			"obj-1::obj-253" : [ "slider[10]", "slider[8]", 0 ],
+			"obj-1::obj-226" : [ "umenu[3]", "umenu", 0 ],
+			"obj-1::obj-323" : [ "number[14]", "number[1]", 0 ],
+			"obj-1::obj-454" : [ "slider[16]", "slider[8]", 0 ],
+			"obj-1::obj-327" : [ "number[15]", "number[1]", 0 ],
+			"obj-1::obj-329" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-1::obj-134" : [ "number[3]", "number[1]", 0 ],
+			"obj-1::obj-211" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-1::obj-245" : [ "slider[9]", "slider[8]", 0 ],
+			"obj-1::obj-83" : [ "swatch[5]", "swatch", 0 ],
+			"obj-1::obj-275" : [ "flonum[3]", "flonum[3]", 0 ],
+			"obj-1::obj-172" : [ "multislider[14]", "multislider[14]", 0 ],
+			"obj-1::obj-97" : [ "slider[12]", "slider[7]", 0 ],
+			"obj-1::obj-273" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-1::obj-163" : [ "slider[5]", "slider[5]", 0 ],
+			"obj-1::obj-136" : [ "umenu", "umenu", 0 ],
+			"obj-1::obj-29" : [ "swatch[1]", "swatch", 0 ],
+			"obj-1::obj-377" : [ "toggle[4]", "toggle", 0 ],
 			"obj-1::obj-217" : [ "live.toggle[9]", "live.toggle", 0 ],
+			"obj-1::obj-455" : [ "toggle[10]", "toggle", 0 ],
+			"obj-1::obj-381" : [ "multislider[20]", "multislider", 0 ],
+			"obj-1::obj-266" : [ "swatch[11]", "swatch", 0 ],
+			"obj-1::obj-243" : [ "umenu[8]", "umenu", 0 ],
+			"obj-1::obj-456" : [ "slider[17]", "slider[8]", 0 ],
+			"obj-1::obj-166" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-1::obj-453" : [ "toggle[9]", "toggle", 0 ],
+			"obj-1::obj-19" : [ "multislider[17]", "multislider", 0 ],
+			"obj-1::obj-234" : [ "multislider[8]", "multislider[8]", 0 ],
+			"obj-1::obj-364" : [ "toggle[2]", "toggle", 0 ],
+			"obj-1::obj-16" : [ "multislider[7]", "multislider", 0 ],
+			"obj-1::obj-178" : [ "slider[1]", "slider", 0 ],
+			"obj-1::obj-231" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-1::obj-212" : [ "live.toggle[4]", "live.toggle", 0 ],
+			"obj-1::obj-352" : [ "toggle[1]", "toggle", 0 ],
+			"obj-1::obj-258" : [ "swatch[10]", "swatch", 0 ],
+			"obj-1::obj-82" : [ "swatch[4]", "swatch", 0 ],
+			"obj-1::obj-21" : [ "swatch", "swatch", 0 ],
+			"obj-1::obj-441" : [ "slider[14]", "slider[8]", 0 ],
+			"obj-1::obj-362" : [ "multislider[12]", "multislider", 0 ],
+			"obj-1::obj-439" : [ "slider[13]", "slider[8]", 0 ],
+			"obj-1::obj-324" : [ "live.text", "live.text", 0 ],
+			"obj-1::obj-250" : [ "swatch[9]", "swatch", 0 ],
+			"obj-1::obj-44" : [ "swatch[2]", "swatch", 0 ],
+			"obj-1::obj-233" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-1::obj-17" : [ "multislider[3]", "multislider", 0 ],
+			"obj-1::obj-160" : [ "live.tab[10]", "live.tab", 0 ],
+			"obj-1::obj-218" : [ "live.toggle[10]", "live.toggle", 0 ],
+			"obj-1::obj-265" : [ "number[12]", "number[1]", 0 ],
+			"obj-1::obj-239" : [ "umenu[7]", "umenu", 0 ],
+			"obj-1::obj-238" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-1::obj-206" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-1::obj-213" : [ "live.toggle[5]", "live.toggle", 0 ],
+			"obj-1::obj-257" : [ "number[9]", "number[1]", 0 ],
+			"obj-1::obj-269" : [ "toggle[5]", "toggle[5]", 0 ],
+			"obj-1::obj-450" : [ "toggle[7]", "toggle", 0 ],
+			"obj-1::obj-73" : [ "slider[6]", "slider[6]", 0 ],
 			"obj-1::obj-249" : [ "number[6]", "number[1]", 0 ],
+			"obj-1::obj-56" : [ "swatch[3]", "swatch", 0 ],
+			"obj-1::obj-276" : [ "multislider[11]", "multislider", 0 ],
+			"obj-1::obj-175" : [ "slider[4]", "slider[4]", 0 ],
+			"obj-1::obj-171" : [ "live.toggle[16]", "live.toggle", 0 ],
+			"obj-1::obj-413" : [ "toggle[6]", "toggle", 0 ],
+			"obj-1::obj-264" : [ "number[11]", "number[1]", 0 ],
+			"obj-1::obj-237" : [ "umenu[6]", "umenu", 0 ],
+			"obj-1::obj-18" : [ "multislider[4]", "multislider", 0 ],
+			"obj-1::obj-223" : [ "live.toggle[15]", "live.toggle", 0 ],
+			"obj-1::obj-416" : [ "toggle", "toggle", 0 ],
+			"obj-1::obj-116" : [ "flonum[1]", "flonum", 0 ],
+			"obj-1::obj-222" : [ "live.toggle[14]", "live.toggle", 0 ],
+			"obj-1::obj-221" : [ "live.toggle[13]", "live.toggle", 0 ],
+			"obj-1::obj-214" : [ "live.toggle[6]", "live.toggle", 0 ],
+			"obj-1::obj-424" : [ "number", "number", 0 ],
+			"obj-1::obj-256" : [ "number[8]", "number[1]", 0 ],
+			"obj-1::obj-205" : [ "umenu[2]", "umenu", 0 ],
+			"obj-1::obj-220" : [ "live.toggle[12]", "live.toggle", 0 ],
+			"obj-1::obj-228" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-1::obj-219" : [ "live.toggle[11]", "live.toggle", 0 ],
+			"obj-1::obj-452" : [ "slider[15]", "slider[8]", 0 ],
+			"obj-1::obj-332" : [ "live.tab[11]", "live.tab", 0 ],
+			"obj-1::obj-70" : [ "multislider[16]", "multislider[16]", 0 ],
+			"obj-1::obj-121" : [ "multislider[15]", "multislider[15]", 0 ],
+			"obj-1::obj-248" : [ "number[5]", "number[1]", 0 ],
+			"obj-1::obj-108" : [ "dial", "dial", 0 ],
+			"obj-1::obj-85" : [ "swatch[7]", "swatch", 0 ],
+			"obj-1::obj-398" : [ "number[16]", "number", 0 ],
+			"obj-1::obj-263" : [ "number[10]", "number[1]", 0 ],
+			"obj-1::obj-232" : [ "umenu[5]", "umenu", 0 ],
 			"obj-1::obj-32" : [ "flonum", "flonum", 0 ],
-			"obj-1::obj-212" : [ "live.toggle[4]", "live.toggle", 0 ]
+			"obj-1::obj-208" : [ "live.toggle[1]", "live.toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "o4_logo.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "line_blue.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "line2_blue.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "line2_yellow.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "line_yellow.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "line2_red.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "line_red.png",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network/O4_mira",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network/O4_mira",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network/O4_mira",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_send.maxpat",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_recv.maxpat",
 				"bootpath" : "/Users/synthesis/Code/SearchPath/tml.oz.network",
-				"patcherrelativepath" : "../Code/SearchPath/tml.oz.network",
+				"patcherrelativepath" : "../../../../../Code/SearchPath/tml.oz.network",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mo.rotationrate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mo.accel.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mo.compass.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mo.orientation.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mo.gravity.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
