@@ -3002,7 +3002,7 @@
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -3068,7 +3068,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 510.0, 225.0, 40.0 ],
+									"patching_rect" : [ 355.0, 500.0, 225.0, 40.0 ],
 									"text" : "{dimensions}: Set the number of vertices in the mesh (x/y values)."
 								}
 
@@ -3084,7 +3084,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 840.0, 420.0, 360.0, 127.0 ],
+									"patching_rect" : [ 830.0, 425.0, 360.0, 127.0 ],
 									"text" : "{initial positions}: choose the initialization positions for the particles. These are the positions the vertices start at when the mesh is reset or the dimensions are changed. They're also the positions towards which the particles are pushed back by the attraction and attractionVel forces.\n\n{grid} starts the particles off in a grid. {noise} starts them in random positions."
 								}
 
@@ -3092,6 +3092,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubblepoint" : 0.29,
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -3101,7 +3102,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 345.0, 171.0, 40.0 ],
+									"patching_rect" : [ 410.0, 345.0, 171.0, 40.0 ],
 									"text" : "{color}: set the color and opacity of the mesh."
 								}
 
@@ -3109,6 +3110,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubblepoint" : 0.93,
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -3118,7 +3120,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 375.0, 390.0, 195.0, 40.0 ],
+									"patching_rect" : [ 385.0, 390.0, 195.0, 40.0 ],
 									"text" : "{scale}: scale the mesh in 3d space (xyz coordinates)."
 								}
 
@@ -3135,7 +3137,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 360.0, 435.0, 210.0, 40.0 ],
+									"patching_rect" : [ 370.0, 435.0, 210.0, 40.0 ],
 									"text" : "{position}: position the mesh in 3d space (xyz coordinates)."
 								}
 
@@ -3143,6 +3145,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubblepoint" : 0.23,
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -3152,7 +3155,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 360.0, 300.0, 210.0, 40.0 ],
+									"patching_rect" : [ 370.0, 300.0, 210.0, 40.0 ],
 									"text" : "{line_width}: set the size of the lines in the \"lines\" draw mode."
 								}
 
@@ -3160,6 +3163,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubblepoint" : 0.69,
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -3169,7 +3173,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 255.0, 225.0, 40.0 ],
+									"patching_rect" : [ 355.0, 255.0, 225.0, 40.0 ],
 									"text" : "{point_size}: set the size of the dots in the \"points\" draw mode."
 								}
 
@@ -3177,6 +3181,7 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
+									"bubblepoint" : 1.0,
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -3186,7 +3191,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 210.0, 255.0, 40.0 ],
+									"patching_rect" : [ 325.0, 210.0, 255.0, 40.0 ],
 									"text" : "{draw_mode}: select the basic shape used to draw the vertices of the mesh."
 								}
 
@@ -4194,7 +4199,7 @@
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
+						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 1,
@@ -4313,7 +4318,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 135.0, 150.0, 19.0 ],
-									"text" : "reread:"
+									"text" : "{reread}:"
 								}
 
 							}
@@ -4328,7 +4333,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 240.0, 315.0, 67.0 ],
-									"text" : "minDamping/maxDamping: sets the damping factor applied to the particles, which determines how they retain energy. The higher the damping factor, the more quickly a particle will lose energy/decelerate. Values within the range set by these parameters are distributed across the particles."
+									"text" : "{minDamping}/{maxDamping}: sets the damping factor applied to the particles, which determines how they retain energy. The higher the damping factor, the more quickly a particle will lose energy/decelerate. Values within the range set by these parameters are distributed across the particles."
 								}
 
 							}
@@ -4342,8 +4347,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 705.0, 165.0, 324.0, 67.0 ],
-									"text" : "minMass/maxMass: sets the mass of the particles, which determines how they respond to stimulation from the incoming position matrix. The more mass a particle has, the more energy it takes to accelerate it. Values within the range set by these parameters are distributed across the particles."
+									"patching_rect" : [ 705.0, 165.0, 328.0, 67.0 ],
+									"text" : "{minMass}/{maxMass}: sets the mass of the particles, which determines how they respond to stimulation from the incoming position matrix. The more mass a particle has, the more energy it takes to accelerate it. Values within the range set by these parameters are distributed across the particles."
 								}
 
 							}
@@ -4358,7 +4363,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 705.0, 75.0, 419.0, 55.0 ],
-									"text" : "respawn: when the particles either die or are blown out of the visible region, they are reset to their initial positions. The respawn value determines how many particles are reset at each step. Higher values mean that the particle field will regenerate more quickly."
+									"text" : "{respawn}: when the particles either die or are blown out of the visible region, they are reset to their initial positions. The respawn value determines how many particles are reset at each step. Higher values mean that the particle field will regenerate more quickly."
 								}
 
 							}
@@ -4375,7 +4380,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 435.0, 180.0, 71.0 ],
+									"patching_rect" : [ 205.0, 430.0, 180.0, 71.0 ],
 									"text" : "{speed}: sets the speed of particle movement. Values above 1. tend to make the particles accelerate away to infinity. "
 								}
 
@@ -4391,7 +4396,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 690.0, 345.0, 304.0, 144.0 ],
+									"patching_rect" : [ 695.0, 335.0, 304.0, 144.0 ],
 									"text" : "{attraction}: at each frame, the system checks the distance and direction  from every particle to its initialization position. It then \"teleports\" each particle back towards its initial position.\n\nThe telportation range is scaled by the attraction value: e.g., if attraction is set to 0.1, a particle will be teleported 10% of the distance to its initial position.\n\nThe teleportation overrides the forces in the simulation."
 								}
 
@@ -4409,7 +4414,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 255.0, 323.0, 168.0 ],
+									"patching_rect" : [ 60.0, 255.0, 325.0, 168.0 ],
 									"text" : "{attractionVel}: at each frame, the system checks the distance and direction from every particle to its initialization position. It then applies a force pushing each particle back towards its initial position.\n\nThis force is scaled by the attracionVel value: e.g., if attractionVel is set to 0.1, a particle will be pushed with 10% of the force that would be needed to return it to its initial position.\n\nThis force is calculated together with the other forces in the simulation (e.g., displacements from the position matrix stream)."
 								}
 
