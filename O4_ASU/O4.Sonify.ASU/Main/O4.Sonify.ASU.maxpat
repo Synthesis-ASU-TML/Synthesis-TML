@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 289.0, 227.0 ],
+		"rect" : [ 5.0, 44.0, 289.0, 227.0 ],
 		"bgcolor" : [ 0.778745, 0.778745, 0.778745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -1494,7 +1494,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 3.0, 294.0, 297.0, 355.0 ],
+						"rect" : [ 2.0, 294.0, 297.0, 355.0 ],
 						"bgcolor" : [ 0.884659, 0.884659, 0.884659, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1514,7 +1514,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.839216, 0.0, 0.0, 1.0 ],
@@ -1534,7 +1533,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 307.0, 75.0 ],
+										"rect" : [ 266.0, 836.0, 307.0, 75.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -1778,13 +1777,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 472.0, 566.0, 95.0, 18.0 ],
-									"text" : "/parameter_values_end"
+									"text" : "/track.6/fader 0"
 								}
 
 							}
@@ -3343,7 +3341,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 755.0, 98.0, 106.0, 18.0 ],
-									"text" : "60 0 0 0 0 0"
+									"text" : "0 0 0 0 0 0"
 								}
 
 							}
@@ -3352,14 +3350,15 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-29",
+									"linecount" : 2,
 									"maxclass" : "o.message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 678.0, 131.0, 205.0, 20.0 ],
+									"patching_rect" : [ 678.0, 131.0, 205.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 281.5, 291.0, 20.0 ],
-									"text" : "/light/oz/platform/state/xy/1/onoff 0",
+									"text" : "/sound/oz/platform/state/levels 82 0 0 0 32 0",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -9065,7 +9064,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 16.0, 49.0, 771.0, 15.0 ],
-													"text" : "zoom 1."
+													"text" : "tab room 1"
 												}
 
 											}
@@ -9833,7 +9832,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 747.0, 850.0, 302.0, 459.0 ],
+						"rect" : [ 617.0, 691.0, 302.0, 459.0 ],
 						"bgcolor" : [ 0.916907, 0.916907, 0.916907, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -10192,7 +10191,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 735.0, 486.0, 307.0, 458.0 ],
+						"rect" : [ 310.0, 690.0, 307.0, 458.0 ],
 						"bgcolor" : [ 0.877165, 0.877165, 0.877165, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -10550,7 +10549,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -3.0, 298.0, 304.0, 465.0 ],
+						"rect" : [ 3.0, 949.0, 303.0, 465.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -11235,7 +11234,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 327.0, 44.0, 304.0, 684.0 ],
+						"rect" : [ 1257.0, 44.0, 304.0, 684.0 ],
 						"bgcolor" : [ 0.935865, 0.935865, 0.935865, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -11797,7 +11796,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 952.0, 495.0, 306.0, 242.0 ],
+						"rect" : [ 4.0, 685.0, 306.0, 242.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -12017,17 +12016,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
-			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
-			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
 			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ]
+			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
+			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -12263,15 +12262,15 @@
 			}
 , 			{
 				"name" : "o4.net_recv.maxpat",
-				"bootpath" : "/Users/synthesis/.Trash/tml.oz.network",
-				"patcherrelativepath" : "../../../../../.Trash/tml.oz.network",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_send.maxpat",
-				"bootpath" : "/Users/synthesis/.Trash/tml.oz.network",
-				"patcherrelativepath" : "../../../../../.Trash/tml.oz.network",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -12607,10 +12606,6 @@
 			}
 , 			{
 				"name" : "jcom.map.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "!.mxo",
 				"type" : "iLaX"
 			}
 , 			{

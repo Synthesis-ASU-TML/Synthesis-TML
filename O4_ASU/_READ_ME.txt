@@ -1,20 +1,23 @@
 O4.ASU overview
 
-1. Download and Install latest version of Max/MSP (run in 32bit mode) + odot externals included in CNMAT library (http://cnmat.berkeley.edu/downloads)
+1. Download and Install latest version of Max/MSP (run in 32bit mode)
+2. download and install all dependencies listed below:
+3. Place the whole O4_ASU folder under your search path.
 
-2. download all dependencies listed below:
+------------------------------------------------------------
 
 DEPENDENCIES:
 jamoma - http://www.jamoma.org/download/
-vipr - http://ben.musicsmiths.us/vipr.phtml
-cv.jit - http://jmpelletier.com/cvjit/
-CNMAT externals - http://cnmat.berkeley.edu/downloads
-FTM Library - download at http://ftm.ircam.fr/index.php/Download
-NavNav Jamoma Instruments - https://github.com/navid/NavNav/archive/master.zip
-Mira - http://cycling74.com/products/mira/
+Mira (for iPad control only)- http://cycling74.com/products/mira/
 
+------------------------------------------------------------
+Already included within this distribution
 
 - zeroconf library - included
 - oscjavaformax - included
 - LObjects - included
 - IMP.DMX Library (David Butler / THE IMPERSONAL STEREO) - included
+- FTM inclided
+- odat included
+- cv.jit.included
+- vpir included

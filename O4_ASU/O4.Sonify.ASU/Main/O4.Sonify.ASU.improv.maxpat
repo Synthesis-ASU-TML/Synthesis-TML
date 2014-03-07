@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1180.0, 282.0, 927.0, 584.0 ],
+						"rect" : [ 1303.0, 303.0, 927.0, 584.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2425,7 +2425,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 34.0, 1201.0, 426.0, 203.0 ],
+						"rect" : [ 799.0, 44.0, 431.0, 201.0 ],
 						"bgcolor" : [ 0.883322, 0.883322, 0.883322, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2447,6 +2447,17 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 354.0, 154.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2750,6 +2761,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -2821,7 +2841,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -2.0, 360.0, 298.0, 287.0 ],
+						"rect" : [ 0.0, 360.0, 298.0, 287.0 ],
 						"bgcolor" : [ 0.884659, 0.884659, 0.884659, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -5942,7 +5962,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -5.0, 686.0, 303.0, 473.0 ],
+						"rect" : [ 0.0, 686.0, 303.0, 473.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -10196,7 +10216,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ -3.0, 298.0, 304.0, 465.0 ],
+						"rect" : [ 673.0, 371.0, 304.0, 465.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -10215,6 +10235,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial Bold",
@@ -11443,7 +11464,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 301.0, 44.0, 320.0, 908.0 ],
+						"rect" : [ 316.0, 44.0, 320.0, 908.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -11865,72 +11886,72 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
+			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab", "live.tab", 0 ],
+			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
-			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab", "live.tab", 0 ],
-			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[5]", "live.tab", 0 ]
+			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[1]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.sur.input~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.input~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "input.timeDisplay.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.output~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.output~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -11943,330 +11964,330 @@
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.sur.rogs~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.sur.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.sur.rogs~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.sur.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.nav.oscroute.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.oscRoute",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.ambicontrol.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.ambicontrol",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jlag.nav.ambicontrol.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.ambicontrol",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.setup.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sur.channel.xyz_setup.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/spatialization/sur.setup",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambimonitor2position.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/ambimonitor2position",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.position2ambimonitor.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/position2ambimonitor",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/position2ambimonitor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.bridge.ambi2spat.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.gain~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.filter~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.filter~.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GB.motion.analysis2.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.scale.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.scale",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.scale.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/NavNav-Jamoma_Modules/jmod.nav.scale",
+				"patcherrelativepath" : "../Dependancies/NavNav-Jamoma_Modules/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.qom.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/qom",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GB.motionTrack%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.motion%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/motion%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.motion%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/motion%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.motion%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.checkplanes%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/checkplanes%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.passmatrixinfo%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/passmatrixinfo%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.rgb2luma%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sum%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.orsize%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.orsize%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.brcosa%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.brcosa%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_recv.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/synthesis/Desktop/Synthesis/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
