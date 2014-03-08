@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='densityBlend' type='decimal' priority='0' mixweight='1'>0.950000</item>
+    <item name='densityFade' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='densityScale' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
+    <item name='flowOp' type='string' priority='0' mixweight='1'>addition</item>
+    <item name='gravityAngle' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='gravityMagnitude' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='pressureIMultiply' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='pressureMultiply' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='pressureScale' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='reset' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='temperatureMagnitude' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='timestep' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='velocityBlend' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='velocityFade' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='velocityIMultiply' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='velocityIScale' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='velocityMultiply' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='velocityOutHeight' type='integer' priority='0' mixweight='1'>144</item>
+    <item name='velocityOutWidth' type='integer' priority='0' mixweight='1'>256</item>
+    <item name='velocityScale' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.000000 1.000000 </item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
+    <item name='viscosity' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='vorticity' type='decimal' priority='0' mixweight='1'>0</item>
+  </preset>
+</jamoma>

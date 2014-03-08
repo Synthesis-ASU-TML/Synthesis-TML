@@ -1,0 +1,26 @@
+__________________________/\\\____        
+ ________________________/\\\\\____       
+  ______________________/\\\/\\\____      
+   _____/\\\\\_________/\\\/\/\\\____     
+    ___/\\\///\\\_____/\\\/__\/\\\____    
+     __/\\\__\//\\\__/\\\\\\\\\\\\\\\\_   
+      _\//\\\__/\\\__\///////////\\\//__  
+       __\///\\\\\/_____________\/\\\____ 
+        ____\/////_______________\///_____
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ \ o4 video system                    \
+  \ improvisational environments       \
+   \ asu synthesis center/tml residency \
+    \ february 14-28 2014                \
+     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+
+To launch:
+
+1) Open ./Desktop/mira_control.maxpat (in Max).
+1) Open ./Desktop/01_cam_in (as a standalone app).
+2) Open ./Desktop/02_fluid_sim (as a standalone app). 
+3) Open ./Desktop/03_video_out (as a standalone app).
+
