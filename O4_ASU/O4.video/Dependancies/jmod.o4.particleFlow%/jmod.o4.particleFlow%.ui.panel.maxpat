@@ -492,7 +492,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 165.0, 240.0, 604.0, 31.0 ],
-					"text" : "jcom.parameter #1/line_width @type decimal @range/bounds 0. 30. @range/clipmode both @repetitions/allow 0 @ramp/drive none @description Sets line width for mesh #1",
+					"text" : "jcom.parameter #1/line_width @type decimal @range/bounds 0. 65. @range/clipmode both @repetitions/allow 0 @ramp/drive none @description Sets line width for mesh #1",
 					"varname" : "point_size[2]"
 				}
 
@@ -563,7 +563,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 210.0, 1800.0, 105.0, 18.0 ],
-					"text" : "0"
+					"text" : "worf"
 				}
 
 			}
@@ -597,7 +597,7 @@
 					"patching_rect" : [ 60.000008, 1815.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 390.0, 95.0, 20.0 ],
-					"text" : "\"0\""
+					"text" : "worf"
 				}
 
 			}
@@ -716,7 +716,7 @@
 					"patching_rect" : [ 75.000008, 1485.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 330.0, 95.0, 20.0 ],
-					"text" : "\"0\""
+					"text" : "none"
 				}
 
 			}
@@ -970,7 +970,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 165.0, 165.0, 603.0, 31.0 ],
-					"text" : "jcom.parameter #1/point_size @type decimal @range/bounds 0. 30. @range/clipmode both @repetitions/allow 0 @ramp/drive none @description Sets point size for mesh #1",
+					"text" : "jcom.parameter #1/point_size @type decimal @range/bounds 0. 65. @range/clipmode both @repetitions/allow 0 @ramp/drive none @description Sets point size for mesh #1",
 					"varname" : "point_size[3]"
 				}
 

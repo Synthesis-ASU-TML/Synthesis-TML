@@ -164,7 +164,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -241,7 +241,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 630.0, 585.0, 75.0, 55.0 ],
-									"presentation_rect" : [ 666.0, 550.0, 0.0, 0.0 ],
 									"text" : "species 4 stats out"
 								}
 
@@ -259,7 +258,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 555.0, 585.0, 75.0, 55.0 ],
-									"presentation_rect" : [ 590.0, 554.0, 0.0, 0.0 ],
 									"text" : "species 3 stats out"
 								}
 
@@ -277,7 +275,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 480.0, 585.0, 75.0, 55.0 ],
-									"presentation_rect" : [ 525.0, 561.0, 0.0, 0.0 ],
 									"text" : "species 2 stats out"
 								}
 
@@ -465,7 +462,6 @@
 									}
 ,
 									"patching_rect" : [ 1125.0, 570.0, 84.0, 21.0 ],
-									"presentation_rect" : [ 1162.0, 549.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -493,8 +489,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1125.0, 540.0, 50.0, 21.0 ],
-									"presentation_rect" : [ 1162.0, 519.0, 0.0, 0.0 ]
+									"patching_rect" : [ 1125.0, 540.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -650,7 +645,6 @@
 									}
 ,
 									"patching_rect" : [ 1110.0, 345.0, 84.0, 21.0 ],
-									"presentation_rect" : [ 1110.0, 350.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -678,8 +672,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1110.0, 315.0, 50.0, 21.0 ],
-									"presentation_rect" : [ 1110.0, 320.0, 0.0, 0.0 ]
+									"patching_rect" : [ 1110.0, 315.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -905,7 +898,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1110.0, 690.0, 30.0, 21.0 ],
-									"presentation_rect" : [ 1079.0, 578.0, 0.0, 0.0 ],
 									"text" : "age"
 								}
 
@@ -920,7 +912,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1110.0, 465.0, 75.0, 21.0 ],
-									"presentation_rect" : [ 1077.0, 407.0, 0.0, 0.0 ],
 									"text" : "y position"
 								}
 
@@ -1251,7 +1242,7 @@
 							}
 , 							{
 								"box" : 								{
-									"cols" : 36862,
+									"cols" : 10000,
 									"colwidth" : 200,
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
@@ -1317,7 +1308,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -1741,7 +1732,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -2247,7 +2238,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -2836,7 +2827,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -2995,7 +2986,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 72.0, 1279.0, 680.0 ],
+						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -3206,7 +3197,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.0, 75.0, 390.0, 94.0 ],
+									"patching_rect" : [ 330.0, 75.0, 391.0, 94.0 ],
 									"text" : "The visualization parameters of each species can be set independently. Here, we're looking at only one species.\n\nThe majority of the controls found in the panel are simply exposed GUI versions of drawing parameters for the [jit.gl.mesh] object, since [jit.gl.mesh] is used to draw the particles."
 								}
 
@@ -3348,7 +3339,7 @@
 									"id" : "obj-1",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
+									"name" : "jmod.o4.particleFlow%.ui.panel_for_helpfile.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"patching_rect" : [ 690.0, 210.0, 135.0, 420.0 ],
@@ -3490,7 +3481,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -3620,7 +3611,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 765.0, 135.0, 195.0, 35.0 ],
-									"presentation_rect" : [ 762.0, 120.0, 0.0, 0.0 ],
 									"text" : "Open the [gate] to view the position matrix in the [pwindow]."
 								}
 
@@ -3639,7 +3629,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 455.0, 125.0, 225.0, 50.0 ],
-									"presentation_rect" : [ 405.0, 171.0, 0.0, 0.0 ],
 									"text" : "The position matrix is attached to the third inlet of the [o4.particleFlow] module."
 								}
 
@@ -3775,7 +3764,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -3969,7 +3958,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 40.0, 495.0, 345.0, 156.0 ],
-									"presentation_rect" : [ 178.0, 497.0, 0.0, 0.0 ],
 									"text" : "{op} - the position modulation effect is acheived by combining the position modulation matrix with the basic position matrix using [jit.op]. The {op} parameter selects the operation used to combine the two streams of matrices.\n\n/ is the default and gives the \"silhouette\" effect, but other operations give different results. Modulus (%), for example, creates an effect that looks like the image is being repeatedly sucked away into various drains.\n\nNot all of the available operations have been tested, and not all will work, but experimentation may yield interesting results."
 								}
 
@@ -3988,7 +3976,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 40.0, 435.0, 345.0, 47.0 ],
-									"presentation_rect" : [ 185.0, 453.0, 0.0, 0.0 ],
 									"text" : "{amount}: controls the degree to which the position modulation matrix is blended into the standard position matrix, and thus the intensity of the position modulation effect."
 								}
 
@@ -4071,7 +4058,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -4304,7 +4291,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -4505,7 +4492,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 1279.0, 680.0 ],
+						"rect" : [ 0.0, 72.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -5238,7 +5225,7 @@
 									"name" : "jcom.maxhelpui.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 0.0, 0.0, 1280.0, 70.0 ]
+									"patching_rect" : [ 0.0, 0.0, 1279.0, 70.0 ]
 								}
 
 							}
@@ -5802,6 +5789,13 @@
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
 				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jmod.o4.particleFlow%.ui.panel_for_helpfile.maxpat",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
