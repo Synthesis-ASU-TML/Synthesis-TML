@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 46.0, 1279.0, 706.0 ],
+		"rect" : [ 1.0, 44.0, 1279.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -86,27 +86,12 @@
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-10",
-									"linecount" : 7,
+									"linecount" : 12,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 235.0, 260.0, 268.0, 108.0 ],
-									"text" : "Some draw modes such as line_loop will attempt to connect all of the vertices in the mesh together. When the initialization position is set to [grid] this is relatively simple, since each vertex is connected to an adjacent vertex. When it is set to [noise], however, "
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"frgb" : 0.0,
-									"id" : "obj-8",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 250.0, 150.0, 79.0 ],
-									"text" : "noise and draw_modes - crashing/freezing because too many calculations trying to connect all the vertices"
+									"patching_rect" : [ 15.0, 185.0, 268.0, 181.0 ],
+									"text" : "Some draw modes such as line_loop will attempt to connect all of the vertices in the mesh together. When the initialization position is set to [grid] this is relatively simple, since each vertex is connected to an adjacent vertex. When it is set to [noise], however, the vertices are connected in a random sequence. This produces visually messy results, with lines/polygons overlapping across the render context. It is also very taxing on the processor, leading to low frame rates or freezing."
 								}
 
 							}
@@ -116,27 +101,12 @@
 									"fontsize" : 13.0,
 									"frgb" : 0.0,
 									"id" : "obj-6",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 345.0, 156.0, 50.0 ],
-									"text" : "multiples of 20 to avoid lines across the screen - wrapping connections"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"frgb" : 0.0,
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 200.0, 251.0, 36.0 ],
-									"text" : "polygons and vertices - black screen or overlap"
+									"patching_rect" : [ 15.0, 375.0, 270.0, 79.0 ],
+									"text" : "If you're using one of the line-based draw_modes and are seeing diagonal lines wrapping across the screen, try setting the dimensions of the particle mesh to multiples of 20."
 								}
 
 							}
@@ -150,7 +120,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 135.0, 276.0, 50.0 ],
+									"patching_rect" : [ 15.0, 120.0, 276.0, 50.0 ],
 									"text" : "Try setting draw_mode to points or lines, setting the dimensions to a low value, and then turning up the size parameter."
 								}
 
@@ -240,7 +210,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 630.0, 585.0, 75.0, 55.0 ],
+									"patching_rect" : [ 480.0, 585.0, 75.0, 55.0 ],
 									"text" : "species 4 stats out"
 								}
 
@@ -257,7 +227,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 555.0, 585.0, 75.0, 55.0 ],
+									"patching_rect" : [ 405.0, 585.0, 75.0, 55.0 ],
 									"text" : "species 3 stats out"
 								}
 
@@ -274,7 +244,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 480.0, 585.0, 75.0, 55.0 ],
+									"patching_rect" : [ 330.0, 585.0, 75.0, 55.0 ],
 									"text" : "species 2 stats out"
 								}
 
@@ -291,7 +261,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 405.0, 585.0, 75.0, 55.0 ],
+									"patching_rect" : [ 255.0, 585.0, 75.0, 55.0 ],
 									"text" : "species 1 stats out"
 								}
 
@@ -461,7 +431,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 1125.0, 570.0, 84.0, 21.0 ],
+									"patching_rect" : [ 975.0, 570.0, 84.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -489,7 +459,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1125.0, 540.0, 50.0, 21.0 ]
+									"patching_rect" : [ 975.0, 540.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -644,7 +614,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 1110.0, 345.0, 84.0, 21.0 ],
+									"patching_rect" : [ 960.0, 345.0, 84.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -672,7 +642,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1110.0, 315.0, 50.0, 21.0 ]
+									"patching_rect" : [ 960.0, 315.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -686,7 +656,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 915.0, 105.0, 80.0, 36.0 ]
+									"patching_rect" : [ 765.0, 105.0, 80.0, 36.0 ]
 								}
 
 							}
@@ -841,7 +811,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 900.0, 345.0, 84.0, 21.0 ],
+									"patching_rect" : [ 750.0, 345.0, 84.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -869,7 +839,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 900.0, 315.0, 50.0, 21.0 ]
+									"patching_rect" : [ 750.0, 315.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -883,7 +853,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 210.0, 75.0, 36.0 ],
+									"patching_rect" : [ 585.0, 210.0, 75.0, 36.0 ],
 									"text" : "particle id number"
 								}
 
@@ -897,7 +867,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1110.0, 690.0, 30.0, 21.0 ],
+									"patching_rect" : [ 960.0, 690.0, 30.0, 21.0 ],
 									"text" : "age"
 								}
 
@@ -911,7 +881,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1110.0, 465.0, 75.0, 21.0 ],
+									"patching_rect" : [ 960.0, 465.0, 75.0, 21.0 ],
 									"text" : "y position"
 								}
 
@@ -925,7 +895,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 885.0, 465.0, 75.0, 21.0 ],
+									"patching_rect" : [ 735.0, 465.0, 75.0, 21.0 ],
 									"text" : "x position"
 								}
 
@@ -939,7 +909,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 1110.0, 90.0, 64.0, 21.0 ],
+									"patching_rect" : [ 960.0, 90.0, 64.0, 21.0 ],
 									"text" : "loadbang"
 								}
 
@@ -953,7 +923,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 390.0, 645.0, 162.0, 21.0 ],
+									"patching_rect" : [ 240.0, 645.0, 162.0, 21.0 ],
 									"text" : "jcom.oscroute /destination"
 								}
 
@@ -966,7 +936,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 675.0, 114.0, 21.0 ],
+									"patching_rect" : [ 240.0, 675.0, 114.0, 21.0 ],
 									"text" : "s particles_osc_in"
 								}
 
@@ -981,7 +951,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1050.0, 690.0, 50.0, 21.0 ]
+									"patching_rect" : [ 900.0, 690.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -995,7 +965,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1050.0, 465.0, 50.0, 21.0 ]
+									"patching_rect" : [ 900.0, 465.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -1009,7 +979,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 825.0, 465.0, 50.0, 21.0 ]
+									"patching_rect" : [ 675.0, 465.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -1023,7 +993,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 735.0, 270.0, 50.0, 21.0 ]
+									"patching_rect" : [ 585.0, 270.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -1036,7 +1006,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1050.0, 570.0, 42.0, 21.0 ],
+									"patching_rect" : [ 900.0, 570.0, 42.0, 21.0 ],
 									"text" : "zl nth"
 								}
 
@@ -1050,7 +1020,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1050.0, 345.0, 42.0, 21.0 ],
+									"patching_rect" : [ 900.0, 345.0, 42.0, 21.0 ],
 									"text" : "zl nth"
 								}
 
@@ -1064,7 +1034,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 825.0, 345.0, 42.0, 21.0 ],
+									"patching_rect" : [ 675.0, 345.0, 42.0, 21.0 ],
 									"text" : "zl nth"
 								}
 
@@ -1085,7 +1055,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1050.0, 615.0, 157.0, 65.0 ],
+									"patching_rect" : [ 900.0, 615.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"setminmax" : [ 0.0, 200.0 ],
 									"setstyle" : 5,
@@ -1109,7 +1079,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1050.0, 390.0, 157.0, 65.0 ],
+									"patching_rect" : [ 900.0, 390.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"setminmax" : [ -100.0, 100.0 ],
 									"setstyle" : 5,
@@ -1134,7 +1104,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 825.0, 390.0, 157.0, 65.0 ],
+									"patching_rect" : [ 675.0, 390.0, 157.0, 65.0 ],
 									"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 									"setminmax" : [ -10.0, 10.0 ],
 									"setstyle" : 5,
@@ -1152,7 +1122,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1050.0, 510.0, 105.0, 21.0 ],
+									"patching_rect" : [ 900.0, 510.0, 105.0, 21.0 ],
 									"text" : "jit.spill @plane 2"
 								}
 
@@ -1166,7 +1136,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 1050.0, 255.0, 105.0, 21.0 ],
+									"patching_rect" : [ 900.0, 255.0, 105.0, 21.0 ],
 									"text" : "jit.spill @plane 1"
 								}
 
@@ -1180,7 +1150,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 825.0, 270.0, 105.0, 21.0 ],
+									"patching_rect" : [ 675.0, 270.0, 105.0, 21.0 ],
 									"text" : "jit.spill @plane 0"
 								}
 
@@ -1195,7 +1165,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 870.0, 75.0, 112.0, 21.0 ],
+									"patching_rect" : [ 720.0, 75.0, 112.0, 21.0 ],
 									"text" : "r species_1_stats"
 								}
 
@@ -1208,7 +1178,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 825.0, 90.0, 20.0, 20.0 ]
+									"patching_rect" : [ 675.0, 90.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1221,7 +1191,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 825.0, 120.0, 47.0, 21.0 ],
+									"patching_rect" : [ 675.0, 120.0, 47.0, 21.0 ],
 									"text" : "gate 1"
 								}
 
@@ -1235,7 +1205,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1110.0, 120.0, 57.0, 19.0 ],
+									"patching_rect" : [ 960.0, 120.0, 57.0, 19.0 ],
 									"text" : "plane -1"
 								}
 
@@ -1251,7 +1221,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "list", "", "", "" ],
-									"patching_rect" : [ 855.0, 165.0, 375.0, 50.0 ],
+									"patching_rect" : [ 705.0, 165.0, 375.0, 50.0 ],
 									"rows" : 1
 								}
 
@@ -1265,21 +1235,21 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.0, 150.0, 60.0, 21.0 ],
+									"patching_rect" : [ 240.0, 150.0, 60.0, 21.0 ],
 									"text" : "r gui_init"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "particleFlow%_control1" ],
+									"args" : [ "particleFlow%_control7" ],
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.o4.particleFlow%.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 390.0, 180.0, 300.0, 385.0 ],
+									"patching_rect" : [ 240.0, 180.0, 300.0, 385.0 ],
 									"presentation_rect" : [ 90.0, 90.0, 300.0, 385.0 ]
 								}
 
@@ -1345,7 +1315,7 @@
 									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 879.5, 107.5, 862.5, 107.5 ],
+									"midpoints" : [ 729.5, 107.5, 712.5, 107.5 ],
 									"source" : [ "obj-26", 0 ]
 								}
 
@@ -1391,7 +1361,7 @@
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 909.5, 377.5, 834.5, 377.5 ],
+									"midpoints" : [ 759.5, 377.5, 684.5, 377.5 ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -1401,7 +1371,7 @@
 									"destination" : [ "obj-23", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 834.5, 366.0, 834.5, 366.0 ],
+									"midpoints" : [ 684.5, 366.0, 684.5, 366.0 ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -1411,7 +1381,7 @@
 									"destination" : [ "obj-55", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 834.5, 366.0, 810.0, 366.0, 810.0, 462.0, 834.5, 462.0 ],
+									"midpoints" : [ 684.5, 366.0, 660.0, 366.0, 660.0, 462.0, 684.5, 462.0 ],
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -1430,7 +1400,7 @@
 									"destination" : [ "obj-56", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1059.5, 366.0, 1035.0, 366.0, 1035.0, 462.0, 1059.5, 462.0 ],
+									"midpoints" : [ 909.5, 366.0, 885.0, 366.0, 885.0, 462.0, 909.5, 462.0 ],
 									"source" : [ "obj-45", 0 ]
 								}
 
@@ -1449,7 +1419,7 @@
 									"destination" : [ "obj-57", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1059.5, 591.0, 1035.0, 591.0, 1035.0, 687.0, 1059.5, 687.0 ],
+									"midpoints" : [ 909.5, 591.0, 885.0, 591.0, 885.0, 687.0, 909.5, 687.0 ],
 									"source" : [ "obj-46", 0 ]
 								}
 
@@ -1459,7 +1429,7 @@
 									"destination" : [ "obj-44", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 744.5, 300.5, 857.5, 300.5 ],
+									"midpoints" : [ 594.5, 300.5, 707.5, 300.5 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1469,7 +1439,7 @@
 									"destination" : [ "obj-45", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 744.5, 301.5, 1082.5, 301.5 ],
+									"midpoints" : [ 594.5, 301.5, 932.5, 301.5 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1479,7 +1449,7 @@
 									"destination" : [ "obj-46", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 744.5, 540.0, 1082.5, 540.0 ],
+									"midpoints" : [ 594.5, 540.0, 932.5, 540.0 ],
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1489,7 +1459,7 @@
 									"destination" : [ "obj-31", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1119.5, 377.5, 1059.5, 377.5 ],
+									"midpoints" : [ 969.5, 377.5, 909.5, 377.5 ],
 									"source" : [ "obj-49", 0 ]
 								}
 
@@ -1499,7 +1469,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1119.5, 151.5, 864.5, 151.5 ],
+									"midpoints" : [ 969.5, 151.5, 714.5, 151.5 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -1518,7 +1488,7 @@
 									"destination" : [ "obj-32", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1134.5, 602.5, 1059.5, 602.5 ],
+									"midpoints" : [ 984.5, 602.5, 909.5, 602.5 ],
 									"source" : [ "obj-51", 0 ]
 								}
 
@@ -1555,7 +1525,7 @@
 									"destination" : [ "obj-7", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 455.700012, 572.0, 728.099976, 572.0, 728.099976, 78.0, 862.5, 78.0 ],
+									"midpoints" : [ 305.700012, 572.0, 578.099976, 572.0, 578.099976, 78.0, 712.5, 78.0 ],
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -1565,7 +1535,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 834.5, 162.0, 864.5, 162.0 ],
+									"midpoints" : [ 684.5, 162.0, 714.5, 162.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1575,7 +1545,7 @@
 									"destination" : [ "obj-27", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 834.5, 141.0, 834.5, 141.0 ],
+									"midpoints" : [ 684.5, 141.0, 684.5, 141.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1585,7 +1555,7 @@
 									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 834.5, 240.0, 1059.5, 240.0 ],
+									"midpoints" : [ 684.5, 240.0, 909.5, 240.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1595,7 +1565,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 834.5, 240.0, 994.0, 240.0, 994.0, 498.0, 1059.5, 498.0 ],
+									"midpoints" : [ 684.5, 240.0, 844.0, 240.0, 844.0, 498.0, 909.5, 498.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1711,7 +1681,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "particleFlow%_control1" ],
+									"args" : [ "particleFlow%_control8" ],
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.o4.particleFlow%.maxpat",
@@ -2096,7 +2066,7 @@
 									"id" : "obj-1",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
+									"name" : "jmod.o4.particleFlow%.ui.panel_for_helpfile.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"patching_rect" : [ 450.0, 150.0, 135.0, 420.0 ],
@@ -2217,7 +2187,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "particleFlow%_control1" ],
+									"args" : [ "particleFlow%_control6" ],
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.o4.particleFlow%.maxpat",
@@ -2408,6 +2378,56 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.89,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-28",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1005.0, 420.0, 150.0, 40.0 ],
+									"presentation_rect" : [ 1002.0, 454.0, 0.0, 0.0 ],
+									"text" : "type texture1 here and press enter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.22,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-27",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1005.0, 480.0, 150.0, 40.0 ],
+									"text" : "try playing with this number"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"frgb" : 0.0,
+									"id" : "obj-15",
+									"linecount" : 15,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 15.0, 135.0, 375.0, 224.0 ],
+									"text" : "Using the {texture} parameter, you can apply a video to the particles as a texture. The colour values of the particles (i.e., the vertices of [jit.gl.mesh]) will be taken from this video source.\n\nThe {texture warp} parameter can be used to determine how the pixel colours are apllied to the mesh geometrically. If {texture warp} is set to 0., the texture retains the original pixel positions of the source video, regardless of how the particles are displaced. In other words, it's as if the particles are transparent and the texture can be seen through them. If set to 1., the source video pixels will be layed out normally as long as the particles are arranged in a grid, but when the particles are displaced they'll carry the pixels with them, deforming the texture image.In this case, it's as if the source pixels \"stick\" to the particles and are carried with them as they move. "
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 20.0,
 									"frgb" : 0.0,
@@ -2429,7 +2449,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 390.0, 585.0, 162.0, 21.0 ],
+									"patching_rect" : [ 405.0, 555.0, 162.0, 21.0 ],
 									"text" : "jcom.oscroute /destination"
 								}
 
@@ -2442,7 +2462,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 615.0, 114.0, 21.0 ],
+									"patching_rect" : [ 405.0, 585.0, 114.0, 21.0 ],
 									"text" : "s particles_osc_in"
 								}
 
@@ -2456,7 +2476,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 840.0, 120.0, 90.0, 21.0 ],
+									"patching_rect" : [ 855.0, 90.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 180.0, 75.0, 75.0, 21.0 ],
 									"text" : "layer 1"
@@ -2472,7 +2492,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 240.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 210.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 195.0, 75.0, 21.0 ],
 									"text" : "line width"
@@ -2488,7 +2508,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 540.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 510.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 495.0, 90.0, 21.0 ],
 									"text" : "texture out"
@@ -2504,7 +2524,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 510.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 480.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 465.0, 93.0, 21.0 ],
 									"text" : "texture warp"
@@ -2520,7 +2540,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 480.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 450.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 435.0, 90.0, 21.0 ],
 									"text" : "texture"
@@ -2536,7 +2556,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 450.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 420.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 405.0, 90.0, 21.0 ],
 									"text" : "dimensions"
@@ -2552,7 +2572,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 420.0, 105.0, 21.0 ],
+									"patching_rect" : [ 750.0, 390.0, 105.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 375.0, 105.0, 21.0 ],
 									"text" : "initial positions"
@@ -2566,10 +2586,10 @@
 									"id" : "obj-1",
 									"lockeddragscroll" : 1,
 									"maxclass" : "bpatcher",
-									"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
+									"name" : "jmod.o4.particleFlow%.ui.panel_for_helpfile.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 840.0, 150.0, 135.0, 420.0 ],
+									"patching_rect" : [ 855.0, 120.0, 135.0, 420.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 180.0, 105.0, 135.0, 420.0 ]
 								}
@@ -2584,7 +2604,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 150.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 120.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 105.0, 75.0, 21.0 ],
 									"text" : "enable"
@@ -2600,7 +2620,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 180.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 150.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 135.0, 90.0, 21.0 ],
 									"text" : "draw mode"
@@ -2616,7 +2636,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 210.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 180.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 165.0, 75.0, 21.0 ],
 									"text" : "point size"
@@ -2632,7 +2652,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 270.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 240.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 225.0, 75.0, 21.0 ],
 									"text" : "color"
@@ -2648,7 +2668,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 390.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 360.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 345.0, 75.0, 21.0 ],
 									"text" : "position"
@@ -2664,7 +2684,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 360.0, 90.0, 21.0 ],
+									"patching_rect" : [ 750.0, 330.0, 90.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 75.0, 315.0, 75.0, 21.0 ],
 									"text" : "scale"
@@ -2679,7 +2699,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 60.0, 285.0, 20.0, 20.0 ]
+									"patching_rect" : [ 60.0, 495.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2692,7 +2712,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.0, 315.0, 57.0, 21.0 ],
+									"patching_rect" : [ 60.0, 525.0, 57.0, 21.0 ],
 									"text" : "gate 1 0"
 								}
 
@@ -2704,7 +2724,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 60.0, 345.0, 80.0, 60.0 ]
+									"patching_rect" : [ 60.0, 555.0, 80.0, 60.0 ]
 								}
 
 							}
@@ -2717,7 +2737,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 15.0, 420.0, 201.0, 21.0 ],
+									"patching_rect" : [ 15.0, 630.0, 201.0, 21.0 ],
 									"text" : "jit.gl.texture test @name texture1"
 								}
 
@@ -2731,7 +2751,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 195.0, 96.0, 19.0 ],
+									"patching_rect" : [ 165.0, 405.0, 96.0, 19.0 ],
 									"text" : "read bball.mov"
 								}
 
@@ -2745,7 +2765,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 105.0, 195.0, 37.0, 19.0 ],
+									"patching_rect" : [ 105.0, 405.0, 37.0, 19.0 ],
 									"text" : "read"
 								}
 
@@ -2759,7 +2779,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 15.0, 195.0, 69.0, 21.0 ],
+									"patching_rect" : [ 15.0, 405.0, 69.0, 21.0 ],
 									"text" : "qmetro 20"
 								}
 
@@ -2772,7 +2792,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 165.0, 20.0, 20.0 ]
+									"patching_rect" : [ 15.0, 375.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2785,7 +2805,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 15.0, 240.0, 73.0, 21.0 ],
+									"patching_rect" : [ 15.0, 450.0, 73.0, 21.0 ],
 									"text" : "jit.qt.movie"
 								}
 
@@ -2799,21 +2819,21 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.0, 150.0, 60.0, 21.0 ],
+									"patching_rect" : [ 405.0, 120.0, 60.0, 21.0 ],
 									"text" : "r gui_init"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "particleFlow%_control1" ],
+									"args" : [ "particleFlow%_control5" ],
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.o4.particleFlow%.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 6,
 									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 390.0, 180.0, 300.0, 385.0 ],
+									"patching_rect" : [ 405.0, 150.0, 300.0, 385.0 ],
 									"presentation_rect" : [ 90.0, 90.0, 300.0, 385.0 ]
 								}
 
@@ -2838,7 +2858,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 840.0, 120.0, 135.0, 450.0 ],
+									"patching_rect" : [ 855.0, 90.0, 135.0, 450.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 180.0, 75.0, 135.0, 450.0 ]
 								}
@@ -2850,7 +2870,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 114.5, 226.5, 24.5, 226.5 ],
+									"midpoints" : [ 114.5, 436.5, 24.5, 436.5 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2860,7 +2880,7 @@
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 174.5, 226.5, 24.5, 226.5 ],
+									"midpoints" : [ 174.5, 436.5, 24.5, 436.5 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -2888,7 +2908,7 @@
 									"destination" : [ "obj-9", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 24.5, 272.5, 107.5, 272.5 ],
+									"midpoints" : [ 24.5, 482.5, 107.5, 482.5 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -3460,7 +3480,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "particleFlow%_control1" ],
+									"args" : [ "particleFlow%_control4" ],
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.o4.particleFlow%.maxpat",
@@ -3722,7 +3742,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 120.0, 328.0, 140.0 ],
+									"patching_rect" : [ 15.0, 120.0, 330.0, 140.0 ],
 									"text" : "The position matrix is a 2-plane float32 video stream that provides the basic movement in the particle system, displaying the particles from their initial positions..\n\nIn order to run correctly, the particle system must receive a position matrix input containing information representing the location, direction and velocity of movement. The velocity field output of the [o4.fluids] module contains all this data and is a good source for the position matrix. Experimenting with other 2-plane float32 matrices may, however, yield interesting results."
 								}
 
@@ -3957,7 +3977,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 495.0, 345.0, 156.0 ],
+									"patching_rect" : [ 40.0, 495.0, 349.0, 156.0 ],
 									"text" : "{op} - the position modulation effect is acheived by combining the position modulation matrix with the basic position matrix using [jit.op]. The {op} parameter selects the operation used to combine the two streams of matrices.\n\n/ is the default and gives the \"silhouette\" effect, but other operations give different results. Modulus (%), for example, creates an effect that looks like the image is being repeatedly sucked away into various drains.\n\nNot all of the available operations have been tested, and not all will work, but experimentation may yield interesting results."
 								}
 
@@ -3975,7 +3995,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.0, 435.0, 345.0, 47.0 ],
+									"patching_rect" : [ 40.0, 435.0, 349.0, 47.0 ],
 									"text" : "{amount}: controls the degree to which the position modulation matrix is blended into the standard position matrix, and thus the intensity of the position modulation effect."
 								}
 
@@ -4334,7 +4354,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 705.0, 165.0, 328.0, 67.0 ],
+									"patching_rect" : [ 705.0, 165.0, 330.0, 67.0 ],
 									"text" : "{minMass}/{maxMass}: sets the mass of the particles, which determines how they respond to stimulation from the incoming position matrix. The more mass a particle has, the more energy it takes to accelerate it. Values within the range set by these parameters are distributed across the particles."
 								}
 
@@ -4492,7 +4512,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 72.0, 1279.0, 680.0 ],
+						"rect" : [ 1.0, 70.0, 1279.0, 680.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -4513,6 +4533,19 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-30",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 330.0, 180.0, 81.0, 21.0 ],
+									"text" : "s camera_in"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"color" : [ 0.0, 0.188903, 0.839216, 1.0 ],
 									"fontname" : "Arial",
@@ -5359,6 +5392,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-30", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-35", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5612,20 +5654,20 @@
 		"dependency_cache" : [ 			{
 				"name" : "helpname.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.fluids%.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.fluids%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"patcherrelativepath" : "../jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.fluids%.ui.panel.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.fluids%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"patcherrelativepath" : "../jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5633,20 +5675,20 @@
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.ejm.bilogscaler.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.fluids%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"patcherrelativepath" : "../jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.fluids%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"patcherrelativepath" : "../jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5654,146 +5696,146 @@
 , 			{
 				"name" : "jcom.maxhelpui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiButton.png",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.maxhelpuiResize.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/maxhelpui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.jamomaPath.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/jamomaPath",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/jamomaPath",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/jamomaPath",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.particlemesh.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.initialPositions.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.noisefield.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.normals.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.scalewrap.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.fluids%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
 				"patcherrelativepath" : "../jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.figurative.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mxr.v.scalewrap.maxpat",
-				"bootpath" : "/Applications/Max 6.1/externals/MaxLibraries/MXR/Abstractions/visuals/others",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/externals/MaxLibraries/MXR/Abstractions/visuals/others",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../../o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpstarter.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/help-resources",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/help-resources",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.ui.panel_for_helpfile.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
@@ -70,7 +70,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 110.0, 860.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -84,8 +84,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 365.0, 860.0, 557.0, 31.0 ],
-					"text" : "jcom.parameter boundmode @type array @range/clipmode both @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Boundmode .\"",
+					"patching_rect" : [ 365.0, 860.0, 597.0, 31.0 ],
+					"text" : "jcom.parameter boundmode @type decimalArray @range/clipmode both @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Boundmode .\"",
 					"varname" : "width[2]"
 				}
 
@@ -132,7 +132,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 110.0, 710.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -146,15 +146,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 365.0, 710.0, 595.0, 31.0 ],
-					"text" : "jcom.parameter mode @type array @range/clipmode both @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Mode .\"",
+					"patching_rect" : [ 365.0, 710.0, 565.0, 31.0 ],
+					"text" : "jcom.parameter mode @type decimalArray @range/clipmode both @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Mode .\"",
 					"varname" : "width[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "map (4 plane char)",
 					"id" : "obj-8",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -170,11 +170,12 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 320.0, 240.0, 135.0, 19.0 ],
-					"text" : "VIDEO/TEXTURE INPUT"
+					"patching_rect" : [ 320.0, 240.0, 135.0, 31.0 ],
+					"text" : "VIDEO/TEXTURE INPUT (POSITION MAP)"
 				}
 
 			}
@@ -220,7 +221,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 120.0, 575.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -282,8 +283,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 575.0, 530.0, 31.0 ],
-					"text" : "jcom.parameter amt @type array @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Amount .\"",
+					"patching_rect" : [ 375.0, 575.0, 570.0, 31.0 ],
+					"text" : "jcom.parameter amt @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Amount .\"",
 					"varname" : "width[6]"
 				}
 
@@ -413,7 +414,8 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "",
+					"comment" : "image (4 plane char)",
 					"id" : "obj-3",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -429,11 +431,12 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 240.0, 135.0, 19.0 ],
-					"text" : "VIDEO/TEXTURE INPUT"
+					"patching_rect" : [ 145.0, 240.0, 135.0, 31.0 ],
+					"text" : "VIDEO/TEXTURE INPUT (IMAGE)"
 				}
 
 			}
@@ -558,7 +561,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/Repos"
+					"text" : "/repos%"
 				}
 
 			}

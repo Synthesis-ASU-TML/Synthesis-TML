@@ -38,7 +38,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 60.0, 120.0, 34.0, 20.0 ],
-					"presentation_rect" : [ 57.0, 138.0, 0.0, 0.0 ],
 					"text" : "t b b"
 				}
 
@@ -67,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 210.0, 80.0, 18.0 ],
-					"presentation_rect" : [ 134.0, 242.0, 0.0, 0.0 ],
 					"text" : "set 0. 0. 0. 0."
 				}
 
@@ -293,7 +291,7 @@
 					"patching_rect" : [ 247.5, 520.0, 57.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.0, 120.0, 42.0, 18.0 ],
-					"text" : "0.00"
+					"text" : "1.00"
 				}
 
 			}
@@ -624,13 +622,13 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-67",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 240.0, 585.0, 180.0, 43.0 ],
-					"text" : "jcom.parameter #1 @type array @ramp/drive none @description #1",
+					"patching_rect" : [ 240.0, 585.0, 285.0, 31.0 ],
+					"text" : "jcom.parameter #1 @type decimalArray @ramp/drive none @description #1",
 					"varname" : "dim[1]"
 				}
 

@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 16.0, 65.0, 675.0, 238.0 ],
+		"rect" : [ 596.0, 259.0, 675.0, 238.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 435.0, 15.0, 77.0, 19.0 ],
-					"text" : "VIDEO INPUT"
+					"text" : "MAP INPUT"
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 315.0, 15.0, 77.0, 19.0 ],
-					"text" : "VIDEO INPUT"
+					"text" : "IMAGE INPUT"
 				}
 
 			}
