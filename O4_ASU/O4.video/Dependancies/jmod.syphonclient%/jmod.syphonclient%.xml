@@ -5,18 +5,15 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='comm/destip' type='string' priority='0' mixweight='1'>127.0.0.1</item>
-    <item name='comm/videoport' type='integer' priority='0' mixweight='1'>7456</item>
+    <item name='destination' type='string' priority='0' mixweight='1'>transmit</item>
+    <item name='matrixdim' type='integerArray' priority='0' mixweight='1'>640 480 </item>
+    <item name='matrixoutput' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='server' type='integer' priority='0' mixweight='1'>1</item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
-    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
-    <item name='vipr/bframes' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='vipr/bitrate' type='integer' priority='0' mixweight='1'>5000000</item>
-    <item name='vipr/codec' type='integer' priority='0' mixweight='1'>0</item>
-    <item name='vipr/compress' type='integer' priority='0' mixweight='1'>1</item>
-    <item name='vipr/gop' type='integer' priority='0' mixweight='1'>10</item>
   </preset>
 </jamoma>

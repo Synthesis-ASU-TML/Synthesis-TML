@@ -1,12 +1,10 @@
 <jittershader name='tml.gl.wave.glsl'>
- 
 <param name='tex0' type='int' default='0' />
 <param name='tex1' type='int' default='1' />
 <param name='tex2' type='int' default='2' />
 <param name='dt' type='float' default='0.' />
 <param name='diffusion' type='float' default='0.' />
 <language name='glsl' version='1.0'>
- 
 <bind param='tex0' program='fp' />
 <bind param='tex1' program='fp' />
 <bind param='tex2' program='fp' />
