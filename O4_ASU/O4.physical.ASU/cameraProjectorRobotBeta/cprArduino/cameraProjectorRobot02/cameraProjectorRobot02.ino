@@ -107,6 +107,10 @@ void loop()
           stepper2.moveTo(targetPos2);
           break;
         }  //end of case B
+        case 'S':
+        {
+          getSpeed();
+        }  //end of case S
       }  //end of switch case conditional
     }  //end of if conditional 
   
@@ -133,8 +137,6 @@ void loop()
           stepper2.run();
         }  //end of else condition
         
-        Serial.print("speed ");
-        Serial.println(stepper1.speed());
         
 }//end of loop
 
@@ -200,3 +202,11 @@ void panCalibration()
   //stepper1.moveTo(24);
   }  //end while condition
 }//end of panCalibration function
+
+void getSpeed()
+{
+  Serial.print("panSpeed ");
+        Serial.println(stepper1.speed());
+  Serial.print("tiltSpeed ");
+        Serial.println(stepper2.speed());
+}  //end of getSpeed
