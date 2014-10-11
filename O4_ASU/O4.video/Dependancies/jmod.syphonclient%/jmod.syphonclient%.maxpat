@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 72.0, -888.0, 1280.0, 706.0 ],
+		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 695.0, 855.0, 70.0, 19.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -372,7 +386,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-8",
-					"items" : "/SyphonCamera/Built-in iSight",
+					"items" : "/Max/",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -407,8 +421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 720.0, 210.0, 18.0 ],
-					"text" : "set \"/SyphonCamera/Built-in iSight\""
+					"patching_rect" : [ 30.0, 720.0, 210.0, 18.0 ]
 				}
 
 			}
@@ -701,6 +714,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bordercolor" : [ 0.62, 0.0, 0.36, 1.0 ],
 					"has_bypass" : 1,
 					"has_freeze" : 1,
 					"has_mute" : 1,
@@ -714,7 +728,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/syphonclient%"
+					"text" : "/syphonclient%.1"
 				}
 
 			}
@@ -780,11 +794,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 321.5, 846.0, 234.0, 846.0, 234.0, 780.0, 126.5, 780.0 ],
-					"source" : [ "obj-109", 0 ]
+					"source" : [ "obj-109", 1 ]
 				}
 
 			}
@@ -881,6 +894,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 704.5, 876.0, 234.0, 876.0, 234.0, 780.0, 126.5, 780.0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
