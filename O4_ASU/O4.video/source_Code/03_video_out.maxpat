@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 310.0, 44.0, 657.0, 924.0 ],
+		"rect" : [ 765.0, 49.0, 673.0, 932.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1496,9 +1496,9 @@
 					"fontsize" : 12.0,
 					"id" : "obj-49",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "jit_matrix" ],
 					"patching_rect" : [ 30.0, 495.0, 137.0, 20.0 ],
 					"text" : "o4.projector_remapping"
 				}
@@ -2250,6 +2250,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-136", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2711,176 +2720,183 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.o4.particleFlow%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"bootpath" : "/Users/NavNav/code/SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
+				"patcherrelativepath" : "../../../../../SearchPath/JamomaUsers/GMEA/Projects/CP.interface/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.particlemesh.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.initialPositions.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.noisefield.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.normals.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.scalewrap.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.fluids%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.fluids%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.figurative.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../o4.video/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.particleFlow%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mxr.v.scalewrap.maxpat",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.tml.alphamix%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.tml.alphamix%",
-				"patcherrelativepath" : "../o4.video/jmod.tml.alphamix%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.alphamix%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.alphamix%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.tml.alphamix%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.tml.alphamix%",
-				"patcherrelativepath" : "../o4.video/jmod.tml.alphamix%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.alphamix%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.alphamix%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.tml.alphamix%.layer.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jmod.tml.alphamix%",
-				"patcherrelativepath" : "../o4.video/jmod.tml.alphamix%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.alphamix%",
+				"patcherrelativepath" : "../Dependancies/jmod.o4.alphamix%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.bloom%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "../o4.video/jamoma_shaders/jmod.gl.bloom%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "../Dependancies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.bloom%.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "../o4.video/jamoma_shaders/jmod.gl.bloom%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "../Dependancies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.tp.slide%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/jamoma_shaders/jmod.gl.tp.slide%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "../Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.tp.slide%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/jamoma_shaders/jmod.gl.tp.slide%",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "../Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.projector_remapping.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video/o4.asu_utils",
-				"patcherrelativepath" : "../o4.video/o4.asu_utils",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "output_layer.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video",
-				"patcherrelativepath" : "../o4.video",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "particleFlow_control_from_mira.maxpat",
-				"bootpath" : "/Users/synthesis/Desktop/o4.video",
-				"patcherrelativepath" : "../o4.video",
+				"bootpath" : "/Users/NavNav/code/Git/Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
