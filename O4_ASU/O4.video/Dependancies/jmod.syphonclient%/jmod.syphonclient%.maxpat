@@ -386,7 +386,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-8",
-					"items" : [ "/SyphonCamera/Camera", ",", "/01_syphon_camera/Camera with mask", ",", "/02_fluids/Fluids - density", ",", "/Max/B", ",", "/Max/C", ",", "/SyphonCamera/Camera", ",", "/01_syphon_camera/Camera with mask", ",", "/02_fluids/Fluids - density", ",", "/Max/B", ",", "/Max/C" ],
+					"items" : [ "/SyphonCamera/Camera", ",", "/01_syphon_camera/Camera with mask", ",", "/02_fluids/Fluids - density", ",", "/Max/server" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -424,7 +424,7 @@
 					"patching_rect" : [ 62.0, 300.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 25.0, 65.0, 20.0 ],
-					"text" : "640 480"
+					"text" : "256 256"
 				}
 
 			}
@@ -687,7 +687,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/syphonclient%"
+					"text" : "/myModule"
 				}
 
 			}
@@ -870,9 +870,7 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 255.0, 705.0, 309.5, 705.0 ],
-					"source" : [ "obj-2", 2 ],
-					"watchpoint_flags" : 2,
-					"watchpoint_id" : 1
+					"source" : [ "obj-2", 2 ]
 				}
 
 			}
