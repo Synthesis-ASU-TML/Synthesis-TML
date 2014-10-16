@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
+		"rect" : [ 154.0, 348.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 350.0, 290.0, 70.0, 19.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -386,7 +400,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-8",
-					"items" : [ "/SyphonCamera/Camera", ",", "/01_syphon_camera/Camera with mask", ",", "/02_fluids/Fluids - density", ",", "/Max/server" ],
+					"items" : [ "/Max/server B", ",", "/Max/server A" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -424,7 +438,7 @@
 					"patching_rect" : [ 62.0, 300.0, 60.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 25.0, 65.0, 20.0 ],
-					"text" : "256 256"
+					"text" : "640 480"
 				}
 
 			}
@@ -449,10 +463,10 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 62.0, 240.0, 386.0, 19.0 ],
-					"text" : "jcom.oscroute /dimensions /newserverlistbang /umenu /matrixdimensions"
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 62.0, 240.0, 425.0, 19.0 ],
+					"text" : "jcom.oscroute /dimensions /newserverlistbang /umenu /matrixdimensions /server"
 				}
 
 			}
@@ -502,7 +516,7 @@
 					"patching_rect" : [ 117.0, 795.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 25.0, 115.0, 20.0 ],
-					"text" : "test"
+					"text" : "context1"
 				}
 
 			}
@@ -687,7 +701,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
-					"text" : "/myModule"
+					"text" : "/syphonclient%.1"
 				}
 
 			}
@@ -850,8 +864,17 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 346.75, 390.0, 354.5, 390.0 ],
+					"midpoints" : [ 315.100006, 390.0, 354.5, 390.0 ],
 					"source" : [ "obj-2", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 4 ]
 				}
 
 			}
@@ -869,7 +892,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 255.0, 705.0, 309.5, 705.0 ],
+					"midpoints" : [ 233.899994, 705.0, 309.5, 705.0 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -1038,6 +1061,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 359.5, 420.0, 300.0, 420.0, 300.0, 717.0, 309.5, 717.0 ],
+					"source" : [ "obj-44", 0 ]
 				}
 
 			}
