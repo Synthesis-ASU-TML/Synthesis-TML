@@ -4,11 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-<<<<<<< Updated upstream
-			"revision" : 3,
-=======
 			"revision" : 8,
->>>>>>> Stashed changes
 			"architecture" : "x86"
 		}
 ,
@@ -36,20 +32,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-<<<<<<< Updated upstream
 					"id" : "obj-44",
-=======
-					"id" : "obj-40",
->>>>>>> Stashed changes
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-<<<<<<< Updated upstream
 					"patching_rect" : [ 350.0, 290.0, 70.0, 19.0 ],
-=======
-					"patching_rect" : [ 918.5, 760.0, 70.0, 19.0 ],
->>>>>>> Stashed changes
 					"text" : "prepend set"
 				}
 
@@ -412,11 +400,7 @@
 					"fontsize" : 12.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
 					"id" : "obj-8",
-<<<<<<< Updated upstream
 					"items" : [ "/Max/server B", ",", "/Max/server A" ],
-=======
-					"items" : "<empty>",
->>>>>>> Stashed changes
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -532,11 +516,7 @@
 					"patching_rect" : [ 117.0, 795.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 25.0, 115.0, 20.0 ],
-<<<<<<< Updated upstream
 					"text" : "context1"
-=======
-					"text" : "test"
->>>>>>> Stashed changes
 				}
 
 			}
@@ -1087,19 +1067,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-<<<<<<< Updated upstream
-=======
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 928.0, 791.0, 614.5, 791.0, 614.5, 710.0, 309.5, 710.0 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-145", 0 ],
->>>>>>> Stashed changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 359.5, 420.0, 300.0, 420.0, 300.0, 717.0, 309.5, 717.0 ],
