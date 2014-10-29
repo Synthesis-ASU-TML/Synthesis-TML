@@ -5,16 +5,13 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='amount' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 1.000000 1.000000 </item>
-    <item name='blendmode' type='integer' priority='0' mixweight='1'>0</item>
     <item name='destination' type='string' priority='0' mixweight='1'>test</item>
-    <item name='gain' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='planemap' type='integerArray' priority='0' mixweight='1'>0 1 2 3 </item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
-    <item name='width' type='decimal' priority='0' mixweight='1'>0.000000</item>
   </preset>
 </jamoma>

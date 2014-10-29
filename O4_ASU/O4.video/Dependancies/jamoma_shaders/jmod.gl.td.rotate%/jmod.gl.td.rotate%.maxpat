@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
+		"rect" : [ 318.0, 209.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -34,14 +34,14 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
-					"maxclass" : "flonum",
+					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 975.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 975.0, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 120.0, 40.0, 19.0 ]
+					"presentation_rect" : [ 65.0, 120.0, 50.0, 19.0 ]
 				}
 
 			}
@@ -71,8 +71,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 975.0, 582.0, 31.0 ],
-					"text" : "jcom.parameter boundmode @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Boundmode .\"",
+					"patching_rect" : [ 375.0, 975.0, 559.0, 31.0 ],
+					"text" : "jcom.parameter boundmode @type integer @range/clipmode both @range/bounds 1 4 @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Boundmode .\"",
 					"varname" : "width[4]"
 				}
 
@@ -168,7 +168,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 120.0, 810.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 120.0, 570.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -308,7 +308,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 120.0, 690.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -610,8 +610,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 75.0, 315.0, 90.0, 19.0 ],
-					"text" : "jalg.gl.td.rota%"
+					"patching_rect" : [ 75.0, 315.0, 100.0, 19.0 ],
+					"text" : "jalg.gl.td.rotate%"
 				}
 
 			}
@@ -629,7 +629,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/myModule.2"
 				}
 
 			}
@@ -960,49 +960,6 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jalg.gl.td.rota%.maxpat",
-				"bootpath" : "/Users/aa/Desktop/_Evan_ASU/Git/ASU_repo/ASU_video_workshop_2013_12_13/jamoma_shaders/jmod.gl.td.rota%",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
