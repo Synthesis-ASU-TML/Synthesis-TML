@@ -5,18 +5,19 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='cCrossWebs' type='decimal' priority='0' mixweight='1'>10.000000</item>
-    <item name='cRadialWebs' type='decimal' priority='0' mixweight='1'>20.000000</item>
+    <item name='active' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='crossWebs' type='decimal' priority='0' mixweight='1'>10.000000</item>
     <item name='destination' type='string' priority='0' mixweight='1'>test</item>
     <item name='dim' type='integerArray' priority='0' mixweight='1'>1920 1080 </item>
-    <item name='rWebCenterS' type='decimal' priority='0' mixweight='1'>0.500000</item>
-    <item name='rWebCenterT' type='decimal' priority='0' mixweight='1'>0.500000</item>
-    <item name='rWebDiam' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='offsetX' type='decimal' priority='0' mixweight='1'>0.500000</item>
+    <item name='offsetY' type='decimal' priority='0' mixweight='1'>0.500000</item>
+    <item name='radialWebs' type='decimal' priority='0' mixweight='1'>20.000000</item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
+    <item name='webDiam' type='decimal' priority='0' mixweight='1'>10.000000</item>
   </preset>
 </jamoma>

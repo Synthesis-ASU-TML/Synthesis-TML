@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1280.0, 706.0 ],
+		"rect" : [ 861.0, 253.0, 1280.0, 706.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -30,6 +30,99 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 495.0, 40.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 45.0, 40.0, 19.0 ],
+					"text" : "active"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Activate generator.",
+					"id" : "obj-22",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 105.0, 495.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 65.0, 45.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 455.0, 30.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 75.0, 30.0, 19.0 ],
+					"text" : "dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-17",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 160.0, 455.0, 50.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 95.0, 75.0, 50.0, 19.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 105.0, 455.0, 50.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 75.0, 50.0, 19.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 11,
+					"numoutlets" : 11,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 105.0, 425.0, 154.0, 19.0 ],
+					"text" : "jcom.list2parameter 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "Web center S.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -39,9 +132,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 810.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 800.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 120.0, 65.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 160.0, 65.0, 19.0 ]
 				}
 
 			}
@@ -56,9 +149,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 690.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 735.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 80.0, 65.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 140.0, 65.0, 19.0 ]
 				}
 
 			}
@@ -73,9 +166,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 750.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 860.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 100.0, 65.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 180.0, 65.0, 19.0 ]
 				}
 
 			}
@@ -90,9 +183,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 570.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 615.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 40.0, 65.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 100.0, 65.0, 19.0 ]
 				}
 
 			}
@@ -107,9 +200,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 630.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 675.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 60.0, 65.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 120.0, 65.0, 19.0 ]
 				}
 
 			}
@@ -123,8 +216,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 810.0, 589.0, 31.0 ],
-					"text" : "jcom.parameter rWebCenterS @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Web center S.\"",
+					"patching_rect" : [ 195.0, 800.0, 558.0, 31.0 ],
+					"text" : "jcom.parameter offsetX @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"X offset.\"",
 					"varname" : "dim[4]"
 				}
 
@@ -138,10 +231,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 810.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 800.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 120.0, 80.0, 19.0 ],
-					"text" : "rWebCenterS"
+					"presentation_rect" : [ 0.0, 160.0, 80.0, 19.0 ],
+					"text" : "offsetX"
 				}
 
 			}
@@ -155,8 +248,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 750.0, 589.0, 31.0 ],
-					"text" : "jcom.parameter rWebCenterT @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Web center T.\"",
+					"patching_rect" : [ 195.0, 860.0, 558.0, 31.0 ],
+					"text" : "jcom.parameter offsetY @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Y offset.\"",
 					"varname" : "dim[3]"
 				}
 
@@ -170,10 +263,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 750.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 860.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.000001, 100.0, 80.0, 19.0 ],
-					"text" : "rWebCenterT"
+					"presentation_rect" : [ 0.000001, 180.0, 80.0, 19.0 ],
+					"text" : "offsetY"
 				}
 
 			}
@@ -187,8 +280,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 690.0, 575.0, 31.0 ],
-					"text" : "jcom.parameter rWebDiam @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Web diameter.\"",
+					"patching_rect" : [ 195.0, 735.0, 570.0, 31.0 ],
+					"text" : "jcom.parameter webDiam @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Web diameter.\"",
 					"varname" : "dim[1]"
 				}
 
@@ -202,10 +295,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 690.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 735.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 80.0, 80.0, 19.0 ],
-					"text" : "rWebDiam"
+					"presentation_rect" : [ 0.0, 140.0, 80.0, 19.0 ],
+					"text" : "webDiam"
 				}
 
 			}
@@ -219,8 +312,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 630.0, 583.0, 31.0 ],
-					"text" : "jcom.parameter cCrossWebs @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Cross webs.\"",
+					"patching_rect" : [ 195.0, 675.0, 576.0, 31.0 ],
+					"text" : "jcom.parameter crossWebs @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Cross webs.\"",
 					"varname" : "dim[2]"
 				}
 
@@ -234,10 +327,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 630.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 675.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 60.0, 80.0, 19.0 ],
-					"text" : "cCrossWebs"
+					"presentation_rect" : [ 0.0, 120.0, 80.0, 19.0 ],
+					"text" : "crossWebs"
 				}
 
 			}
@@ -250,10 +343,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 570.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 615.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 40.0, 80.0, 19.0 ],
-					"text" : "cRadialWebs"
+					"presentation_rect" : [ 0.0, 100.0, 80.0, 19.0 ],
+					"text" : "radialWebs"
 				}
 
 			}
@@ -267,8 +360,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 570.0, 586.0, 31.0 ],
-					"text" : "jcom.parameter cRadialWebs @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Radial webs.\"",
+					"patching_rect" : [ 195.0, 615.0, 578.0, 31.0 ],
+					"text" : "jcom.parameter radialWebs @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Radial webs.\"",
 					"varname" : "width[6]"
 				}
 
@@ -282,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 480.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 525.0, 75.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 20.0, 75.0, 19.0 ],
 					"text" : "render dest"
@@ -298,7 +391,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 105.0, 510.0, 100.0, 19.0 ],
+					"patching_rect" : [ 105.0, 555.0, 100.0, 19.0 ],
 					"text" : "route text"
 				}
 
@@ -316,7 +409,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 480.0, 105.0, 20.0 ],
+					"patching_rect" : [ 105.0, 525.0, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 20.0, 80.0, 20.0 ],
 					"text" : "test"
@@ -332,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 300.0, 510.0, 790.0, 19.0 ],
+					"patching_rect" : [ 300.0, 555.0, 790.0, 19.0 ],
 					"text" : "jcom.parameter destination @type string @range/clipmode none @repetitions/allow 1 @description \"Sets the name of the render destination for the slab.\"",
 					"varname" : "destination"
 				}
@@ -520,7 +613,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 75.0, 315.0, 123.0, 19.0 ],
@@ -541,8 +634,38 @@
 					"outlettype" : [ "" ],
 					"prefix" : "video",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/mySpider"
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 210.0 ],
+					"text" : "/myModule.2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 300.0, 425.0, 828.0, 19.0 ],
+					"text" : "jcom.parameter dim @range/bounds 0. 2000. @type integerArray @range/clipmode both @repetitions/allow 0 @description \"Dimensions (in pixels) of generator.\"",
+					"varname" : "dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 300.0, 495.0, 484.0, 19.0 ],
+					"text" : "jcom.parameter active @type boolean @repetitions/allow 0 @description \"Activate generator.\"",
+					"varname" : "active"
 				}
 
 			}
@@ -594,10 +717,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 114.5, 476.0, 90.0, 476.0, 90.0, 422.0, 114.5, 422.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 169.5, 485.0, 90.0, 485.0, 90.0, 422.0, 128.0, 422.0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -612,10 +755,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
+					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -741,10 +893,48 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 10 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 114.5, 446.0, 114.5, 446.0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 128.0, 452.0, 169.5, 452.0 ],
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 10 ]
 				}
 
 			}
