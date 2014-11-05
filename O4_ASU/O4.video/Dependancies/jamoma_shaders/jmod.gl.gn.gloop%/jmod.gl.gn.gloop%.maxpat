@@ -501,8 +501,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 300.0, 1290.0, 532.0, 31.0 ],
-					"text" : "jcom.parameter fade @type array @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Fade plasma.\"",
+					"patching_rect" : [ 300.0, 1290.0, 589.0, 31.0 ],
+					"text" : "jcom.parameter fade @type array @range/clipmode both @range/bounds 0. 6. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Fade plasma.\"",
 					"varname" : "dim[4]"
 				}
 
@@ -533,8 +533,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 300.0, 1140.0, 543.0, 31.0 ],
-					"text" : "jcom.parameter thresh @type array @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Threshold of plasma.\"",
+					"patching_rect" : [ 300.0, 1140.0, 604.0, 31.0 ],
+					"text" : "jcom.parameter thresh @type array @range/clipmode both @range/bounds -1. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Threshold of plasma.\"",
 					"varname" : "dim[3]"
 				}
 
@@ -894,7 +894,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/myModule.2"
+					"text" : "/myModule"
 				}
 
 			}

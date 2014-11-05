@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -70,7 +70,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 120.0, 690.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -132,7 +132,7 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 120.0, 570.0, 154.0, 19.0 ],
-					"text" : "jcom.list2parameter 4"
+					"text" : "jcom.list2parameter 2"
 				}
 
 			}
@@ -453,7 +453,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"text" : "/Mirror"
+					"text" : "/myModule.2"
 				}
 
 			}

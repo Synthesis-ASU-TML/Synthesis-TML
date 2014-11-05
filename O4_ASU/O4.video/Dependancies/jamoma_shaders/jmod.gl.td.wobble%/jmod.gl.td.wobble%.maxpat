@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -16,7 +16,7 @@
 		"default_fontface" : 0,
 		"default_fontname" : "Verdana",
 		"gridonopen" : 0,
-		"gridsize" : [ 15.0, 15.0 ],
+		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
@@ -37,9 +37,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 975.0, 60.0, 19.0 ],
+					"patching_rect" : [ 15.0, 900.0, 60.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 140.0, 50.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 120.0, 50.0, 19.0 ],
 					"text" : "radius"
 				}
 
@@ -55,9 +55,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 975.0, 45.0, 19.0 ],
+					"patching_rect" : [ 120.0, 900.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 140.0, 40.0, 19.0 ]
+					"presentation_rect" : [ 52.0, 120.0, 40.0, 19.0 ]
 				}
 
 			}
@@ -71,42 +71,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 975.0, 541.0, 31.0 ],
+					"patching_rect" : [ 375.0, 900.0, 541.0, 31.0 ],
 					"text" : "jcom.parameter radius @type array @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Radius .\"",
 					"varname" : "dim[5]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 915.0, 60.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 120.0, 50.0, 19.0 ],
-					"text" : "image"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"annotation" : "Image .",
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"id" : "obj-7",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 120.0, 915.0, 45.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 120.0, 40.0, 19.0 ]
 				}
 
 			}
@@ -285,22 +252,6 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"id" : "obj-66",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 915.0, 541.0, 31.0 ],
-					"text" : "jcom.parameter image @type array @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Image .\"",
-					"varname" : "dim[4]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
 					"id" : "obj-55",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -388,7 +339,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 570.0, 60.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 40.0, 50.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 40.0, 50.0, 19.0 ],
 					"text" : "lightpos"
 				}
 
@@ -661,8 +612,8 @@
 					"outlettype" : [ "" ],
 					"prefix" : "video",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
-					"text" : "/Wobble"
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
+					"text" : "/myModule.2"
 				}
 
 			}
@@ -988,29 +939,11 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-66", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 219.5, 652.0, 98.0, 652.0, 98.0, 548.0, 156.5, 548.0 ],
 					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

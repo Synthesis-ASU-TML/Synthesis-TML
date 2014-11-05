@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -71,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 855.0, 605.0, 43.0 ],
+					"patching_rect" : [ 375.0, 855.0, 417.0, 43.0 ],
 					"text" : "jcom.parameter intrpe @type float @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Interpolation on/off.\"",
 					"varname" : "dim[3]"
 				}
@@ -297,8 +297,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 585.0, 544.0, 31.0 ],
-					"text" : "jcom.parameter srcdim @type array @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Define source dimensions to use.\"",
+					"patching_rect" : [ 375.0, 585.0, 600.0, 31.0 ],
+					"text" : "jcom.parameter srcdim @type array @range/clipmode both @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Define source dimensions to use.\"",
 					"varname" : "dim[2]"
 				}
 
@@ -588,7 +588,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/Resample"
+					"text" : "/myModule.2"
 				}
 
 			}

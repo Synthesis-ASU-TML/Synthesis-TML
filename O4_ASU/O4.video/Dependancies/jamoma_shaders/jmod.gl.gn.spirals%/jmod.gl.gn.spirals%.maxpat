@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,129 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 640.0, 40.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 40.0, 40.0, 19.0 ],
+					"text" : "active"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Activate generator.",
+					"id" : "obj-49",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 105.0, 640.0, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 65.0, 40.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 600.0, 30.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 65.0, 30.0, 19.0 ],
+					"text" : "dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-51",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 160.0, 600.0, 50.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 95.0, 65.0, 50.0, 19.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-52",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 105.0, 600.0, 50.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 45.0, 65.0, 50.0, 19.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 11,
+					"numoutlets" : 11,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 105.0, 570.0, 154.0, 19.0 ],
+					"text" : "jcom.list2parameter 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 275.0, 570.0, 828.0, 19.0 ],
+					"text" : "jcom.parameter dim @range/bounds 0. 2000. @type integerArray @range/clipmode both @repetitions/allow 0 @description \"Dimensions (in pixels) of generator.\"",
+					"varname" : "dim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 275.0, 640.0, 484.0, 19.0 ],
+					"text" : "jcom.parameter active @type boolean @repetitions/allow 0 @description \"Activate generator.\"",
+					"varname" : "active"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "Phase of spiral.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
@@ -39,9 +162,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 690.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 805.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 90.0, 45.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 130.0, 45.0, 19.0 ]
 				}
 
 			}
@@ -56,9 +179,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 750.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 865.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 110.0, 45.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 150.0, 45.0, 19.0 ]
 				}
 
 			}
@@ -73,9 +196,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 570.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 685.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 50.0, 45.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 90.0, 45.0, 19.0 ]
 				}
 
 			}
@@ -90,9 +213,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.0, 630.0, 45.0, 19.0 ],
+					"patching_rect" : [ 105.0, 745.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 70.0, 45.0, 19.0 ]
+					"presentation_rect" : [ 80.0, 110.0, 45.0, 19.0 ]
 				}
 
 			}
@@ -106,7 +229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 750.0, 548.0, 31.0 ],
+					"patching_rect" : [ 195.0, 865.0, 548.0, 31.0 ],
 					"text" : "jcom.parameter rings @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Number of rings.\"",
 					"varname" : "dim[3]"
 				}
@@ -121,9 +244,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 750.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 865.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.000001, 110.0, 80.0, 19.0 ],
+					"presentation_rect" : [ 0.000001, 150.0, 80.0, 19.0 ],
 					"text" : "rings"
 				}
 
@@ -138,7 +261,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 690.0, 553.0, 31.0 ],
+					"patching_rect" : [ 195.0, 805.0, 553.0, 31.0 ],
 					"text" : "jcom.parameter phase @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Phase of spiral.\"",
 					"varname" : "dim[1]"
 				}
@@ -153,9 +276,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 690.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 805.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 90.0, 80.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 130.0, 80.0, 19.0 ],
 					"text" : "phase"
 				}
 
@@ -170,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 630.0, 543.0, 31.0 ],
+					"patching_rect" : [ 195.0, 745.0, 543.0, 31.0 ],
 					"text" : "jcom.parameter freq @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Frequency of rings.\"",
 					"varname" : "dim[2]"
 				}
@@ -185,9 +308,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 630.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 745.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 70.0, 80.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 110.0, 80.0, 19.0 ],
 					"text" : "freq"
 				}
 
@@ -201,9 +324,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 570.0, 75.0, 19.0 ],
+					"patching_rect" : [ 15.0, 685.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 50.0, 80.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 90.0, 80.0, 19.0 ],
 					"text" : "exp"
 				}
 
@@ -218,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 195.0, 570.0, 541.0, 31.0 ],
+					"patching_rect" : [ 195.0, 685.0, 541.0, 31.0 ],
 					"text" : "jcom.parameter exp @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Exponent value .\"",
 					"varname" : "width[6]"
 				}
@@ -235,7 +358,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 480.0, 75.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 25.0, 75.0, 19.0 ],
+					"presentation_rect" : [ 0.0, 20.0, 75.0, 19.0 ],
 					"text" : "render dest"
 				}
 
@@ -269,7 +392,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.0, 480.0, 105.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 25.0, 60.0, 20.0 ],
+					"presentation_rect" : [ 65.0, 20.0, 60.0, 20.0 ],
 					"text" : "test"
 				}
 
@@ -472,7 +595,7 @@
 					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 75.0, 315.0, 104.0, 19.0 ],
@@ -493,8 +616,8 @@
 					"outlettype" : [ "" ],
 					"prefix" : "video",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/editing_this_module"
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
+					"text" : "/myModule"
 				}
 
 			}
@@ -550,15 +673,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -657,6 +771,44 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 169.5, 630.0, 90.0, 630.0, 90.0, 567.0, 128.0, 567.0 ],
+					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 114.5, 621.0, 90.0, 621.0, 90.0, 567.0, 114.5, 567.0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -675,10 +827,48 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 10 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 128.0, 597.0, 169.5, 597.0 ],
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 114.5, 591.0, 114.5, 591.0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 10 ]
 				}
 
 			}
@@ -690,42 +880,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jalg.gl.gn.spirals%.maxpat",
-				"bootpath" : "/Users/aa/Desktop/_Evan_ASU/Git/ASU_repo/ASU_video_workshop_2013_12_13/jamoma_shaders/jmod.gl.gn.spirals%",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

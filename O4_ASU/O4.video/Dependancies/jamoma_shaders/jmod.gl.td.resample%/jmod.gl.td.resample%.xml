@@ -5,10 +5,10 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='destination' type='string' priority='0' mixweight='1'>0</item>
-    <item name='dstdim' type='array' priority='0' mixweight='1'>0.000000 0.000000 1.000000 1.000000 </item>
-    <item name='intrpe' type='generic' priority='0' mixweight='1'>0</item>
-    <item name='srcdim' type='array' priority='0' mixweight='1'>0.000000 0.000000 1.000000 1.000000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
+    <item name='dstdim' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 1.000000 1.000000 </item>
+    <item name='intrpe' type='generic' priority='0' mixweight='1'>1.000000</item>
+    <item name='srcdim' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 1.000000 1.000000 </item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
