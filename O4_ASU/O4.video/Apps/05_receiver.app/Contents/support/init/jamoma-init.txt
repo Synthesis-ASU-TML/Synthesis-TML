@@ -1,0 +1,381 @@
+max db.addmetadata jmod.clip.10harmonics~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.10harmonics~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.audiounit~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.audiounit~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.crossfade~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.crossfade~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.degrade~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.degrade~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.delay~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.delay~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.echo~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.echo~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.equalizer~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.equalizer~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.filePlayer.4ch~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.filePlayer.4ch~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.filePlayer.mono~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.filePlayer.mono~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.filePlayer.stereo~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.filePlayer.stereo~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.filter~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.filter~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.fluidsynth~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.fluidsynth~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.hilbertModulator~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.hilbertModulator~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.input~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.input~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.limiter~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.limiter~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.multidelay~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.multidelay~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.noisegate~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.noisegate~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.noise~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.noise~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.output~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.output~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.panpot~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.panpot~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.rissetGlissando~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.rissetGlissando~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.sampleplayer2~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sampleplayer2~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.samplePlayer~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.samplePlayer~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.saturation~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.saturation~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.scope~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.scope~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.sine~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sine~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.sonifyer~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sonifyer~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.spectralGate~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.spectralGate~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.spectralShift~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.spectralShift~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.spectrogram~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.spectrogram~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.tremolo~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.tremolo~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.vst~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.vst~ clipping tag "audio module";
+
+max db.addmetadata jmod.clip.bcf2000 clipping tag Jamoma;
+max db.addmetadata jmod.clip.bcf2000 clipping tag "control module";
+
+max db.addmetadata jmod.clip.colorpicker clipping tag Jamoma;
+max db.addmetadata jmod.clip.colorpicker clipping tag "control module";
+
+max db.addmetadata jmod.clip.continuum clipping tag Jamoma;
+max db.addmetadata jmod.clip.continuum clipping tag "control module";
+
+max db.addmetadata jmod.clip.cueComment clipping tag Jamoma;
+max db.addmetadata jmod.clip.cueComment clipping tag "control module";
+
+max db.addmetadata jmod.clip.cueManager clipping tag Jamoma;
+max db.addmetadata jmod.clip.cueManager clipping tag "control module";
+
+max db.addmetadata jmod.clip.cueScript clipping tag Jamoma;
+max db.addmetadata jmod.clip.cueScript clipping tag "control module";
+
+max db.addmetadata jmod.clip.cueTrigger clipping tag Jamoma;
+max db.addmetadata jmod.clip.cueTrigger clipping tag "control module";
+
+max db.addmetadata jmod.clip.fileBrowser clipping tag Jamoma;
+max db.addmetadata jmod.clip.fileBrowser clipping tag "control module";
+
+max db.addmetadata jmod.clip.fileNameGenerator clipping tag Jamoma;
+max db.addmetadata jmod.clip.fileNameGenerator clipping tag "control module";
+
+max db.addmetadata jmod.clip.globalTransport clipping tag Jamoma;
+max db.addmetadata jmod.clip.globalTransport clipping tag "control module";
+
+max db.addmetadata jmod.clip.hi clipping tag Jamoma;
+max db.addmetadata jmod.clip.hi clipping tag "control module";
+
+max db.addmetadata jmod.clip.layout clipping tag Jamoma;
+max db.addmetadata jmod.clip.layout clipping tag "control module";
+
+max db.addmetadata jmod.clip.mapper clipping tag Jamoma;
+max db.addmetadata jmod.clip.mapper clipping tag "control module";
+
+max db.addmetadata jmod.clip.mapperContinuous clipping tag Jamoma;
+max db.addmetadata jmod.clip.mapperContinuous clipping tag "control module";
+
+max db.addmetadata jmod.clip.mapperDiscrete clipping tag Jamoma;
+max db.addmetadata jmod.clip.mapperDiscrete clipping tag "control module";
+
+max db.addmetadata jmod.clip.messages clipping tag Jamoma;
+max db.addmetadata jmod.clip.messages clipping tag "control module";
+
+max db.addmetadata jmod.clip.midiin clipping tag Jamoma;
+max db.addmetadata jmod.clip.midiin clipping tag "control module";
+
+max db.addmetadata jmod.clip.mouse clipping tag Jamoma;
+max db.addmetadata jmod.clip.mouse clipping tag "control module";
+
+max db.addmetadata jmod.clip.mouse.gdif clipping tag Jamoma;
+max db.addmetadata jmod.clip.mouse.gdif clipping tag "control module";
+
+max db.addmetadata jmod.clip.multicast clipping tag Jamoma;
+max db.addmetadata jmod.clip.multicast clipping tag "control module";
+
+max db.addmetadata jmod.clip.oscnet clipping tag Jamoma;
+max db.addmetadata jmod.clip.oscnet clipping tag "control module";
+
+max db.addmetadata jmod.clip.palette clipping tag Jamoma;
+max db.addmetadata jmod.clip.palette clipping tag "control module";
+
+max db.addmetadata jmod.clip.polhemus clipping tag Jamoma;
+max db.addmetadata jmod.clip.polhemus clipping tag "control module";
+
+max db.addmetadata jmod.clip.qmetro clipping tag Jamoma;
+max db.addmetadata jmod.clip.qmetro clipping tag "control module";
+
+max db.addmetadata jmod.clip.qualisys clipping tag Jamoma;
+max db.addmetadata jmod.clip.qualisys clipping tag "control module";
+
+max db.addmetadata jmod.clip.spacenavigator clipping tag Jamoma;
+max db.addmetadata jmod.clip.spacenavigator clipping tag "control module";
+
+max db.addmetadata jmod.clip.uc-33 clipping tag Jamoma;
+max db.addmetadata jmod.clip.uc-33 clipping tag "control module";
+
+max db.addmetadata jmod.clip.wacom clipping tag Jamoma;
+max db.addmetadata jmod.clip.wacom clipping tag "control module";
+
+max db.addmetadata jmod.clip.condition clipping tag Jamoma;
+max db.addmetadata jmod.clip.condition clipping tag "data module";
+
+max db.addmetadata jmod.clip.textwriter clipping tag Jamoma;
+max db.addmetadata jmod.clip.textwriter clipping tag "data module";
+
+max db.addmetadata jmod.clip.gl.alphamixer% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.alphamixer% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.gl.chromakey% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.chromakey% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.gl.edgeblend% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.edgeblend% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.gl.background% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.background% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.gl.td.rota% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.td.rota% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.gl.text2d% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.text2d% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.gl.videoplane% clipping tag Jamoma;
+max db.addmetadata jmod.clip.gl.videoplane% clipping tag "openGL module";
+
+max db.addmetadata jmod.clip.sur.ambi.adjust~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.ambi.adjust~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.ambi.decode~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.ambi.decode~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.ambi.encodeM~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.ambi.encodeM~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.ambipanning~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.ambipanning~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.ambisonics~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.ambisonics~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.audiounit~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.audiounit~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.aux~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.aux~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.dbapBformat~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.dbapBformat~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.dbap~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.dbap~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.doppler~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.doppler~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.info~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.info~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.input~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.input~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.meters~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.meters~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.multi.in~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.multi.in~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.multi.out~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.multi.out~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.output~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.output~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.position clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.position clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.race~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.race~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.rolloff~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.rolloff~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.setup clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.setup clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.speaker.delay~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.speaker.delay~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.speaker.distamp~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.speaker.distamp~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.vbap~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.vbap~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.waveformViewer~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.waveformViewer~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.sur.zoomH2ambi~ clipping tag Jamoma;
+max db.addmetadata jmod.clip.sur.zoomH2ambi~ clipping tag "spatialization module";
+
+max db.addmetadata jmod.clip.alphablend% clipping tag Jamoma;
+max db.addmetadata jmod.clip.alphablend% clipping tag "video module";
+
+max db.addmetadata jmod.clip.avg4% clipping tag Jamoma;
+max db.addmetadata jmod.clip.avg4% clipping tag "video module";
+
+max db.addmetadata jmod.clip.background% clipping tag Jamoma;
+max db.addmetadata jmod.clip.background% clipping tag "video module";
+
+max db.addmetadata jmod.clip.blur% clipping tag Jamoma;
+max db.addmetadata jmod.clip.blur% clipping tag "video module";
+
+max db.addmetadata jmod.clip.box% clipping tag Jamoma;
+max db.addmetadata jmod.clip.box% clipping tag "video module";
+
+max db.addmetadata jmod.clip.brcosa% clipping tag Jamoma;
+max db.addmetadata jmod.clip.brcosa% clipping tag "video module";
+
+max db.addmetadata jmod.clip.chromakey% clipping tag Jamoma;
+max db.addmetadata jmod.clip.chromakey% clipping tag "video module";
+
+max db.addmetadata jmod.clip.edge% clipping tag Jamoma;
+max db.addmetadata jmod.clip.edge% clipping tag "video module";
+
+max db.addmetadata jmod.clip.emboss% clipping tag Jamoma;
+max db.addmetadata jmod.clip.emboss% clipping tag "video module";
+
+max db.addmetadata jmod.clip.fft% clipping tag Jamoma;
+max db.addmetadata jmod.clip.fft% clipping tag "video module";
+
+max db.addmetadata jmod.clip.fluoride% clipping tag Jamoma;
+max db.addmetadata jmod.clip.fluoride% clipping tag "video module";
+
+max db.addmetadata jmod.clip.foregroundMask% clipping tag Jamoma;
+max db.addmetadata jmod.clip.foregroundMask% clipping tag "video module";
+
+max db.addmetadata jmod.clip.ifft% clipping tag Jamoma;
+max db.addmetadata jmod.clip.ifft% clipping tag "video module";
+
+max db.addmetadata jmod.clip.input% clipping tag Jamoma;
+max db.addmetadata jmod.clip.input% clipping tag "video module";
+
+max db.addmetadata jmod.clip.keyscreen% clipping tag Jamoma;
+max db.addmetadata jmod.clip.keyscreen% clipping tag "video module";
+
+max db.addmetadata jmod.clip.mblur% clipping tag Jamoma;
+max db.addmetadata jmod.clip.mblur% clipping tag "video module";
+
+max db.addmetadata jmod.clip.motion% clipping tag Jamoma;
+max db.addmetadata jmod.clip.motion% clipping tag "video module";
+
+max db.addmetadata jmod.clip.motion2% clipping tag Jamoma;
+max db.addmetadata jmod.clip.motion2% clipping tag "video module";
+
+max db.addmetadata jmod.clip.motiongram% clipping tag Jamoma;
+max db.addmetadata jmod.clip.motiongram% clipping tag "video module";
+
+max db.addmetadata jmod.clip.moviePlayer% clipping tag Jamoma;
+max db.addmetadata jmod.clip.moviePlayer% clipping tag "video module";
+
+max db.addmetadata jmod.clip.op% clipping tag Jamoma;
+max db.addmetadata jmod.clip.op% clipping tag "video module";
+
+max db.addmetadata jmod.clip.orsize% clipping tag Jamoma;
+max db.addmetadata jmod.clip.orsize% clipping tag "video module";
+
+max db.addmetadata jmod.clip.output% clipping tag Jamoma;
+max db.addmetadata jmod.clip.output% clipping tag "video module";
+
+max db.addmetadata jmod.clip.plur% clipping tag Jamoma;
+max db.addmetadata jmod.clip.plur% clipping tag "video module";
+
+max db.addmetadata jmod.clip.posterize% clipping tag Jamoma;
+max db.addmetadata jmod.clip.posterize% clipping tag "video module";
+
+max db.addmetadata jmod.clip.record% clipping tag Jamoma;
+max db.addmetadata jmod.clip.record% clipping tag "video module";
+
+max db.addmetadata jmod.clip.rgb2gray% clipping tag Jamoma;
+max db.addmetadata jmod.clip.rgb2gray% clipping tag "video module";
+
+max db.addmetadata jmod.clip.similarity% clipping tag Jamoma;
+max db.addmetadata jmod.clip.similarity% clipping tag "video module";
+
+max db.addmetadata jmod.clip.slitscan% clipping tag Jamoma;
+max db.addmetadata jmod.clip.slitscan% clipping tag "video module";
+
+max db.addmetadata jmod.clip.television% clipping tag Jamoma;
+max db.addmetadata jmod.clip.television% clipping tag "video module";
+
+max db.addmetadata jmod.clip.wake% clipping tag Jamoma;
+max db.addmetadata jmod.clip.wake% clipping tag "video module";
+
+max db.addmetadata jmod.clip.xfade% clipping tag Jamoma;
+max db.addmetadata jmod.clip.xfade% clipping tag "video module";
+
+max db.addmetadata jmod.clip.yfade% clipping tag Jamoma;
+max db.addmetadata jmod.clip.yfade% clipping tag "video module";
+
