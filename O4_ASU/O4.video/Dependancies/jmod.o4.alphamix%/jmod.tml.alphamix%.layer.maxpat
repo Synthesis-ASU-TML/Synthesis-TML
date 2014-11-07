@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 345.0, 415.0, 509.0, 207.0 ],
+		"rect" : [ 345.0, 415.0, 568.0, 198.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 150.0, 56.0, 18.0 ],
-					"text" : "enable 1"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -152,13 +138,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 15.0, 150.0, 302.0, 47.0 ],
-					"text" : "jit.gl.videoplane @transform_reset 2 @blend_enable 1 @position 0. 0. 0 @depth_enable 0 @blend_mode 4 8 @colormode 0.7 0.7 0.7 0.7"
+					"patching_rect" : [ 15.0, 165.0, 390.0, 33.0 ],
+					"text" : "jit.gl.videoplane @transform_reset 2 @blend_enable 1 @position 0. 0. 0 @depth_enable 0 @blend_mode 6 6 @colormode 0.7 0.7 0.7 0.7"
 				}
 
 			}
@@ -244,15 +230,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 69.5, 106.0, 24.5, 106.0 ],
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
