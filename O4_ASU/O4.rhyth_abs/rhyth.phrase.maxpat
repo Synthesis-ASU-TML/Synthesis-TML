@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1280.0, 751.0 ],
+		"rect" : [ 0.0, 45.0, 443.0, 114.0 ],
 		"bgcolor" : [ 0.54, 1.0, 0.55, 0.62 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -201,7 +201,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "FullPacket" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -1641.0, -3696.0, 25.0, 25.0 ]
 				}
 
@@ -598,7 +598,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -184.0, -840.0, 114.0, 16.0 ],
-					"text" : "sizeinsamps 1000000 3"
+					"text" : "sizeinsamps 1000000 1"
 				}
 
 			}
@@ -766,7 +766,7 @@
 					"patching_rect" : [ -2081.87207, -3601.0, 78.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.078186, 93.982544, 58.0, 15.0 ],
-					"text" : "channels: 3"
+					"text" : "channels: 1"
 				}
 
 			}
@@ -795,8 +795,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -2113.0, -3711.0, 100.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 2.796814, 151.0, 16.0 ],
-					"text" : "name: tree-shadows"
+					"presentation_rect" : [ 115.0, 2.796814, 151.0, 16.0 ]
 				}
 
 			}
@@ -1014,7 +1013,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 192.0, 310.5, 50.0, 16.0 ],
-									"text" : "size 1 3"
+									"text" : "size 1 1"
 								}
 
 							}
@@ -1244,7 +1243,7 @@
 					"persistence" : 1,
 					"presentation_rect" : [ -1756.308472, -2238.743652, 90.365234, 16.0 ],
 					"scope" : 0,
-					"serialized_objects" : [ [ "fmat", 1 ], [ 1, "size", 1, 3 ], [ 1, "set", 0, 0, 0.0, 0.0, 0.0 ] ],
+					"serialized_objects" : [ [ "fmat", 1 ], [ 1, "size", 1, 1 ], [ 1, "set", 0, 0, 0.0 ] ],
 					"text" : "fmat"
 				}
 
@@ -9309,7 +9308,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 329.0, 79.0, 16.0 ],
-									"text" : "679526.6875"
+									"text" : "9640."
 								}
 
 							}
@@ -11389,7 +11388,7 @@
 					"persistence" : 1,
 					"presentation_rect" : [ -692.206421, -878.901672, 106.365234, 16.0 ],
 					"scope" : 0,
-					"serialized_objects" : [ [ "fmat", 2 ], [ 2, "size", 2, 3 ], [ 2, "set", 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] ],
+					"serialized_objects" : [ [ "fmat", 2 ], [ 2, "size", 2, 1 ], [ 2, "set", 0, 0, 0.0, 0.0 ] ],
 					"text" : "fmat"
 				}
 
@@ -13344,7 +13343,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "FullPacket" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -1926.397461, -3207.881592, 24.277405, 24.277405 ]
 				}
 
@@ -21141,6 +21140,94 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "o.osc-p.maxpat",
+				"bootpath" : "/Users/julian/code/externals/CNMAT_Externals/odot/abstractions",
+				"patcherrelativepath" : "../../../code/externals/CNMAT_Externals/odot/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ftm.editor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.timetag.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.value.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.vecdisplay.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.buffer.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "Ldiv.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "Lmult.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "Lround.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pak.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.table.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}

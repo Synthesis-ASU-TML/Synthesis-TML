@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1280.0, 751.0 ],
+		"rect" : [ 0.0, 45.0, 295.0, 117.0 ],
 		"bgcolor" : [ 1.0, 0.62, 0.6, 0.62 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -132,7 +132,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-218",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -161,7 +160,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-697",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -945,8 +943,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 281.0, -131.981445, 71.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.698349, 5.0, 92.0, 14.0 ],
-					"text" : "name: example-1"
+					"presentation_rect" : [ 97.698349, 5.0, 92.0, 14.0 ]
 				}
 
 			}
@@ -2233,7 +2230,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.718857, 77.391479, 29.0, 18.0 ]
+					"patching_rect" : [ 8.718857, 77.391479, 29.0, 18.0 ],
+					"text" : "#1"
 				}
 
 			}
@@ -2466,7 +2464,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-119",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2905,13 +2902,13 @@
 					"restore" : 					{
 						"/add" : [ 0.0 ],
 						"/loop" : [ 0 ],
-						"/mult" : [ 10.0 ],
+						"/mult" : [ 1.0 ],
 						"/rotate" : [ 0 ],
 						"/transform" : [ "normal" ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u574001917"
+					"varname" : "u500006182"
 				}
 
 			}
@@ -3434,7 +3431,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-77",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3463,7 +3459,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-79",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3492,7 +3487,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-74",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3521,7 +3515,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-27",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3686,7 +3679,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-21",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3715,7 +3707,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-56",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3757,7 +3748,6 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-15",
-					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4216,7 +4206,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "FullPacket" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ -101.516144, -59.0, 25.0, 25.0 ]
 				}
 
@@ -4354,7 +4344,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1066.0, 670.0, 50.0, 16.0 ],
-									"text" : "17.5"
+									"text" : "100."
 								}
 
 							}
@@ -4451,7 +4441,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1184.0, 906.0, 50.0, 16.0 ],
-									"text" : "0.1"
+									"text" : "1."
 								}
 
 							}
@@ -4465,7 +4455,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 999.0, 915.0, 50.0, 16.0 ],
-									"text" : "17"
+									"text" : "100"
 								}
 
 							}
@@ -4588,7 +4578,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 451.658203, 486.5, 50.0, 16.0 ],
-									"text" : "max 159"
+									"text" : "max 43"
 								}
 
 							}
@@ -4733,7 +4723,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1221.80249, 667.0, 66.009766, 17.0 ],
+									"patching_rect" : [ 1221.80249, 667.0, 66.009766, 16.148438 ],
 									"presentation_rect" : [ 1221.80249, 667.0, 66.009766, 16.148438 ],
 									"text" : [ "_($1 add $2)" ]
 								}
@@ -4754,7 +4744,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1149.30249, 667.0, 66.341797, 17.0 ],
+									"patching_rect" : [ 1149.30249, 667.0, 66.341797, 16.148438 ],
 									"presentation_rect" : [ 1149.30249, 667.0, 66.341797, 16.148438 ],
 									"text" : [ "_($1 mul $2)" ]
 								}
@@ -4996,7 +4986,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1115.30249, 545.0, 105.02832, 17.0 ],
+									"patching_rect" : [ 1115.30249, 545.0, 105.02832, 16.148438 ],
 									"presentation_rect" : [ 1115.30249, 545.0, 105.02832, 16.148438 ],
 									"text" : [ "_$rhythmTime[$1 0]" ]
 								}
@@ -6563,7 +6553,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 705.30249, 342.5, 158.705078, 17.0 ],
+									"patching_rect" : [ 705.30249, 342.5, 158.705078, 16.148438 ],
 									"presentation_rect" : [ 705.30249, 342.5, 158.705078, 16.148438 ],
 									"text" : [ "_($rhythmTransformed row $1)" ]
 								}
@@ -10610,6 +10600,55 @@
 					"source" : [ "obj-98", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.copy.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.object.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.list.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.editor.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.value.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.timetag.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
