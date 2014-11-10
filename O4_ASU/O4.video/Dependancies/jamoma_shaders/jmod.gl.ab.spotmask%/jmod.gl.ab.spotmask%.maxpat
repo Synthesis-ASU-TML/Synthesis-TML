@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -70,7 +70,6 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 105.0, 750.0, 154.0, 19.0 ],
-					"presentation_rect" : [ 102.0, 749.0, 0.0, 0.0 ],
 					"text" : "jcom.list2parameter 2"
 				}
 
@@ -93,7 +92,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Width of filter.",
+					"annotation" : "Fade amount.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-29",
@@ -181,10 +180,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 570.0, 45.0, 19.0 ],
+					"patching_rect" : [ 15.0, 570.0, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 50.0, 45.0, 19.0 ],
-					"text" : "spot"
+					"presentation_rect" : [ 0.0, 50.0, 50.0, 19.0 ],
+					"text" : "position"
 				}
 
 			}
@@ -244,15 +243,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 300.0, 570.0, 548.0, 31.0 ],
-					"text" : "jcom.parameter spot @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Spot position.\"",
+					"patching_rect" : [ 300.0, 570.0, 567.0, 31.0 ],
+					"text" : "jcom.parameter position @type decimalArray @range/clipmode none @repetitions/allow 1 @ramp/drive none @description \"Spot position.\"",
 					"varname" : "width[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Width of filter.",
+					"annotation" : "Radius of mask.",
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"id" : "obj-82",
@@ -312,8 +311,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.0, 480.0, 105.0, 20.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 65.0, 25.0, 80.0, 20.0 ],
-					"text" : "test"
+					"text" : "camera_capture"
 				}
 
 			}
@@ -536,7 +536,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/spotmask%"
 				}
 
 			}
@@ -828,49 +828,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "jalg.gl.ab.spotmask%.maxpat",
-				"bootpath" : "/Users/aa/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jcom.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.oscroute.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.pass.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.hub.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.in.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jcom.out.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}

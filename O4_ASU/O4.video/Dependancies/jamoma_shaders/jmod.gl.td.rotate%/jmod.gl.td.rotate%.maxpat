@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -90,7 +90,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.0, 915.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 100.0, 40.0, 19.0 ]
+					"presentation_rect" : [ 65.0, 100.0, 80.0, 19.0 ]
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"patching_rect" : [ 15.0, 915.0, 45.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 100.0, 65.0, 19.0 ],
-					"text" : "theta"
+					"text" : "rotate"
 				}
 
 			}
@@ -120,8 +120,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.0, 915.0, 549.0, 31.0 ],
-					"text" : "jcom.parameter theta @type decimal @range/clipmode none @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Theta .\"",
+					"patching_rect" : [ 375.0, 915.0, 542.0, 31.0 ],
+					"text" : "jcom.parameter rotate @type decimal @range/clipmode wrap @range/bounds 0. 1. @repetitions/allow 1 @ramp/drive scheduler @ramp/function tanh @description \"Rotation .\"",
 					"varname" : "width[3]"
 				}
 
@@ -405,8 +405,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 105.0, 480.0, 105.0, 20.0 ],
 					"presentation" : 1,
+					"presentation_linecount" : 2,
 					"presentation_rect" : [ 65.0, 20.0, 80.0, 20.0 ],
-					"text" : "test"
+					"text" : "camera_capture"
 				}
 
 			}
@@ -629,7 +630,7 @@
 					"prefix" : "video",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 140.0 ],
-					"text" : "/myModule.2"
+					"text" : "/rotate%"
 				}
 
 			}

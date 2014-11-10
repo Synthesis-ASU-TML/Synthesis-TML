@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -386,8 +386,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 15.0, 45.0, 243.0, 19.0 ],
-					"text" : "jcom.oscroute /destination /spot /radius /fade"
+					"patching_rect" : [ 15.0, 45.0, 262.0, 19.0 ],
+					"text" : "jcom.oscroute /destination /position /radius /fade"
 				}
 
 			}
@@ -617,7 +617,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 248.5, 73.0, 279.0, 73.0, 279.0, 35.0, 309.5, 35.0 ],
+					"midpoints" : [ 267.5, 73.0, 279.0, 73.0, 279.0, 35.0, 309.5, 35.0 ],
 					"source" : [ "obj-2", 4 ]
 				}
 
@@ -636,7 +636,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 80.5, 144.0, 69.5, 144.0 ],
+					"midpoints" : [ 85.25, 144.0, 69.5, 144.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -646,7 +646,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 136.5, 211.5, 279.5, 211.5 ],
+					"midpoints" : [ 146.0, 211.5, 279.5, 211.5 ],
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -656,7 +656,7 @@
 					"destination" : [ "obj-46", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 192.5, 199.5, 414.5, 199.5 ],
+					"midpoints" : [ 206.75, 199.5, 414.5, 199.5 ],
 					"source" : [ "obj-2", 3 ]
 				}
 

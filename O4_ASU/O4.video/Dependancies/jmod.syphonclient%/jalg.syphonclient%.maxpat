@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -51,7 +51,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "bang" ],
 					"patching_rect" : [ 915.0, 615.0, 46.0, 20.0 ],
-					"presentation_rect" : [ 1122.0, 603.0, 0.0, 0.0 ],
 					"text" : "t l l b"
 				}
 
@@ -372,7 +371,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 240.0, 135.0, 17.0 ],
-					"text" : "texture95197683"
+					"text" : "texture32201137"
 				}
 
 			}
@@ -553,7 +552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 660.0, 510.0, 225.0, 164.0 ],
+					"patching_rect" : [ 660.0, 510.0, 228.0, 164.0 ],
 					"text" : "The servernames and appnames are concatenated into a list. This is stored in the both the green and the red [coll].\n\nThe list is continuously sent out of the red [coll] and sent into [zl compare], which checks each incoming list against the last one. If [zl compare] sees a difference (i.e., if servers in the list have been added, removed or renamed), it sends a 0 to the [sel 0] which causes the [t 1] to output a 1, in turn causing output of the updated server from the green [coll]"
 				}
 
@@ -1066,20 +1065,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 990.0, 1110.0, 91.0, 20.0 ],
-					"text" : "loadmess clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.839216, 0.023564, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1135,13 +1120,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-95",
-					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.0, 1050.0, 40.0, 45.0 ],
-					"text" : "/Max/server"
+					"patching_rect" : [ 660.0, 1050.0, 276.0, 18.0 ],
+					"text" : "\"/SyphonCamera/FaceTime HD Camera (Built-in)\""
 				}
 
 			}
@@ -1234,7 +1218,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-44",
-					"items" : [ "/SyphonCamera/Camera", ",", "/01_syphon_camera/Camera with mask", ",", "/02_fluids/Fluids - density", ",", "/Max/server" ],
+					"items" : [ "/SyphonCamera/FaceTime HD Camera (Built-in)", ",", "/Max/Camera with oval mask", ",", "/Max/density" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1895,26 +1879,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 999.5, 1142.0, 834.5, 1142.0 ],
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 999.5, 1140.0, 954.5, 1140.0 ],
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1978,7 +1942,7 @@
 					"destination" : [ "obj-95", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 975.0, 1215.0, 762.0, 1215.0, 762.0, 1047.0, 690.5, 1047.0 ],
+					"midpoints" : [ 975.0, 1215.0, 762.0, 1215.0, 762.0, 1047.0, 926.5, 1047.0 ],
 					"source" : [ "obj-44", 1 ]
 				}
 

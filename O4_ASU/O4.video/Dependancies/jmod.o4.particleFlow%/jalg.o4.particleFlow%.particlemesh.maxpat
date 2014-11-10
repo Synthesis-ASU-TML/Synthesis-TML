@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 12.0, 44.0, 1049.0, 726.0 ],
+		"rect" : [ 847.0, 106.0, 1049.0, 726.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -373,8 +373,8 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 360.0, 540.0, 634.0, 33.0 ],
-					"text" : "jit.gl.mesh rendertest @antialias 1 @draw_mode points @blend_enable 1 @blend_mode 6 2 @scale 1. 1. 1. @color 0. 1. 0. 0.4 @position 0. 0. 0. @point_size 6 @depth_enable 0 @transform_reset 2 @enable 1"
+					"patching_rect" : [ 360.0, 540.0, 582.0, 33.0 ],
+					"text" : "jit.gl.mesh particles @antialias 1 @draw_mode points @blend_enable 1 @blend_mode 6 2 @scale 1. 1. 1. @color 0. 1. 0. 0.4 @position 0. 0. 0. @point_size 6 @depth_enable 0 @transform_reset 2 @enable 1"
 				}
 
 			}
