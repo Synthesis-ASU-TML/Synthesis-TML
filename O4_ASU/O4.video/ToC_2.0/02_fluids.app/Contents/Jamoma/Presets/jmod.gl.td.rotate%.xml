@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='anchor' type='decimalArray' priority='0' mixweight='1'>0.500000 0.500000 </item>
+    <item name='boundmode' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='destination' type='string' priority='0' mixweight='1'>camera_capture</item>
+    <item name='offset' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 </item>
+    <item name='rotate' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
+    <item name='zoom' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 </item>
+  </preset>
+</jamoma>
