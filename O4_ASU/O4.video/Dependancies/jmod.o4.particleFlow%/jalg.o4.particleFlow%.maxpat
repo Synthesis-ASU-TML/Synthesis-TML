@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -461,7 +461,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 930.0, 975.0, 195.0, 37.0 ],
+					"patching_rect" : [ 1155.0, 975.0, 195.0, 37.0 ],
 					"text" : "contain the [jit.gl.mesh] objects that draw the particles."
 				}
 
@@ -550,8 +550,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 990.0, 195.0, 20.0 ],
-					"text" : "jalg.o4.particleFlow%.particlemesh"
+					"patching_rect" : [ 900.0, 990.0, 250.0, 20.0 ],
+					"text" : "jalg.o4.particleFlow%.particlemesh particles4"
 				}
 
 			}
@@ -564,8 +564,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 510.0, 990.0, 195.0, 20.0 ],
-					"text" : "jalg.o4.particleFlow%.particlemesh"
+					"patching_rect" : [ 630.0, 990.0, 250.0, 20.0 ],
+					"text" : "jalg.o4.particleFlow%.particlemesh particles3"
 				}
 
 			}
@@ -578,8 +578,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.0, 990.0, 195.0, 20.0 ],
-					"text" : "jalg.o4.particleFlow%.particlemesh"
+					"patching_rect" : [ 360.0, 990.0, 250.0, 20.0 ],
+					"text" : "jalg.o4.particleFlow%.particlemesh particles2"
 				}
 
 			}
@@ -592,8 +592,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.999985, 990.0, 195.0, 20.0 ],
-					"text" : "jalg.o4.particleFlow%.particlemesh"
+					"patching_rect" : [ 89.999985, 990.0, 250.0, 20.0 ],
+					"text" : "jalg.o4.particleFlow%.particlemesh particles1"
 				}
 
 			}
@@ -957,7 +957,7 @@
 					"destination" : [ "obj-62", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 242.699997, 917.0, 275.5, 917.0 ],
+					"midpoints" : [ 242.699997, 917.0, 330.5, 917.0 ],
 					"source" : [ "obj-20", 1 ]
 				}
 
@@ -967,7 +967,7 @@
 					"destination" : [ "obj-63", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 415.899994, 917.0, 485.5, 917.0 ],
+					"midpoints" : [ 415.899994, 917.0, 600.5, 917.0 ],
 					"source" : [ "obj-20", 2 ]
 				}
 
@@ -977,7 +977,7 @@
 					"destination" : [ "obj-65", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 762.299988, 917.0, 905.5, 917.0 ],
+					"midpoints" : [ 762.299988, 917.0, 1140.5, 917.0 ],
 					"source" : [ "obj-20", 4 ]
 				}
 
@@ -987,7 +987,7 @@
 					"destination" : [ "obj-66", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 589.099976, 917.0, 695.5, 917.0 ],
+					"midpoints" : [ 589.099976, 917.0, 870.5, 917.0 ],
 					"source" : [ "obj-20", 3 ]
 				}
 
@@ -1366,7 +1366,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 215.499985, 977.0, 309.5, 977.0 ],
+					"midpoints" : [ 215.499985, 977.0, 369.5, 977.0 ],
 					"source" : [ "obj-67", 4 ]
 				}
 
@@ -1376,7 +1376,7 @@
 					"destination" : [ "obj-63", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 128.499985, 962.0, 309.5, 962.0 ],
+					"midpoints" : [ 128.499985, 962.0, 369.5, 962.0 ],
 					"source" : [ "obj-67", 1 ]
 				}
 
@@ -1386,7 +1386,7 @@
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 215.499985, 977.0, 729.5, 977.0 ],
+					"midpoints" : [ 215.499985, 977.0, 909.5, 977.0 ],
 					"source" : [ "obj-67", 4 ]
 				}
 
@@ -1396,7 +1396,7 @@
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 186.499985, 932.0, 729.5, 932.0 ],
+					"midpoints" : [ 186.499985, 932.0, 909.5, 932.0 ],
 					"source" : [ "obj-67", 3 ]
 				}
 
@@ -1406,7 +1406,7 @@
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 215.499985, 977.0, 519.5, 977.0 ],
+					"midpoints" : [ 215.499985, 977.0, 639.5, 977.0 ],
 					"source" : [ "obj-67", 4 ]
 				}
 
@@ -1416,7 +1416,7 @@
 					"destination" : [ "obj-66", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 157.499985, 947.0, 519.5, 947.0 ],
+					"midpoints" : [ 157.499985, 947.0, 639.5, 947.0 ],
 					"source" : [ "obj-67", 2 ]
 				}
 
