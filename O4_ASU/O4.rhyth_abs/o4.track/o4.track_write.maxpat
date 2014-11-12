@@ -30,6 +30,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Helvetica",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 287.0, -8.0, 78.0, 16.0 ],
+					"text" : "loadmess clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
 					"maxclass" : "outlet",
@@ -201,8 +215,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "FullPacket" ],
-					"patching_rect" : [ 183.5, 59.768066, 621.5, 16.0 ],
-					"text" : "o.route /stream /name start"
+					"patching_rect" : [ 183.5, 59.768066, 603.499939, 16.0 ],
+					"text" : "o.route /stream /name /start"
 				}
 
 			}
@@ -912,11 +926,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-153",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 378.333313, 118.768188, 68.0, 18.0 ],
-					"text" : "route symbol"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 378.333313, 118.768188, 87.0, 18.0 ],
+					"text" : "route symbol text"
 				}
 
 			}
@@ -933,8 +947,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 378.333313, 92.768127, 102.0, 20.0 ],
-					"text" : "flubber5"
+					"patching_rect" : [ 412.333313, 87.000061, 102.0, 20.0 ]
 				}
 
 			}
@@ -1502,7 +1515,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-153", 0 ],
+					"destination" : [ "obj-153", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-137", 0 ]
@@ -1822,6 +1835,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1906,7 +1928,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "pmetro~.maxpat",
 				"bootpath" : "/Users/julian/code",
-				"patcherrelativepath" : "..",
+				"patcherrelativepath" : "../../../../code",
 				"type" : "JSON",
 				"implicit" : 1
 			}

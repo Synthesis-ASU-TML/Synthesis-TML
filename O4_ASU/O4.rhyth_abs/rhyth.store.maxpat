@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 654.0, 45.0, 1072.0, 643.0 ],
+		"rect" : [ 208.0, 45.0, 403.0, 42.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -19,7 +19,7 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
@@ -2017,7 +2017,7 @@
 					"patching_rect" : [ 850.432678, 160.35791, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 81.205444, 17.555618, 81.0, 14.0 ],
-					"text" : "11-9-2014"
+					"text" : "11-12-2014"
 				}
 
 			}
@@ -3813,13 +3813,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-4",
-									"linecount" : 6,
+									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.0, 259.0, 50.0, 72.0 ],
-									"text" : "jul-mbp:/Users/julian/code/O4.rhyth_abs-v2/rhyth_db/"
+									"text" : "jul-mbp:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/"
 								}
 
 							}
@@ -4457,7 +4457,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 143.0, 268.0, 50.0, 16.0 ],
-									"text" : "11"
+									"text" : "1"
 								}
 
 							}
@@ -4722,7 +4722,7 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 9.0,
 					"id" : "obj-88",
-					"items" : [ "11-6-2014", ",", "11-7-2014", ",", "spiral", ",", "testingOSC", ",", "testingOSC2", ",", "testingOSC3", ",", "testingOSC4", ",", "testingOSC6", ",", "videoboundaries", ",", "xw-trees", ",", "xwtrees" ],
+					"items" : "videoboundaries",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5624,6 +5624,23 @@
 					"source" : [ "obj-98", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "createfolder.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "ftm.mess.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.prepend.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
