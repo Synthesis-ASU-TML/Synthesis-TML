@@ -8,14 +8,14 @@
     <item name='anchor' type='decimalArray' priority='0' mixweight='1'>0.500000 0.500000 </item>
     <item name='boundmode' type='integer' priority='0' mixweight='1'>1</item>
     <item name='destination' type='string' priority='0' mixweight='1'>camera_capture</item>
-    <item name='offset' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 </item>
-    <item name='rotate' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='offset' type='decimalArray' priority='0' mixweight='1'>-28.000000 -24.000000 </item>
+    <item name='rotate' type='decimal' priority='0' mixweight='1'>0.021000</item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
-    <item name='zoom' type='decimalArray' priority='0' mixweight='1'>1.000000 1.000000 </item>
+    <item name='zoom' type='decimalArray' priority='0' mixweight='1'>1.030000 1.000000 </item>
   </preset>
 </jamoma>

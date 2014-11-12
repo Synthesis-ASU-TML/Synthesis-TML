@@ -6,10 +6,10 @@
 >
   <preset number='1' name='default'>
     <item name='destination' type='string' priority='0' mixweight='1'>camera_capture</item>
-    <item name='fade' type='decimal' priority='0' mixweight='1'>1.000000</item>
-    <item name='position' type='decimalArray' priority='0' mixweight='1'>0.500000 0.380000 </item>
+    <item name='fade' type='decimal' priority='0' mixweight='1'>0.071000</item>
+    <item name='position' type='decimalArray' priority='0' mixweight='1'>0.500000 0.394000 </item>
     <item name='radius' type='decimal' priority='0' mixweight='1'>0.500000</item>
-    <item name='shape' type='decimalArray' priority='0' mixweight='1'>1.220000 0.500000 </item>
+    <item name='shape' type='decimalArray' priority='0' mixweight='1'>2.370000 1.106000 </item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
