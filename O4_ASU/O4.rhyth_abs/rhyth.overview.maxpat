@@ -1158,7 +1158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 617.853149, 255.396698, 125.633301, 26.0 ],
-					"text" : "/record/onset\n/record/data 0.00164892",
+					"text" : "/record/onset\n/record/data 0.0118154",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1168,13 +1168,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-72",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.205627, 432.077026, 393.933167, 26.0 ],
-					"text" : "/store/rhythm \"import\" \"jul-mbp:/Users/julian/code/O4.rhyth_abs/rhyth_db/8-25-2014/03-rhythm.txt\"",
+					"patching_rect" : [ 640.205627, 432.077026, 393.933167, 36.0 ],
+					"text" : "/store/marker \"export\" \"Macintosh HD:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/testing123456/07-marker.txt\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1785,7 +1785,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 617.853149, 627.082275, 242.0, 96.0 ],
-					"text" : "/phrase/selection \"foremost\" 0\n/type \"data\"\n/phrase/sel 1\n/timetag 2014-11-10T06:42:44.439066Z\n/phrase/size 2\n/phrase/data/min 0.\n/phrase/data/max 0.\n/phrase/time/min 0.\n/phrase/time/max 0.\n",
+					"text" : "/phrase/selection \"foremost\" 0\n/type \"data\"\n/phrase/sel 1\n/timetag 2014-11-16T17:04:05.410096Z\n/phrase/size 2\n/phrase/data/min 0.\n/phrase/data/max 0.\n/phrase/time/min 0.\n/phrase/time/max 0.\n",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2018,7 +2018,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 626.005432, 359.118866, 408.133301, 40.219116 ]
+					"patching_rect" : [ 626.005493, 358.827606, 408.133301, 40.219116 ]
 				}
 
 			}
@@ -3075,7 +3075,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 635.505432, 447.245789, 608.98645, 447.245789 ],
+					"midpoints" : [ 635.505493, 447.245789, 608.98645, 447.245789 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -3085,7 +3085,7 @@
 					"destination" : [ "obj-72", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 635.505432, 424.445648, 1024.638794, 424.445648 ],
+					"midpoints" : [ 635.505493, 424.445648, 1024.638794, 424.445648 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -3362,29 +3362,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rhyth.store.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.phrase.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o.osc-p.maxpat",
 				"bootpath" : "/Users/julian/code/externals/CNMAT_Externals/odot/abstractions",
-				"patcherrelativepath" : "../../externals/CNMAT_Externals/odot/abstractions",
+				"patcherrelativepath" : "../../../code/externals/CNMAT_Externals/odot/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.play.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
