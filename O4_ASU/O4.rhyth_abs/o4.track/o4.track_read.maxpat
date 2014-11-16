@@ -35,7 +35,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1213.0, 459.0, 20.0, 20.0 ]
+					"patching_rect" : [ 1225.0, 467.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -48,7 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 1207.0, 431.0, 46.0, 16.0 ],
+					"patching_rect" : [ 1225.0, 431.0, 46.0, 16.0 ],
 					"text" : "change"
 				}
 
@@ -63,7 +63,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1178.5, 392.0, 50.0, 14.0 ],
-					"text" : "15"
+					"text" : "5"
 				}
 
 			}
@@ -214,8 +214,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 797.0, 47.0, 50.0, 64.0 ],
-					"text" : "jul-mbp:/Users/julian/Desktop/o4.videoOSC/osc-track"
+					"patching_rect" : [ 771.375, 44.0, 72.0, 64.0 ],
+					"text" : "\"Macintosh HD:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/o4.track/osc-track\""
 				}
 
 			}
@@ -297,8 +297,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1067.0, 441.0, 84.0, 16.0 ],
-					"text" : "sprintf %s/%s.txt"
+					"patching_rect" : [ 1098.0, 441.0, 119.0, 16.0 ],
+					"text" : "sprintf symout %s/%s.txt"
 				}
 
 			}
@@ -311,8 +311,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 960.0, 441.0, 93.0, 16.0 ],
-					"text" : "sprintf %s/%s.mov"
+					"patching_rect" : [ 960.0, 441.0, 128.0, 16.0 ],
+					"text" : "sprintf symout %s/%s.mov"
 				}
 
 			}
@@ -451,8 +451,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 976.0, 310.0, 68.0, 18.0 ],
-					"text" : "sprintf %s%s"
+					"patching_rect" : [ 976.0, 310.0, 103.0, 18.0 ],
+					"text" : "sprintf symout %s%s"
 				}
 
 			}
@@ -597,13 +597,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
-					"linecount" : 4,
+					"linecount" : 6,
 					"maxclass" : "o.message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.4375, 450.254272, 69.875, 46.0 ],
-					"text" : "/env 0.0177765\n/frame \"frame\" 32",
+					"patching_rect" : [ 115.4375, 450.254272, 69.875, 66.0 ],
+					"text" : "/x 0.418909\n/y 0.520724\n/quantity 0.260768\n/frame \"frame\" 39",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1660,7 +1660,7 @@
 					"fontsize" : 10.0,
 					"framecolor" : [ 0.501961, 0.501961, 0.501961, 0.15 ],
 					"id" : "obj-102",
-					"items" : [ "bloopeer", ",", "bloopsed", ",", "flubber", ",", "flubber2", ",", "flubber3", ",", "flubber5", ",", "isthissynced", ",", "isthissynced2", ",", "isthisworking", ",", "isthisworking2", ",", "isthisworking3", ",", "namenamename", ",", "newtest", ",", "rngourenourenre", ",", "testing123" ],
+					"items" : [ "feonouewnw", ",", "fonrgoeurbero", ",", "hmmm", ",", "howbaoutnow", ",", "jpeg-test" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

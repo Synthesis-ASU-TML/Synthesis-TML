@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 208.0, 45.0, 403.0, 42.0 ],
+		"rect" : [ 208.0, 45.0, 1020.0, 677.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2017,7 +2017,7 @@
 					"patching_rect" : [ 850.432678, 160.35791, 95.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 81.205444, 17.555618, 81.0, 14.0 ],
-					"text" : "11-12-2014"
+					"text" : "11-16-2014"
 				}
 
 			}
@@ -3164,7 +3164,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 95.0, 640.0, 454.0 ],
+						"rect" : [ 145.0, 273.0, 640.0, 454.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3183,7 +3183,36 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 358.0, 139.0, 84.0, 16.0 ],
+									"text" : "videoboundaries"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 238.0, 80.0, 50.0, 16.0 ],
+									"text" : "notfound"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "button",
@@ -3199,13 +3228,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-7",
-									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 198.0, 207.0, 50.0, 83.0 ],
-									"text" : "jul-mbp:/Users/julian/code/O4.rhyth_abs-v2/rhyth_db/testingOSC6"
+									"patching_rect" : [ 198.0, 207.0, 50.0, 16.0 ],
+									"text" : "notfound"
 								}
 
 							}
@@ -3214,13 +3242,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.0, 308.0, 50.0, 105.0 ],
-									"text" : "jul-mbp:/Users/julian/code/O4.rhyth_abs-v2/rhyth_db/testingOSC6/03-rhythm.txt"
+									"patching_rect" : [ 245.0, 299.911957, 50.0, 16.0 ]
 								}
 
 							}
@@ -3243,13 +3269,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-2",
-									"linecount" : 8,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 286.0, 225.0, 50.0, 83.0 ],
-									"text" : "jul-mbp:/Users/julian/code/O4.rhyth_abs-v2/rhyth_db/testingOSC6"
+									"patching_rect" : [ 286.0, 225.0, 50.0, 16.0 ],
+									"text" : "notfound"
 								}
 
 							}
@@ -3305,6 +3330,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -3581,6 +3607,24 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-112", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-112", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3818,8 +3862,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.0, 259.0, 50.0, 72.0 ],
-									"text" : "jul-mbp:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/"
+									"patching_rect" : [ 13.0, 260.0, 56.0, 94.0 ],
+									"text" : "\"Macintosh HD:/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/rhyth_db/\""
 								}
 
 							}

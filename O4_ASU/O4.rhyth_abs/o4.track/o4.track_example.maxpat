@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 68.0, 111.0, 1158.0, 630.0 ],
+		"rect" : [ 68.0, 163.0, 1158.0, 578.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -127,7 +127,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 81.0, 300.0, 150.0, 40.0 ],
-					"text" : "/stream/x 0.591197\n/stream/y 0.533333\n/stream/quantity 0.000924479",
+					"text" : "/stream/x 0.47455\n/stream/y 0.475102\n/stream/quantity 0.236289",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -183,7 +183,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 118.0, 438.0, 150.0, 51.0 ],
-					"text" : "/x 0.734574\n/y 0.451064\n/quantity 0.000611979\n/frame \"frame\" 336",
+					"text" : "/x 0.465409\n/y 0.485676\n/quantity 0.252005\n/frame \"frame\" 199",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -213,7 +213,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 495.5, 165.0, 125.0, 51.0 ],
-					"text" : "/x 0.534677\n/y 0.566667\n/quantity 0.000403646\n/frame \"frame\" 99",
+					"text" : "/x 0.421954\n/y 0.505469\n/quantity 0.242292\n/frame \"frame\" 44",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
