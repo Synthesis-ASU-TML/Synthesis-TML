@@ -788,7 +788,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 498.697388, 215.204025, 60.5, 46.0 ]
+					"patching_rect" : [ 492.447388, 222.204025, 60.5, 46.0 ]
 				}
 
 			}
@@ -812,7 +812,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 475.447388, 269.056366, 504.5, 16.0 ],
+					"patching_rect" : [ 475.447388, 274.056366, 504.5, 16.0 ],
 					"text" : "t l l"
 				}
 
@@ -1565,7 +1565,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 996.048523, 557.049438, 443.166626, 39.287537 ]
+					"patching_rect" : [ 996.048523, 557.049438, 390.166626, 47.287537 ]
 				}
 
 			}
@@ -1741,7 +1741,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.447388, 230.943314, 32.5, 14.0 ],
+					"patching_rect" : [ 583.447388, 244.943314, 32.5, 14.0 ],
 					"text" : "0"
 				}
 
@@ -1797,7 +1797,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 615.447388, 208.204025, 77.166718, 16.0 ],
+					"patching_rect" : [ 583.447388, 222.204025, 77.166718, 16.0 ],
 					"text" : "route loopnotify"
 				}
 
@@ -1819,12 +1819,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-151",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 475.447388, 188.543869, 159.0, 16.0 ],
-					"text" : "jit.qt.movie @loopreport 1 @vol 0"
+					"patching_rect" : [ 475.447388, 188.543869, 127.0, 26.0 ],
+					"text" : "jit.qt.movie @loopreport 1 @vol 0 @dim 80 60"
 				}
 
 			}
@@ -2256,7 +2257,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 510.147491, 557.049438, 443.166626, 39.287537 ]
+					"patching_rect" : [ 510.147491, 557.049438, 390.166626, 47.287537 ]
 				}
 
 			}
@@ -2863,7 +2864,7 @@
 					"destination" : [ "obj-134", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 624.947388, 253.943298, 705.947388, 253.943298, 705.947388, 8.289215, 450.947388, 8.289215 ],
+					"midpoints" : [ 592.947388, 269.943298, 705.947388, 269.943298, 705.947388, 8.289215, 450.947388, 8.289215 ],
 					"source" : [ "obj-189", 0 ]
 				}
 
@@ -3260,21 +3261,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rhyth.store.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.play.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.phrase.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3282,7 +3283,7 @@
 , 			{
 				"name" : "o.osc-p.maxpat",
 				"bootpath" : "/Users/julian/code/externals/CNMAT_Externals/odot/abstractions",
-				"patcherrelativepath" : "../../externals/CNMAT_Externals/odot/abstractions",
+				"patcherrelativepath" : "../../../../code/externals/CNMAT_Externals/odot/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

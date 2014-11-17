@@ -718,7 +718,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 574.011292, 192.936981, 32.5, 16.0 ],
+					"patching_rect" : [ 578.011292, 192.936981, 32.5, 16.0 ],
 					"text" : "t i i"
 				}
 
@@ -732,7 +732,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 574.011292, 232.768738, 32.5, 16.0 ],
+					"patching_rect" : [ 578.011292, 232.768738, 32.5, 16.0 ],
 					"text" : "sel 0"
 				}
 
@@ -743,9 +743,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "rhythXY.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 439.011292, 18.363808, 153.614014, 153.890778 ]
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 439.397278, 17.838196, 157.614014, 159.890778 ]
 				}
 
 			}
@@ -929,7 +929,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 439.011292, 426.125854, 443.166626, 116.0 ]
+					"patching_rect" : [ 439.011292, 429.651062, 443.166626, 116.0 ]
 				}
 
 			}
@@ -1471,7 +1471,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "" ],
-					"patching_rect" : [ 956.011353, 426.125854, 293.0, 116.0 ],
+					"patching_rect" : [ 956.011353, 429.651062, 293.0, 116.0 ],
 					"varname" : "rhythPlay"
 				}
 
@@ -1484,7 +1484,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 455.711426, 359.844299, 443.166626, 39.287537 ]
+					"patching_rect" : [ 455.711426, 359.844299, 395.166626, 46.287537 ]
 				}
 
 			}
@@ -1845,8 +1845,7 @@
 					"destination" : [ "obj-122", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 583.125305, 170.309189, 583.511292, 170.309189 ],
-					"source" : [ "obj-110", 2 ]
+					"source" : [ "obj-110", 1 ]
 				}
 
 			}
@@ -2238,21 +2237,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rhyth.store.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.play.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.phrase.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2260,14 +2259,14 @@
 , 			{
 				"name" : "o.osc-p.maxpat",
 				"bootpath" : "/Users/julian/code/externals/CNMAT_Externals/odot/abstractions",
-				"patcherrelativepath" : "../../externals/CNMAT_Externals/odot/abstractions",
+				"patcherrelativepath" : "../../../../code/externals/CNMAT_Externals/odot/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhythXY.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs/abstractions",
-				"patcherrelativepath" : "../../O4.rhyth_abs/abstractions",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/abstractions",
+				"patcherrelativepath" : "../abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

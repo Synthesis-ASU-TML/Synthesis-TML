@@ -832,7 +832,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 529.241272, 257.454559, 80.0, 60.0 ]
+					"patching_rect" : [ 529.241272, 267.77243, 80.0, 60.0 ]
 				}
 
 			}
@@ -899,7 +899,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.241272, 316.503937, 89.0, 16.0 ],
+					"patching_rect" : [ 529.241272, 326.821808, 89.0, 16.0 ],
 					"text" : "raw video"
 				}
 
@@ -1256,8 +1256,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 629.407776, 511.398041, 56.0, 16.0 ],
-					"text" : "metro 100"
+					"patching_rect" : [ 629.407776, 511.398041, 67.0, 16.0 ],
+					"text" : "pmetro~ 100"
 				}
 
 			}
@@ -1354,7 +1354,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.241272, 270.193817, 32.5, 14.0 ],
+					"patching_rect" : [ 625.241272, 290.511688, 32.5, 14.0 ],
 					"text" : "0"
 				}
 
@@ -1410,7 +1410,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 651.241272, 247.454559, 77.166718, 16.0 ],
+					"patching_rect" : [ 625.241272, 267.77243, 77.166718, 16.0 ],
 					"text" : "route loopnotify"
 				}
 
@@ -1432,12 +1432,13 @@
 					"fontname" : "Helvetica",
 					"fontsize" : 10.0,
 					"id" : "obj-151",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 511.241272, 227.794403, 159.0, 16.0 ],
-					"text" : "jit.qt.movie @loopreport 1 @vol 0"
+					"patching_rect" : [ 511.241272, 227.794403, 133.0, 26.0 ],
+					"text" : "jit.qt.movie @loopreport 1 @vol 0 @dim 80 60"
 				}
 
 			}
@@ -1616,7 +1617,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1513.141357, 936.680115, 150.0, 36.0 ],
-					"text" : "/motion/x 0.666725\n/motion/y 0.625864\n/motion/quantity 0.157305",
+					"text" : "/motion/x 0.461916\n/motion/y 0.550716\n/motion/quantity 0.385417",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1632,7 +1633,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1082.407837, 538.39801, 150.0, 36.0 ],
-					"text" : "/motion/x 0.496875\n/motion/y 0.504167\n/motion/quantity 1.",
+					"text" : "/motion/x 0.478141\n/motion/y 0.506744\n/motion/quantity 0.161667",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2407,7 +2408,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 646.407776, 637.578979, 407.166626, 39.287537 ]
+					"patching_rect" : [ 644.407776, 629.397949, 392.416809, 46.287537 ]
 				}
 
 			}
@@ -2914,7 +2915,7 @@
 					"destination" : [ "obj-134", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 660.741272, 293.193787, 741.741211, 293.193787, 741.741211, 16.539703, 486.741272, 16.539703 ],
+					"midpoints" : [ 634.741272, 322.193787, 741.741211, 322.193787, 741.741211, 16.539703, 486.741272, 16.539703 ],
 					"source" : [ "obj-189", 0 ]
 				}
 
@@ -2991,7 +2992,7 @@
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 655.907776, 681.529602, 638.907776, 681.529602 ],
+					"midpoints" : [ 653.907776, 681.529602, 638.907776, 681.529602 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -3282,21 +3283,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "rhyth.store.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.play.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rhyth.phrase.maxpat",
-				"bootpath" : "/Users/julian/code/O4.rhyth_abs-v2",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3304,49 +3305,56 @@
 , 			{
 				"name" : "o.osc-p.maxpat",
 				"bootpath" : "/Users/julian/code/externals/CNMAT_Externals/odot/abstractions",
-				"patcherrelativepath" : "../../externals/CNMAT_Externals/odot/abstractions",
+				"patcherrelativepath" : "../../../../code/externals/CNMAT_Externals/odot/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.motion2%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion2%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion2%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion2%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.motion2%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion2%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion2%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion2%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.motion%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/motion%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/motion%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.noiseremoval%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/noiseremoval%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/noiseremoval%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/noiseremoval%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.rgb2luma%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/rgb2luma%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/rgb2luma%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sum%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/sum%",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/sum%",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/sum%",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pmetro~.maxpat",
+				"bootpath" : "/Users/julian/Synthesis/O4_ASU/O4.rhyth_abs/o4.track/abstractions",
+				"patcherrelativepath" : "../o4.track/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
