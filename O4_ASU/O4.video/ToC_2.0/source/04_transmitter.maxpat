@@ -31,6 +31,59 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-34",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 255.0, 105.0, 150.0, 33.0 ],
+					"text" : "detect whether app is hanging"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 255.0, 75.0, 140.0, 20.0 ],
+					"text" : "udpsend 127.0.0.1 9104"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 255.0, 40.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 10.0, 99.0, 20.0 ],
+					"text" : "udpreceive 9004"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -474,6 +527,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -520,29 +591,29 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jmod.vipr.tx%.maxpat",
-				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.vipr.tx",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.vipr.tx",
+				"bootpath" : "/Users/video/MaxLibraries/jmod.vipr.tx",
+				"patcherrelativepath" : "../../../../../../MaxLibraries/jmod.vipr.tx",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.vipr.tx%.maxpat",
-				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.vipr.tx",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.vipr.tx",
-				"type" : "TEXT",
+				"bootpath" : "/Users/video/MaxLibraries/jmod.vipr.tx",
+				"patcherrelativepath" : "../../../../../../MaxLibraries/jmod.vipr.tx",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syphonclient%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"patcherrelativepath" : "../../Dependancies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonclient%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"patcherrelativepath" : "../../Dependancies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}

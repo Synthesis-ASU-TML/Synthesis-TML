@@ -5,13 +5,13 @@
 		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
 >
   <preset number='1' name='default'>
-    <item name='alpha' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='avgluma' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='brightness' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='contrast' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='destination' type='string' priority='0' mixweight='1'>node</item>
+    <item name='alpha' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='avgluma' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='brightness' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='contrast' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='destination' type='string' priority='0' mixweight='1'>test</item>
     <item name='image' type='decimal' priority='0' mixweight='1'>0</item>
-    <item name='saturation' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='saturation' type='decimal' priority='0' mixweight='1'>1.000000</item>
     <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/freeze' type='boolean' priority='0' mixweight='1'>0</item>
     <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>

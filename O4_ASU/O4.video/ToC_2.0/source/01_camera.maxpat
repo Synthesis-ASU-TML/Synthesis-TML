@@ -31,6 +31,102 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 425.0, 970.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 405.0, 1015.0, 94.0, 18.0 ],
+					"text" : "param xfade $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-36",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_gl_texture", "" ],
+					"patching_rect" : [ 390.0, 1065.0, 150.0, 47.0 ],
+					"text" : "jit.gl.slab camera_capture @file co.xfade.jxs @param xfade 0.9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-34",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 305.0, 105.0, 150.0, 33.0 ],
+					"text" : "detect whether app is hanging"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 305.0, 75.0, 140.0, 20.0 ],
+					"text" : "udpsend 127.0.0.1 9101"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 305.0, 40.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 305.0, 10.0, 99.0, 20.0 ],
+					"text" : "udpreceive 9001"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-16",
 					"linecount" : 2,
@@ -278,7 +374,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 509.0, 248.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -335,7 +431,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 50.0, 130.0, 69.0, 20.0 ],
-									"text" : "delay 1500"
+									"text" : "delay 3000"
 								}
 
 							}
@@ -467,7 +563,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 47.588531, 150.0, 60.0 ],
+					"patching_rect" : [ 140.0, 10.0, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 110.0, 5.0, 197.0, 47.0 ],
@@ -798,6 +894,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -867,6 +972,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -880,6 +994,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 54.5, 1050.0, 399.5, 1050.0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -910,6 +1034,16 @@
 					"hidden" : 0,
 					"midpoints" : [ 54.5, 1109.0, 299.5, 1109.0 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 399.5, 1227.0, 284.5, 1227.0 ],
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -951,6 +1085,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -971,20 +1114,20 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 1 ],
+					"destination" : [ "obj-36", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 275.5, 1062.0, 274.5, 1062.0 ],
+					"midpoints" : [ 275.5, 1050.0, 530.5, 1050.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 2 ],
+					"destination" : [ "obj-48", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 275.5, 1050.0, 291.0, 1050.0, 291.0, 1212.0, 284.5, 1212.0 ],
+					"midpoints" : [ 275.5, 1062.0, 274.5, 1062.0 ],
 					"source" : [ "obj-5", 1 ]
 				}
 
@@ -1005,6 +1148,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 254.5, 1275.0, 354.5, 1275.0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -1065,63 +1217,63 @@
 		"dependency_cache" : [ 			{
 				"name" : "jmod.syphonclient%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"patcherrelativepath" : "../../Dependancies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonclient%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"patcherrelativepath" : "../../Dependancies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.ab.spotmask%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
+				"patcherrelativepath" : "../../Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.ab.spotmask%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
+				"patcherrelativepath" : "../../Dependancies/jamoma_shaders/jmod.gl.ab.spotmask%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syphonserver%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonserver%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonserver%",
+				"patcherrelativepath" : "../../Dependancies/jmod.syphonserver%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonserver%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonserver%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonserver%",
+				"patcherrelativepath" : "../../Dependancies/jmod.syphonserver%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.td.rotate%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.td.rotate%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.td.rotate%",
+				"patcherrelativepath" : "../../Dependancies/jamoma_shaders/jmod.gl.td.rotate%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.td.rotate%.maxpat",
 				"bootpath" : "/Users/video/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.td.rotate%",
-				"patcherrelativepath" : "../../../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.td.rotate%",
+				"patcherrelativepath" : "../../Dependancies/jamoma_shaders/jmod.gl.td.rotate%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
