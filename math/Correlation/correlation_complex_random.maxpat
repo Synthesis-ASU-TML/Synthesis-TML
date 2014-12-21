@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 108.0, 44.0, 933.0, 734.0 ],
+		"rect" : [ 183.0, 44.0, 1181.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 639.0, 527.0, 330.0, 135.0 ],
+					"setminmax" : [ -30.0, 30.0 ],
+					"setstyle" : 1,
+					"size" : 128
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Palatino Bold",
 					"fontsize" : 12.0,
@@ -867,6 +882,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-63", 1 ]
 				}
 
 			}
