@@ -1,0 +1,1 @@
+#!/bin/sh# makes the required device files for GPIO pins on the cerf## this only needs to be run once, on each machine which# requires read or write access to the GPIO pins. this # includes the adxl module, for reading acceleromter data.for minor in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ; do rm -f /dev/gpio$minor && mknod /dev/gpio$minor c 240 $minordone

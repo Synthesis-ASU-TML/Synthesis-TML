@@ -1,0 +1,114 @@
+<jittershader name="pixelweight">
+	<description>
+	Does pixel weight  Weeeeee
+	</description>
+	<param name="pixelOffset" type="vec2" default="1 1">
+		<description>Offset of pixels (x, y)</description>
+	</param>
+	<param name="param1" type="float" default="0.5">
+		<description>Param 1</description>
+	</param>
+	<param name="param2" type="float" default="0.5">
+		<description>Param 2</description>
+	</param>
+	<param name="param3" type="float" default="0.5">
+		<description>Param 3</description>
+	</param>
+	<param name="param4" type="float" default="0.5">
+		<description>Param 4</description>
+	</param>
+	<param name="param5" type="float" default="0.5">
+		<description>Param 5</description>
+	</param>
+	<param name="param6" type="float" default="0.5">
+		<description>Param 6</description>
+	</param>
+	<language name="arb" version="1.0">
+		<bind param="param1" program="fp" target="env[0]" />
+		<bind param="param2" program="fp" target="env[1]" />
+		<bind param="param3" program="fp" target="env[2]" />
+		<bind param="param4" program="fp" target="env[3]" />
+		<bind param="param5" program="fp" target="env[4]" />
+		<bind param="param6" program="fp" target="env[5]" />
+		<bind param="pixelOffset" program="fp" target="env[6]" />	
+		<program name="vp" type="vertex" source="sh.passthru.vp.arb" />
+		<program name="fp" type="fragment">
+<![CDATA[
+!!ARBfp1.0
+
+
+#################### PARAMETERS ########################
+# How to offset the pixels.
+PARAM pixelOffset = program.env[6];
+
+# Six parameters to pixelweight
+PARAM param1 = program.env[0];
+PARAM param2 = program.env[1];
+PARAM param3 = program.env[2];
+PARAM param4 = program.env[3];
+PARAM param5 = program.env[4];
+PARAM param6 = program.env[5];
+
+#################### C to Shader Notes ################
+# The GPU works on 4-component vectors for colors and vertices.
+# This means that to remain the same, ba of rgba will be ignored.
+
+# Also; we have access to a normalized version of the texture.  To
+# resolve this, a parameter pixelOffset is provided so that the
+# width of the pixels can be known given an arbitrary sized texture.
+# This parameter should be set to {1/texWidth, 1/texHeight}.
+
+# The 4 values (above, below, left, right) could have been
+# loaded into a single vector and done the cross-product;
+# but that would have introduced more overhead...
+
+# Differences: pixelweight as a C external would only set the
+# first two components; as a shader we set all 4 (RGBA).
+# Also; pixel shaders automatically clamp values at the end.
+# I'm not sure about fragment programs though...
+
+################### Temporary Vars ####################
+
+# Used to compute indices
+TEMP ind;
+
+# Currently read color
+TEMP col;
+TEMP colWork;
+TEMP workPrev;
+
+################### Shader ############################
+
+# Sample color of middle (both components)
+TEX colWork, fragment.texcoord[0], texture[0],RECT;
+MUL colWork.r, colWork.r, param1.r;
+MAD colWork.r, colWork.g, param2.r, colWork.r;
+
+# Second color...
+MAD ind, pixelOffset, {1,0}, fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.r, col.r, param3.r, colWork.r;
+
+# Third color...
+MAD ind, pixelOffset, {-1,0}, fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.r, col.r, param4.r, colWork.r;
+
+# Fourth color...
+MAD ind, pixelOffset, {0,1},fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.r, col.r, param5.r, colWork.r;
+
+# Last color
+MAD ind, pixelOffset, {0, -1},fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.r, col.r, param6.r, colWork.r;
+
+# Copy...
+MOV result.color, colWork.r;
+MOV result.color, colWorkPrev;
+END
+]]>
+		</program>
+	</language>
+</jittershader>

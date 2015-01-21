@@ -1,0 +1,35 @@
+{\rtf1\mac\ansicpg10001\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww13880\viewh14580\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\fs24 \cf0 \
+Overview\
+\
+The patch currently supports three input sources and a range of computational inputs to produce fluid effects. To simplify things, we've added a number of presets at the top right corner.\
+\
+To get started, open fluids4membrane and choose an effect from the top right corner. Next, choose from one of three density input sources via the switch input:\
+\
+1: input from the console (mouse + keyboard) via the Density Input LCD.\
+2: input from live video source (camera)\
+3: input from movie or still image\
+\
+The presets on the right establish parameters for specific effects. Note that the presets don't select the input source, so you'll have to remember to click the proper input selector for the switch after selecting a preset.\
+\
+The "Density Input LCD" input might be the most interesting thing to try first, since it lets you do everything from the keyboard. To add density, hold the Control key while click-dragging the mouse within the black LCD window. To add velocity, hold the Shift key while click dragging within the LCD.\
+\
+In the Computation pane, you may want to experiment with the dt parameter to see how it changes the effect. The densdecay and veldecay parameters affect density persistance. [density (time t+1) = densdecay * density(t)]\
+\
+Example step-by-step process:\
+\
+1. open fluids4membrane.\
+2. choose the third preset (smoky silouhette).\
+3. in the live video source, open the camera.\
+4. in the switch bank (left side of screen) choose video.\
+5. dance in front of the camera and observe the effect on the resulting image\
+(you may want to play with the image mixer slider)\
+\
+If the source image is a bit jerky, open the matrixview patch. This slows down the process and results in a smoother final image. (We welcome comments on what might be causing the frame difference to look jerky.)\
+\
+Delphine and Maria}

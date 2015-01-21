@@ -1,0 +1,1 @@
+max v2;#N vpatcher 8 70 450 300;#P outlet 102 236 15 0;#P newex 104 63 50 9 t f;#P newex 103 36 62 9 r $1-group;#P connect 1 0 2 0;#P connect 0 0 1 0;#P pop;

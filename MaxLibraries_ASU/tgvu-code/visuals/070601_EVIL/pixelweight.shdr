@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>creatorShortVersionString</key>
+	<string>1.2.5</string>
+	<key>primitive</key>
+	<string>2</string>
+	<key>programTabViewIndex</key>
+	<string>1</string>
+	<key>renderingPassList</key>
+	<dict>
+		<key>Default Rendering Pass</key>
+		<dict>
+			<key>baseColor</key>
+			<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+			<key>fragmentProgramExecuter</key>
+			<dict>
+				<key>language</key>
+				<integer>34820</integer>
+				<key>programString</key>
+				<string>!!ARBfp1.0
+
+
+#################### PARAMETERS ########################
+# How to offset the pixels.
+PARAM pixelOffset = {0.02,0.02};
+
+# Six parameters to pixelweight
+PARAM param1 = 0.1;
+PARAM param2 = 0.3;
+PARAM param3 = 0.4;
+PARAM param4 = -0.1;
+PARAM param5 = 0.7;
+PARAM param6 = 0.9;
+
+#################### C to Shader Notes ################
+# The GPU works on 4-component vectors for colors and vertices.
+# This means that to remain the same, ba of rgba will be ignored.
+
+# Also; we have access to a normalized version of the texture.  To
+# resolve this, a parameter pixelOffset is provided so that the
+# width of the pixels can be known given an arbitrary sized texture.
+# This parameter should be set to {1/texWidth, 1/texHeight}.
+
+# The 4 values (above, below, left, right) could have been
+# loaded into a single vector and done the cross-product;
+# but that would have introduced more overhead...
+
+# Differences: pixelweight as a C external would only set the
+# first two components; as a shader we set all 4 (RGBA).
+# Also; pixel shaders automatically clamp values at the end.
+# I'm not sure about fragment programs though...
+
+################### Temporary Vars ####################
+
+# Used to compute indices
+TEMP ind;
+
+# Currently read color
+TEMP col;
+TEMP colWork;
+
+################### Shader ############################
+
+# Sample color of middle (both components)
+TEX colWork, fragment.texcoord[0], texture[0],2D;
+MUL colWork.r, colWork.r, param1.r;
+MAD colWork.r, colWork.g, param2.r, colWork.r;
+
+# Second color...
+MAD ind, pixelOffset, {1,0}, fragment.texcoord[0];
+TEX col, ind, texture[0],2D;
+MAD colWork.r, col.r, param3.r, colWork.r;
+
+# Third color...
+MAD ind, pixelOffset, {-1,0}, fragment.texcoord[0];
+TEX col, ind, texture[0],2D;
+MAD colWork.r, col.r, param4.r, colWork.r;
+
+# Fourth color...
+MAD ind, pixelOffset, {0,1},fragment.texcoord[0];
+TEX col, ind, texture[0],2D;
+MAD colWork.r, col.r, param5.r, colWork.r;
+
+# Last color
+MAD ind, pixelOffset, {0, -1},fragment.texcoord[0];
+TEX col, ind, texture[0],2D;
+MAD colWork.r, col.r, param6.r, colWork.r;
+
+# Copy...
+MOV result.color, colWork.r;
+END</string>
+				<key>symbolTable</key>
+				<dict>
+					<key>col</key>
+					<dict>
+						<key>data</key>
+						<string>[0.00, 0.00, 0.00, 0.00]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>colWork</key>
+					<dict>
+						<key>data</key>
+						<string>[0.00, 0.00, 0.00, 0.00]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>ind</key>
+					<dict>
+						<key>data</key>
+						<string>[0.00, 0.00, 0.00, 0.00]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>param1</key>
+					<dict>
+						<key>data</key>
+						<string>[0.50, 0.50, 0.50, 0.50]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>param2</key>
+					<dict>
+						<key>data</key>
+						<string>[-0.50, -0.50, -0.50, -0.50]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>param3</key>
+					<dict>
+						<key>data</key>
+						<string>[0.00, 0.00, 0.00, 0.00]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>param4</key>
+					<dict>
+						<key>data</key>
+						<string>[-0.10, -0.10, -0.10, -0.10]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>param5</key>
+					<dict>
+						<key>data</key>
+						<string>[0.70, 0.70, 0.70, 0.70]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>param6</key>
+					<dict>
+						<key>data</key>
+						<string>[0.90, 0.90, 0.90, 0.90]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+					<key>pixelOffset</key>
+					<dict>
+						<key>data</key>
+						<string>[0.10, 0.10, 0.10, 0.10]</string>
+						<key>maximum</key>
+						<string>[1.00, 1.00, 1.00, 1.00]</string>
+						<key>minimum</key>
+						<string>[-1.00, -1.00, -1.00, -1.00]</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>multiTextureList</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33984, 1, 34168, 5890, 8448]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>textureFilename</key>
+					<string>face.jpg</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>1</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33985, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33986, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33987, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33988, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>5</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33989, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>6</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33990, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+				<key>7</key>
+				<dict>
+					<key>combinerOptions</key>
+					<string>[33991, 0, 5890, 5890, 7681]</string>
+					<key>constantColor</key>
+					<string>[1.000000, 1.000000, 1.000000, 1.000000]</string>
+					<key>filteringOptions</key>
+					<string>[9729, 9729]</string>
+					<key>wrappingOptions</key>
+					<string>[10497, 10497]</string>
+				</dict>
+			</dict>
+			<key>opacity</key>
+			<string>1.000000</string>
+			<key>vertexProgramExecuter</key>
+			<dict>
+				<key>language</key>
+				<integer>34336</integer>
+				<key>programString</key>
+				<string></string>
+				<key>symbolTable</key>
+				<dict/>
+			</dict>
+		</dict>
+	</dict>
+	<key>windowFrame</key>
+	<string>{{53, 395}, {948, 727}}</string>
+</dict>
+</plist>

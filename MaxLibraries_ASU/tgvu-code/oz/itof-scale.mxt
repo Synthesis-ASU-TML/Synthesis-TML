@@ -1,0 +1,1 @@
+max v2;#N vpatcher 40 55 440 355;#P newex 73 108 50 196617 / 65535.;#P outlet 27 171 15 0;#P inlet 27 46 15 0;#P comment 52 48 295 196617 convert an int in the range 0-65535 to a float in range 0-1;#P connect 3 0 2 0;#P connect 1 0 3 0;#P pop;

@@ -1,0 +1,21 @@
+<jittershader name="r">
+	<description>
+	Does pixel weight  Weeeeee
+	</description>
+		<language name="arb" version="1.0">
+		<program name="vp" type="vertex" source="sh.passthru.vp.arb" />
+		<program name="fp" type="fragment">
+<![CDATA[
+!!ARBfp1.0
+
+
+TEMP work;
+
+TEX work, fragment.texcoord[0], texture[0], RECT;
+MOV result.color, work.r;
+
+END
+]]>
+		</program>
+	</language>
+</jittershader>

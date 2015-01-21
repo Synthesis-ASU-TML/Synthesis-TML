@@ -1,0 +1,38 @@
+<jittershader name="offset">
+	<description>
+	Simple offset
+	</description>
+	<param name="offsetScale" type="vec2" default="1 1">
+		<description>Offset of pixels (x, y)</description>
+	</param>
+	<language name="arb" version="1.0">
+		<bind param="offsetScale" program="fp" target="env[0]" />
+		<program name="vp" type="vertex" source="sh.passthru.vp.arb" />
+		<program name="fp" type="fragment">
+<![CDATA[
+!!ARBfp1.0
+
+
+#################### PARAMETERS ########################
+
+PARAM scale = program.env[0];
+
+################### Temporary Vars ####################
+
+# Used to compute indices
+TEMP ind;
+TEMP off;
+
+################### Shader ############################
+
+TEX off, fragment.texcoord[0], texture[1],RECT;
+
+MAD ind, off, scale, fragment.texcoord[0];
+
+TEX result.color, ind, texture[0],RECT;
+
+END
+]]>
+		</program>
+	</language>
+</jittershader>

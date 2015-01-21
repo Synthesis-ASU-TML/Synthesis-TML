@@ -1,0 +1,124 @@
+<jittershader name="pixelweight">
+	<description>
+	Does pixel weight  Weeeeee
+	</description>
+	<param name="pixelOffset" type="vec2" default="1 1">
+		<description>Offset of pixels (x, y)</description>
+	</param>
+	<param name="centerPresent" type="float" default="0.5">
+		<description>Param 1</description>
+	</param>
+	<param name="centerPast" type="float" default="0.5">
+		<description>Param 2</description>
+	</param>
+	<param name="leftPresent" type="float" default="0.5">
+		<description>Param 3</description>
+	</param>
+	<param name="rightPresent" type="float" default="0.5">
+		<description>Param 4</description>
+	</param>
+	<param name="topPresent" type="float" default="0.5">
+		<description>Param 5</description>
+	</param>
+	<param name="bottomPresent" type="float" default="0.5">
+		<description>Param 6</description>
+	</param>
+	<param name="tex0" type="int" default="0" />
+	<param name="tex1" type="int" default="1" />
+	<language name="arb" version="1.0">
+		<bind param="centerPresent" program="fp" target="env[0]" />
+		<bind param="centerPast" program="fp" target="env[1]" />
+		<bind param="leftPresent" program="fp" target="env[2]" />
+		<bind param="rightPresent" program="fp" target="env[3]" />
+		<bind param="topPresent" program="fp" target="env[4]" />
+		<bind param="bottomPresent" program="fp" target="env[5]" />
+		<bind param="tex0" program="fp" />
+		<bind param="tex1" program="fp" />
+		<bind param="pixelOffset" program="fp" target="env[6]" />	
+		<program name="vp" type="vertex" source="sh.passthru.vp.arb" />
+		<program name="fp" type="fragment">
+<![CDATA[
+!!ARBfp1.0
+
+
+#################### PARAMETERS ########################
+# How to offset the pixels.
+PARAM pixelOffset = program.env[6];
+
+# Six parameters to pixelweight
+PARAM centerPresent = program.env[0];
+PARAM centerPast = program.env[1];
+PARAM leftPresent = program.env[2];
+PARAM rightPresent = program.env[3];
+PARAM topPresent = program.env[4];
+PARAM bottomPresent = program.env[5];
+
+#################### C to Shader Notes ################
+# The GPU works on 4-component vectors for colors and vertices.
+# This means that to remain the same, ba of rgba will be ignored.
+
+# Also; we have access to a normalized version of the texture.  To
+# resolve this, a parameter pixelOffset is provided so that the
+# width of the pixels can be known given an arbitrary sized texture.
+# This parameter should be set to {1/texWidth, 1/texHeight}.
+
+# The 4 values (above, below, left, right) could have been
+# loaded into a single vector and done the cross-product;
+# but that would have introduced more overhead...
+
+# Differences: pixelweight as a C external would only set the
+# first two components; as a shader we set all 4 (RGBA).
+# Also; pixel shaders automatically clamp values at the end.
+# I'm not sure about fragment programs though...
+
+################### Temporary Vars ####################
+
+# Used to compute indices
+TEMP ind;
+
+# Currently read color
+TEMP col;
+TEMP colWork;
+TEMP resl;
+
+################### Shader ############################
+
+# Sample color of middle (both components)
+TEX colWork, fragment.texcoord[0], texture[0],RECT;
+MUL colWork.g, colWork.g, centerPast.r;
+MAD colWork.g, colWork.r, centerPresent.r, colWork.g;
+
+# Second color...
+MAD ind, pixelOffset, {-1,0}, fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.g, col.r, leftPresent.r, colWork.g;
+
+# Third color...
+MAD ind, pixelOffset, {1,0}, fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.g, col.r, rightPresent.r, colWork.g;
+
+# Fourth color...
+MAD ind, pixelOffset, {0,-1},fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.g, col.r, topPresent.r, colWork.g;
+
+# Last color
+MAD ind, pixelOffset, {0, 1},fragment.texcoord[0];
+TEX col, ind, texture[0], RECT;
+MAD colWork.g, col.r, bottomPresent.r, colWork.g;
+
+# Copy...
+MOV resl, colWork.r;
+MOV result.color, colWork.g;
+
+# Max it!
+TEX col, fragment.texcoord[0], texture[1], RECT;
+MAX result.color.g, resl.r, col.r;
+MOV result.color.b, 0;
+MOV result.color.a, 1;
+END
+]]>
+		</program>
+	</language>
+</jittershader>

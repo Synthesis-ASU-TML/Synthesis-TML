@@ -1,0 +1,1 @@
+max v2;#N vpatcher 602 219 893 477;#N comlet |v|^2;#P outlet 52 202 15 0;#P comment 16 28 99 196628 L2norm;#P newex 52 162 31 196617 Lsum;#N comlet list v;#P inlet 55 96 15 0;#P newex 52 129 33 196617 Lmult;#P comment 145 33 128 196617 Depends on Peter Elsea's LBasic externals;#P connect 2 0 1 0;#P connect 1 0 3 0;#P fasten 3 0 5 0 57 202;#P connect 2 0 1 1;#P pop;

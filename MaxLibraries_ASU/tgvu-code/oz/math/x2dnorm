@@ -1,0 +1,1 @@
+max v2;#N vpatcher 50 40 387 276;#P comment 197 22 100 196617 |v| for two dimensions only;#P comment 12 21 180 196626 X2Norm;#N comlet f out;#P outlet 16 113 15 0;#N comlet f y;#P inlet 170 50 15 0;#N comlet f x;#P inlet 16 51 15 0;#P newex 16 81 164 196617 expr sqrt($f1 * $f1 + $f2 * $f2);#P connect 1 0 0 0;#P connect 0 0 3 0;#P connect 2 0 0 1;#P pop;

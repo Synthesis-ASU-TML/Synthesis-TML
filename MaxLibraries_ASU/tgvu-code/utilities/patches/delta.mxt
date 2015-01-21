@@ -1,0 +1,1 @@
+max v2;#N vpatcher 440 160 619 365;#P newex 22 51 50 9 t f f;#P newex 20 95 27 9 - 0.;#P inlet 23 20 15 0;#P outlet 20 136 15 0;#P comment 80 55 84 196618 gives the delta between successive inputs.;#P connect 4 1 3 0;#P connect 3 0 1 0;#P connect 2 0 4 0;#P connect 4 0 3 1;#P pop;

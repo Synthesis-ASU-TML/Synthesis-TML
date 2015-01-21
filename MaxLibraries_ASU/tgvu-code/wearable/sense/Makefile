@@ -1,0 +1,1 @@
+# makefile for operate## the pin reader to OSC connection#operate: operate.c OSC-client.c OSC-timetag.c OSC-client.h OSC-timetag.h	arm-linux-gcc operate.c OSC-timetag.c OSC-client.c -o operate
