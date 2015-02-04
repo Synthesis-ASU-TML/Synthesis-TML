@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>381</string>
+	<key>AMApplicationVersion</key>
+	<string>2.4</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}	tell application "System Events" to tell process "StaufferMon41"	tell application "staufferMon41" to activate	--tell front window to set position to {10, 10}end telldelay 15tell current application	set x to 120	set y to 417		do shell script "
+/usr/bin/python &lt;&lt;END
+import sys
+import time
+from Quartz.CoreGraphics import *
+def mouseEvent(type, posx, posy):
+          theEvent = CGEventCreateMouseEvent(None, type, (posx,posy), kCGMouseButtonLeft)
+          CGEventPost(kCGHIDEventTap, theEvent)
+def mousemove(posx,posy):
+          mouseEvent(kCGEventMouseMoved, posx,posy);
+def mouseclick(posx,posy):
+          mouseEvent(kCGEventLeftMouseDown, posx,posy);
+          mouseEvent(kCGEventLeftMouseUp, posx,posy);
+ourEvent = CGEventCreate(None);
+currentpos=CGEventGetLocation(ourEvent);             # Save current mouse position
+mouseclick(" &amp; x &amp; "," &amp; y &amp; ");
+mouseclick(" &amp; x &amp; "," &amp; y &amp; ");
+mousemove(int(currentpos.x),int(currentpos.y));      # Restore mouse position
+END"	set x to 717	set y to 142		do shell script "
+/usr/bin/python &lt;&lt;END
+import sys
+import time
+from Quartz.CoreGraphics import *
+def mouseEvent(type, posx, posy):
+          theEvent = CGEventCreateMouseEvent(None, type, (posx,posy), kCGMouseButtonLeft)
+          CGEventPost(kCGHIDEventTap, theEvent)
+def mousemove(posx,posy):
+          mouseEvent(kCGEventMouseMoved, posx,posy);
+def mouseclick(posx,posy):
+          mouseEvent(kCGEventLeftMouseDown, posx,posy);
+          mouseEvent(kCGEventLeftMouseUp, posx,posy);
+ourEvent = CGEventCreate(None);
+currentpos=CGEventGetLocation(ourEvent);             # Save current mouse position
+mouseclick(" &amp; x &amp; "," &amp; y &amp; ");
+mousemove(int(currentpos.x),int(currentpos.y));      # Restore mouse position
+END"	set x to 120	set y to 506		do shell script "
+/usr/bin/python &lt;&lt;END
+import sys
+import time
+from Quartz.CoreGraphics import *
+def mouseEvent(type, posx, posy):
+          theEvent = CGEventCreateMouseEvent(None, type, (posx,posy), kCGMouseButtonLeft)
+          CGEventPost(kCGHIDEventTap, theEvent)
+def mousemove(posx,posy):
+          mouseEvent(kCGEventMouseMoved, posx,posy);
+def mouseclick(posx,posy):
+          mouseEvent(kCGEventLeftMouseDown, posx,posy);
+          mouseEvent(kCGEventLeftMouseUp, posx,posy);
+ourEvent = CGEventCreate(None);
+currentpos=CGEventGetLocation(ourEvent);             # Save current mouse position
+mouseclick(" &amp; x &amp; "," &amp; y &amp; ");
+mousemove(int(currentpos.x),int(currentpos.y));      # Restore mouse position
+END"end tell		return inputend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>F2808800-C102-461D-868A-4D41484A8D05</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>260F763D-05C2-48DC-9B8B-F9879B5BAACA</string>
+				<key>UUID</key>
+				<string>A17DA073-C002-4BDB-9E49-656C91EA7CA2</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:541.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>pauseDuration</key>
+					<dict/>
+					<key>pauseUnit</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Pause.action</string>
+				<key>ActionName</key>
+				<string>Pause</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>pauseDuration</key>
+					<integer>5</integer>
+					<key>pauseUnit</key>
+					<integer>0</integer>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Pause</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>PauseAction</string>
+				<key>InputUUID</key>
+				<string>DDC198B7-C0EF-4AA0-8FC9-1E76F2D5EE18</string>
+				<key>Keywords</key>
+				<array>
+					<string>Time</string>
+					<string>Wait</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>3EC49306-ACAD-4577-AD8C-C5122CF29798</string>
+				<key>UUID</key>
+				<string>9C8F5474-2AB1-43D5-B7EA-1ACE2BC94339</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>pauseUnit</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>pauseDuration</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:228.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Pause.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>application</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+					<key>saveChanges</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array/>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Quit Application.action</string>
+				<key>ActionName</key>
+				<string>Quit Application</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>application</key>
+					<string>/Applications/Automator.app</string>
+					<key>saveChanges</key>
+					<false/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.Quit_Application</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMQuitApplicationAction</string>
+				<key>InputUUID</key>
+				<string>833410BA-E12E-428F-B6EA-749135CF4D5F</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Quit</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>99BF8E21-38DD-455B-809B-71A7270B2D05</string>
+				<key>UUID</key>
+				<string>3C46537E-8887-4434-88E0-EEF773935457</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>/Applications/Contacts.app</string>
+						<key>name</key>
+						<string>application</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<true/>
+						<key>name</key>
+						<string>saveChanges</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.500000:123.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Quit Application.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>AF9675E6-DD82-44D2-BE9B-FD7A4A2B8E91</key>
+		<dict>
+			<key>from</key>
+			<string>9C8F5474-2AB1-43D5-B7EA-1ACE2BC94339 - 9C8F5474-2AB1-43D5-B7EA-1ACE2BC94339</string>
+			<key>to</key>
+			<string>3C46537E-8887-4434-88E0-EEF773935457 - 3C46537E-8887-4434-88E0-EEF773935457</string>
+		</dict>
+		<key>EB779E2D-1401-4D6F-8191-DB17B3BE3426</key>
+		<dict>
+			<key>from</key>
+			<string>A17DA073-C002-4BDB-9E49-656C91EA7CA2 - A17DA073-C002-4BDB-9E49-656C91EA7CA2</string>
+			<key>to</key>
+			<string>9C8F5474-2AB1-43D5-B7EA-1ACE2BC94339 - 9C8F5474-2AB1-43D5-B7EA-1ACE2BC94339</string>
+		</dict>
+	</dict>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
