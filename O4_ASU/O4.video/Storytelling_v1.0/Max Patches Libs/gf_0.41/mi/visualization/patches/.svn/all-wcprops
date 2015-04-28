@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/interlude/!svn/ver/107/ircam/tools/mi/visualization/patches
+END
+mi.editor.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/interlude/!svn/ver/107/ircam/tools/mi/visualization/patches/mi.editor.maxpat
+END
+mi.view.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/interlude/!svn/ver/101/ircam/tools/mi/visualization/patches/mi.view.maxpat
+END
+mi.remote.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/interlude/!svn/ver/107/ircam/tools/mi/visualization/patches/mi.remote.maxpat
+END

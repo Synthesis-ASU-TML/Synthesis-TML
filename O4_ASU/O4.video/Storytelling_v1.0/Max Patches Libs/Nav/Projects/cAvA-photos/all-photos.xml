@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "store[1]">
+	<slot number = "1">
+		<patcher name = "envo">
+			<patcher name = "nav.scale.ui[1]">
+			</patcher>
+			<patcher name = "nav.scale.ui[2]">
+			</patcher>
+			<patcher name = "nav.scale.ui[3]">
+			</patcher>
+		</patcher>
+		<patcher name = "nav.rogs">
+			<pattr name = "cnst_nav.rogs" value = "-1" />
+			<patcher name = "nav.rand">
+				<pattr name = "cnst_nav.rand" value = "-1" />
+				<pattr name = "flonum" value = "0." />
+				<pattr name = "flonum[1]" value = "0." />
+				<pattr name = "number" value = "164" />
+				<pattr name = "number[1]" value = "0" />
+				<pattr name = "number[2]" value = "0" />
+				<pattr name = "toggle" value = "0" />
+			</patcher>
+			<pattr name = "flonum" value = "200." />
+			<pattr name = "flonum[10]" value = "39." />
+			<pattr name = "flonum[11]" value = "10." />
+			<pattr name = "flonum[12]" value = "146." />
+			<pattr name = "flonum[13]" value = "0." />
+			<pattr name = "flonum[14]" value = "4314.172363" />
+			<pattr name = "flonum[15]" value = "0." />
+			<pattr name = "flonum[16]" value = "0." />
+			<pattr name = "flonum[17]" value = "0." />
+			<pattr name = "flonum[18]" value = "0." />
+			<pattr name = "flonum[1]" value = "-20." />
+			<pattr name = "flonum[2]" value = "50." />
+			<pattr name = "flonum[3]" value = "876." />
+			<pattr name = "flonum[4]" value = "0." />
+			<pattr name = "flonum[5]" value = "0." />
+			<pattr name = "flonum[6]" value = "282.925537" />
+			<pattr name = "flonum[7]" value = "3." />
+			<pattr name = "flonum[8]" value = "121." />
+			<pattr name = "flonum[9]" value = "-3." />
+			<pattr name = "gain~" value = "98" />
+			<pattr name = "number" value = "1" />
+			<pattr name = "slider" value = "282" />
+			<pattr name = "slider[1]" value = "200" />
+			<pattr name = "slider[2]" value = "5" />
+			<pattr name = "slider[3]" value = "118" />
+			<pattr name = "slider[4]" value = "876" />
+			<pattr name = "slider[5]" value = "0" />
+			<pattr name = "slider[6]" value = "0" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "1" />
+			<pattr name = "toggle[2]" value = "1" />
+			<pattr name = "toggle[3]" value = "0" />
+		</patcher>
+		<patcher name = "nav.rogs[1]">
+			<pattr name = "const2_nav.rogs" value = "-1" />
+			<patcher name = "nav.rand">
+				<pattr name = "const2_nav.rand" value = "-1" />
+				<pattr name = "flonum" value = "0." />
+				<pattr name = "flonum[1]" value = "2." />
+				<pattr name = "number" value = "6000" />
+				<pattr name = "number[1]" value = "60000" />
+				<pattr name = "number[2]" value = "0" />
+				<pattr name = "toggle" value = "1" />
+			</patcher>
+			<pattr name = "flonum" value = "198." />
+			<pattr name = "flonum[10]" value = "41." />
+			<pattr name = "flonum[11]" value = "20." />
+			<pattr name = "flonum[12]" value = "107." />
+			<pattr name = "flonum[13]" value = "0." />
+			<pattr name = "flonum[14]" value = "1937.142822" />
+			<pattr name = "flonum[15]" value = "0." />
+			<pattr name = "flonum[16]" value = "0." />
+			<pattr name = "flonum[17]" value = "0." />
+			<pattr name = "flonum[18]" value = "0." />
+			<pattr name = "flonum[1]" value = "-580." />
+			<pattr name = "flonum[2]" value = "190." />
+			<pattr name = "flonum[3]" value = "663." />
+			<pattr name = "flonum[4]" value = "0." />
+			<pattr name = "flonum[5]" value = "0." />
+			<pattr name = "flonum[6]" value = "19.151049" />
+			<pattr name = "flonum[7]" value = "2." />
+			<pattr name = "flonum[8]" value = "115." />
+			<pattr name = "flonum[9]" value = "-1." />
+			<pattr name = "gain~" value = "94" />
+			<pattr name = "number" value = "1" />
+			<pattr name = "slider" value = "19" />
+			<pattr name = "slider[1]" value = "198" />
+			<pattr name = "slider[2]" value = "19" />
+			<pattr name = "slider[3]" value = "62" />
+			<pattr name = "slider[4]" value = "663" />
+			<pattr name = "slider[5]" value = "0" />
+			<pattr name = "slider[6]" value = "0" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "1" />
+			<pattr name = "toggle[2]" value = "1" />
+			<pattr name = "toggle[3]" value = "1" />
+		</patcher>
+		<patcher name = "nav.rogs[2]">
+			<patcher name = "nav.rand">
+				<pattr name = "per_nav.rand" value = "-1" />
+				<pattr name = "flonum" value = "-0.2" />
+				<pattr name = "flonum[1]" value = "4." />
+				<pattr name = "number" value = "6000" />
+				<pattr name = "number[1]" value = "60000" />
+				<pattr name = "number[2]" value = "0" />
+				<pattr name = "toggle" value = "1" />
+			</patcher>
+			<pattr name = "per_nav.rogs" value = "-1" />
+			<pattr name = "flonum" value = "200." />
+			<pattr name = "flonum[10]" value = "45." />
+			<pattr name = "flonum[11]" value = "32." />
+			<pattr name = "flonum[12]" value = "103." />
+			<pattr name = "flonum[13]" value = "0." />
+			<pattr name = "flonum[14]" value = "110968.6875" />
+			<pattr name = "flonum[15]" value = "0." />
+			<pattr name = "flonum[16]" value = "0." />
+			<pattr name = "flonum[17]" value = "0." />
+			<pattr name = "flonum[18]" value = "0." />
+			<pattr name = "flonum[1]" value = "-40." />
+			<pattr name = "flonum[2]" value = "190." />
+			<pattr name = "flonum[3]" value = "843." />
+			<pattr name = "flonum[4]" value = "0." />
+			<pattr name = "flonum[5]" value = "0." />
+			<pattr name = "flonum[6]" value = "4402.41748" />
+			<pattr name = "flonum[7]" value = "3." />
+			<pattr name = "flonum[8]" value = "85." />
+			<pattr name = "flonum[9]" value = "-2." />
+			<pattr name = "gain~" value = "100" />
+			<pattr name = "number" value = "1" />
+			<pattr name = "slider" value = "4402" />
+			<pattr name = "slider[1]" value = "200" />
+			<pattr name = "slider[2]" value = "19" />
+			<pattr name = "slider[3]" value = "116" />
+			<pattr name = "slider[4]" value = "843" />
+			<pattr name = "slider[5]" value = "0" />
+			<pattr name = "slider[6]" value = "0" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "1" />
+			<pattr name = "toggle[2]" value = "1" />
+			<pattr name = "toggle[3]" value = "1" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

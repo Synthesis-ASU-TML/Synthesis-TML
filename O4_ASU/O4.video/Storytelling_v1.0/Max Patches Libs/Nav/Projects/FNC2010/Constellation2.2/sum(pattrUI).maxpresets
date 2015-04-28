@@ -1,0 +1,7 @@
+{
+	"preset_data" : [ 		{
+			"number" : 1,
+			"data" : [ 5, "obj-6", "flonum", "float", 0.05, 5, "obj-4", "slider", "float", 0.05, 5, "obj-42", "toggle", "int", 0, 6, "obj-107", "gain~", "list", 94, 10.0, 6, "obj-108", "gain~", "list", 94, 10.0, 6, "obj-110", "gain~", "list", 94, 10.0, 6, "obj-63", "gain~", "list", 94, 0.0, 6, "obj-115", "gain~", "list", 94, 0.0, 6, "obj-114", "gain~", "list", 94, 0.0, 6, "obj-124", "gain~", "list", 94, 10.0, 5, "obj-142", "flonum", "float", 0.0, 5, "obj-53", "number", "int", 0, 6, "obj-44", "gain~", "list", 94, 0.0, 6, "obj-28", "gain~", "list", 94, 0.0 ]
+		}
+ ]
+}

@@ -1,0 +1,8 @@
+new()
+m = make_mesh('read-from-file', 'tract.mesh')
+mat = make_material(1)
+set_info('physical', 'air-density', mat, 0, 0, 1.2)
+set_info('physical', 'air-elasticity', mat, 0, 0, 7.20877e-06)
+fem = make_object('FINITE-ELEMENT',100, m, mat, 0, 0, 'fluid')
+compute_modes(fem)
+save_object(fem,'tract.modal')

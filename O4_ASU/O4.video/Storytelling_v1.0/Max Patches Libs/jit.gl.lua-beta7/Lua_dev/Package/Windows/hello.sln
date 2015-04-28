@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello", "hello.vcproj", "{1590A7B5-DBA2-4B2D-8758-ADC8A967D167}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello_cpp", "hello_cpp.vcproj", "{1F31E298-E70F-4835-A13E-5CD0ABEA3A8C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1590A7B5-DBA2-4B2D-8758-ADC8A967D167}.Debug.ActiveCfg = Debug|Win32
+		{1590A7B5-DBA2-4B2D-8758-ADC8A967D167}.Debug.Build.0 = Debug|Win32
+		{1590A7B5-DBA2-4B2D-8758-ADC8A967D167}.Release.ActiveCfg = Release|Win32
+		{1590A7B5-DBA2-4B2D-8758-ADC8A967D167}.Release.Build.0 = Release|Win32
+		{1F31E298-E70F-4835-A13E-5CD0ABEA3A8C}.Debug.ActiveCfg = Debug|Win32
+		{1F31E298-E70F-4835-A13E-5CD0ABEA3A8C}.Debug.Build.0 = Debug|Win32
+		{1F31E298-E70F-4835-A13E-5CD0ABEA3A8C}.Release.ActiveCfg = Release|Win32
+		{1F31E298-E70F-4835-A13E-5CD0ABEA3A8C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

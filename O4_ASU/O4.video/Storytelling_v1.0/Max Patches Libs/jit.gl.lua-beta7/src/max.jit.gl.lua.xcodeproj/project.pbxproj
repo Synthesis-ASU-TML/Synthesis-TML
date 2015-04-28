@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5B62030919440900A62EB9 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B62020919440900A62EB9 /* MaxAPI.framework */; };
+		2252757D0F94E13800AB9E9B /* jit-external.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2252757C0F94E13800AB9E9B /* jit-external.xcconfig */; };
+		22CE3BC30F9505640058FEB2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE3BC20F9505640058FEB2 /* OpenGL.framework */; };
+		546D053B09D1D535007451EB /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546D053A09D1D535007451EB /* JitterAPI.framework */; };
+		B90DFB620FCFAB5600318D5D /* jit.gl.lua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB450FCFAB5600318D5D /* jit.gl.lua.cpp */; };
+		B90DFB630FCFAB5600318D5D /* jit.gl.lua.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB460FCFAB5600318D5D /* jit.gl.lua.h */; };
+		B90DFB640FCFAB5600318D5D /* jit.gl.lua.sym.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB470FCFAB5600318D5D /* jit.gl.lua.sym.h */; };
+		B90DFB650FCFAB5600318D5D /* max.jit.gl.lua.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB480FCFAB5600318D5D /* max.jit.gl.lua.c */; };
+		B90DFB660FCFAB5600318D5D /* jit.submatrix.wrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB4A0FCFAB5600318D5D /* jit.submatrix.wrapper.c */; };
+		B90DFB670FCFAB5600318D5D /* jit.submatrix.wrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB4B0FCFAB5600318D5D /* jit.submatrix.wrapper.h */; };
+		B90DFB680FCFAB5600318D5D /* lua.file.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB4C0FCFAB5600318D5D /* lua.file.c */; };
+		B90DFB690FCFAB5600318D5D /* lua.file.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB4D0FCFAB5600318D5D /* lua.file.h */; };
+		B90DFB6A0FCFAB5600318D5D /* lua.jit.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB4E0FCFAB5600318D5D /* lua.jit.c */; };
+		B90DFB6B0FCFAB5600318D5D /* lua.jit.gl.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB4F0FCFAB5600318D5D /* lua.jit.gl.c */; };
+		B90DFB6C0FCFAB5600318D5D /* lua.jit.gl.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB500FCFAB5600318D5D /* lua.jit.gl.h */; };
+		B90DFB6D0FCFAB5600318D5D /* lua.jit.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB510FCFAB5600318D5D /* lua.jit.h */; };
+		B90DFB6E0FCFAB5600318D5D /* lua.listener.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB520FCFAB5600318D5D /* lua.listener.c */; };
+		B90DFB6F0FCFAB5600318D5D /* lua.listener.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB530FCFAB5600318D5D /* lua.listener.h */; };
+		B90DFB700FCFAB5600318D5D /* lua.util.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB540FCFAB5600318D5D /* lua.util.c */; };
+		B90DFB710FCFAB5600318D5D /* lua.util.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB550FCFAB5600318D5D /* lua.util.h */; };
+		B90DFB720FCFAB5600318D5D /* lua.vecmath.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB560FCFAB5600318D5D /* lua.vecmath.c */; };
+		B90DFB730FCFAB5600318D5D /* lua.vecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB570FCFAB5600318D5D /* lua.vecmath.h */; };
+		B90DFB740FCFAB5600318D5D /* gl.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB590FCFAB5600318D5D /* gl.h */; };
+		B90DFB760FCFAB5600318D5D /* luagl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB5B0FCFAB5600318D5D /* luagl.cpp */; };
+		B90DFB770FCFAB5600318D5D /* luagl.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB5C0FCFAB5600318D5D /* luagl.h */; };
+		B90DFB780FCFAB5600318D5D /* luaglu.c in Sources */ = {isa = PBXBuildFile; fileRef = B90DFB5D0FCFAB5600318D5D /* luaglu.c */; };
+		B90DFB790FCFAB5600318D5D /* luaglu.h in Headers */ = {isa = PBXBuildFile; fileRef = B90DFB5E0FCFAB5600318D5D /* luaglu.h */; };
+		B91D13B81160ED4E00879497 /* Lua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91D13B71160ED4E00879497 /* Lua.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F5B62020919440900A62EB9 /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../../c74support/max-includes/MaxAPI.framework"; sourceTree = SOURCE_ROOT; };
+		2252757C0F94E13800AB9E9B /* jit-external.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "jit-external.xcconfig"; path = "../jit-external.xcconfig"; sourceTree = SOURCE_ROOT; };
+		22CE3BC20F9505640058FEB2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		546D053A09D1D535007451EB /* JitterAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitterAPI.framework; path = "../../c74support/jit-includes/JitterAPI.framework"; sourceTree = SOURCE_ROOT; };
+		8D01CCD20486CAD60068D4B7 /* jit.gl.lua.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jit.gl.lua.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90DFB450FCFAB5600318D5D /* jit.gl.lua.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jit.gl.lua.cpp; sourceTree = "<group>"; };
+		B90DFB460FCFAB5600318D5D /* jit.gl.lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.lua.h; sourceTree = "<group>"; };
+		B90DFB470FCFAB5600318D5D /* jit.gl.lua.sym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.lua.sym.h; sourceTree = "<group>"; };
+		B90DFB480FCFAB5600318D5D /* max.jit.gl.lua.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = max.jit.gl.lua.c; sourceTree = "<group>"; };
+		B90DFB4A0FCFAB5600318D5D /* jit.submatrix.wrapper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jit.submatrix.wrapper.c; sourceTree = "<group>"; };
+		B90DFB4B0FCFAB5600318D5D /* jit.submatrix.wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.submatrix.wrapper.h; sourceTree = "<group>"; };
+		B90DFB4C0FCFAB5600318D5D /* lua.file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.file.c; sourceTree = "<group>"; };
+		B90DFB4D0FCFAB5600318D5D /* lua.file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.file.h; sourceTree = "<group>"; };
+		B90DFB4E0FCFAB5600318D5D /* lua.jit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.jit.c; sourceTree = "<group>"; };
+		B90DFB4F0FCFAB5600318D5D /* lua.jit.gl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.jit.gl.c; sourceTree = "<group>"; };
+		B90DFB500FCFAB5600318D5D /* lua.jit.gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.jit.gl.h; sourceTree = "<group>"; };
+		B90DFB510FCFAB5600318D5D /* lua.jit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.jit.h; sourceTree = "<group>"; };
+		B90DFB520FCFAB5600318D5D /* lua.listener.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.listener.c; sourceTree = "<group>"; };
+		B90DFB530FCFAB5600318D5D /* lua.listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.listener.h; sourceTree = "<group>"; };
+		B90DFB540FCFAB5600318D5D /* lua.util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.util.c; sourceTree = "<group>"; };
+		B90DFB550FCFAB5600318D5D /* lua.util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.util.h; sourceTree = "<group>"; };
+		B90DFB560FCFAB5600318D5D /* lua.vecmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lua.vecmath.c; sourceTree = "<group>"; };
+		B90DFB570FCFAB5600318D5D /* lua.vecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.vecmath.h; sourceTree = "<group>"; };
+		B90DFB590FCFAB5600318D5D /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
+		B90DFB5B0FCFAB5600318D5D /* luagl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = luagl.cpp; sourceTree = "<group>"; };
+		B90DFB5C0FCFAB5600318D5D /* luagl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luagl.h; sourceTree = "<group>"; };
+		B90DFB5D0FCFAB5600318D5D /* luaglu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = luaglu.c; sourceTree = "<group>"; };
+		B90DFB5E0FCFAB5600318D5D /* luaglu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaglu.h; sourceTree = "<group>"; };
+		B91D13B71160ED4E00879497 /* Lua.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lua.framework; path = /Library/Frameworks/Lua.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5B62030919440900A62EB9 /* MaxAPI.framework in Frameworks */,
+				546D053B09D1D535007451EB /* JitterAPI.framework in Frameworks */,
+				22CE3BC30F9505640058FEB2 /* OpenGL.framework in Frameworks */,
+				B91D13B81160ED4E00879497 /* Lua.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* atanh */ = {
+			isa = PBXGroup;
+			children = (
+				2252757C0F94E13800AB9E9B /* jit-external.xcconfig */,
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = atanh;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B91D13B71160ED4E00879497 /* Lua.framework */,
+				22CE3BC20F9505640058FEB2 /* OpenGL.framework */,
+				546D053A09D1D535007451EB /* JitterAPI.framework */,
+				0F5B62020919440900A62EB9 /* MaxAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B90DFB430FCFAB5600318D5D /* src */,
+				B90DFB490FCFAB5600318D5D /* jit_bindings */,
+				B90DFB580FCFAB5600318D5D /* luagl */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* jit.gl.lua.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B90DFB430FCFAB5600318D5D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B90DFB470FCFAB5600318D5D /* jit.gl.lua.sym.h */,
+				B90DFB480FCFAB5600318D5D /* max.jit.gl.lua.c */,
+				B90DFB460FCFAB5600318D5D /* jit.gl.lua.h */,
+				B90DFB450FCFAB5600318D5D /* jit.gl.lua.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B90DFB490FCFAB5600318D5D /* jit_bindings */ = {
+			isa = PBXGroup;
+			children = (
+				B90DFB4B0FCFAB5600318D5D /* jit.submatrix.wrapper.h */,
+				B90DFB4A0FCFAB5600318D5D /* jit.submatrix.wrapper.c */,
+				B90DFB4D0FCFAB5600318D5D /* lua.file.h */,
+				B90DFB4C0FCFAB5600318D5D /* lua.file.c */,
+				B90DFB510FCFAB5600318D5D /* lua.jit.h */,
+				B90DFB4E0FCFAB5600318D5D /* lua.jit.c */,
+				B90DFB500FCFAB5600318D5D /* lua.jit.gl.h */,
+				B90DFB4F0FCFAB5600318D5D /* lua.jit.gl.c */,
+				B90DFB530FCFAB5600318D5D /* lua.listener.h */,
+				B90DFB520FCFAB5600318D5D /* lua.listener.c */,
+				B90DFB550FCFAB5600318D5D /* lua.util.h */,
+				B90DFB540FCFAB5600318D5D /* lua.util.c */,
+				B90DFB570FCFAB5600318D5D /* lua.vecmath.h */,
+				B90DFB560FCFAB5600318D5D /* lua.vecmath.c */,
+			);
+			path = jit_bindings;
+			sourceTree = "<group>";
+		};
+		B90DFB580FCFAB5600318D5D /* luagl */ = {
+			isa = PBXGroup;
+			children = (
+				B90DFB590FCFAB5600318D5D /* gl.h */,
+				B90DFB5C0FCFAB5600318D5D /* luagl.h */,
+				B90DFB5B0FCFAB5600318D5D /* luagl.cpp */,
+				B90DFB5E0FCFAB5600318D5D /* luaglu.h */,
+				B90DFB5D0FCFAB5600318D5D /* luaglu.c */,
+			);
+			path = luagl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D01CCC70486CAD60068D4B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90DFB630FCFAB5600318D5D /* jit.gl.lua.h in Headers */,
+				B90DFB640FCFAB5600318D5D /* jit.gl.lua.sym.h in Headers */,
+				B90DFB670FCFAB5600318D5D /* jit.submatrix.wrapper.h in Headers */,
+				B90DFB690FCFAB5600318D5D /* lua.file.h in Headers */,
+				B90DFB6C0FCFAB5600318D5D /* lua.jit.gl.h in Headers */,
+				B90DFB6D0FCFAB5600318D5D /* lua.jit.h in Headers */,
+				B90DFB6F0FCFAB5600318D5D /* lua.listener.h in Headers */,
+				B90DFB710FCFAB5600318D5D /* lua.util.h in Headers */,
+				B90DFB730FCFAB5600318D5D /* lua.vecmath.h in Headers */,
+				B90DFB740FCFAB5600318D5D /* gl.h in Headers */,
+				B90DFB770FCFAB5600318D5D /* luagl.h in Headers */,
+				B90DFB790FCFAB5600318D5D /* luaglu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D01CCC60486CAD60068D4B7 /* jitter-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF65FF0096B38E400E9E0B4 /* Build configuration list for PBXNativeTarget "jitter-external" */;
+			buildPhases = (
+				8D01CCC70486CAD60068D4B7 /* Headers */,
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				8D01CCCF0486CAD60068D4B7 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jitter-external";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MaxExternal;
+			productReference = 8D01CCD20486CAD60068D4B7 /* jit.gl.lua.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0FF65FF4096B38E400E9E0B4 /* Build configuration list for PBXProject "max.jit.gl.lua" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* atanh */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* jitter-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2252757D0F94E13800AB9E9B /* jit-external.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D01CCCF0486CAD60068D4B7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90DFB620FCFAB5600318D5D /* jit.gl.lua.cpp in Sources */,
+				B90DFB650FCFAB5600318D5D /* max.jit.gl.lua.c in Sources */,
+				B90DFB660FCFAB5600318D5D /* jit.submatrix.wrapper.c in Sources */,
+				B90DFB680FCFAB5600318D5D /* lua.file.c in Sources */,
+				B90DFB6A0FCFAB5600318D5D /* lua.jit.c in Sources */,
+				B90DFB6B0FCFAB5600318D5D /* lua.jit.gl.c in Sources */,
+				B90DFB6E0FCFAB5600318D5D /* lua.listener.c in Sources */,
+				B90DFB700FCFAB5600318D5D /* lua.util.c in Sources */,
+				B90DFB720FCFAB5600318D5D /* lua.vecmath.c in Sources */,
+				B90DFB760FCFAB5600318D5D /* luagl.cpp in Sources */,
+				B90DFB780FCFAB5600318D5D /* luaglu.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FF65FF1096B38E400E9E0B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2252757C0F94E13800AB9E9B /* jit-external.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../c74support/max-includes\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					/Developer/Headers/FlatCarbon,
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					/Library/Frameworks/Lua.Framework/Headers,
+				);
+				OTHER_CFLAGS = "-DLUA_USE_MACOSX";
+				PRODUCT_NAME = jit.gl.lua;
+			};
+			name = Development;
+		};
+		0FF65FF2096B38E400E9E0B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2252757C0F94E13800AB9E9B /* jit-external.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../c74support/max-includes\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Developer/Headers/FlatCarbon,
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+					/Library/Frameworks/Lua.Framework/Headers,
+				);
+				OTHER_CFLAGS = "-DLUA_USE_MACOSX";
+				PRODUCT_NAME = jit.gl.lua;
+			};
+			name = Deployment;
+		};
+		0FF65FF5096B38E400E9E0B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "../../c74support/** ../../c74support-private/**";
+			};
+			name = Development;
+		};
+		0FF65FF6096B38E400E9E0B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF65FF0096B38E400E9E0B4 /* Build configuration list for PBXNativeTarget "jitter-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF65FF1096B38E400E9E0B4 /* Development */,
+				0FF65FF2096B38E400E9E0B4 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		0FF65FF4096B38E400E9E0B4 /* Build configuration list for PBXProject "max.jit.gl.lua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF65FF5096B38E400E9E0B4 /* Development */,
+				0FF65FF6096B38E400E9E0B4 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

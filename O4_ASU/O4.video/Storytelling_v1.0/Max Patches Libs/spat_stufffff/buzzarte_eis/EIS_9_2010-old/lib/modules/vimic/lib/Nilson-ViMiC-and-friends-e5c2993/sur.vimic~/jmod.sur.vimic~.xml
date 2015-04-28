@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='audio/gain' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/ratio' type='decimal' priority='3'>0.500000</item>
+    <item name='microphone.1/gain' type='generic' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position'  type='array' priority='1'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.10/active' type='boolean' priority='94'>0</item>
+    <item name='microphone.10/directivity/ratio' type='decimal' priority='93'>0.500000</item>
+    <item name='microphone.10/gain' type='generic' priority='95'>0.000000</item>
+    <item name='microphone.10/orientation' type='array' priority='92'>0.000000 0.000000 </item>
+    <item name='microphone.10/position'  type='array' priority='91'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.11/active' type='boolean' priority='104'>0</item>
+    <item name='microphone.11/directivity/ratio' type='decimal' priority='103'>0.500000</item>
+    <item name='microphone.11/gain' type='generic' priority='105'>0.000000</item>
+    <item name='microphone.11/orientation' type='array' priority='102'>0.000000 0.000000 </item>
+    <item name='microphone.11/position'  type='array' priority='101'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.12/active' type='boolean' priority='114'>0</item>
+    <item name='microphone.12/directivity/ratio' type='decimal' priority='113'>0.500000</item>
+    <item name='microphone.12/gain' type='generic' priority='115'>0.000000</item>
+    <item name='microphone.12/orientation' type='array' priority='112'>0.000000 0.000000 </item>
+    <item name='microphone.12/position'  type='array' priority='111'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.13/active' type='boolean' priority='124'>0</item>
+    <item name='microphone.13/directivity/ratio' type='decimal' priority='123'>0.500000</item>
+    <item name='microphone.13/gain' type='generic' priority='125'>0.000000</item>
+    <item name='microphone.13/orientation' type='array' priority='122'>0.000000 0.000000 </item>
+    <item name='microphone.13/position'  type='array' priority='121'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.14/active' type='boolean' priority='134'>0</item>
+    <item name='microphone.14/directivity/ratio' type='decimal' priority='133'>0.500000</item>
+    <item name='microphone.14/gain' type='generic' priority='135'>0.000000</item>
+    <item name='microphone.14/orientation' type='array' priority='132'>0.000000 0.000000 </item>
+    <item name='microphone.14/position'  type='array' priority='131'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.15/active' type='boolean' priority='144'>0</item>
+    <item name='microphone.15/directivity/ratio' type='decimal' priority='143'>0.500000</item>
+    <item name='microphone.15/gain' type='generic' priority='145'>0.000000</item>
+    <item name='microphone.15/orientation' type='array' priority='142'>0.000000 0.000000 </item>
+    <item name='microphone.15/position'  type='array' priority='141'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.16/active' type='boolean' priority='154'>0</item>
+    <item name='microphone.16/directivity/ratio' type='decimal' priority='153'>0.500000</item>
+    <item name='microphone.16/gain' type='generic' priority='155'>0.000000</item>
+    <item name='microphone.16/orientation' type='array' priority='152'>0.000000 0.000000 </item>
+    <item name='microphone.16/position'  type='array' priority='151'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.17/active' type='boolean' priority='164'>0</item>
+    <item name='microphone.17/directivity/ratio' type='decimal' priority='163'>0.500000</item>
+    <item name='microphone.17/gain' type='generic' priority='165'>0.000000</item>
+    <item name='microphone.17/orientation' type='array' priority='162'>0.000000 0.000000 </item>
+    <item name='microphone.17/position'  type='array' priority='161'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.18/active' type='boolean' priority='174'>0</item>
+    <item name='microphone.18/directivity/ratio' type='decimal' priority='173'>0.500000</item>
+    <item name='microphone.18/gain' type='generic' priority='175'>0.000000</item>
+    <item name='microphone.18/orientation' type='array' priority='172'>0.000000 0.000000 </item>
+    <item name='microphone.18/position'  type='array' priority='171'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.19/active' type='boolean' priority='184'>0</item>
+    <item name='microphone.19/directivity/ratio' type='decimal' priority='183'>0.500000</item>
+    <item name='microphone.19/gain' type='generic' priority='185'>0.000000</item>
+    <item name='microphone.19/orientation' type='array' priority='182'>0.000000 0.000000 </item>
+    <item name='microphone.19/position'  type='array' priority='181'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/ratio' type='decimal' priority='13'>0.500000</item>
+    <item name='microphone.2/gain' type='generic' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0.000000 0.000000 </item>
+    <item name='microphone.2/position'  type='array' priority='11'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.20/active' type='boolean' priority='194'>0</item>
+    <item name='microphone.20/directivity/ratio' type='decimal' priority='193'>0.500000</item>
+    <item name='microphone.20/gain' type='generic' priority='195'>0.000000</item>
+    <item name='microphone.20/orientation' type='array' priority='192'>0.000000 0.000000 </item>
+    <item name='microphone.20/position'  type='array' priority='191'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.21/active' type='boolean' priority='204'>0</item>
+    <item name='microphone.21/directivity/ratio' type='decimal' priority='203'>0.500000</item>
+    <item name='microphone.21/gain' type='generic' priority='205'>0.000000</item>
+    <item name='microphone.21/orientation' type='array' priority='202'>0.000000 0.000000 </item>
+    <item name='microphone.21/position'  type='array' priority='201'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.22/active' type='boolean' priority='214'>0</item>
+    <item name='microphone.22/directivity/ratio' type='decimal' priority='213'>0.500000</item>
+    <item name='microphone.22/gain' type='generic' priority='215'>0.000000</item>
+    <item name='microphone.22/orientation' type='array' priority='212'>0.000000 0.000000 </item>
+    <item name='microphone.22/position'  type='array' priority='211'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.23/active' type='boolean' priority='224'>0</item>
+    <item name='microphone.23/directivity/ratio' type='decimal' priority='223'>0.500000</item>
+    <item name='microphone.23/gain' type='generic' priority='225'>0.000000</item>
+    <item name='microphone.23/orientation' type='array' priority='222'>0.000000 0.000000 </item>
+    <item name='microphone.23/position'  type='array' priority='221'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.24/active' type='boolean' priority='234'>0</item>
+    <item name='microphone.24/directivity/ratio' type='decimal' priority='233'>0.500000</item>
+    <item name='microphone.24/gain' type='generic' priority='235'>0.000000</item>
+    <item name='microphone.24/orientation' type='array' priority='232'>0.000000 0.000000 </item>
+    <item name='microphone.24/position'  type='array' priority='231'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/ratio' type='decimal' priority='23'>0.500000</item>
+    <item name='microphone.3/gain' type='generic' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>0.000000 0.000000 </item>
+    <item name='microphone.3/position'  type='array' priority='21'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/ratio' type='decimal' priority='33'>0.500000</item>
+    <item name='microphone.4/gain' type='generic' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>0.000000 0.000000 </item>
+    <item name='microphone.4/position'  type='array' priority='31'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/ratio' type='decimal' priority='43'>0.500000</item>
+    <item name='microphone.5/gain' type='generic' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>0.000000 0.000000 </item>
+    <item name='microphone.5/position'  type='array' priority='41'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/ratio' type='decimal' priority='53'>0.500000</item>
+    <item name='microphone.6/gain' type='generic' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>0.000000 0.000000 </item>
+    <item name='microphone.6/position'  type='array' priority='51'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/ratio' type='decimal' priority='63'>0.500000</item>
+    <item name='microphone.7/gain' type='generic' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>0.000000 0.000000 </item>
+    <item name='microphone.7/position'  type='array' priority='61'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.8/active' type='boolean' priority='74'>1</item>
+    <item name='microphone.8/directivity/ratio' type='decimal' priority='73'>0.500000</item>
+    <item name='microphone.8/gain' type='generic' priority='75'>100.000000</item>
+    <item name='microphone.8/orientation' type='array' priority='72'>0.000000 0.000000 </item>
+    <item name='microphone.8/position'  type='array' priority='71'>0.000000 0.000000 0.000000 </item>
+    <item name='microphone.9/active' type='boolean' priority='84'>0</item>
+    <item name='microphone.9/directivity/ratio' type='decimal' priority='83'>0.500000</item>
+    <item name='microphone.9/gain' type='generic' priority='85'>0.000000</item>
+    <item name='microphone.9/orientation' type='array' priority='82'>0.000000 0.000000 </item>
+    <item name='microphone.9/position'  type='array' priority='81'>0.000000 0.000000 0.000000 </item>
+    <item name='microphones/amount' type='integer' priority='301'>8</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>
+    <item name='rendermode/interval' type='integer' priority='0'>50</item>
+    <item name='rendermode/normalization/active' type='boolean' priority='0'>0</item>
+    <item name='rendermode/threshold/active' type='boolean' priority='0'>0</item>
+    <item name='rendermode/threshold' type='decimal' priority='0'>0</item>
+    <item name='rendermode/xfade/fadefunction' type='string' priority='0'>0</item>
+    <item name='rendermode/xfade/fadelength' type='integer' priority='0'>3200</item>
+    <item name='rendermode/xfade/threshold' type='integer' priority='0'>2</item>
+    <item name='rendermode' type='string' priority='0'>X-fade_lite</item>
+    <item name='report' type='integer' priority='0'>0</item>
+    <item name='room/absorption.ceiling/high' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.ceiling/low_mid_frequency' type='integer' priority='0'>500</item>
+    <item name='room/absorption.ceiling/low' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.ceiling/mid_high_frequency' type='integer' priority='0'>3500</item>
+    <item name='room/absorption.ceiling/mid' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.floor/high' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.floor/low_mid_frequency' type='integer' priority='0'>500</item>
+    <item name='room/absorption.floor/low' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.floor/mid_high_frequency' type='integer' priority='0'>3500</item>
+    <item name='room/absorption.floor/mid' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.front/high' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.front/low_mid_frequency' type='integer' priority='0'>500</item>
+    <item name='room/absorption.front/low' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.front/mid_high_frequency' type='integer' priority='0'>3500</item>
+    <item name='room/absorption.front/mid' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.left/high' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.left/low_mid_frequency' type='integer' priority='0'>500</item>
+    <item name='room/absorption.left/low' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.left/mid_high_frequency' type='integer' priority='0'>3500</item>
+    <item name='room/absorption.left/mid' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.rear/high' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.rear/low_mid_frequency' type='integer' priority='0'>500</item>
+    <item name='room/absorption.rear/low' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.rear/mid_high_frequency' type='integer' priority='0'>3500</item>
+    <item name='room/absorption.rear/mid' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.right/high' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.right/low_mid_frequency' type='integer' priority='0'>500</item>
+    <item name='room/absorption.right/low' type='decimal' priority='0'>99.900002</item>
+    <item name='room/absorption.right/mid_high_frequency' type='integer' priority='0'>3500</item>
+    <item name='room/absorption.right/mid' type='decimal' priority='0'>99.900002</item>
+    <item name='room/distance/dbunit' type='decimal' priority='0'>3.000000</item>
+    <item name='room/distance/mode' type='string' priority='0'>inverse</item>
+    <item name='room/distance/power' type='decimal' priority='0'>1.000000</item>
+    <item name='room/reflection/airfilter' type='integer' priority='0'>10000</item>
+    <item name='room/reflection/gain.0' type='generic' priority='0'>0.000000</item>
+    <item name='room/reflection/gain.1' type='generic' priority='0'>0.000000</item>
+    <item name='room/reflection/gain.2' type='generic' priority='0'>0.000000</item>
+    <item name='room/reflection/order' type='integer' priority='300'>1</item>
+    <item name='room/size/xyz' type='array' priority='0'>20.000000 30.000000 8.000000 </item>
+    <item name='room/temperature' type='decimal' priority='0'>21.000000</item>
+    <item name='source/orientation/active' type='boolean' priority='0'>0</item>
+    <item name='source/orientation/mode' type='string' priority='0'>static</item>
+    <item name='source/orientation/yaw' type='integer' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='updaterate' type='integer' priority='0'>20</item>
+    <item name='warning' type='integer' priority='0'>0</item>
+  </preset>
+
+  <preset number='2' name='2 Mics - AB 1 meter'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0. 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.5000000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>omni</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.5000000 0.000000 0.000000 </item>  
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>2</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>  
+
+  <preset number='3' name='2 Mics - AB 0.4 meter'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0. 0. </item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.2000000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>omni</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.2000000 0.000000 0.000000 </item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>2</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>  
+
+  <preset number='4' name='2 Mics - ORTF'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-55.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.0600000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>55.0 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.0600000 0.000000 0.000000 </item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>2</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>  
+
+  <preset number='5' name='2 Mics - XY'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-45.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.000000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>45.0 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.000000 0.000000 </item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>2</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>   
+
+ <preset number='6' name='2 Mics - Blumlein'>     
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>figure-eight</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-45.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.000000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>45.0 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.000000 0.000000 </item>  
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>2</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+  <preset number='7' name='2 Mics - MS'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.000000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.000000 0.000000 </item>   
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>2</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset> 
+
+ <preset number='8' name='3 Mics - INA 3'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-60.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.460000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.270000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>60. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.46000 0.00000 0.000000 </item>    
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+ <preset number='9' name='3 Mics - Klepko'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-30.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.1750 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>supercardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.0000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>30.0 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.1750 0.00000 0.000000 </item>   
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+ <preset number='10' name='3 Mics - OCT 0.4 meter'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-90.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.200000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.080000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.20000 0.00000 0.000000 </item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+ <preset number='11' name='3 Mics - OCT 0.7 meter'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-90.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.350000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.080000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.35000 0.00000 0.000000 </item>  
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+ <preset number='12' name='3 Mics - OCT 0.9 meter'>
+
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-90.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.450000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.080000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.45000 0.00000 0.000000 </item>  
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>  
+
+  <preset number='13' name='3 Mics - Double MS'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-0.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.00000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.00000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>-180. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.0000 0.00000 0.000000 </item>  
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>  
+
+<preset number='14' name='3 Mics - Decca Tree'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-45.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-1.00000 0.00000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>omni</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 1.50000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>omni</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>45. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>1.0000 0.00000 0.000000 </item>   
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>3</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>   
+
+<preset number='15' name='4 Mics - Ambisonics 1st Order A-format (WXYZ)'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0. 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>0.00000 0.00000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>90. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.0000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>figure-eight</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>0. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.0000 0.00000 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>figure-eight</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>0. 90.</item>
+    <item name='microphone.4/position' type='array' priority='31'>0.0000 0.00000 0.000000 </item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>4</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+
+<preset number='16' name='5 Mics - INA5'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-90.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.17000 0.00000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.17850 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.1700 0.00000 0.000000 </item>   
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>150. 0.</item>
+    <item name='microphone.4/position' type='array' priority='31'>0.3000 -0.51000 0.000000 </item>     
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-150. 0.</item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.3000 -0.51000 0.000000 </item>   
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset> 
+
+<preset number='17' name='5 Mics - Fukada-tree'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-30.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.9000 0.00000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.93 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>30. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.90000 0.00000 0.000000 </item>   
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>150. 0.</item>
+    <item name='microphone.4/position' type='array' priority='31'>0.9000 -0.90000 0.000000 </item>     
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-150. 0.</item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.9000 -0.90000 0.000000 </item> 
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>
+
+<preset number='18' name='5 Mics - OCT surround'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-90.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.350000 0.000000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 0.080000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>0.35000 0.00000 0.000000 </item> 
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>180. 0.</item>
+    <item name='microphone.4/position' type='array' priority='31'>0.5000 -0.50000 0.000000 </item>     
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-180. 0.</item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.5000 -0.50000 0.000000 </item>   
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset> 
+
+<preset number='19' name='5 Mics - Decca Tree + ORTF'>     
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-45.0 0.</item>
+    <item name='microphone.1/position' type='array' priority='1'>-1.00000 0.00000 0.000000 </item>      
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>omni</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0. 0.</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.00000 1.50000 0.000000 </item>  
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>omni</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>45. 0.</item>
+    <item name='microphone.3/position' type='array' priority='21'>1.0000 0.00000 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>125. 0.</item>
+    <item name='microphone.4/position' type='array' priority='31'>0.065000 -3.0000 0.000000 </item>     
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-125. 0.</item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.06500 -3.0000 0.000000 </item>  
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+  </preset>   
+
+<preset number='20' name='5 Mics - Polyhymnia Pentagon'>
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>omni</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>-1.3 0. 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>omni</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.600000 0.000000 </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>omni</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>0.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>1.3 0.0 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>omni</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>180.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>1.3 -3.5 0.000000 </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>omni</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-180.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>-1.3 -3.5 0.000000 </item>     
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>   
+  </preset> 
+
+<preset number='21' name='5 Mics - Williams cardioid 1'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-90.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.305 0. 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.170000 0.000000 </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>0.305 0.0 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>160.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0.24 -0.415 0.000000 </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-160.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.24 -0.415 0.000000 </item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>       
+  </preset>
+
+<preset number='22' name='5 Mics - Williams cardioid 2'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-40.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.365 0. 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.315000 0.000000 </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>40.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>0.365 0.0 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>130.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0.16 -0.32 0.000000 </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-130.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.16 -0.32 0.000000 </item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>       
+  </preset> 
+
+<preset number='23' name='5 Mics - really bad coincident arrangement'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>figure-eight</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>-30.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>-0.0 0. 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>0.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0.000000 0.0 0.000000 </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>figure-eight</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>30.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>0.0 0.0 0.000000 </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/ratio' type='decimal' priority='33'>0.9</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>130.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0.0 -0.0 0.000000 </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/ratio' type='decimal' priority='43'>0.9</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>-130.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.0 -0.0 0.000000 </item> 
+    <item name='microphones/amount' type='integer' priority='301'>5</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>7</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>0</item>       
+  </preset>    
+
+
+<preset number='24' name='7 Mics - Williams subcardioid'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>subcardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000</item>
+    <item name='microphone.1/position' type='array' priority='1'>0. 0.345 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>subcardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>40.000000 0.000000</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.949 0. 0. </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>subcardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>110.000000 0.000000</item>
+    <item name='microphone.3/position' type='array' priority='21'>1.08 -0.474 0. </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>subcardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>160.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0.525 -1.033 0. </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>subcardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>220.000000 0.000000</item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.525 -1.033 0. </item>    
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/preset' type='string' priority='53'>subcardioid</item>
+    <item name='microphone.6/gain' type='decimal' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>250.000000 0.000000</item>
+    <item name='microphone.6/position' type='array' priority='51'>-1.08 -0.474 0. </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/preset' type='string' priority='63'>subcardioid</item>
+    <item name='microphone.7/gain' type='decimal' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>320.000000 0.000000</item>
+    <item name='microphone.7/position' type='array' priority='61'>-0.949 0. 0. </item>
+    <item name='microphones/amount' type='integer' priority='301'>7</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>       
+  </preset>
+
+<preset number='25' name='7 Mics - Williams Cardioid'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>0. 0.321 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>40.000000 0.000000</item>
+    <item name='microphone.2/position' type='array' priority='11'>0.883 0. 0. </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>110.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>1.0 -0.397 0. </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>160.000000 0.000000</item>
+    <item name='microphone.4/position' type='array' priority='31'>0.49 -0.92 0. </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>220.000000 0.000000</item>
+    <item name='microphone.5/position' type='array' priority='41'>-0.49 -0.92 0. </item>    
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/preset' type='string' priority='53'>cardioid</item>
+    <item name='microphone.6/gain' type='decimal' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>250.000000 0.000000 </item>
+    <item name='microphone.6/position' type='array' priority='51'>-1.0 -0.397 0. </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/preset' type='string' priority='63'>cardioid</item>
+    <item name='microphone.7/gain' type='decimal' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>320.000000 0.000000</item>
+    <item name='microphone.7/position' type='array' priority='61'>-0.883 0. 0. </item>
+    <item name='microphones/amount' type='integer' priority='301'>7</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>       
+  </preset>
+
+<preset number='26' name='8 Mics - figure-eight polarity restricted'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>figure-eight</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>0. 0. 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>figure-eight</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>45.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0. 0. 0. </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>figure-eight</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>0. 0. 0. </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>figure-eight</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>135.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0. 0. 0. </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>figure-eight</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>180.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>0. 0. 0. </item>    
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/preset' type='string' priority='53'>figure-eight</item>
+    <item name='microphone.6/gain' type='decimal' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>-135.000000 0.000000 </item>
+    <item name='microphone.6/position' type='array' priority='51'>0. 0. 0. </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/preset' type='string' priority='63'>figure-eight</item>
+    <item name='microphone.7/gain' type='decimal' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>-90.000000 0.000000 </item>
+    <item name='microphone.7/position' type='array' priority='61'>0. 0. 0. </item>
+    <item name='microphone.8/active' type='boolean' priority='74'>1</item>
+    <item name='microphone.8/directivity/preset' type='string' priority='73'>figure-eight</item>
+    <item name='microphone.8/gain' type='decimal' priority='75'>100.000000</item>
+    <item name='microphone.8/orientation' type='array' priority='72'>-45.000000 0.000000 </item>
+    <item name='microphone.8/position' type='array' priority='71'>0. 0. 0. </item>
+    <item name='microphones/amount' type='integer' priority='301'>8</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>0</item>       
+  </preset>     
+
+<preset number='27' name='8 Mics - Williams Cardioid'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>cardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>0. 0.81 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>cardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>45.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0.57276 0.57276 0. </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>cardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>0.81 0. 0. </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>cardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>135.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0.57276 -0.57276 0. </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>cardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>180.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>0. -0.81 0. </item>    
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/preset' type='string' priority='53'>cardioid</item>
+    <item name='microphone.6/gain' type='decimal' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>-135.000000 0.000000 </item>
+    <item name='microphone.6/position' type='array' priority='51'>-0.57276 -0.57276 0. </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/preset' type='string' priority='63'>cardioid</item>
+    <item name='microphone.7/gain' type='decimal' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>-90.000000 0.000000 </item>
+    <item name='microphone.7/position' type='array' priority='61'>-0.81 0. 0. </item>
+    <item name='microphone.8/active' type='boolean' priority='74'>1</item>
+    <item name='microphone.8/directivity/preset' type='string' priority='73'>cardioid</item>
+    <item name='microphone.8/gain' type='decimal' priority='75'>100.000000</item>
+    <item name='microphone.8/orientation' type='array' priority='72'>-45.000000 0.000000 </item>
+    <item name='microphone.8/position' type='array' priority='71'>-0.57276 0.57276 0. </item>
+    <item name='microphones/amount' type='integer' priority='301'>8</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>       
+  </preset>  
+
+<preset number='28' name='8 Mics - Williams Supercardioid'>       
+    <item name='microphone.1/active' type='boolean' priority='4'>1</item>
+    <item name='microphone.1/directivity/preset' type='string' priority='3'>supercardioid</item>
+    <item name='microphone.1/gain' type='decimal' priority='5'>100.000000</item>
+    <item name='microphone.1/orientation' type='array' priority='2'>0.000000 0.000000 </item>
+    <item name='microphone.1/position' type='array' priority='1'>0. 0.77 0. </item>
+    <item name='microphone.2/active' type='boolean' priority='14'>1</item>
+    <item name='microphone.2/directivity/preset' type='string' priority='13'>supercardioid</item>
+    <item name='microphone.2/gain' type='decimal' priority='15'>100.000000</item>
+    <item name='microphone.2/orientation' type='array' priority='12'>45.000000 0.000000 </item>
+    <item name='microphone.2/position' type='array' priority='11'>0.54447 0.54447 0. </item>
+    <item name='microphone.3/active' type='boolean' priority='24'>1</item>
+    <item name='microphone.3/directivity/preset' type='string' priority='23'>supercardioid</item>
+    <item name='microphone.3/gain' type='decimal' priority='25'>100.000000</item>
+    <item name='microphone.3/orientation' type='array' priority='22'>90.000000 0.000000 </item>
+    <item name='microphone.3/position' type='array' priority='21'>0.77 0. 0. </item>
+    <item name='microphone.4/active' type='boolean' priority='34'>1</item>
+    <item name='microphone.4/directivity/preset' type='string' priority='33'>supercardioid</item>
+    <item name='microphone.4/gain' type='decimal' priority='35'>100.000000</item>
+    <item name='microphone.4/orientation' type='array' priority='32'>135.000000 0.000000 </item>
+    <item name='microphone.4/position' type='array' priority='31'>0.54447 -0.54447 0. </item>   
+    <item name='microphone.5/active' type='boolean' priority='44'>1</item>
+    <item name='microphone.5/directivity/preset' type='string' priority='43'>supercardioid</item>
+    <item name='microphone.5/gain' type='decimal' priority='45'>100.000000</item>
+    <item name='microphone.5/orientation' type='array' priority='42'>180.000000 0.000000 </item>
+    <item name='microphone.5/position' type='array' priority='41'>0. -0.77 0. </item>    
+    <item name='microphone.6/active' type='boolean' priority='54'>1</item>
+    <item name='microphone.6/directivity/preset' type='string' priority='53'>supercardioid</item>
+    <item name='microphone.6/gain' type='decimal' priority='55'>100.000000</item>
+    <item name='microphone.6/orientation' type='array' priority='52'>-135.000000 0.000000 </item>
+    <item name='microphone.6/position' type='array' priority='51'>-0.54447 -0.54447 0. </item>
+    <item name='microphone.7/active' type='boolean' priority='64'>1</item>
+    <item name='microphone.7/directivity/preset' type='string' priority='63'>supercardioid</item>
+    <item name='microphone.7/gain' type='decimal' priority='65'>100.000000</item>
+    <item name='microphone.7/orientation' type='array' priority='62'>-90.000000 0.000000 </item>
+    <item name='microphone.7/position' type='array' priority='61'>-0.77 0. 0. </item>
+    <item name='microphone.8/active' type='boolean' priority='74'>1</item>
+    <item name='microphone.8/directivity/preset' type='string' priority='73'>supercardioid</item>
+    <item name='microphone.8/gain' type='decimal' priority='75'>100.000000</item>
+    <item name='microphone.8/orientation' type='array' priority='72'>-45.000000 0.000000 </item>
+    <item name='microphone.8/position' type='array' priority='71'>-0.54447 0.54447 0. </item>
+    <item name='microphones/amount' type='integer' priority='301'>8</item>
+    <item name='microphones/directivity/power' type='integer' priority='0'>1</item>
+    <item name='microphones/polarity' type='boolean' priority='0'>1</item>       
+  </preset>
+</jamoma>

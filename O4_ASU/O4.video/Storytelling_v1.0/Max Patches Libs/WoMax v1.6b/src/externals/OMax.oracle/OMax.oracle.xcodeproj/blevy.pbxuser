@@ -1,0 +1,218 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 2FBBEAD608F335360078DB84 /* max-external */;
+		codeSenseManager = 7B7AF9321084758700ACCC0E /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					879,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					989,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					949,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 290434552;
+			PBXWorkspaceStateSaveDate = 290434552;
+		};
+		perUserProjectItems = {
+			7B09984210FCD22E008BDF67 /* PBXTextBookmark */ = 7B09984210FCD22E008BDF67 /* PBXTextBookmark */;
+			7B09984310FCD22E008BDF67 /* PBXTextBookmark */ = 7B09984310FCD22E008BDF67 /* PBXTextBookmark */;
+			7B1FDA8110BB459F00D3760F /* PBXTextBookmark */ = 7B1FDA8110BB459F00D3760F /* PBXTextBookmark */;
+			7B4FE76711469266004AC128 /* PBXTextBookmark */ = 7B4FE76711469266004AC128 /* PBXTextBookmark */;
+			7B7AF95A10847E8E00ACCC0E /* PBXTextBookmark */ = 7B7AF95A10847E8E00ACCC0E /* PBXTextBookmark */;
+			7B7AF95B10847E8E00ACCC0E /* PBXTextBookmark */ = 7B7AF95B10847E8E00ACCC0E /* PBXTextBookmark */;
+			7B7AF95C10847E8E00ACCC0E /* PBXTextBookmark */ = 7B7AF95C10847E8E00ACCC0E /* PBXTextBookmark */;
+			7BEE0D78114FE89100D04073 /* PBXTextBookmark */ = 7BEE0D78114FE89100D04073 /* PBXTextBookmark */;
+			7BF83FFB10B7FCDB007529FE /* PBXTextBookmark */ = 7BF83FFB10B7FCDB007529FE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7B7AF9311084758700ACCC0E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2FBBEAD608F335360078DB84 /* max-external */ = {
+		activeExec = 0;
+	};
+	7B09984210FCD22E008BDF67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB647E560F6139EE00824DA2 /* OMax.oracle.c */;
+		name = "OMax.oracle.c: 21";
+		rLen = 4;
+		rLoc = 421;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 36;
+	};
+	7B09984310FCD22E008BDF67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E102A1003DB090017FD00 /* Oracle_classes.hpp */;
+		name = "Oracle_classes.hpp: 137";
+		rLen = 16;
+		rLoc = 3815;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 3372;
+	};
+	7B1FDA8110BB459F00D3760F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E102A1003DB090017FD00 /* Oracle_classes.hpp */;
+		name = "Oracle_classes.hpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1262;
+		vrLoc = 185;
+	};
+	7B4FE76711469266004AC128 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E10321003DB470017FD00 /* Oracle_classes.cpp */;
+		name = "Oracle_classes.cpp: 285";
+		rLen = 0;
+		rLoc = 8498;
+		rType = 0;
+		vrLen = 918;
+		vrLoc = 7808;
+	};
+	7B7AF9311084758700ACCC0E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	7B7AF9321084758700ACCC0E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7B7AF95A10847E8E00ACCC0E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB647E560F6139EE00824DA2 /* OMax.oracle.c */;
+		name = "OMax.oracle.c: 58";
+		rLen = 70;
+		rLoc = 1526;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 0;
+	};
+	7B7AF95B10847E8E00ACCC0E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E10321003DB470017FD00 /* Oracle_classes.cpp */;
+		name = "Oracle_classes.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 778;
+		vrLoc = 0;
+	};
+	7B7AF95C10847E8E00ACCC0E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB38FE8A0F6D625C000A583F /* OMax.oracle.h */;
+		name = "OMax.oracle.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 0;
+	};
+	7BEE0D78114FE89100D04073 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E10321003DB470017FD00 /* Oracle_classes.cpp */;
+		name = "Oracle_classes.cpp: 285";
+		rLen = 0;
+		rLoc = 8498;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 7397;
+	};
+	7BF83FFB10B7FCDB007529FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB38FE8A0F6D625C000A583F /* OMax.oracle.h */;
+		name = "OMax.oracle.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 0;
+	};
+	FB1E102A1003DB090017FD00 /* Oracle_classes.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 2086}}";
+			sepNavSelRange = "{3815, 16}";
+			sepNavVisRange = "{3372, 645}";
+		};
+	};
+	FB1E10321003DB470017FD00 /* Oracle_classes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 4732}}";
+			sepNavSelRange = "{8498, 0}";
+			sepNavVisRange = "{7397, 909}";
+		};
+	};
+	FB38FE8A0F6D625C000A583F /* OMax.oracle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 760}}";
+			sepNavSelRange = "{1015, 0}";
+			sepNavVisRange = "{0, 1081}";
+			sepNavWindowFrame = "{{18, -1}, {988, 873}}";
+		};
+	};
+	FB647E560F6139EE00824DA2 /* OMax.oracle.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {929, 3332}}";
+			sepNavSelRange = "{4467, 0}";
+			sepNavVisRange = "{3454, 1229}";
+			sepNavWindowFrame = "{{258, 1041}, {988, 873}}";
+		};
+	};
+}

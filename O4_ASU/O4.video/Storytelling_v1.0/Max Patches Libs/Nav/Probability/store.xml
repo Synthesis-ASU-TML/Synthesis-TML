@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "store[1]">
+	<slot number = "1">
+		<patcher name = "nav.rand">
+			<pattr name = "bibi_nav.rand" value = "-1" />
+			<pattr name = "flonum" value = "-44." />
+			<pattr name = "flonum[1]" value = "45." />
+			<pattr name = "number" value = "164" />
+			<pattr name = "number[1]" value = "1988" />
+			<pattr name = "number[2]" value = "573" />
+			<pattr name = "toggle" value = "1" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

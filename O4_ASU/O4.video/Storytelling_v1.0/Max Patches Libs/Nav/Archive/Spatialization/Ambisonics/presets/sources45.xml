@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes" encoding="UTF-8"?><ambiscore>
+	<snapshot index="init">
+		<point>
+			<number>1</number>
+			<xyz>-0.418182 0.690909 0.000000</xyz>
+		</point>
+		<point>
+			<number>2</number>
+			<xyz>0.273518 0.689328 0.000000</xyz>
+		</point>
+		<point>
+			<number>3</number>
+			<group>1</group>
+			<xyz>-0.509100 0.363600 0.000000</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<group>1</group>
+			<xyz>0.118200 0.309100 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<group>1</group>
+			<xyz>0.581800 0.318200 0.000000</xyz>
+		</point>
+		<point>
+			<number>6</number>
+			<group>3</group>
+			<xyz>-0.427300 -0.300000 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<group>3</group>
+			<xyz>-0.018200 -0.345500 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<group>3</group>
+			<xyz>0.336400 -0.309100 0.000000</xyz>
+		</point>
+	</snapshot>
+	<snapshot index="demo Spat+Rogs">
+		<point>
+			<number>3</number>
+			<name>sf</name>
+			<group>1</group>
+			<xyz>-0.427252 0.659470 -0.417391</xyz>
+		</point>
+		<point>
+			<number>4</number>
+			<name>rogs</name>
+			<group>1</group>
+			<xyz>0.005157 0.543883 0.000000</xyz>
+		</point>
+	</snapshot>
+</ambiscore>

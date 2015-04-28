@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "u071003876">
+	<slot number = "1">
+		<pattr name = "flonum" value = "0.588218" />
+		<pattr name = "number" value = "1" />
+		<pattr name = "number[1]" value = "1" />
+		<patcher name = "nav.rand">
+			<pattr name = "RTmax" value = "1697" />
+			<pattr name = "RTmin" value = "124" />
+			<pattr name = "interpolate" value = "860" />
+			<pattr name = "max" value = "1." />
+			<pattr name = "min" value = "0." />
+			<pattr name = "toggle" value = "1" />
+		</patcher>
+		<patcher name = "nav.env">
+			<pattr name = "cuttoff" value = "800." />
+			<pattr name = "flonum[2]" value = "" />
+			<pattr name = "multislider" value = "" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "thresh" value = "" />
+			<patcher name = "nav.scale.ui[1]">
+				<pattr name = "flonum" value = "65556." />
+				<pattr name = "max" value = "1." />
+				<pattr name = "min" value = "" />
+				<pattr name = "mode" value = "minmax" />
+				<pattr name = "number" value = "0" />
+				<pattr name = "window" value = "" />
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+

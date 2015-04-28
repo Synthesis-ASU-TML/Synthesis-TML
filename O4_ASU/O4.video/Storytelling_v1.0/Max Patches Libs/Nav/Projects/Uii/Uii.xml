@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "store">
+	<slot number = "1">
+		<pattr name = "SpatUii" value = "97. 97. 30. 30. 30. 30. 48. 48. 34. 34. 24. 24. 0. 0. 0. 0. 80. 80. 0. 0. 0. 0. 1. 1. 1. 1. -15.1 0. 0. -3.5 177. 5657. -15.1 0. 0. -3.5 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0 0 0. 0. 6. 6. 1 1 1. 1. 0. 0. 0. 0. 0.420934 -0.439791 0. 0.321182 -0.506711 0. -0.707107 0.707107 0. 0. 1. 0. 0.707107 0.707107 0. 1. 0. 0. 0.707107 -0.707107 0. -0. -1. 0. -0.707107 -0.707107 0. -1. 0. 0. 58. 29. 30. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.9 1. 1. 10000. 0. 177. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "1" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "1" />
+			<pattr name = "randStab" value = "3552" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "2.2" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "SpatUii" value = "97. 97. 30. 30. 30. 30. 48. 48. 34. 34. 24. 24. 0. 0. 0. 0. 80. 80. 0. 0. 0. 0. 1. 1. 1. 1. -28. -10.4 0. -3.5 177. 5657. -10.5 0. 0. -3.5 177. 5657. 0. -5.2 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0 0 0. 0. 6. 6. 1 1 1. 1. 0. 0. 0. 0. 0.584301 0.17086 0. 0.49315 -0.341639 0. -0.707107 0.707107 0. 0. 1. 0. 0.707107 0.707107 0. 1. 0. 0. 0.707107 -0.707107 0. -0. -1. 0. -0.707107 -0.707107 0. -1. 0. 0. 58. 25. 35. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.9 1. 1. 10000. 0. 177. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "1" />
+			<pattr name = "randStab" value = "3552" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "2.2" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

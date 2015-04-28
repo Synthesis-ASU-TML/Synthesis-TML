@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jit.gl.lua", "max.jit.gl.lua.vcproj", "{C0FBA2C7-21CD-4004-87A8-4E38D95D817F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0FBA2C7-21CD-4004-87A8-4E38D95D817F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0FBA2C7-21CD-4004-87A8-4E38D95D817F}.Debug|Win32.Build.0 = Debug|Win32
+		{C0FBA2C7-21CD-4004-87A8-4E38D95D817F}.Release|Win32.ActiveCfg = Release|Win32
+		{C0FBA2C7-21CD-4004-87A8-4E38D95D817F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

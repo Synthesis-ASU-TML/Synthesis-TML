@@ -1,0 +1,23 @@
+
+done 2. zmienic bitmape tylnego panelu (usunac numer wersji) i ustawic nowy numer wersji
+done - 10. ikony presetbaru nie zeruja sie po zniknieciu fileselectora
+done - 8. default bank nie dziala
+done - 6. wielkosc okna nazwy presetu
+done 11. bankfile, presetfile, dir - czy sa dobrze zapisywane w rejestrze?
+rej 3. dodac onWheel na up/dn buttons
+done - 7. przy zmianie strzalkami nie zmienia sie aktualna pozycja w menu presetu w Cocoa
+done - kolko myszy zeby dzialalo na pc
+done - sprawdzic, czy dzialaja stare presety i banki (zapisane stara wersja)
+done - 5. polaczyc autoryzacje z presetbarem, uzywajac odniesien do klas bazowych (nie bedzie trzeba definiowac nazwy klasy efektu ani zalaczac pliku naglowkowego efektu do MyFrame.cpp)
+done - 9. plug-in nie dostaje midi jako au (nie wiadomo jak z vst)
+
+1. zamienic knoby na takie z wpisywana wartoscia z klawisza
+4. onwheel bez shifta chodzi za szybko
+
+
+
+AudioUnit supports MAC 64bit (x86_64) natively.
+Audio application capable of host Cocoa AudioUnits is needed to run AU. Minimum system requirement for AU is OSX 10.5.
+Plug-in has been built with new version of graphic library and benefits from event-driven architecture.
+New version of presetbar is used. It allows for setting default bank and preset by double-clicking on 'bank' or 'preset' at the bottom bar. 
+Plug-in uses chunks to save its state in session file. Entire bank is restored on load.

@@ -1,0 +1,1573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4321CFBF0EE879BA009287C9 /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		433FB5C60E5B2FD200AC4269 /* max.jit.tml.swirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5C40E5B2FD200AC4269 /* max.jit.tml.swirl.m */; };
+		433FB5C70E5B2FD200AC4269 /* tml.jit.swirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */; };
+		433FB5F00E5B32D000AC4269 /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		433FB6050E5B33DE00AC4269 /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		433FB6060E5B33DE00AC4269 /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		433FB6070E5B33DE00AC4269 /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		433FB60E0E5B341500AC4269 /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		433FB6130E5B345500AC4269 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		433FB6140E5B345500AC4269 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		435392FB0F13E8CB000C2A68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 435392F90F13E8CB000C2A68 /* InfoPlist.strings */; };
+		4359760F0F28FB5300E098B8 /* max.jit.tml.swirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5C40E5B2FD200AC4269 /* max.jit.tml.swirl.m */; };
+		435976100F28FB5300E098B8 /* tml.jit.swirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */; };
+		435976110F28FB5300E098B8 /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		435976120F28FB5300E098B8 /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		435976130F28FB5300E098B8 /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		435976140F28FB5300E098B8 /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		435976150F28FB5300E098B8 /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		435976160F28FB5300E098B8 /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		435976170F28FB5300E098B8 /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		435976180F28FB5300E098B8 /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		435976190F28FB5300E098B8 /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		4359761A0F28FB5300E098B8 /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		4359761B0F28FB5300E098B8 /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		4359761D0F28FB5300E098B8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		4359761E0F28FB5300E098B8 /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		4359761F0F28FB5300E098B8 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+		435976200F28FB5300E098B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		435976210F28FB5300E098B8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		4359762B0F28FB6200E098B8 /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		4359762C0F28FB6200E098B8 /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		4359762D0F28FB6200E098B8 /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		4359762E0F28FB6200E098B8 /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		4359762F0F28FB6200E098B8 /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		435976300F28FB6200E098B8 /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		435976310F28FB6200E098B8 /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		435976320F28FB6200E098B8 /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		435976330F28FB6200E098B8 /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		435976340F28FB6200E098B8 /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		435976350F28FB6200E098B8 /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		435976360F28FB6200E098B8 /* max.jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1E80EF9A0A700C49BDB /* max.jit.tml.pressure.m */; };
+		435976370F28FB6200E098B8 /* jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB2050EF9A22700C49BDB /* jit.tml.pressure.m */; };
+		435976390F28FB6200E098B8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		4359763A0F28FB6200E098B8 /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		4359763B0F28FB6200E098B8 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+		4359763C0F28FB6200E098B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		4359763D0F28FB6200E098B8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		4359764B0F28FBFB00E098B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 435976480F28FBF000E098B8 /* InfoPlist.strings */; };
+		4359764F0F28FC0D00E098B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4359764D0F28FC0D00E098B8 /* InfoPlist.strings */; };
+		435976660F28FDB700E098B8 /* FSCPUQuickAdvection.m in Sources */ = {isa = PBXBuildFile; fileRef = 435976650F28FDB700E098B8 /* FSCPUQuickAdvection.m */; };
+		435976670F28FDB700E098B8 /* FSCPUQuickAdvection.m in Sources */ = {isa = PBXBuildFile; fileRef = 435976650F28FDB700E098B8 /* FSCPUQuickAdvection.m */; };
+		435BB0D30EF987CD00C49BDB /* max.jit.tml.swirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5C40E5B2FD200AC4269 /* max.jit.tml.swirl.m */; };
+		435BB0D40EF987CD00C49BDB /* tml.jit.swirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */; };
+		435BB0D50EF987CD00C49BDB /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		435BB0D60EF987CD00C49BDB /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		435BB0D70EF987CD00C49BDB /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		435BB0D80EF987CD00C49BDB /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		435BB0D90EF987CD00C49BDB /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		435BB0DA0EF987CD00C49BDB /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		435BB0DB0EF987CD00C49BDB /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		435BB0DC0EF987CD00C49BDB /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		435BB0DD0EF987CD00C49BDB /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		435BB0DE0EF987CD00C49BDB /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		435BB0E00EF987CD00C49BDB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		435BB0E10EF987CD00C49BDB /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		435BB0E20EF987CD00C49BDB /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+		435BB0E30EF987CD00C49BDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		435BB0E40EF987CD00C49BDB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		435BB1300EF98EEB00C49BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 435BB12E0EF98EEB00C49BDB /* InfoPlist.strings */; };
+		435BB1AE0EF99E7F00C49BDB /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		435BB1AF0EF99E7F00C49BDB /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		435BB1B00EF99E7F00C49BDB /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		435BB1B10EF99E7F00C49BDB /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		435BB1B20EF99E7F00C49BDB /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		435BB1B30EF99E7F00C49BDB /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		435BB1B40EF99E7F00C49BDB /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		435BB1B50EF99E7F00C49BDB /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		435BB1B60EF99E7F00C49BDB /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		435BB1B70EF99E7F00C49BDB /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		435BB1B90EF99E7F00C49BDB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		435BB1BA0EF99E7F00C49BDB /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		435BB1BB0EF99E7F00C49BDB /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+		435BB1BC0EF99E7F00C49BDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		435BB1BD0EF99E7F00C49BDB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		435BB1CE0EF99F3000C49BDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 435BB1CC0EF99F3000C49BDB /* InfoPlist.strings */; };
+		435BB1DB0EF99F8200C49BDB /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		435BB1DC0EF99F8200C49BDB /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		435BB1DD0EF99F8200C49BDB /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		435BB1E90EF9A0A700C49BDB /* max.jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1E80EF9A0A700C49BDB /* max.jit.tml.pressure.m */; };
+		435BB2060EF9A22700C49BDB /* jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB2050EF9A22700C49BDB /* jit.tml.pressure.m */; };
+		435BB2D30EF9B5B800C49BDB /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		435BB2D40EF9B5B800C49BDB /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		435BB2D50EF9B5B800C49BDB /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		435BB2D60EF9B5B800C49BDB /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		435BB2D70EF9B5B800C49BDB /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		435BB2D80EF9B5B800C49BDB /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		435BB2D90EF9B5B800C49BDB /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		435BB2DA0EF9B5B800C49BDB /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		435BB2DB0EF9B5B800C49BDB /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		435BB2DC0EF9B5B800C49BDB /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		435BB2DD0EF9B5B800C49BDB /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		435BB2DE0EF9B5B800C49BDB /* max.jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1E80EF9A0A700C49BDB /* max.jit.tml.pressure.m */; };
+		435BB2DF0EF9B5B800C49BDB /* jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB2050EF9A22700C49BDB /* jit.tml.pressure.m */; };
+		435BB2E10EF9B5B800C49BDB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		435BB2E20EF9B5B800C49BDB /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		435BB2E30EF9B5B800C49BDB /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+		435BB2E40EF9B5B800C49BDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		435BB2E50EF9B5B800C49BDB /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		436CF25E0ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		436CF25F0ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		436CF2600ECCBADB002EA2AE /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		436CF26C0ECCBBD9002EA2AE /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		43A358A00F41F88200209661 /* FSNSGeneric.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */; };
+		43A358A10F41F88200209661 /* FXField.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6000E5B33DE00AC4269 /* FXField.m */; };
+		43A358A20F41F88200209661 /* FXPixmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6020E5B33DE00AC4269 /* FXPixmap.m */; };
+		43A358A30F41F88200209661 /* FXTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB6040E5B33DE00AC4269 /* FXTexture.m */; };
+		43A358A40F41F88200209661 /* FXTaskSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 433FB60D0E5B341500AC4269 /* FXTaskSequence.m */; };
+		43A358A50F41F88200209661 /* FSCPUCore_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */; };
+		43A358A60F41F88200209661 /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */; };
+		43A358A70F41F88200209661 /* FSCPUCore_NoWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */; };
+		43A358A80F41F88200209661 /* FSCPUCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */; };
+		43A358A90F41F88200209661 /* JITTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4321CFBE0EE879BA009287C9 /* JITTask.m */; };
+		43A358AA0F41F88200209661 /* FSCPU_Jacobi.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */; };
+		43A358AB0F41F88200209661 /* max.jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB1E80EF9A0A700C49BDB /* max.jit.tml.pressure.m */; };
+		43A358AC0F41F88200209661 /* jit.tml.pressure.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BB2050EF9A22700C49BDB /* jit.tml.pressure.m */; };
+		43A358AD0F41F88200209661 /* FSCPUQuickAdvection.m in Sources */ = {isa = PBXBuildFile; fileRef = 435976650F28FDB700E098B8 /* FSCPUQuickAdvection.m */; };
+		43A358AF0F41F88200209661 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		43A358B00F41F88200209661 /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		43A358B10F41F88200209661 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+		43A358B20F41F88200209661 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6110E5B345500AC4269 /* Cocoa.framework */; };
+		43A358B30F41F88200209661 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433FB6120E5B345500AC4269 /* OpenGL.framework */; };
+		43A358BF0F41F95800209661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43A358BD0F41F95800209661 /* InfoPlist.strings */; };
+		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		A4F3D7FE0AB75EF700D7734D /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */; };
+		A4F3D7FF0AB75EF700D7734D /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4312D9980F41FEA500BB35DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A3589C0F41F88200209661 /* tml.jit.fluid.blend */;
+			remoteInfo = tml.jit.fluid.blend;
+		};
+		435393DE0F13FF9B000C2A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435BB0CF0EF987CD00C49BDB;
+			remoteInfo = tml.jit.fluid.McCormack;
+		};
+		435393E00F13FF9D000C2A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435BB1A80EF99E7F00C49BDB;
+			remoteInfo = tml.jit.fluid.Pressure;
+		};
+		435393E20F13FF9E000C2A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435BB2CF0EF9B5B800C49BDB;
+			remoteInfo = tml.jit.fluid.viscocity;
+		};
+		435976560F28FD9300E098B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4359760B0F28FB5300E098B8;
+			remoteInfo = tml.jit.fluid.repos;
+		};
+		435976580F28FD9500E098B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435976270F28FB6200E098B8;
+			remoteInfo = tml.jit.fluid.genRepos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		4321CFBD0EE879BA009287C9 /* JITTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JITTask.h; sourceTree = "<group>"; };
+		4321CFBE0EE879BA009287C9 /* JITTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JITTask.m; sourceTree = "<group>"; };
+		433FB5C40E5B2FD200AC4269 /* max.jit.tml.swirl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = max.jit.tml.swirl.m; sourceTree = "<group>"; };
+		433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = tml.jit.swirl.m; sourceTree = "<group>"; };
+		433FB5ED0E5B32D000AC4269 /* FSNSGeneric.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSNSGeneric.h; sourceTree = "<group>"; };
+		433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSNSGeneric.m; sourceTree = "<group>"; };
+		433FB5F60E5B335800AC4269 /* FSInterface.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSInterface.h; sourceTree = "<group>"; };
+		433FB5FF0E5B33DE00AC4269 /* FXField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FXField.h; sourceTree = "<group>"; };
+		433FB6000E5B33DE00AC4269 /* FXField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FXField.m; sourceTree = "<group>"; };
+		433FB6010E5B33DE00AC4269 /* FXPixmap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FXPixmap.h; sourceTree = "<group>"; };
+		433FB6020E5B33DE00AC4269 /* FXPixmap.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FXPixmap.m; sourceTree = "<group>"; };
+		433FB6030E5B33DE00AC4269 /* FXTexture.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FXTexture.h; sourceTree = "<group>"; };
+		433FB6040E5B33DE00AC4269 /* FXTexture.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FXTexture.m; sourceTree = "<group>"; };
+		433FB60C0E5B341500AC4269 /* FXTaskSequence.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FXTaskSequence.h; sourceTree = "<group>"; };
+		433FB60D0E5B341500AC4269 /* FXTaskSequence.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FXTaskSequence.m; sourceTree = "<group>"; };
+		433FB6110E5B345500AC4269 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		433FB6120E5B345500AC4269 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		435392FA0F13E8CB000C2A68 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		435976250F28FB5300E098B8 /* tml.jit.fluid.repos.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.repos.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		435976410F28FB6200E098B8 /* tml.jit.fluid.genRepos.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.genRepos.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		435976490F28FBF000E098B8 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4359764E0F28FC0D00E098B8 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		435976520F28FC9400E098B8 /* repos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = repos.plist; path = ../repos.plist; sourceTree = "<group>"; };
+		435976540F28FCB200E098B8 /* genRepos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = genRepos.plist; path = ../genRepos.plist; sourceTree = "<group>"; };
+		435976640F28FDB700E098B8 /* FSCPUQuickAdvection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCPUQuickAdvection.h; sourceTree = "<group>"; };
+		435976650F28FDB700E098B8 /* FSCPUQuickAdvection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCPUQuickAdvection.m; sourceTree = "<group>"; };
+		435BB0E80EF987CD00C49BDB /* tml.jit.fluid.McCormack.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.McCormack.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		435BB1090EF98BB200C49BDB /* McCormack.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = McCormack.plist; sourceTree = "<group>"; };
+		435BB12F0EF98EEB00C49BDB /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		435BB1C10EF99E7F00C49BDB /* tml.jit.fluid.pressure.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.pressure.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		435BB1CA0EF99F1C00C49BDB /* Pressure.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Pressure.plist; sourceTree = "<group>"; };
+		435BB1CD0EF99F3000C49BDB /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		435BB1D80EF99F8200C49BDB /* FSCPU_Jacobi_Impl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSCPU_Jacobi_Impl.h; sourceTree = "<group>"; };
+		435BB1D90EF99F8200C49BDB /* FSCPU_Jacobi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSCPU_Jacobi.h; sourceTree = "<group>"; };
+		435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSCPU_Jacobi.m; sourceTree = "<group>"; };
+		435BB1E80EF9A0A700C49BDB /* max.jit.tml.pressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = max.jit.tml.pressure.m; sourceTree = "<group>"; };
+		435BB2050EF9A22700C49BDB /* jit.tml.pressure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jit.tml.pressure.m; sourceTree = "<group>"; };
+		435BB2E90EF9B5B800C49BDB /* tml.jit.fluid.viscocity.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.viscocity.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		435BB2EA0EF9B5B800C49BDB /* Viscocity.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Viscocity.plist; sourceTree = "<group>"; };
+		436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSCPUCore_NearestNeighbor.m; sourceTree = "<group>"; };
+		436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSCPUCore_NoWrap_NearestNeighbor.m; sourceTree = "<group>"; };
+		436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSCPUCore_NoWrap.m; sourceTree = "<group>"; };
+		436CF25B0ECCBADB002EA2AE /* FSCPUMacCormack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSCPUMacCormack.h; sourceTree = "<group>"; };
+		436CF25C0ECCBADB002EA2AE /* FSCPUStam.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSCPUStam.h; sourceTree = "<group>"; };
+		436CF2690ECCBBD9002EA2AE /* FSCPUCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSCPUCore.h; sourceTree = "<group>"; };
+		436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FSCPUCore.m; sourceTree = "<group>"; };
+		436CF26B0ECCBBD9002EA2AE /* FSMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FSMacros.h; sourceTree = "<group>"; };
+		43A358B70F41F88200209661 /* tml.jit.fluid.blend.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.blend.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A358B80F41F88200209661 /* blend.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = blend.plist; sourceTree = "<group>"; };
+		43A358BE0F41F95800209661 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* tml.jit.fluid.advection.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tml.jit.fluid.advection.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitterAPI.framework; path = /Library/Frameworks/JitterAPI.framework; sourceTree = "<absolute>"; };
+		A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = /Library/Frameworks/MaxAPI.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4359761C0F28FB5300E098B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4359761D0F28FB5300E098B8 /* Carbon.framework in Frameworks */,
+				4359761E0F28FB5300E098B8 /* JitterAPI.framework in Frameworks */,
+				4359761F0F28FB5300E098B8 /* MaxAPI.framework in Frameworks */,
+				435976200F28FB5300E098B8 /* Cocoa.framework in Frameworks */,
+				435976210F28FB5300E098B8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435976380F28FB6200E098B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435976390F28FB6200E098B8 /* Carbon.framework in Frameworks */,
+				4359763A0F28FB6200E098B8 /* JitterAPI.framework in Frameworks */,
+				4359763B0F28FB6200E098B8 /* MaxAPI.framework in Frameworks */,
+				4359763C0F28FB6200E098B8 /* Cocoa.framework in Frameworks */,
+				4359763D0F28FB6200E098B8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB0DF0EF987CD00C49BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB0E00EF987CD00C49BDB /* Carbon.framework in Frameworks */,
+				435BB0E10EF987CD00C49BDB /* JitterAPI.framework in Frameworks */,
+				435BB0E20EF987CD00C49BDB /* MaxAPI.framework in Frameworks */,
+				435BB0E30EF987CD00C49BDB /* Cocoa.framework in Frameworks */,
+				435BB0E40EF987CD00C49BDB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB1B80EF99E7F00C49BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB1B90EF99E7F00C49BDB /* Carbon.framework in Frameworks */,
+				435BB1BA0EF99E7F00C49BDB /* JitterAPI.framework in Frameworks */,
+				435BB1BB0EF99E7F00C49BDB /* MaxAPI.framework in Frameworks */,
+				435BB1BC0EF99E7F00C49BDB /* Cocoa.framework in Frameworks */,
+				435BB1BD0EF99E7F00C49BDB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB2E00EF9B5B800C49BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB2E10EF9B5B800C49BDB /* Carbon.framework in Frameworks */,
+				435BB2E20EF9B5B800C49BDB /* JitterAPI.framework in Frameworks */,
+				435BB2E30EF9B5B800C49BDB /* MaxAPI.framework in Frameworks */,
+				435BB2E40EF9B5B800C49BDB /* Cocoa.framework in Frameworks */,
+				435BB2E50EF9B5B800C49BDB /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A358AE0F41F88200209661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A358AF0F41F88200209661 /* Carbon.framework in Frameworks */,
+				43A358B00F41F88200209661 /* JitterAPI.framework in Frameworks */,
+				43A358B10F41F88200209661 /* MaxAPI.framework in Frameworks */,
+				43A358B20F41F88200209661 /* Cocoa.framework in Frameworks */,
+				43A358B30F41F88200209661 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCE0486CAD60068D4B7 /* Carbon.framework in Frameworks */,
+				A4F3D7FE0AB75EF700D7734D /* JitterAPI.framework in Frameworks */,
+				A4F3D7FF0AB75EF700D7734D /* MaxAPI.framework in Frameworks */,
+				433FB6130E5B345500AC4269 /* Cocoa.framework in Frameworks */,
+				433FB6140E5B345500AC4269 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* tml.ode.core */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = tml.ode.core;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				433FB6110E5B345500AC4269 /* Cocoa.framework */,
+				433FB6120E5B345500AC4269 /* OpenGL.framework */,
+				A4F3D7FC0AB75EF700D7734D /* JitterAPI.framework */,
+				A4F3D7FD0AB75EF700D7734D /* MaxAPI.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43A358BA0F41F8F800209661 /* blend */,
+				4359764C0F28FC0D00E098B8 /* genRepos */,
+				435976470F28FBF000E098B8 /* repos */,
+				435BB2F80EF9B6CE00C49BDB /* Viscocity */,
+				435BB1C90EF99F0000C49BDB /* Pressure */,
+				435BB0ED0EF989EA00C49BDB /* McCormack */,
+				435BB0EC0EF989D200C49BDB /* Advection */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				435BB1D80EF99F8200C49BDB /* FSCPU_Jacobi_Impl.h */,
+				435BB1D90EF99F8200C49BDB /* FSCPU_Jacobi.h */,
+				435BB1DA0EF99F8200C49BDB /* FSCPU_Jacobi.m */,
+				436CF2690ECCBBD9002EA2AE /* FSCPUCore.h */,
+				436CF26A0ECCBBD9002EA2AE /* FSCPUCore.m */,
+				436CF26B0ECCBBD9002EA2AE /* FSMacros.h */,
+				436CF2580ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m */,
+				436CF2590ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m */,
+				436CF25A0ECCBADB002EA2AE /* FSCPUCore_NoWrap.m */,
+				436CF25B0ECCBADB002EA2AE /* FSCPUMacCormack.h */,
+				436CF25C0ECCBADB002EA2AE /* FSCPUStam.h */,
+				433FB60C0E5B341500AC4269 /* FXTaskSequence.h */,
+				433FB60D0E5B341500AC4269 /* FXTaskSequence.m */,
+				433FB5FF0E5B33DE00AC4269 /* FXField.h */,
+				433FB6000E5B33DE00AC4269 /* FXField.m */,
+				433FB6010E5B33DE00AC4269 /* FXPixmap.h */,
+				433FB6020E5B33DE00AC4269 /* FXPixmap.m */,
+				433FB6030E5B33DE00AC4269 /* FXTexture.h */,
+				433FB6040E5B33DE00AC4269 /* FXTexture.m */,
+				433FB5F60E5B335800AC4269 /* FSInterface.h */,
+				433FB5ED0E5B32D000AC4269 /* FSNSGeneric.h */,
+				433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */,
+				433FB5C40E5B2FD200AC4269 /* max.jit.tml.swirl.m */,
+				433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */,
+				4321CFBD0EE879BA009287C9 /* JITTask.h */,
+				4321CFBE0EE879BA009287C9 /* JITTask.m */,
+				435976640F28FDB700E098B8 /* FSCPUQuickAdvection.h */,
+				435976650F28FDB700E098B8 /* FSCPUQuickAdvection.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* tml.jit.fluid.advection.mxo */,
+				435BB0E80EF987CD00C49BDB /* tml.jit.fluid.McCormack.mxo */,
+				435BB1C10EF99E7F00C49BDB /* tml.jit.fluid.pressure.mxo */,
+				435BB2E90EF9B5B800C49BDB /* tml.jit.fluid.viscocity.mxo */,
+				435976250F28FB5300E098B8 /* tml.jit.fluid.repos.mxo */,
+				435976410F28FB6200E098B8 /* tml.jit.fluid.genRepos.mxo */,
+				43A358B70F41F88200209661 /* tml.jit.fluid.blend.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435392F80F13E8CB000C2A68 /* Viscocity */ = {
+			isa = PBXGroup;
+			children = (
+				435392F90F13E8CB000C2A68 /* InfoPlist.strings */,
+			);
+			path = Viscocity;
+			sourceTree = "<group>";
+		};
+		435976470F28FBF000E098B8 /* repos */ = {
+			isa = PBXGroup;
+			children = (
+				435976520F28FC9400E098B8 /* repos.plist */,
+				435976480F28FBF000E098B8 /* InfoPlist.strings */,
+			);
+			path = repos;
+			sourceTree = "<group>";
+		};
+		4359764C0F28FC0D00E098B8 /* genRepos */ = {
+			isa = PBXGroup;
+			children = (
+				435976540F28FCB200E098B8 /* genRepos.plist */,
+				4359764D0F28FC0D00E098B8 /* InfoPlist.strings */,
+			);
+			path = genRepos;
+			sourceTree = "<group>";
+		};
+		435BB0EC0EF989D200C49BDB /* Advection */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD10486CAD60068D4B7 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Advection;
+			sourceTree = "<group>";
+		};
+		435BB0ED0EF989EA00C49BDB /* McCormack */ = {
+			isa = PBXGroup;
+			children = (
+				435BB12D0EF98EEB00C49BDB /* English.lproj */,
+				435BB1090EF98BB200C49BDB /* McCormack.plist */,
+			);
+			name = McCormack;
+			sourceTree = "<group>";
+		};
+		435BB12D0EF98EEB00C49BDB /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				435BB12E0EF98EEB00C49BDB /* InfoPlist.strings */,
+			);
+			name = English.lproj;
+			path = McCormack/English.lproj;
+			sourceTree = "<group>";
+		};
+		435BB1C90EF99F0000C49BDB /* Pressure */ = {
+			isa = PBXGroup;
+			children = (
+				435BB1E80EF9A0A700C49BDB /* max.jit.tml.pressure.m */,
+				435BB1CB0EF99F3000C49BDB /* English.lproj */,
+				435BB1CA0EF99F1C00C49BDB /* Pressure.plist */,
+				435BB2050EF9A22700C49BDB /* jit.tml.pressure.m */,
+			);
+			name = Pressure;
+			sourceTree = "<group>";
+		};
+		435BB1CB0EF99F3000C49BDB /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				435BB1CC0EF99F3000C49BDB /* InfoPlist.strings */,
+			);
+			name = English.lproj;
+			path = Pressure/English.lproj;
+			sourceTree = "<group>";
+		};
+		435BB2F80EF9B6CE00C49BDB /* Viscocity */ = {
+			isa = PBXGroup;
+			children = (
+				435392F80F13E8CB000C2A68 /* Viscocity */,
+				435BB2EA0EF9B5B800C49BDB /* Viscocity.plist */,
+			);
+			name = Viscocity;
+			sourceTree = "<group>";
+		};
+		43A358BA0F41F8F800209661 /* blend */ = {
+			isa = PBXGroup;
+			children = (
+				43A358BC0F41F95800209661 /* blend */,
+				43A358B80F41F88200209661 /* blend.plist */,
+			);
+			name = blend;
+			sourceTree = "<group>";
+		};
+		43A358BC0F41F95800209661 /* blend */ = {
+			isa = PBXGroup;
+			children = (
+				43A358BD0F41F95800209661 /* InfoPlist.strings */,
+			);
+			path = blend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4359760B0F28FB5300E098B8 /* tml.jit.fluid.repos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435976220F28FB5300E098B8 /* Build configuration list for PBXNativeTarget "tml.jit.fluid.repos" */;
+			buildPhases = (
+				4359760C0F28FB5300E098B8 /* Resources */,
+				4359760E0F28FB5300E098B8 /* Sources */,
+				4359761C0F28FB5300E098B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tml.jit.fluid.repos;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 435976250F28FB5300E098B8 /* tml.jit.fluid.repos.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		435976270F28FB6200E098B8 /* tml.jit.fluid.genRepos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4359763E0F28FB6200E098B8 /* Build configuration list for PBXNativeTarget "tml.jit.fluid.genRepos" */;
+			buildPhases = (
+				435976280F28FB6200E098B8 /* Resources */,
+				4359762A0F28FB6200E098B8 /* Sources */,
+				435976380F28FB6200E098B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tml.jit.fluid.genRepos;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 435976410F28FB6200E098B8 /* tml.jit.fluid.genRepos.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		435BB0CF0EF987CD00C49BDB /* tml.jit.fluid.McCormack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435BB0E50EF987CD00C49BDB /* Build configuration list for PBXNativeTarget "tml.jit.fluid.McCormack" */;
+			buildPhases = (
+				435BB0D00EF987CD00C49BDB /* Resources */,
+				435BB0D20EF987CD00C49BDB /* Sources */,
+				435BB0DF0EF987CD00C49BDB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tml.jit.fluid.McCormack;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 435BB0E80EF987CD00C49BDB /* tml.jit.fluid.McCormack.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		435BB1A80EF99E7F00C49BDB /* tml.jit.fluid.Pressure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435BB1BE0EF99E7F00C49BDB /* Build configuration list for PBXNativeTarget "tml.jit.fluid.Pressure" */;
+			buildPhases = (
+				435BB1A90EF99E7F00C49BDB /* Resources */,
+				435BB1AB0EF99E7F00C49BDB /* Sources */,
+				435BB1B80EF99E7F00C49BDB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tml.jit.fluid.Pressure;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 435BB1C10EF99E7F00C49BDB /* tml.jit.fluid.pressure.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		435BB2CF0EF9B5B800C49BDB /* tml.jit.fluid.viscocity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435BB2E60EF9B5B800C49BDB /* Build configuration list for PBXNativeTarget "tml.jit.fluid.viscocity" */;
+			buildPhases = (
+				435BB2D00EF9B5B800C49BDB /* Resources */,
+				435BB2D20EF9B5B800C49BDB /* Sources */,
+				435BB2E00EF9B5B800C49BDB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tml.jit.fluid.viscocity;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 435BB2E90EF9B5B800C49BDB /* tml.jit.fluid.viscocity.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		43A3589C0F41F88200209661 /* tml.jit.fluid.blend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A358B40F41F88200209661 /* Build configuration list for PBXNativeTarget "tml.jit.fluid.blend" */;
+			buildPhases = (
+				43A3589D0F41F88200209661 /* Resources */,
+				43A3589F0F41F88200209661 /* Sources */,
+				43A358AE0F41F88200209661 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tml.jit.fluid.blend;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 43A358B70F41F88200209661 /* tml.jit.fluid.blend.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D01CCC60486CAD60068D4B7 /* tml.jit.fluid.advection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FADC23308B4156C00ABE55E /* Build configuration list for PBXNativeTarget "tml.jit.fluid.advection" */;
+			buildPhases = (
+				8D01CCC90486CAD60068D4B7 /* Resources */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435393DF0F13FF9B000C2A68 /* PBXTargetDependency */,
+				435393E10F13FF9D000C2A68 /* PBXTargetDependency */,
+				435393E30F13FF9E000C2A68 /* PBXTargetDependency */,
+				435976570F28FD9300E098B8 /* PBXTargetDependency */,
+				435976590F28FD9500E098B8 /* PBXTargetDependency */,
+				4312D9990F41FEA500BB35DB /* PBXTargetDependency */,
+			);
+			name = tml.jit.fluid.advection;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = tml.ode.core;
+			productReference = 8D01CCD20486CAD60068D4B7 /* tml.jit.fluid.advection.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "jit.tml.fluid.advection" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* tml.ode.core */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* tml.jit.fluid.advection */,
+				435BB0CF0EF987CD00C49BDB /* tml.jit.fluid.McCormack */,
+				435BB1A80EF99E7F00C49BDB /* tml.jit.fluid.Pressure */,
+				435BB2CF0EF9B5B800C49BDB /* tml.jit.fluid.viscocity */,
+				4359760B0F28FB5300E098B8 /* tml.jit.fluid.repos */,
+				435976270F28FB6200E098B8 /* tml.jit.fluid.genRepos */,
+				43A3589C0F41F88200209661 /* tml.jit.fluid.blend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4359760C0F28FB5300E098B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4359764B0F28FBFB00E098B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435976280F28FB6200E098B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4359764F0F28FC0D00E098B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB0D00EF987CD00C49BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB1300EF98EEB00C49BDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB1A90EF99E7F00C49BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB1CE0EF99F3000C49BDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB2D00EF9B5B800C49BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435392FB0F13E8CB000C2A68 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A3589D0F41F88200209661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A358BF0F41F95800209661 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCC90486CAD60068D4B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4359760E0F28FB5300E098B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4359760F0F28FB5300E098B8 /* max.jit.tml.swirl.m in Sources */,
+				435976100F28FB5300E098B8 /* tml.jit.swirl.m in Sources */,
+				435976110F28FB5300E098B8 /* FSNSGeneric.m in Sources */,
+				435976120F28FB5300E098B8 /* FXField.m in Sources */,
+				435976130F28FB5300E098B8 /* FXPixmap.m in Sources */,
+				435976140F28FB5300E098B8 /* FXTexture.m in Sources */,
+				435976150F28FB5300E098B8 /* FXTaskSequence.m in Sources */,
+				435976160F28FB5300E098B8 /* FSCPUCore_NearestNeighbor.m in Sources */,
+				435976170F28FB5300E098B8 /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				435976180F28FB5300E098B8 /* FSCPUCore_NoWrap.m in Sources */,
+				435976190F28FB5300E098B8 /* FSCPUCore.m in Sources */,
+				4359761A0F28FB5300E098B8 /* JITTask.m in Sources */,
+				4359761B0F28FB5300E098B8 /* FSCPU_Jacobi.m in Sources */,
+				435976660F28FDB700E098B8 /* FSCPUQuickAdvection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4359762A0F28FB6200E098B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4359762B0F28FB6200E098B8 /* FSNSGeneric.m in Sources */,
+				4359762C0F28FB6200E098B8 /* FXField.m in Sources */,
+				4359762D0F28FB6200E098B8 /* FXPixmap.m in Sources */,
+				4359762E0F28FB6200E098B8 /* FXTexture.m in Sources */,
+				4359762F0F28FB6200E098B8 /* FXTaskSequence.m in Sources */,
+				435976300F28FB6200E098B8 /* FSCPUCore_NearestNeighbor.m in Sources */,
+				435976310F28FB6200E098B8 /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				435976320F28FB6200E098B8 /* FSCPUCore_NoWrap.m in Sources */,
+				435976330F28FB6200E098B8 /* FSCPUCore.m in Sources */,
+				435976340F28FB6200E098B8 /* JITTask.m in Sources */,
+				435976350F28FB6200E098B8 /* FSCPU_Jacobi.m in Sources */,
+				435976360F28FB6200E098B8 /* max.jit.tml.pressure.m in Sources */,
+				435976370F28FB6200E098B8 /* jit.tml.pressure.m in Sources */,
+				435976670F28FDB700E098B8 /* FSCPUQuickAdvection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB0D20EF987CD00C49BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB0D30EF987CD00C49BDB /* max.jit.tml.swirl.m in Sources */,
+				435BB0D40EF987CD00C49BDB /* tml.jit.swirl.m in Sources */,
+				435BB0D50EF987CD00C49BDB /* FSNSGeneric.m in Sources */,
+				435BB0D60EF987CD00C49BDB /* FXField.m in Sources */,
+				435BB0D70EF987CD00C49BDB /* FXPixmap.m in Sources */,
+				435BB0D80EF987CD00C49BDB /* FXTexture.m in Sources */,
+				435BB0D90EF987CD00C49BDB /* FXTaskSequence.m in Sources */,
+				435BB0DA0EF987CD00C49BDB /* FSCPUCore_NearestNeighbor.m in Sources */,
+				435BB0DB0EF987CD00C49BDB /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				435BB0DC0EF987CD00C49BDB /* FSCPUCore_NoWrap.m in Sources */,
+				435BB0DD0EF987CD00C49BDB /* FSCPUCore.m in Sources */,
+				435BB0DE0EF987CD00C49BDB /* JITTask.m in Sources */,
+				435BB1DC0EF99F8200C49BDB /* FSCPU_Jacobi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB1AB0EF99E7F00C49BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB1AE0EF99E7F00C49BDB /* FSNSGeneric.m in Sources */,
+				435BB1AF0EF99E7F00C49BDB /* FXField.m in Sources */,
+				435BB1B00EF99E7F00C49BDB /* FXPixmap.m in Sources */,
+				435BB1B10EF99E7F00C49BDB /* FXTexture.m in Sources */,
+				435BB1B20EF99E7F00C49BDB /* FXTaskSequence.m in Sources */,
+				435BB1B30EF99E7F00C49BDB /* FSCPUCore_NearestNeighbor.m in Sources */,
+				435BB1B40EF99E7F00C49BDB /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				435BB1B50EF99E7F00C49BDB /* FSCPUCore_NoWrap.m in Sources */,
+				435BB1B60EF99E7F00C49BDB /* FSCPUCore.m in Sources */,
+				435BB1B70EF99E7F00C49BDB /* JITTask.m in Sources */,
+				435BB1DB0EF99F8200C49BDB /* FSCPU_Jacobi.m in Sources */,
+				435BB1E90EF9A0A700C49BDB /* max.jit.tml.pressure.m in Sources */,
+				435BB2060EF9A22700C49BDB /* jit.tml.pressure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435BB2D20EF9B5B800C49BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435BB2D30EF9B5B800C49BDB /* FSNSGeneric.m in Sources */,
+				435BB2D40EF9B5B800C49BDB /* FXField.m in Sources */,
+				435BB2D50EF9B5B800C49BDB /* FXPixmap.m in Sources */,
+				435BB2D60EF9B5B800C49BDB /* FXTexture.m in Sources */,
+				435BB2D70EF9B5B800C49BDB /* FXTaskSequence.m in Sources */,
+				435BB2D80EF9B5B800C49BDB /* FSCPUCore_NearestNeighbor.m in Sources */,
+				435BB2D90EF9B5B800C49BDB /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				435BB2DA0EF9B5B800C49BDB /* FSCPUCore_NoWrap.m in Sources */,
+				435BB2DB0EF9B5B800C49BDB /* FSCPUCore.m in Sources */,
+				435BB2DC0EF9B5B800C49BDB /* JITTask.m in Sources */,
+				435BB2DD0EF9B5B800C49BDB /* FSCPU_Jacobi.m in Sources */,
+				435BB2DE0EF9B5B800C49BDB /* max.jit.tml.pressure.m in Sources */,
+				435BB2DF0EF9B5B800C49BDB /* jit.tml.pressure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A3589F0F41F88200209661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A358A00F41F88200209661 /* FSNSGeneric.m in Sources */,
+				43A358A10F41F88200209661 /* FXField.m in Sources */,
+				43A358A20F41F88200209661 /* FXPixmap.m in Sources */,
+				43A358A30F41F88200209661 /* FXTexture.m in Sources */,
+				43A358A40F41F88200209661 /* FXTaskSequence.m in Sources */,
+				43A358A50F41F88200209661 /* FSCPUCore_NearestNeighbor.m in Sources */,
+				43A358A60F41F88200209661 /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				43A358A70F41F88200209661 /* FSCPUCore_NoWrap.m in Sources */,
+				43A358A80F41F88200209661 /* FSCPUCore.m in Sources */,
+				43A358A90F41F88200209661 /* JITTask.m in Sources */,
+				43A358AA0F41F88200209661 /* FSCPU_Jacobi.m in Sources */,
+				43A358AB0F41F88200209661 /* max.jit.tml.pressure.m in Sources */,
+				43A358AC0F41F88200209661 /* jit.tml.pressure.m in Sources */,
+				43A358AD0F41F88200209661 /* FSCPUQuickAdvection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FB5C60E5B2FD200AC4269 /* max.jit.tml.swirl.m in Sources */,
+				433FB5C70E5B2FD200AC4269 /* tml.jit.swirl.m in Sources */,
+				433FB5F00E5B32D000AC4269 /* FSNSGeneric.m in Sources */,
+				433FB6050E5B33DE00AC4269 /* FXField.m in Sources */,
+				433FB6060E5B33DE00AC4269 /* FXPixmap.m in Sources */,
+				433FB6070E5B33DE00AC4269 /* FXTexture.m in Sources */,
+				433FB60E0E5B341500AC4269 /* FXTaskSequence.m in Sources */,
+				436CF25E0ECCBADB002EA2AE /* FSCPUCore_NearestNeighbor.m in Sources */,
+				436CF25F0ECCBADB002EA2AE /* FSCPUCore_NoWrap_NearestNeighbor.m in Sources */,
+				436CF2600ECCBADB002EA2AE /* FSCPUCore_NoWrap.m in Sources */,
+				436CF26C0ECCBBD9002EA2AE /* FSCPUCore.m in Sources */,
+				4321CFBF0EE879BA009287C9 /* JITTask.m in Sources */,
+				435BB1DD0EF99F8200C49BDB /* FSCPU_Jacobi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4312D9990F41FEA500BB35DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43A3589C0F41F88200209661 /* tml.jit.fluid.blend */;
+			targetProxy = 4312D9980F41FEA500BB35DB /* PBXContainerItemProxy */;
+		};
+		435393DF0F13FF9B000C2A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435BB0CF0EF987CD00C49BDB /* tml.jit.fluid.McCormack */;
+			targetProxy = 435393DE0F13FF9B000C2A68 /* PBXContainerItemProxy */;
+		};
+		435393E10F13FF9D000C2A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435BB1A80EF99E7F00C49BDB /* tml.jit.fluid.Pressure */;
+			targetProxy = 435393E00F13FF9D000C2A68 /* PBXContainerItemProxy */;
+		};
+		435393E30F13FF9E000C2A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435BB2CF0EF9B5B800C49BDB /* tml.jit.fluid.viscocity */;
+			targetProxy = 435393E20F13FF9E000C2A68 /* PBXContainerItemProxy */;
+		};
+		435976570F28FD9300E098B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4359760B0F28FB5300E098B8 /* tml.jit.fluid.repos */;
+			targetProxy = 435976560F28FD9300E098B8 /* PBXContainerItemProxy */;
+		};
+		435976590F28FD9500E098B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435976270F28FB6200E098B8 /* tml.jit.fluid.genRepos */;
+			targetProxy = 435976580F28FD9500E098B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		435392F90F13E8CB000C2A68 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435392FA0F13E8CB000C2A68 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		435976480F28FBF000E098B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435976490F28FBF000E098B8 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4359764D0F28FC0D00E098B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4359764E0F28FC0D00E098B8 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		435BB12E0EF98EEB00C49BDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435BB12F0EF98EEB00C49BDB /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		435BB1CC0EF99F3000C49BDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435BB1CD0EF99F3000C49BDB /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43A358BD0F41F95800209661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A358BE0F41F95800209661 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435976230F28FB5300E098B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).repos.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_REPOS;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = repos.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.repos;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		435976240F28FB5300E098B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DSTROOT = "/tmp/$(PROJECT_NAME).repos.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_REPOS;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = repos.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.repos;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4359763F0F28FB6200E098B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).genRepos.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_GENREPOS;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = genRepos.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.genRepos;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		435976400F28FB6200E098B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DSTROOT = "/tmp/$(PROJECT_NAME).genRepos.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_GENREPOS;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = genRepos.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.genRepos;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		435BB0E60EF987CD00C49BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).McCormack.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_MCCORMACK;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = McCormack.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.McCormack;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		435BB0E70EF987CD00C49BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DSTROOT = "/tmp/$(PROJECT_NAME).McCormack.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_MCCORMACK;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = McCormack.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.McCormack;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		435BB1BF0EF99E7F00C49BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).Pressure.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_PRESSURE;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = Pressure.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.pressure;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		435BB1C00EF99E7F00C49BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DSTROOT = "/tmp/$(PROJECT_NAME).Pressure.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_PRESSURE;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = Pressure.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.pressure;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		435BB2E70EF9B5B800C49BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).Viscocity.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_VISCOCITY;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = Viscocity.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.viscocity;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		435BB2E80EF9B5B800C49BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DSTROOT = "/tmp/$(PROJECT_NAME).Viscocity.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_VISCOCITY;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = Viscocity.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.viscocity;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		43A358B50F41F88200209661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = "/tmp/$(PROJECT_NAME).genBlend.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_BLEND;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = blend.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.blend;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		43A358B60F41F88200209661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DSTROOT = "/tmp/$(PROJECT_NAME).genBlend.dst";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_BLEND;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = blend.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.blend;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4FADC23408B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = ppc;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_ADVECTION;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.advection;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		4FADC23508B4156C00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					/Library/Frameworks,
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = BUILD_ADVECTION;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers,
+					/Library/Frameworks/JitterAPI.framework/Headers,
+					/Developer/Headers/FlatCarbon,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = YES;
+				PRODUCT_NAME = tml.jit.fluid.advection;
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4FADC23808B4156C00ABE55E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_MODEL_PPC64 = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SYMROOT = /images/build;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		4FADC23908B4156C00ABE55E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SYMROOT = "/Network/Servers/hex-smb-ev7421.Concordia.CA/Volumes/Users/Homes/mifortin/Desktop/build";
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435976220F28FB5300E098B8 /* Build configuration list for PBXNativeTarget "tml.jit.fluid.repos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435976230F28FB5300E098B8 /* Debug */,
+				435976240F28FB5300E098B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4359763E0F28FB6200E098B8 /* Build configuration list for PBXNativeTarget "tml.jit.fluid.genRepos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4359763F0F28FB6200E098B8 /* Debug */,
+				435976400F28FB6200E098B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435BB0E50EF987CD00C49BDB /* Build configuration list for PBXNativeTarget "tml.jit.fluid.McCormack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BB0E60EF987CD00C49BDB /* Debug */,
+				435BB0E70EF987CD00C49BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435BB1BE0EF99E7F00C49BDB /* Build configuration list for PBXNativeTarget "tml.jit.fluid.Pressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BB1BF0EF99E7F00C49BDB /* Debug */,
+				435BB1C00EF99E7F00C49BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435BB2E60EF9B5B800C49BDB /* Build configuration list for PBXNativeTarget "tml.jit.fluid.viscocity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435BB2E70EF9B5B800C49BDB /* Debug */,
+				435BB2E80EF9B5B800C49BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A358B40F41F88200209661 /* Build configuration list for PBXNativeTarget "tml.jit.fluid.blend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A358B50F41F88200209661 /* Debug */,
+				43A358B60F41F88200209661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FADC23308B4156C00ABE55E /* Build configuration list for PBXNativeTarget "tml.jit.fluid.advection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23408B4156C00ABE55E /* Debug */,
+				4FADC23508B4156C00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FADC23708B4156C00ABE55E /* Build configuration list for PBXProject "jit.tml.fluid.advection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FADC23808B4156C00ABE55E /* Debug */,
+				4FADC23908B4156C00ABE55E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

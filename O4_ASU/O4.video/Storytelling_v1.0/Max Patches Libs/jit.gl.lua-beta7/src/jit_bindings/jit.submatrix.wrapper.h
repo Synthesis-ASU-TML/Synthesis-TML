@@ -1,0 +1,1 @@
+void jit_submatrix_wrapper_init(void);

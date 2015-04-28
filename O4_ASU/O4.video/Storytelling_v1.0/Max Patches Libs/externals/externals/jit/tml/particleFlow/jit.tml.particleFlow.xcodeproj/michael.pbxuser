@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* tml.jit.particleFlow */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* tml.jit.particleFlow */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 4CF3346011E51EE900A7BA57 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 301435290;
+			PBXWorkspaceStateSaveDate = 301435290;
+		};
+		perUserProjectItems = {
+			4C92837711F78E020059B541 /* PBXBookmark */ = 4C92837711F78E020059B541 /* PBXBookmark */;
+			4C92838D11F7AD7C0059B541 /* PBXTextBookmark */ = 4C92838D11F7AD7C0059B541 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4CF3345F11E51EE900A7BA57 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 890}}";
+			sepNavSelRange = "{81, 0}";
+			sepNavVisRange = "{0, 84}";
+			sepNavWindowFrame = "{{96, 152}, {728, 979}}";
+		};
+	};
+	4C92837711F78E020059B541 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4CABB61711E68B38006F3DF1 /* jit.tml.particleFlow.c */;
+	};
+	4C92838D11F7AD7C0059B541 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CABB61711E68B38006F3DF1 /* jit.tml.particleFlow.c */;
+		name = "jit.tml.particleFlow.c: 217";
+		rLen = 0;
+		rLoc = 6193;
+		rType = 0;
+		vrLen = 2564;
+		vrLoc = 2677;
+	};
+	4CABB61711E68B38006F3DF1 /* jit.tml.particleFlow.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {742, 8385}}";
+			sepNavSelRange = "{6193, 0}";
+			sepNavVisRange = "{2677, 2564}";
+			sepNavWindowFrame = "{{285, 40}, {801, 976}}";
+		};
+	};
+	4CABB61811E68B38006F3DF1 /* max.jit.tml.particleFlow.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 1404}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{243, 1828}";
+			sepNavWindowFrame = "{{480, 48}, {728, 979}}";
+		};
+	};
+	4CF3345F11E51EE900A7BA57 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4CF3346011E51EE900A7BA57 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D01CCC60486CAD60068D4B7 /* tml.jit.particleFlow */ = {
+		activeExec = 0;
+	};
+	8D01CCD10486CAD60068D4B7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{142, 110}, {728, 979}}";
+		};
+	};
+}

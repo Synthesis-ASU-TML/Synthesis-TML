@@ -1,0 +1,195 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* tml.jit.fluid2 */;
+		breakpoints = (
+		);
+		codeSenseManager = 4CF3346011E51EE900A7BA57 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 300927907;
+			PBXWorkspaceStateSaveDate = 300927907;
+		};
+		sourceControlManager = 4CF3345F11E51EE900A7BA57 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4C1F7CA611E511F700050B5D /* mp_coherence_gcd.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 2249}}";
+			sepNavSelRange = "{4182, 0}";
+			sepNavVisRange = "{2781, 1391}";
+			sepNavWindowFrame = "{{50, 194}, {728, 979}}";
+		};
+	};
+	4C9A335411D01DD6005AF07D /* field.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {742, 1625}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2243}";
+			sepNavWindowFrame = "{{96, 5}, {801, 976}}";
+		};
+	};
+	4C9A335711D01DD6005AF07D /* field_pvt.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 2301}}";
+			sepNavSelRange = "{2463, 50}";
+			sepNavVisRange = "{1854, 1349}";
+			sepNavWindowFrame = "{{96, 49}, {728, 979}}";
+		};
+	};
+	4C9A335811D01DD6005AF07D /* field_pvt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {742, 1911}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{77, 1465}";
+			sepNavWindowFrame = "{{50, 47}, {801, 976}}";
+		};
+	};
+	4C9A335C11D01DD6005AF07D /* fluid.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 2236}}";
+			sepNavSelRange = "{335, 0}";
+			sepNavVisRange = "{0, 1908}";
+			sepNavWindowFrame = "{{544, 35}, {728, 979}}";
+		};
+	};
+	4C9A335F11D01DD6005AF07D /* fluid_advection_repos.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 5408}}";
+			sepNavSelRange = "{11859, 0}";
+			sepNavVisRange = "{9605, 2254}";
+			sepNavWindowFrame = "{{234, 26}, {728, 979}}";
+		};
+	};
+	4C9A336211D01DD6005AF07D /* fluid_cpu.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 10582}}";
+			sepNavSelRange = "{15004, 0}";
+			sepNavVisRange = "{13964, 1796}";
+			sepNavWindowFrame = "{{365, 12}, {728, 979}}";
+		};
+	};
+	4C9A336311D01DD6005AF07D /* fluid_cpu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 910}}";
+			sepNavSelRange = "{1193, 0}";
+			sepNavVisRange = "{0, 2626}";
+			sepNavWindowFrame = "{{529, 49}, {728, 979}}";
+		};
+	};
+	4C9A336711D01DD6005AF07D /* fluid_input.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 1716}}";
+			sepNavSelRange = "{2369, 0}";
+			sepNavVisRange = "{1232, 1658}";
+			sepNavWindowFrame = "{{599, 39}, {728, 979}}";
+		};
+	};
+	4C9A336D11D01DD6005AF07D /* fluid_pvt.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 4537}}";
+			sepNavSelRange = "{4785, 0}";
+			sepNavVisRange = "{3777, 1444}";
+			sepNavWindowFrame = "{{718, 49}, {728, 979}}";
+		};
+	};
+	4C9A336E11D01DD6005AF07D /* fluid_pvt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 4199}}";
+			sepNavSelRange = "{5701, 0}";
+			sepNavVisRange = "{4590, 1696}";
+			sepNavWindowFrame = "{{110, 49}, {728, 979}}";
+		};
+	};
+	4C9A336F11D01DD6005AF07D /* fluid_repos.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 3731}}";
+			sepNavSelRange = "{7449, 0}";
+			sepNavVisRange = "{6866, 1626}";
+			sepNavWindowFrame = "{{188, 68}, {728, 979}}";
+		};
+	};
+	4C9A337511D01DD6005AF07D /* fluid_visual.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 3653}}";
+			sepNavSelRange = "{6132, 0}";
+			sepNavVisRange = "{3793, 3530}";
+			sepNavWindowFrame = "{{476, 31}, {770, 997}}";
+		};
+	};
+	4C9A33C411D01DD6005AF07D /* mp_taskWorld.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 5213}}";
+			sepNavSelRange = "{9067, 0}";
+			sepNavVisRange = "{4246, 1874}";
+			sepNavWindowFrame = "{{346, 199}, {728, 979}}";
+		};
+	};
+	4C9A33C511D01DD6005AF07D /* mp_x.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 1001}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1561}";
+			sepNavWindowFrame = "{{907, 111}, {728, 979}}";
+		};
+	};
+	4C9A33C611D01DD6005AF07D /* mpx.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 2938}}";
+			sepNavSelRange = "{8870, 0}";
+			sepNavVisRange = "{6057, 2813}";
+			sepNavWindowFrame = "{{520, 188}, {728, 979}}";
+		};
+	};
+	4C9A34CC11D020BF005AF07D /* jit.fluid.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 890}}";
+			sepNavSelRange = "{764, 0}";
+			sepNavVisRange = "{0, 764}";
+			sepNavWindowFrame = "{{945, 49}, {728, 979}}";
+		};
+	};
+	4C9A34CD11D020BF005AF07D /* jit.fluid.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 1911}}";
+			sepNavSelRange = "{2195, 0}";
+			sepNavVisRange = "{255, 2387}";
+			sepNavWindowFrame = "{{435, 49}, {728, 979}}";
+		};
+	};
+	4CAAA36910976A5F00B5A337 /* jit.tml.fluid2.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 6240}}";
+			sepNavSelRange = "{2604, 297}";
+			sepNavVisRange = "{1804, 2874}";
+			sepNavWindowFrame = "{{261, 49}, {728, 979}}";
+		};
+	};
+	4CAAA36A10976A5F00B5A337 /* max.jit.tml.fluid2.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {742, 1391}}";
+			sepNavSelRange = "{671, 0}";
+			sepNavVisRange = "{987, 1609}";
+			sepNavWindowFrame = "{{73, 26}, {801, 976}}";
+		};
+	};
+	4CF3345F11E51EE900A7BA57 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4CF3346011E51EE900A7BA57 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D01CCC60486CAD60068D4B7 /* tml.jit.fluid2 */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 2FBBEAD608F335360078DB84 /* max-external */;
+		breakpoints = (
+			7BF2D704108891F4005D91BC /* OMax.learn.c:261 */,
+		);
+		codeSenseManager = 7BF2D6CE1088857D005D91BC /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					508,
+					671.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					989,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 289837654;
+			PBXWorkspaceStateSaveDate = 289837654;
+		};
+		perUserProjectItems = {
+			7B09989F10FCECA3008BDF67 /* PBXTextBookmark */ = 7B09989F10FCECA3008BDF67 /* PBXTextBookmark */;
+			7B0C3A59108B52A700D1D32D /* PBXTextBookmark */ = 7B0C3A59108B52A700D1D32D /* PBXTextBookmark */;
+			7B1FDB1510BB544C00D3760F /* PBXTextBookmark */ = 7B1FDB1510BB544C00D3760F /* PBXTextBookmark */;
+			7B1FDB1910BB544C00D3760F /* PBXTextBookmark */ = 7B1FDB1910BB544C00D3760F /* PBXTextBookmark */;
+			7B22F694113FD0D6005BAAB8 /* PBXTextBookmark */ = 7B22F694113FD0D6005BAAB8 /* PBXTextBookmark */;
+			7B4FE75D1146925A004AC128 /* PBXTextBookmark */ = 7B4FE75D1146925A004AC128 /* PBXTextBookmark */;
+			7BAF432E10D65E8A004DF34A /* PBXTextBookmark */ = 7BAF432E10D65E8A004DF34A /* PBXTextBookmark */;
+			7BAF433110D65E8A004DF34A /* PBXTextBookmark */ = 7BAF433110D65E8A004DF34A /* PBXTextBookmark */;
+			7BAF433310D65E8A004DF34A /* PBXTextBookmark */ = 7BAF433310D65E8A004DF34A /* PBXTextBookmark */;
+			7BF2D7891088A00E005D91BC /* PBXTextBookmark */ = 7BF2D7891088A00E005D91BC /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7BF2D6CD1088857D005D91BC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2FBBEAD608F335360078DB84 /* max-external */ = {
+		activeExec = 0;
+	};
+	7B09989F10FCECA3008BDF67 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E106D1003DDA20017FD00 /* Oracle_learn.hpp */;
+		name = "Oracle_learn.hpp: 35";
+		rLen = 0;
+		rLoc = 922;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 892;
+	};
+	7B0C3A59108B52A700D1D32D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E10721003DDB50017FD00 /* Oracle_classes.cpp */;
+		name = "Oracle_classes.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 779;
+		vrLoc = 222;
+	};
+	7B1FDB1510BB544C00D3760F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7B1FDB1610BB544C00D3760F /* OSAtomic.h */;
+		name = "OSAtomic.h: 72";
+		rLen = 60;
+		rLoc = 3242;
+		rType = 0;
+		vrLen = 1826;
+		vrLoc = 2319;
+	};
+	7B1FDB1610BB544C00D3760F /* OSAtomic.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = OSAtomic.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/usr/include/libkern/OSAtomic.h;
+		sourceTree = "<absolute>";
+	};
+	7B1FDB1910BB544C00D3760F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E106D1003DDA20017FD00 /* Oracle_learn.hpp */;
+		name = "Oracle_learn.hpp: 35";
+		rLen = 0;
+		rLoc = 922;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 1329;
+	};
+	7B22F694113FD0D6005BAAB8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB647E560F6139EE00824DA2 /* OMax.learn.c */;
+		name = "OMax.learn.c: 179";
+		rLen = 0;
+		rLoc = 4588;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 941;
+	};
+	7B4FE75D1146925A004AC128 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB647E560F6139EE00824DA2 /* OMax.learn.c */;
+		name = "OMax.learn.c: 179";
+		rLen = 0;
+		rLoc = 4588;
+		rType = 0;
+		vrLen = 1137;
+		vrLoc = 941;
+	};
+	7BAF432E10D65E8A004DF34A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E106C1003DDA20017FD00 /* Oracle_classes.hpp */;
+		name = "Oracle_classes.hpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 3288;
+	};
+	7BAF433110D65E8A004DF34A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7BF2D702108891F4005D91BC /* OMax.learn.c */;
+		name = "OMax.learn.c: 249";
+		rLen = 0;
+		rLoc = 6899;
+		rType = 0;
+		vrLen = 1290;
+		vrLoc = 275;
+	};
+	7BAF433310D65E8A004DF34A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E106C1003DDA20017FD00 /* Oracle_classes.hpp */;
+		name = "Oracle_classes.hpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 3288;
+	};
+	7BF2D6CD1088857D005D91BC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	7BF2D6CE1088857D005D91BC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7BF2D702108891F4005D91BC /* OMax.learn.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = OMax.learn.c;
+		path = /Users/blevy/Projets/OMax/Dev/src/externals/OMax.learn/OMax.learn.c;
+		sourceTree = "<group>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 6146}}";
+			sepNavSelRange = "{4588, 0}";
+			sepNavVisRange = "{941, 1137}";
+		};
+	};
+	7BF2D704108891F4005D91BC /* OMax.learn.c:261 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 7BF2D702108891F4005D91BC /* OMax.learn.c */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 261;
+		modificationTime = 277392913.341377;
+		state = 0;
+	};
+	7BF2D7891088A00E005D91BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FB1E10721003DDB50017FD00 /* Oracle_classes.cpp */;
+		name = "Oracle_classes.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 778;
+		vrLoc = 0;
+	};
+	FB1E106A1003DDA20017FD00 /* Oracle_data.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 3472}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3667, 1774}";
+			sepNavWindowFrame = "{{-69, 932}, {933, 1163}}";
+		};
+	};
+	FB1E106B1003DDA20017FD00 /* Oracle_label.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 2814}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3682, 1261}";
+			sepNavWindowFrame = "{{-46, 911}, {933, 1163}}";
+		};
+	};
+	FB1E106C1003DDA20017FD00 /* Oracle_classes.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 2086}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3288, 729}";
+		};
+	};
+	FB1E106D1003DDA20017FD00 /* Oracle_learn.hpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 3010}}";
+			sepNavSelRange = "{922, 0}";
+			sepNavVisRange = "{892, 946}";
+		};
+	};
+	FB1E10721003DDB50017FD00 /* Oracle_classes.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1116, 3430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{222, 779}";
+		};
+	};
+	FB1E10731003DDB50017FD00 /* Oracle_label.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 4088}}";
+			sepNavSelRange = "{255, 18}";
+			sepNavVisRange = "{0, 1020}";
+		};
+	};
+	FB38FE7F0F6D6235000A583F /* OMax.oracle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 765}}";
+			sepNavSelRange = "{884, 8}";
+			sepNavVisRange = "{0, 1081}";
+			sepNavWindowFrame = "{{916, 0}, {933, 878}}";
+		};
+	};
+	FB647E560F6139EE00824DA2 /* OMax.learn.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1167, 6146}}";
+			sepNavSelRange = "{4588, 0}";
+			sepNavVisRange = "{941, 1137}";
+		};
+	};
+	FBCF3A710F7114A5007C84EC /* OMax.data.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 630}}";
+			sepNavSelRange = "{1299, 0}";
+			sepNavVisRange = "{492, 861}";
+		};
+	};
+}

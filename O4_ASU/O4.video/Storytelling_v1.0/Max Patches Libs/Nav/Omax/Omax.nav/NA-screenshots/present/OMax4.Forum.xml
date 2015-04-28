@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "Input">
+	<slot number = "1" name = "Default">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.56" />
+			<pattr name = "Quality" value = "0.52" />
+			<pattr name = "Window" value = "55" />
+			<pattr name = "YinFreq" value = "100" />
+			<pattr name = "YinSampl" value = "1" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "5." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "0" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "2" name = "SaxT/ClarBb">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.57" />
+			<pattr name = "Quality" value = "0.48" />
+			<pattr name = "Window" value = "57" />
+			<pattr name = "YinFreq" value = "100" />
+			<pattr name = "YinSampl" value = "1" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "5." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "0" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "3" name = "ClarBasse">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.58" />
+			<pattr name = "Quality" value = "0.5" />
+			<pattr name = "Window" value = "66" />
+			<pattr name = "YinFreq" value = "47" />
+			<pattr name = "YinSampl" value = "2" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "4." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "2" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "4" name = "Basse">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.6" />
+			<pattr name = "Quality" value = "0.44" />
+			<pattr name = "Window" value = "67" />
+			<pattr name = "YinFreq" value = "41" />
+			<pattr name = "YinSampl" value = "2" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "4." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "2" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "5" name = "Fagott">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.45" />
+			<pattr name = "Quality" value = "0.31" />
+			<pattr name = "Window" value = "57" />
+			<pattr name = "YinFreq" value = "47" />
+			<pattr name = "YinSampl" value = "2" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "3." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "2" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "6" name = "Guitar">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.63" />
+			<pattr name = "Quality" value = "0.52" />
+			<pattr name = "Window" value = "63" />
+			<pattr name = "YinFreq" value = "75" />
+			<pattr name = "YinSampl" value = "2" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "5." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "5" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "7" name = "Percussion">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.4" />
+			<pattr name = "Quality" value = "0.3" />
+			<pattr name = "Window" value = "40" />
+			<pattr name = "YinFreq" value = "40" />
+			<pattr name = "YinSampl" value = "3" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "5." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "3" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "8" name = "Voice">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "50" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.56" />
+			<pattr name = "Quality" value = "0.4" />
+			<pattr name = "Window" value = "55" />
+			<pattr name = "YinFreq" value = "80" />
+			<pattr name = "YinSampl" value = "2" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "6." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "0" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "9" name = "Sound_Poetry">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "" />
+			<pattr name = "Pitch" value = "" />
+			<pattr name = "Proba" value = "" />
+			<pattr name = "Quality" value = "" />
+			<pattr name = "Window" value = "" />
+			<pattr name = "YinFreq" value = "" />
+			<pattr name = "YinSampl" value = "" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "9." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "25" />
+			<pattr name = "Weights" value = "0" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<slot number = "10" name = "cello-rohan">
+		<patcher name = "Yin+">
+			<pattr name = "Level" value = "45" />
+			<pattr name = "Pitch" value = "1" />
+			<pattr name = "Proba" value = "0.58" />
+			<pattr name = "Quality" value = "0.44" />
+			<pattr name = "Window" value = "60" />
+			<pattr name = "YinFreq" value = "47" />
+			<pattr name = "YinSampl" value = "2" />
+			<pattr name = "pattrstorage" value = "-1" />
+		</patcher>
+		<patcher name = "Player">
+		</patcher>
+		<patcher name = "MFCCs">
+			<pattr name = "Dmax" value = "4." />
+			<pattr name = "Spectral" value = "1" />
+			<pattr name = "Thresh" value = "26" />
+			<pattr name = "Weights" value = "7" />
+			<pattr name = "pattrstorage" value = "" />
+		</patcher>
+		<patcher name = "Dual_SP_Graph">
+		</patcher>
+		<patcher name = "Player[8]">
+		</patcher>
+		<patcher name = "Player[2]">
+		</patcher>
+		<patcher name = "Player[1]">
+		</patcher>
+		<patcher name = "Player[4]">
+		</patcher>
+		<patcher name = "Player[3]">
+		</patcher>
+		<patcher name = "Player[5]">
+		</patcher>
+		<patcher name = "patcher">
+			<patcher name = "Impro2">
+			</patcher>
+			<patcher name = "Impro3">
+			</patcher>
+			<patcher name = "Impro4">
+			</patcher>
+		</patcher>
+		<patcher name = "Player[6]">
+		</patcher>
+		<patcher name = "Player[7]">
+		</patcher>
+	</slot>
+	<clientstate>
+		<path name = "Player" active = "0" />
+		<path name = "Player::u113050284" active = "0" />
+		<path name = "Dual_SP_Graph" active = "0" />
+		<path name = "Dual_SP_Graph::u939020057" active = "0" />
+		<path name = "Player[2]" active = "0" />
+		<path name = "Player[2]::u922020053" active = "0" />
+		<path name = "Player[1]" active = "0" />
+		<path name = "Player[1]::u311020051" active = "0" />
+		<path name = "Player[4]" active = "0" />
+		<path name = "Player[4]::u797020049" active = "0" />
+		<path name = "Player[3]" active = "0" />
+		<path name = "Player[3]::u786020047" active = "0" />
+		<path name = "Player[5]" active = "0" />
+		<path name = "Player[5]::u702020045" active = "0" />
+		<path name = "Player[6]" active = "0" />
+		<path name = "Player[6]::u177020037" active = "0" />
+		<path name = "Player[7]" active = "0" />
+		<path name = "Player[7]::u841020035" active = "0" />
+	</clientstate>
+</pattrstorage>
+

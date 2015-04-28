@@ -1,0 +1,95 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Mlys.BowAString",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"BowDamping" : [ 18.204725 ],
+					"BowFreqLoss" : [ 50.0 ],
+					"BowLargeMass" : [ 5.0 ],
+					"BowSmallMass" : [ 5.0 ],
+					"BowStiffness" : [ 51.669292 ],
+					"BowingPosH" : [ 35.0 ],
+					"BowingPosV" : [ 35.0 ],
+					"BowingRosinCurvature" : [ 45.0 ],
+					"BowingRosinForce1" : [ 4.0 ],
+					"BowingRosinForce2" : [ 1.0 ],
+					"BowingSmooth" : [ 100.0 ],
+					"BowingSpeed" : [ 41.732285 ],
+					"BowingWeight" : [ 100.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"StringBrightness" : [ 70.078743 ],
+					"StringDamping" : [ 75.590553 ],
+					"StringDetune" : [ 0.0 ],
+					"StringInharm" : [ 29.980965 ],
+					"StringKeybOctave" : [ 3.0 ],
+					"StringMaterial" : [ 7.0 ],
+					"StringModes" : [ 164.0 ],
+					"StringPitch" : [ 74.0 ],
+					"Fma.SignalMapper~::Compand" : [ -0.183465 ],
+					"Fma.SignalMapper~::Drive" : [ -0.005512 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 19.719599 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -0.119988 ],
+					"Fma.SignalMapper~::OutMin" : [ 0.159984 ],
+					"Fma.SignalMapper~::Smooth" : [ 36.676201 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"BowDamping" : [ 37.496063 ],
+					"BowFreqLoss" : [ 50.0 ],
+					"BowLargeMass" : [ 5.0 ],
+					"BowSmallMass" : [ 5.0 ],
+					"BowStiffness" : [ 59.464565 ],
+					"BowingPosH" : [ 35.0 ],
+					"BowingPosV" : [ 35.0 ],
+					"BowingRosinCurvature" : [ 45.0 ],
+					"BowingRosinForce1" : [ 4.0 ],
+					"BowingRosinForce2" : [ 1.0 ],
+					"BowingSmooth" : [ 100.0 ],
+					"BowingSpeed" : [ 41.732285 ],
+					"BowingWeight" : [ 100.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"StringBrightness" : [ 46.456696 ],
+					"StringDamping" : [ 46.456692 ],
+					"StringDetune" : [ 0.0 ],
+					"StringInharm" : [ 100.0 ],
+					"StringKeybOctave" : [ 3.0 ],
+					"StringMaterial" : [ 6.0 ],
+					"StringModes" : [ 164.0 ],
+					"StringPitch" : [ 60.0 ],
+					"Fma.SignalMapper~::Compand" : [ -0.183465 ],
+					"Fma.SignalMapper~::Drive" : [ -0.005512 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 14.289528 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -0.119988 ],
+					"Fma.SignalMapper~::OutMin" : [ 0.159984 ],
+					"Fma.SignalMapper~::Smooth" : [ 75.404861 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

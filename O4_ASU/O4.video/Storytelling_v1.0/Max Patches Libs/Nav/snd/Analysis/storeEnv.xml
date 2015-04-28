@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "store[1]">
+	<slot number = "1">
+		<patcher name = "nav.env">
+			<pattr name = "pink.nav.env" value = "-1" />
+			<pattr name = "flonum" value = "840." />
+			<pattr name = "flonum[1]" value = "0.46" />
+			<pattr name = "flonum[2]" value = "0." />
+			<pattr name = "multislider" value = "0." />
+			<pattr name = "toggle" value = "1" />
+			<patcher name = "nav.scale.ui[1]">
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+

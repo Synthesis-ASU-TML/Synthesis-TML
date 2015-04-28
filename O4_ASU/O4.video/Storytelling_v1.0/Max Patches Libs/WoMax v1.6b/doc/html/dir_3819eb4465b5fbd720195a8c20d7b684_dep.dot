@@ -1,0 +1,12 @@
+digraph G {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_1b9e43ffd41b47e2a62c03d2db4f81db {
+    graph [ bgcolor="#ddddee", pencolor="black", label="externalsPPC" fontname="FreeSans", fontsize="10", URL="dir_1b9e43ffd41b47e2a62c03d2db4f81db.html"]
+  dir_3819eb4465b5fbd720195a8c20d7b684 [shape=box, label="OMax.oracle", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3819eb4465b5fbd720195a8c20d7b684.html"];
+  }
+  dir_bc5a9248bf4fe98448844334faba2c26 [shape=box label="cpp" URL="dir_bc5a9248bf4fe98448844334faba2c26.html"];
+  dir_3819eb4465b5fbd720195a8c20d7b684->dir_bc5a9248bf4fe98448844334faba2c26 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000024.html"];
+}

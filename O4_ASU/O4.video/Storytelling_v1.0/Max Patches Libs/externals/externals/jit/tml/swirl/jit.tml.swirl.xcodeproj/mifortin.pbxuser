@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* jit.tml.swirl */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* jit.tml.swirl */,
+		);
+		breakpoints = (
+		);
+		breakpointsGroup = 433EA64B0B7A733F00399558 /* XCBreakpointsBucket */;
+		codeSenseManager = 433EA5DE0B7A6C1400399558 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					652,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					472,
+					20,
+					48.1626,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 243385754;
+			PBXWorkspaceStateSaveDate = 243385754;
+		};
+		perUserProjectItems = {
+			437D6BE80E81C5AE0080385F /* PBXBookmark */ = 437D6BE80E81C5AE0080385F /* PBXBookmark */;
+			437D6BF30E81C9480080385F /* PBXTextBookmark */ = 437D6BF30E81C9480080385F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 433EA5DD0B7A6C1400399558 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = "/private/Network/Servers/hex-smb-ev7421.Concordia.CA/Volumes/Users/Homes/mifortin/Desktop/build";
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 429}}";
+			sepNavSelRange = "{74, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+			sepNavWindowFrame = "{{65, 444}, {750, 558}}";
+		};
+	};
+	433EA5DD0B7A6C1400399558 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	433EA5DE0B7A6C1400399558 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	433EA64B0B7A733F00399558 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = jit.tml.rockeby;
+		objects = (
+		);
+	};
+	433FB5C40E5B2FD200AC4269 /* max.jit.tml.swirl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 1232}}";
+			sepNavSelRange = "{1683, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 826}}";
+			sepNavWindowFrame = "{{813, 67}, {755, 955}}";
+		};
+	};
+	433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 8316}}";
+			sepNavSelRange = "{13707, 0}";
+			sepNavVisRect = "{{0, 6624}, {710, 826}}";
+			sepNavWindowFrame = "{{760, 49}, {755, 955}}";
+		};
+	};
+	433FB5EB0E5B32D000AC4269 /* FSNavierStokes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 1190}}";
+			sepNavSelRange = "{1334, 0}";
+			sepNavVisRect = "{{0, 364}, {710, 826}}";
+			sepNavWindowFrame = "{{2081, 56}, {755, 955}}";
+		};
+	};
+	433FB5EC0E5B32D000AC4269 /* FSNavierStokes.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 12684}}";
+			sepNavSelRange = "{11241, 109}";
+			sepNavVisRect = "{{0, 6426}, {710, 826}}";
+			sepNavWindowFrame = "{{65, 47}, {755, 955}}";
+		};
+	};
+	433FB5ED0E5B32D000AC4269 /* FSNSGeneric.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 826}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {710, 826}}";
+			sepNavWindowFrame = "{{2487, 81}, {755, 955}}";
+		};
+	};
+	433FB5EE0E5B32D000AC4269 /* FSNSGeneric.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 826}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 826}}";
+			sepNavWindowFrame = "{{952, 4}, {755, 955}}";
+		};
+	};
+	433FB5F60E5B335800AC4269 /* FSInterface.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {470, 829}}";
+			sepNavSelRange = "{1035, 20}";
+			sepNavVisRect = "{{0, 0}, {466, 829}}";
+			sepNavWindowFrame = "{{2051, 83}, {511, 958}}";
+		};
+	};
+	433FB5FF0E5B33DE00AC4269 /* FXField.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {771, 828}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {771, 828}}";
+			sepNavWindowFrame = "{{1695, 88}, {816, 957}}";
+		};
+	};
+	433FB6000E5B33DE00AC4269 /* FXField.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 1148}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRect = "{{0, 0}, {716, 826}}";
+			sepNavWindowFrame = "{{42, 68}, {755, 955}}";
+		};
+	};
+	433FB6010E5B33DE00AC4269 /* FXPixmap.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 826}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {710, 826}}";
+			sepNavWindowFrame = "{{2315, 62}, {755, 955}}";
+		};
+	};
+	433FB60C0E5B341500AC4269 /* FXTaskSequence.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 1204}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 364}, {710, 826}}";
+			sepNavWindowFrame = "{{2516, 49}, {755, 955}}";
+		};
+	};
+	437D6BE80E81C5AE0080385F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */;
+	};
+	437D6BF30E81C9480080385F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 433FB5C50E5B2FD200AC4269 /* tml.jit.swirl.m */;
+		name = "tml.jit.swirl.m: 488";
+		rLen = 0;
+		rLoc = 13707;
+		rType = 0;
+		vrLen = 1010;
+		vrLoc = 13509;
+	};
+	8D01CCC60486CAD60068D4B7 /* jit.tml.swirl */ = {
+		activeExec = 0;
+	};
+	8D01CCD10486CAD60068D4B7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 429}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+			sepNavWindowFrame = "{{88, 423}, {750, 558}}";
+		};
+	};
+}

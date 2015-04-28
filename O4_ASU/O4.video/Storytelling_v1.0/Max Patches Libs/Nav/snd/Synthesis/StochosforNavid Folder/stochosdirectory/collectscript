@@ -1,0 +1,1 @@
+open thispatcherinclude ‘Macintosh HD:Music:Max4/MSP2:STOCHOS:poisson’include ‘Macintosh HD:Music:Max4/MSP2:STOCHOS:chauchytable’include ‘Macintosh HD:Music:Max4/MSP2:STOCHOS:gausstable’folder ‘Macintosh HD:Music:Max4/MSP2:ASIO Drivers’folder ‘Macintosh HD:Music:Max4/MSP2:patches:picts’folder ‘Macintosh HD:Music:Max4/MSP2:externals:ad’

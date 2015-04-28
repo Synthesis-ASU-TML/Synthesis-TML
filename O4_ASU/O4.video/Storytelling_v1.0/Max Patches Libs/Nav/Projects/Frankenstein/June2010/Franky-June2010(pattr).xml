@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "frank">
+	<slot number = "1">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 35. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 87.3 88.7 89.7 89.5 91.3 88.7 91.1 90.5 90. 90. 90. 90. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 65. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 -0.101019 0.799643 0.001407 -0.663006 0.155507 0.001188 0.603116 0.134812 0.001079 0.55852 -0.834307 0.001752 0.103525 -0.819485 0.001442 0.803875 0.432842 -0.001593 -0.715264 -0.495272 0.001518 -0.70205 -0.168547 0.00126 -0.194945 -0.688922 0.006248 -0.827922 0.278627 0.050369 0.230057 0.618606 0. 0.663501 -0.376921 -0.037321 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.489401" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "1" />
+			<pattr name = "eight" value = "1" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "1" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "1" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6449" />
+			<pattr name = "seven" value = "1" />
+			<pattr name = "six" value = "1" />
+			<pattr name = "stepSize" value = "1.6" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "1" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "139" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "2" />
+				<pattr name = "poly1" value = "1474" />
+				<pattr name = "poly2" value = "1509" />
+				<pattr name = "poly3" value = "1517" />
+				<pattr name = "poly4" value = "1482" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "8" />
+				<pattr name = "timbre" value = "15" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "frankySpat" value = "77. 79. 81. 89. 80. 79. 92. 80. 90. 90. 90. 90. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -9.8 -8.5 -2.6 -4.6 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 5.4 -3.3 -1.3 -1.3 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. -1.4 -1.3 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.9 0. 0. 0. 0. 0. 2.5 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.017576 1.006922 0.972522 -0.311867 1.467221 0. 0.984089 1.132064 0. -0.133566 0. 0.687139 1.06066 -1.06066 0. -0. -1.5 0. 0.782332 0.364807 0.83359 -1.499772 0.026179 0. -0.078217 -0.493844 0. -0.498782 -0.034878 0. 0.026147 0.298858 0. 0.401503 0.573406 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 65. 25. 35. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.9 1. 1. 10000. 0. 177. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0.206" />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6546" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.8" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0.43" />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "0" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 0" />
+				<pattr name = "poly" value = "0" />
+				<pattr name = "poly1" value = "1500" />
+				<pattr name = "poly2" value = "1500" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1500" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "0" />
+				<pattr name = "timbre" value = "0" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "frankySpat" value = "" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "1000" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0.25" />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "" />
+			<pattr name = "five" value = "1" />
+			<pattr name = "fortn" value = "" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "" />
+			<pattr name = "randStab" value = "6080" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "3." />
+			<pattr name = "ten" value = "" />
+			<pattr name = "thirtn" value = "" />
+			<pattr name = "three" value = "1" />
+			<pattr name = "twelv" value = "" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1.134" />
+			<pattr name = "vol-y" value = "1.14" />
+			<pattr name = "vol-z" value = "0.63" />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "" />
+				<pattr name = "inVolume2" value = "" />
+				<pattr name = "matrix[1]" value = "" />
+				<pattr name = "poly" value = "" />
+				<pattr name = "poly1" value = "" />
+				<pattr name = "poly2" value = "" />
+				<pattr name = "poly3" value = "" />
+				<pattr name = "poly4" value = "" />
+				<pattr name = "ptchMod" value = "" />
+				<pattr name = "tempMod" value = "" />
+				<pattr name = "timbre" value = "" />
+				<pattr name = "voices" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "5">
+		<pattr name = "frankySpat" value = "99. 104. 91. 91. 106. 99. 92. 102. 103. 90. 78. 75. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 71. 80. 80. 80. 80. 80. 80. 80. 180. 47. 80. 127. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -11.3 -10.4 -8.5 -9.1 177. 5657. -6.7 1.5 0. -3.5 177. 5657. -4.5 0. 0. -3.9 177. 5657. 3.2 -6.6 -4.1 -4.6 177. 5657. -10.5 -2. 0. -3.5 177. 5657. -11.3 1.5 0. -3.5 177. 6627. -9.8 -1.3 0. -3.5 177. 5657. -3.7 0. 0. -3.5 177. 5657. 10. -2. -1.3 -2.6 177. 5657. -2.2 -1.3 0. -3.5 177. 5657. -0.7 -0.7 0. -3.5 177. 5657. -0.7 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0.1 0. 0. 0. 177. 5657. 0.1 0. 0. 0. 177. 5657. 0. -5.9 0. 0.4 70. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0.1 5.2 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. 0.1 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.2 0. 0. 0. 0. 0. 0.2 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.2 0. 0. 0. 0. 0. 0. -0.842135 0.706636 -0.038389 -0.335955 1.098858 0.964182 0.721665 0.830181 0. 0.007807 0.447286 0.66323 0.817335 -0.735932 -0.019198 0.20989 -1.07979 0. -0.71934 -0.694658 0. -1.099833 0.019198 0. -0.197933 -0.027818 0.00698 0.596713 -0.062717 0. 0.389595 0.5564 0.590453 -0.471608 0.162388 -0.034878 -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 70. 28. 33. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.9 1. 1. 10000. 0. 214. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1000" />
+			<pattr name = "seven" value = "1" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.6" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "1" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "0" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 0" />
+				<pattr name = "poly" value = "0" />
+				<pattr name = "poly1" value = "1500" />
+				<pattr name = "poly2" value = "1500" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1500" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "0" />
+				<pattr name = "timbre" value = "0" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "7">
+		<pattr name = "frankySpat" value = "99. 111. 92. 90. 107. 99. 95. 101. 92. 79. 62. 60. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 71. 80. 80. 80. 80. 80. 80. 80. 76. 47. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -2.9 -10.4 -9.8 -11.1 177. 5657. -11.3 1.5 0. -3.5 177. 5657. -4.5 0. 0. -3.9 177. 5657. -6. -6.6 -4.1 -4.6 177. 5657. -10.5 -2. 0. -3.5 177. 5657. -11.3 1.5 0. -3.5 177. 6627. -5.6 -1.3 0. -3.5 177. 5657. -3.7 0. 0. -3.5 177. 5657. 5.4 -2. -1.3 -2.6 177. 5657. 4.7 -1.3 0. -3.5 177. 5657. 7. -0.7 0. -3.5 177. 5657. 10. 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0.1 0. 0. 0. 177. 5657. 0.1 0. 0. 0. 177. 5657. 0. -5.9 0. 0.4 70. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0.1 5.2 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. -10.5 0. 0. 0. 177. 5657. -10.5 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.2 0. 0. 0. 0. 0. 3.2 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.2 0. 0. 0. 0. 0. 0. 0. 1. 0. 0.486261 -0.503538 0. -0.669131 0.743145 0. -1. 0. 0. 0.777817 -0.777818 0. -0.152647 -0.785302 0. 1.097321 0.076732 0. -1.099833 0.019198 0. -1.299038 -0.75 0. -0.94398 -1.165719 0. -0.845049 1.589306 0. 0.745231 1.52795 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 70. 20. 23. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.93 1. 1. 10000. 0. 214. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1000" />
+			<pattr name = "seven" value = "1" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.6" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "1" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "128" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 11 1 1 10 1 2 9 1 3 8 1 4 9 1 5 10 1 6 11 1 7 10 1 8 9 1 9 8 1 10 9 1 11 10 1 12 11 1 13 10 1 14 9 1 15 8 1 16 9 1 17 10 1 18 11 1 19 10 1 20 9 1 21 8 1 22 9 1 23 10 1 24 11 1 25 10 1 26 9 1 27 8 1 28 9 1 29 10 1 30 11 1 31 10 1" />
+				<pattr name = "poly" value = "9" />
+				<pattr name = "poly1" value = "1383" />
+				<pattr name = "poly2" value = "1491" />
+				<pattr name = "poly3" value = "1562" />
+				<pattr name = "poly4" value = "1392" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "11" />
+				<pattr name = "timbre" value = "8" />
+				<pattr name = "voices" value = "32" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "16">
+		<pattr name = "frankySpat" value = "100. 98. 98. 101. 109. 100. 100. 100. 102. 90. 77. 75. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 71. 80. 80. 80. 80. 80. 80. 80. 76. 47. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -9. -10.4 -8.5 -9.1 177. 5657. -9. 1.5 0. -3.5 177. 5657. -2.2 0. 0. -3.5 177. 5657. -7.5 -7.4 -5.2 -4.6 177. 5657. -11.3 -2. 0. -3.5 177. 5657. -11.3 1.5 0. -3.5 177. 6627. -11.3 -1.3 0. -3.5 177. 5657. -10.5 1.5 0. -3.5 177. 5657. 5.4 -2. -1.3 -2.6 177. 5657. 4.7 -1.3 0. -3.5 177. 5657. 7. -0.7 0. -3.5 177. 5657. 10. 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0.1 0. 0. 0. 177. 5657. -4.5 0. 0. 0. 177. 5657. 0. -5.9 0. 0.4 70. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. -10.5 0. 0. 0. 177. 5657. -10.5 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.2 0. 0. 0. 0. 0. 2.5 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -3.3 0. 0. 0. 0. 0. 0. 0. 0.9 0. -1.071807 0.247446 0. 0.790151 -0.125148 0. 0.594516 0.535304 0. -0.647406 0.625192 0. -0.263135 0.860674 0. 0.273512 0.644353 0. -1.099833 0.019198 0. -0.66883 -0.602218 0. 0.25 -0.433013 0. -0.875564 1.457185 0. 0.824176 1.486853 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 70. 28. 33. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.9 1. 1. 10000. 0. 214. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "0" />
+			<pattr name = "grid" value = "0" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "7670" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "3." />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "122" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 11 1 5 10 1 6 9 1 7 8 1 8 8 1 9 9 1 10 10 1 11 11 1 12 10 1 13 9 1 14 8 1 15 9 1 16 10 1 17 11 1 18 10 1 19 9 1 20 8 1 21 9 1 22 10 1 23 10 1 24 11 1 25 9 1 26 10 1 27 9 1 28 8 1 29 9 1 30 10 1 31 11 1" />
+				<pattr name = "poly" value = "64" />
+				<pattr name = "poly1" value = "860" />
+				<pattr name = "poly2" value = "0" />
+				<pattr name = "poly3" value = "1308" />
+				<pattr name = "poly4" value = "668" />
+				<pattr name = "ptchMod" value = "9" />
+				<pattr name = "tempMod" value = "401" />
+				<pattr name = "timbre" value = "175" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "17">
+		<pattr name = "frankySpat" value = "77. 79. 81. 84. 80. 79. 92. 80. 90. 90. 90. 90. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -9.8 -8.5 -2.6 -4.6 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 5.4 -3.3 -1.3 -1.3 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. -1.4 -1.3 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.9 0. 0. 0. 0. 0. 2.5 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.017576 1.006922 0.972522 -0.311867 1.467221 0. 0.984089 1.132064 0. 0.774777 0.31303 0.995858 1.06066 -1.06066 0. -0. -1.5 0. 0.782332 0.364807 0.83359 -1.499772 0.026179 0. -0.078217 -0.493844 0. -0.498782 -0.034878 0. 0.026147 0.298858 0. 0.401503 0.573406 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 65. 25. 35. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.9 1. 1. 10000. 0. 177. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0.206" />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6546" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.8" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0.43" />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "0" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 0" />
+				<pattr name = "poly" value = "0" />
+				<pattr name = "poly1" value = "1500" />
+				<pattr name = "poly2" value = "1500" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1500" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "0" />
+				<pattr name = "timbre" value = "0" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "25">
+		<pattr name = "frankySpat" value = "93. 104. 83. 94. 100. 95. 94. 108. 72. 54. 46. 26. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 71. 80. 80. 80. 80. 80. 80. 80. 76. 47. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -2.9 -10.4 -9.8 -11.1 177. 5657. -12.1 -3.3 0. -3.5 177. 5657. -4.5 0. 0. -3.9 177. 5657. -7.5 -6.6 -4.1 -4.6 177. 5657. -10.5 -2. 0. -3.5 177. 5657. -11.3 1.5 0. -3.5 177. 6627. -5.6 -1.3 0. -3.5 177. 5657. -3.7 0. 0. -3.5 177. 5657. -24.2 -2. -1.3 -2.6 177. 5657. -24.2 -1.3 0. -3.5 177. 5657. -44.8 -0.7 0. -3.5 177. 5657. -23.5 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0.1 0. 0. 0. 177. 5657. 0.1 0. 0. 0. 177. 5657. 0. -5.9 0. 0.4 70. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0.1 5.2 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.2 0. 0. 0. 0. 0. 3.2 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.2 0. 0. 0. 0. 0. 0. -0.83018 0.721665 0. 0.038389 -1.09933 0. 0.721665 0.830181 0. -1.098493 -0.05757 0. 0.777817 -0.777818 0. -0. -1.1 0. -0.71934 -0.694658 0. -1.099833 0.019198 0. 1.024414 0.80036 0. -0.994845 -0.671032 0. 0.935142 -0.903056 0. -0.98995 0.989949 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 100. 19. 0. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.93 1. 1. 10000. 0. 214. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1075" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.89" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "118" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 1 1 11 1 2 10 1 3 10 1 4 10 1 5 9 1 6 8 1 7 7 1 8 7 1 9 8 1 10 9 1 11 11 1 12 11 1 13 9 1 14 9 1 15 8 1 16 8 1 17 8 1 18 9 1 19 10 1 20 11 1 21 9 1 22 10 1 23 11 1 24 4 1 25 6 1 26 7 1 27 8 1 28 8 1 29 10 1 30 11 1 31 11 1" />
+				<pattr name = "poly" value = "69" />
+				<pattr name = "poly1" value = "534" />
+				<pattr name = "poly2" value = "1155" />
+				<pattr name = "poly3" value = "1913" />
+				<pattr name = "poly4" value = "465" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "59" />
+				<pattr name = "timbre" value = "19" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "26">
+		<pattr name = "frankySpat" value = "95. 102. 83. 94. 100. 97. 94. 109. 72. 54. 46. 33. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 71. 80. 80. 80. 80. 80. 80. 80. 76. 47. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -12.8 -10.4 -9.8 -11.1 177. 5657. -10.5 -3.3 -2. -3.5 177. 5657. -14.3 1.3 0. -3.9 177. 5657. -7.5 12.4 -4.1 -4.6 177. 5657. -10.5 -2. 0. 0.7 177. 5657. -9.8 -0.7 0. -3.5 177. 6627. -5.6 -1.3 0. -3.5 177. 5657. -3.7 0. 0. -3.5 177. 5657. -24.2 -2. -1.3 -2.6 177. 5657. -24.2 -1.3 0. -3.5 177. 5657. -44.8 -0.7 0. -3.5 177. 5657. -23.5 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0.9 0. 0. 2.6 177. 5657. 0.1 5.2 0. 0. 177. 5657. 0. -5.9 0. 0.4 70. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0.1 5.2 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.2 0. 0. 0. 0. 0. 3.2 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.2 0. 0. 0. 0. 0. 0. -0.019197 1.099833 0. -0.791274 0.764124 0. 0.721665 0.830181 0. 1.07979 -0.20989 0. 0.777817 -0.777818 0. -0.997564 0.069756 0. -0.71934 -0.694658 0. -0.696541 0.891532 1.131371 1.102463 0.688895 0. -0.994845 -0.671032 0. 0.935142 -0.903056 0. 1.04007 0.358125 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 100. 19. 0. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.93 1. 1. 10000. 0. 214. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "3153" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.89" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "118" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 1 1 11 1 2 10 1 3 10 1 4 10 1 5 9 1 6 8 1 7 7 1 8 7 1 9 8 1 10 9 1 11 11 1 12 11 1 13 9 1 14 9 1 15 8 1 16 8 1 17 8 1 18 9 1 19 10 1 20 11 1 21 9 1 22 10 1 23 11 1 24 4 1 25 6 1 26 7 1 27 8 1 28 8 1 29 10 1 30 11 1 31 11 1" />
+				<pattr name = "poly" value = "69" />
+				<pattr name = "poly1" value = "534" />
+				<pattr name = "poly2" value = "1155" />
+				<pattr name = "poly3" value = "1913" />
+				<pattr name = "poly4" value = "465" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "59" />
+				<pattr name = "timbre" value = "19" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "32">
+		<pattr name = "frankySpat" value = "" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "1000" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0.37" />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "" />
+			<pattr name = "randStab" value = "6080" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "3." />
+			<pattr name = "ten" value = "" />
+			<pattr name = "thirtn" value = "" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1.2" />
+			<pattr name = "vol-y" value = "1.2" />
+			<pattr name = "vol-z" value = "0.8" />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "" />
+				<pattr name = "inVolume2" value = "" />
+				<pattr name = "matrix[1]" value = "" />
+				<pattr name = "poly" value = "" />
+				<pattr name = "poly1" value = "" />
+				<pattr name = "poly2" value = "" />
+				<pattr name = "poly3" value = "" />
+				<pattr name = "poly4" value = "" />
+				<pattr name = "ptchMod" value = "" />
+				<pattr name = "tempMod" value = "" />
+				<pattr name = "timbre" value = "" />
+				<pattr name = "voices" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "49">
+		<pattr name = "frankySpat" value = "93. 101. 88. 92. 98. 93. 88. 95. 65. 49. 45. 31. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 71. 80. 80. 80. 80. 80. 80. 80. 76. 47. 80. 80. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. -12.8 -10.4 -9.8 -11.1 177. 5657. -6.7 -3.3 -2. -3.5 177. 5657. -14.3 1.3 0. -3.9 177. 5657. -7.5 -6.6 -4.1 -4.6 177. 5657. -10.5 -2. 0. -3.5 177. 5657. -11.3 1.5 0. -3.5 177. 6627. -5.6 -1.3 0. -3.5 177. 5657. -3.7 0. 0. -3.5 177. 5657. -24.2 -2. -1.3 -2.6 177. 5657. -24.2 -1.3 0. -3.5 177. 5657. -44.8 -0.7 0. -3.5 177. 5657. -23.5 1.5 0. -3.5 177. 5657. 0. 0. 0. -0.4 177. 5657. 0.9 0. 0. 2.6 177. 5657. 0.1 -0.7 0. 0. 177. 5657. 0. -5.9 0. 0.4 70. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0.1 5.2 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. -0.7 0. 0. 0. 177. 5657. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 1 1 1 1 1 1 1 1 1 1 1 1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.2 0. 0. 0. 0. 0. 3.2 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. -0.2 0. 0. 0. 0. 0. 0. -0.019197 1.099833 0. -0.85486 -0.692253 0. 0.882948 0.469472 0. -0.817459 0.736044 0. 0.777817 -0.777818 0. -0. -1.1 0. 0.848528 -0.848528 0. -1.261615 0.066119 1.137522 1.102463 0.688895 0. -0.994845 -0.671032 0. 0.453991 -0.891006 0. 1.04007 0.358125 0. -0.805101 0.764439 0. -0.008132 1.114129 0. 0.829498 0.748174 0. 1.138526 0.008132 0. 0.723777 -0.764439 0. 0.016265 -1.057203 0. -0.764439 -0.683116 0. -1.0816 0.040662 0. -0.666851 0.707513 1.000277 0.715645 0.658719 0.992144 0.69938 -0.618057 0.992144 -0.666851 -0.536734 0.992144 100. 19. 0. 20. 40. 0.5 0.5 30. 40. 100. 0.5 95. 0.93 1. 1. 10000. 0. 214. 5657. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "0" />
+			<pattr name = "grid" value = "0" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "1" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1000" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "0." />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "134" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "5" />
+				<pattr name = "poly1" value = "1524" />
+				<pattr name = "poly2" value = "1475" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1544" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "7" />
+				<pattr name = "timbre" value = "15" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "65">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 29. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. -12.85 1.7 0. -3.8 177. 5657. -5.2 -0.65 0. -3.8 177. 5657. -3.7 -1.3 0. 0. 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 105.5 97.7 99.5 103.9 92.8 90.9 102.9 107.6 49.5 67.8 77.1 72.4 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 75. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 -0.065635 0.915651 0. 0.808927 -0.090736 0. 0.750852 0.421358 0. -0.380156 -0.849849 0. 0.445508 -0.74145 0. 0.338161 0.924069 0. -0.709596 0.610349 0.006535 -0.802511 0.028024 0. 1.394128 1.408805 0. -1.325091 -1.376973 0. 1.235865 -1.416699 0. -1.251619 1.328185 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.711114" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "1" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0.2" />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6608" />
+			<pattr name = "seven" value = "1" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.6" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0.4" />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "139" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "2" />
+				<pattr name = "poly1" value = "1474" />
+				<pattr name = "poly2" value = "1509" />
+				<pattr name = "poly3" value = "1517" />
+				<pattr name = "poly4" value = "1482" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "8" />
+				<pattr name = "timbre" value = "15" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "66">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 35. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -6. 1.7 0. -3.8 177. 5657. 1.65 -8.5 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 93.7 94.3 103.2 97.2 87.7 78.3 85.5 94.3 106.2 112.9 112.1 102.1 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 65. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 -0.825905 0.720483 0. 0.872968 0.408928 0. 0.652786 0.666603 0. 0.990635 -0.291559 -0.305885 0.757924 -0.755283 0. -0.171459 -1.147258 0. -0.7887 -0.761639 -0.343598 -1.073895 0.014995 0. 1.027044 0.757203 0. -1.034169 0.880147 0. 0.788819 -1.165081 0. -1.044829 -1.070676 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.826421" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "1" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "1" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6608" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "0.9" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "139" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "2" />
+				<pattr name = "poly1" value = "1474" />
+				<pattr name = "poly2" value = "1509" />
+				<pattr name = "poly3" value = "1517" />
+				<pattr name = "poly4" value = "1482" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "8" />
+				<pattr name = "timbre" value = "15" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "67">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 35. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -18.9 1.7 0. -3.8 177. 5657. 0. -8.5 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 48. 97.3 93.1 98.1 100. 89.5 80.2 90.2 96.2 83.4 95.1 97. 89.8 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 65. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 -0.825905 0.720483 0. -0.033003 0.900026 0.360227 0.673478 0.788541 0. 0.898328 -0.012544 0.053376 0.757924 -0.755283 0. -0.020943 -1.199817 0. 1.132909 -0.191617 0. -1.073895 0.014995 0. 1.027044 0.757203 0. -1.034169 0.880147 0. 0.997426 -1.051067 0. -1.044829 -1.070676 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.846807" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "1" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0.2" />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6608" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.8" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0.4" />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "139" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "2" />
+				<pattr name = "poly1" value = "1474" />
+				<pattr name = "poly2" value = "1509" />
+				<pattr name = "poly3" value = "1517" />
+				<pattr name = "poly4" value = "1482" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "8" />
+				<pattr name = "timbre" value = "15" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "68">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 29. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.3 0. -3.8 177. 5657. 0. -8.5 0. 0. 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 101.6 93.3 96.6 107.6 89.5 81.8 102.9 96.2 114.2 103.1 112.4 101.5 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 75. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 0.027538 1.05164 0. -0.590678 0.64011 0. 0.721937 0.734648 0. 0.507382 -0.278935 0. 0.757924 -0.755283 0. -0.020943 -1.199817 0. 0.889297 -0.519664 0. -1.073895 0.014995 0. 0.653551 0.505121 0. -1.26098 0.19521 0. 0.498732 1.186438 0. -0.708124 1.192615 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.846807" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "1" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6608" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.8" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "139" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "2" />
+				<pattr name = "poly1" value = "1474" />
+				<pattr name = "poly2" value = "1509" />
+				<pattr name = "poly3" value = "1517" />
+				<pattr name = "poly4" value = "1482" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "8" />
+				<pattr name = "timbre" value = "15" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "69">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 1 0 0 0 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 29. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -7.15 -7.15 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -3.7 -0.65 0. -3.8 177. 5657. 0. -8.5 0. 0. 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 102.2 90.7 99.4 97.2 89.1 76.6 92.6 95.1 79.8 101.5 97.7 96.3 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 75. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 0.016147 1.027873 0. -0.750264 0.798949 0. -0.948484 0.347096 -0.001763 -0.754423 -0.593672 0. 0.757924 -0.755283 0. -0.020943 -1.199817 0. -0.587652 0.079454 -0.001035 -1.073895 0.014995 0. 1.359586 -0.57711 0. -1.059943 -0.908481 0. 1.032159 1.11854 0. -1.113988 1.281497 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.737588" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "1" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6608" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.8" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "134" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "9" />
+				<pattr name = "poly1" value = "1383" />
+				<pattr name = "poly2" value = "1544" />
+				<pattr name = "poly3" value = "1580" />
+				<pattr name = "poly4" value = "1419" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "3" />
+				<pattr name = "timbre" value = "4" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "70">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 29. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -3.7 -0.65 0. -3.8 177. 5657. 0. -8.5 0. 0. 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 97.2 92.7 98.7 97.7 89.5 81.8 91.7 96.2 71.4 86.2 90.3 86.3 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 75. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 0.027538 1.05164 0. 0.741285 -0.338618 0. 0.761888 0.775303 0. 1.078304 -0.491411 0. 0.757924 -0.755283 0. -0.020943 -1.199817 0. 0.889297 -0.519664 0. -1.073895 0.014995 0. 1.394128 1.408805 0. -1.325091 -1.376973 0. 1.235865 -1.416699 0. -1.251619 1.328185 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.708232" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "1" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "2" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "6608" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.8" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "1" />
+			<pattr name = "vol-x" value = "1." />
+			<pattr name = "vol-y" value = "1." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "134" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 8 1 1 9 1 2 10 1 3 11 1 4 8 1 5 9 1 6 10 1 7 11 1 8 8 1 9 9 1 10 10 1 11 11 1 12 8 1 13 9 1 14 10 1 15 11 1 16 8 1 17 9 1 18 10 1 19 11 1" />
+				<pattr name = "poly" value = "9" />
+				<pattr name = "poly1" value = "1383" />
+				<pattr name = "poly2" value = "1544" />
+				<pattr name = "poly3" value = "1580" />
+				<pattr name = "poly4" value = "1419" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "3" />
+				<pattr name = "timbre" value = "4" />
+				<pattr name = "voices" value = "20" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "72">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 29. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. -12.85 1.7 0. -3.8 177. 5657. -5.2 -0.65 0. -3.8 177. 5657. -3.7 -1.3 0. 0. 177. 5657. 0. 1.7 0. -3.8 177. 5657. 0.1 1.7 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0. 1.7 0. -3.8 177. 5657. -15.1 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 98.3 92.8 99.1 100.7 89.5 79.1 92. 96.2 62.1 78.9 85.2 78.5 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 75. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 0.027538 1.05164 0. -1.079941 0.011309 0. 0.761888 0.775303 0. 0.813298 0.704501 0. 0.757924 -0.755283 0. -0.020943 -1.199817 0. 0.889297 -0.519664 0. -1.073895 0.014995 0. 1.394128 1.408805 0. -1.325091 -1.376973 0. 1.235865 -1.416699 0. -1.251619 1.328185 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.711114" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1075" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.89" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "118" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 1 1 11 1 2 10 1 3 10 1 4 10 1 5 9 1 6 8 1 7 7 1 8 7 1 9 8 1 10 9 1 11 11 1 12 11 1 13 9 1 14 9 1 15 8 1 16 8 1 17 8 1 18 9 1 19 10 1 20 11 1 21 9 1 22 10 1 23 11 1 24 4 1 25 6 1 26 7 1 27 8 1 28 8 1 29 10 1 30 11 1 31 11 1" />
+				<pattr name = "poly" value = "69" />
+				<pattr name = "poly1" value = "534" />
+				<pattr name = "poly2" value = "1155" />
+				<pattr name = "poly3" value = "1913" />
+				<pattr name = "poly4" value = "465" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "59" />
+				<pattr name = "timbre" value = "19" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "73">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. -14.35 0. 0. 177. 5657. 0. -13.05 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. -19.55 0. 0. 177. 5657. 0. -22.85 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 24. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. -12.85 -14.35 0. -3.8 177. 5657. 0.85 -18.25 0. -3.8 177. 5657. -3.7 -15. 0. 0. 177. 5657. 0. -22.15 0. -3.8 177. 5657. 0.1 -22.85 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0.1 -0.65 -1.05 -3.8 177. 5657. -25. 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 57.7 90.3 59. 101.9 88.6 85.1 72.4 71.3 118. 62.1 68.8 62.9 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 73. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 0.998178 1.43619 0. 0.534265 0.751373 0.008658 1.538742 0.884816 0. -0.98846 0.348091 0.009145 -0.726859 0.763277 0. 1.033719 0.114124 0. 0.459122 -1.227977 0. 0.007288 1.043939 0.997634 -0.081878 -1.301409 -0.006828 -1.325091 -1.376973 0. 1.235865 -1.416699 0. -1.251619 1.328185 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.666374" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "1" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1000" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "0." />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "0" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 0" />
+				<pattr name = "poly" value = "0" />
+				<pattr name = "poly1" value = "1500" />
+				<pattr name = "poly2" value = "1500" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1500" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "0" />
+				<pattr name = "timbre" value = "0" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "74">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. -14.35 0. 0. 177. 5657. 0. -13.05 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. -19.55 0. 0. 177. 5657. 0. -22.85 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -7.15 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 24. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. 1.65 -14.35 0. -3.8 177. 5657. 0.85 -18.25 0. -3.8 177. 5657. -3.7 -15. 0. 0. 177. 5657. 0. -22.15 0. -3.8 177. 5657. 0.1 -22.85 0. -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0.1 -0.65 -1.05 -3.8 177. 5657. -25. 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 51.1 43.2 94. 120. 88.2 15.7 78.7 78.5 89.4 67.3 68.2 57.7 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 73. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 0.998178 1.43619 0. 0.016322 1.3359 0. 0.804717 0.63325 0. -0.180911 0.497049 -0.007386 -0.726859 0.763277 0. -0.491612 3.785209 0. 0.459122 -1.227977 0. -0.627251 0.63607 1.143403 1.274046 1.084298 -0.00584 -1.180065 -0.997232 0. 1.48146 -1.157444 0. -1.273614 1.103237 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.571074" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "0" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "1" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "0" />
+			<pattr name = "on" value = "1" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1000" />
+			<pattr name = "seven" value = "0" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "0." />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "0" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "0" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "0" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 0" />
+				<pattr name = "poly" value = "0" />
+				<pattr name = "poly1" value = "1500" />
+				<pattr name = "poly2" value = "1500" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1500" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "0" />
+				<pattr name = "timbre" value = "0" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "75">
+		<pattr name = "frankySpat" value = "80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 80. 1. 1. 1. 0.6 0 0 3.15 -8.5 1.95 0. 109. 5657. 0. -1.3 0. 0. 177. 5657. 0. -13.05 0. 0. 177. 5657. 0. -22.15 0. 0. 55. 5657. 0. -19.55 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. -7.15 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. 0. 0. 0. 0. 177. 5657. none 0. 1. medium 1. 0. 0. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 0 0 0.5 105.64 42.47 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 1 1 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. 6. log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 log2 0.5 39.71 0.5 22.22 30. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. 24. ade 0.1 10 circular 1. 25. 0 0 0. 0. 0. 0. 0.15 0. 0. 24. 0.86 0 0 &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; 10 0 1 8 1 12 12 -6.75 -7.15 0. -3.8 177. 5657. 1.65 -11.75 0. -3.8 177. 5657. 0.85 -17.9 0.35 -3.8 177. 5657. -3.7 -15. 0. 0. 177. 5657. 0. -22.15 0. -3.8 177. 5657. 0.1 -0.65 -1.95 -3.8 177. 5657. -0.65 1.7 0. -3.8 177. 5657. 0.1 -0.65 -1.05 -3.8 177. 5657. -25. 1.7 0. -3.8 177. 5657. -2.15 1.7 0. -3.8 177. 5657. -14.35 1.7 0. -3.8 177. 5657. -15.85 1.7 0. -3.8 177. 5657. yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint yawconstraint 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. Null Null Null Null Null Null Null Null Null Null Null Null 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 48. 48. 53. 48. 48. 48. 48. 48. 48. 48. 48. 48. 112.6 120. 93.5 55.6 89. 120. 86. 81. 84.7 55.8 69.7 62. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 95.37 73. 5657. 177. 1 1 1 1 1 1 1 1 1 1 1 1 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 34. 1 1 10000. 0. 0. -1. 1. 0. 1. -1. 0. 1 1 0 1 0 0 0 0 1 0 0 1 1 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 green green green green green green green green green green green green 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0 0 0 0 0 0 0 0 0 0 0 0 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.07 1 0 0 0 0 0 0 0 0 0 0 0 0 -1.041655 0.591742 0. 0.006625 0.948975 0.001656 -0.954229 -0.038325 -0.001667 0.979834 0.078836 0. -0.726859 0.763277 0. -0.432891 -1.000353 0. 0.002921 -0.836994 -0.001461 -0.993895 -0.262598 0. -1.37993 1.295839 -0.006608 -1.174994 -1.304962 0. 1.412334 -1.091576 0. 1.354913 1.12487 0. 0 0 -0.75043 0.783057 0. 0. 1.09628 0. 0.763481 0.776532 0. 1.04884 0. 0.006318 0.776532 -0.743904 0. 0. -1.102805 0. -0.717802 -0.737379 0. -1.09628 -0.006525 0. -0.643046 0.720991 1.104221 0.649542 0.675523 1.097726 0.656037 -0.62356 1.097726 -0.636551 -0.62356 1.110716 0.1 0 top 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. 30. Oper 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.714009" />
+		<patcher name = "nav.ambimonitor.source">
+			<pattr name = "InterpolationMode" value = "0" />
+			<pattr name = "MonitorMode" value = "2" />
+			<pattr name = "grid" value = "1" />
+			<pattr name = "interpolation" value = "0" />
+			<pattr name = "interval" value = "0" />
+			<pattr name = "preset" value = "1" />
+		</patcher>
+		<patcher name = "nav.ambicontrol">
+			<pattr name = "centerX" value = "0." />
+			<pattr name = "centerY" value = "0." />
+			<pattr name = "centerZ" value = "0." />
+			<pattr name = "control-methd" value = "0" />
+			<pattr name = "eight" value = "0" />
+			<pattr name = "elevn" value = "0" />
+			<pattr name = "five" value = "0" />
+			<pattr name = "fortn" value = "0" />
+			<pattr name = "four" value = "1" />
+			<pattr name = "on" value = "0" />
+			<pattr name = "one" value = "0" />
+			<pattr name = "one[1]" value = "0" />
+			<pattr name = "randStab" value = "1000" />
+			<pattr name = "seven" value = "1" />
+			<pattr name = "six" value = "0" />
+			<pattr name = "stepSize" value = "1.33" />
+			<pattr name = "ten" value = "0" />
+			<pattr name = "thirtn" value = "0" />
+			<pattr name = "three" value = "1" />
+			<pattr name = "twelv" value = "0" />
+			<pattr name = "two" value = "1" />
+			<pattr name = "vol-on" value = "0" />
+			<pattr name = "vol-x" value = "0." />
+			<pattr name = "vol-y" value = "0." />
+			<pattr name = "vol-z" value = "0." />
+			<pattr name = "volType" value = "0" />
+		</patcher>
+		<patcher name = "FX">
+			<patcher name = "nav.psychoirist.noverb">
+				<pattr name = "inVolume" value = "0" />
+				<pattr name = "inVolume2" value = "0" />
+				<pattr name = "matrix[1]" value = "0 0 0" />
+				<pattr name = "poly" value = "0" />
+				<pattr name = "poly1" value = "1500" />
+				<pattr name = "poly2" value = "1500" />
+				<pattr name = "poly3" value = "1500" />
+				<pattr name = "poly4" value = "1500" />
+				<pattr name = "ptchMod" value = "0" />
+				<pattr name = "tempMod" value = "0" />
+				<pattr name = "timbre" value = "0" />
+				<pattr name = "voices" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "Waltz">
+				<pattr name = "franken.control" value = "1" />
+			</patcher>
+		</patcher>
+		<patcher name = "cataRT">
+			<patcher name = "catart.lcd[1]">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart[1]">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+			<patcher name = "catart.lcd">
+				<pattr name = "catart.lcd" value = "-1" />
+			</patcher>
+			<patcher name = "catart">
+				<pattr name = "corpusname" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+

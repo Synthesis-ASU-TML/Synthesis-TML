@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<root>
+<refpage name='zsa.ampstats~.maxref.xml'/>
+<refpage name='zsa.bark~.maxref.xml'/>
+<refpage name='zsa.centroid~.maxref.xml'/>
+<refpage name='zsa.dct.maxref.xml'/>
+<refpage name='zsa.decrease.maxref.xml'/>
+<refpage name='zsa.decrease~.maxref.xml'/>
+<refpage name='zsa.dist.maxref.xml'/>
+<refpage name='zsa.energy~.maxref.xml'/>
+<refpage name='zsa.flatness~.maxref.xml'/>
+<refpage name='zsa.flux~.maxref.xml'/>
+<refpage name='zsa.freqpeak~.maxref.xml'/>
+<refpage name='zsa.fund.maxref.xml'/>
+<refpage name='zsa.kurtosis~.maxref.xml'/>
+<refpage name='zsa.mel~.maxref.xml'/>
+<refpage name='zsa.mfcc~.maxref.xml'/>
+<refpage name='zsa.rolloff~.maxref.xml'/>
+<refpage name='zsa.skewness~.maxref.xml'/>
+<refpage name='zsa.slope.maxref.xml'/>
+<refpage name='zsa.slope~.maxref.xml'/>
+<refpage name='zsa.spread~.maxref.xml'/>
+</root>

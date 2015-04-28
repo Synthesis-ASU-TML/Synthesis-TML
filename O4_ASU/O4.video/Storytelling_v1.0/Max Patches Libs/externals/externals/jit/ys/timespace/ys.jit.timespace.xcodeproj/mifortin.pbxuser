@@ -1,0 +1,133 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* jit.ys.timespace */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* jit.ys.timespace */,
+		);
+		breakpointsGroup = 433EA64B0B7A733F00399558 /* XCBreakpointsBucket */;
+		codeSenseManager = 433EA5DE0B7A6C1400399558 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					652,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 197406392;
+			PBXWorkspaceStateSaveDate = 197406392;
+		};
+		perUserProjectItems = {
+			433EA6A00B7A763600399558 /* PBXTextBookmark */ = 433EA6A00B7A763600399558 /* PBXTextBookmark */;
+			433EA6F10B7A791500399558 /* PBXTextBookmark */ = 433EA6F10B7A791500399558 /* PBXTextBookmark */;
+			43BF48AF0BC4432900ED44DC /* PBXTextBookmark */ = 43BF48AF0BC4432900ED44DC /* PBXTextBookmark */;
+			43F0A39F0B825FC4004C5178 /* PBXTextBookmark */ = 43F0A39F0B825FC4004C5178 /* PBXTextBookmark */;
+			43FBCC3A0B83B745007262B0 /* PBXTextBookmark */ = 43FBCC3A0B83B745007262B0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 433EA5DD0B7A6C1400399558 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	433EA5DD0B7A6C1400399558 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	433EA5DE0B7A6C1400399558 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	433EA64B0B7A733F00399558 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = ys.jit.timespace;
+		objects = (
+		);
+	};
+	433EA6A00B7A763600399558 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A4DA43DC0B4DB2AC005B0F89 /* max.jit.ys.timespace.c */;
+		name = "max.jit.ys.timespace.c: 12";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 2000;
+		vrLoc = 0;
+	};
+	433EA6F10B7A791500399558 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A4DA43DB0B4DB2AC005B0F89 /* jit.ys.timespace.c */;
+		name = "jit.ys.timespace.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1922;
+		vrLoc = 86;
+	};
+	43BF48AF0BC4432900ED44DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A4DA43DB0B4DB2AC005B0F89 /* jit.ys.timespace.c */;
+		name = "";
+		rLen = 1;
+		rLoc = 4063;
+		rType = 0;
+		vrLen = 1868;
+		vrLoc = 2876;
+	};
+	43F0A39F0B825FC4004C5178 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A4DA43DC0B4DB2AC005B0F89 /* max.jit.ys.timespace.c */;
+		name = "max.jit.ys.timespace.c: 12";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 1698;
+		vrLoc = 856;
+	};
+	43FBCC3A0B83B745007262B0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A4DA43DB0B4DB2AC005B0F89 /* jit.ys.timespace.c */;
+		name = "jit.ys.timespace.c: 139";
+		rLen = 0;
+		rLoc = 3865;
+		rType = 0;
+		vrLen = 2554;
+		vrLoc = 1077;
+	};
+	8D01CCC60486CAD60068D4B7 /* jit.ys.timespace */ = {
+		activeExec = 0;
+	};
+	A4DA43DB0B4DB2AC005B0F89 /* jit.ys.timespace.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {844, 8190}}";
+			sepNavSelRange = "{4063, 1}";
+			sepNavVisRect = "{{0, 1397}, {844, 993}}";
+		};
+	};
+	A4DA43DC0B4DB2AC005B0F89 /* max.jit.ys.timespace.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {850, 1484}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRect = "{{0, 491}, {850, 993}}";
+		};
+	};
+}

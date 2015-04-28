@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='center' type='decimalArray' priority='0' mixweight='1'>0.000000 0.000000 0.500000 </item>
+    <item name='clock/interval' type='decimal' priority='0' mixweight='1'>70.000000</item>
+    <item name='clock/on' type='boolean' priority='1' mixweight='1'>0</item>
+    <item name='clock/stepsize' type='decimal' priority='0' mixweight='1'>3.000000</item>
+    <item name='connect' type='string' priority='0' mixweight='1'>paul</item>
+    <item name='directIndexControl' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='index' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='method' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='points' type='integerArray' priority='0' mixweight='1'>666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 666 </item>
+    <item name='randomStability' type='integer' priority='0' mixweight='1'>5000</item>
+    <item name='trajectory/adjust' type='string' priority='0' mixweight='1'>fit-to-box</item>
+    <item name='trajectory/fraction' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='trajectory/interpolate' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='trajectory/method' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='trajectory/original' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='trajectory/point' type='integer' priority='0' mixweight='1'>1</item>
+    <item name='trajectory/rec' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='trajectory/recall' type='string' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>0</item>
+    <item name='volume/bound' type='decimalArray' priority='0' mixweight='1'>2.000000 2.000000 1.000000 </item>
+    <item name='volume/color' type='decimalArray' priority='0' mixweight='1'>0.155125 0.844529 0.908166 </item>
+    <item name='volume/show' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='volume/type' type='integer' priority='0' mixweight='1'>0</item>
+  </preset>
+</jamoma>

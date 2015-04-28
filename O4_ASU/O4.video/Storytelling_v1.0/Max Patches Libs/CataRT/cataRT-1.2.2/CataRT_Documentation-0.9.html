@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr"
+ lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="KEYWORDS" content="CataRT Documentation">
+  <meta name="robots" content="index,follow">
+  <link rel="shortcut icon" href="http://imtr.ircam.fr/favicon.ico">
+  <title>CataRT Documentation - imtr</title>
+  <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/skins/imtr/main.css"; /*]]>*/</style>
+  <style type="text/css" media="screen,projection">/*<![CDATA[*/ @import "/css/common.css"; /*]]>*/</style>
+  <link rel="stylesheet" type="text/css" media="print"
+ href="CataRT_Documentation-0.9.2_files/commonPrint.css">
+<!--[if IE]><script type="text/javascript" src="/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+  <script type="text/javascript"
+ src="CataRT_Documentation-0.9.2_files/wikibits.js"></script>
+  <style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Imtr.css&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000";
+/*]]>*/</style>
+  <style>
+        <!--
+	 .editsection { display: none; }
+        -->
+      </style>
+</head>
+<body class="ns-0">
+<div id="globalWrapper">
+<div class="portlet" id="p-logo"> <a
+ href="http://imtr.ircam.fr/index.php/Main_Page" title="Main Page"></a>
+</div>
+<!-- <h5> </h5> -->
+<div id="column-content">
+<div id="content"> <a name="top" id="contentTop"></a>
+<h1 class="firstHeading">CataRT Documentation</h1>
+<div id="bodyContent">
+<div id="contentSub"></div>
+<!-- start content -->
+<hr>
+<p>Documentation for the cataRT data-driven concatenative sound
+synthesis system in real time based on unit selection from large
+databases for Max/MSP/FTM
+</p>
+<p>copyright 2005-2008 Diemo Schwarz
+</p>
+<p>This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of the
+License, or (at your option) any later version.
+</p>
+<p>See file GPL-license.pat for further informations on licensing
+terms.
+</p>
+<hr>
+<p><a href="http://catart.concatenative.net/" class="external free"
+ title="http://catart.concatenative.net" rel="nofollow">http://catart.concatenative.net</a>
+</p>
+<p><br>
+</p>
+<table id="toc" class="toc">
+  <tbody>
+    <tr>
+      <td>
+      <div id="toctitle">
+      <h2>Contents</h2>
+      <span class="toctoggle"></span></div>
+      <ul>
+        <li class="toclevel-1"><a href="#DESCRIPTION"><span
+ class="tocnumber">1</span> <span class="toctext">DESCRIPTION</span></a></li>
+        <li class="toclevel-1"><a href="#Startup_and_Initialisation"><span
+ class="tocnumber">2</span> <span class="toctext">Startup and
+Initialisation</span></a></li>
+        <li class="toclevel-1"><a href="#Importing_Sounds"><span
+ class="tocnumber">3</span> <span class="toctext">Importing Sounds</span></a>
+          <ul>
+            <li class="toclevel-2"><a href="#Segmentation_Modes"><span
+ class="tocnumber">3.1</span> <span class="toctext">Segmentation Modes</span></a></li>
+          </ul>
+        </li>
+        <li class="toclevel-1"><a href="#Playing"><span
+ class="tocnumber">4</span> <span class="toctext">Playing</span></a>
+          <ul>
+            <li class="toclevel-2"><a href="#Trigger_Modes"><span
+ class="tocnumber">4.1</span> <span class="toctext">Trigger Modes</span></a></li>
+            <li class="toclevel-2"><a href="#Grain_Playback_Parameters"><span
+ class="tocnumber">4.2</span> <span class="toctext">Grain Playback
+Parameters</span></a></li>
+            <li class="toclevel-2"><a
+ href="#Controlling_the_Play_Window_.28catart.lcd.29"><span
+ class="tocnumber">4.3</span> <span class="toctext">Controlling the
+Play Window (catart.lcd)</span></a></li>
+          </ul>
+        </li>
+        <li class="toclevel-1"><a href="#Saving.2FLoading_Corpora"><span
+ class="tocnumber">5</span> <span class="toctext">Saving/Loading
+Corpora</span></a></li>
+        <li class="toclevel-1"><a href="#Recording_CataRT.27s_output"><span
+ class="tocnumber">6</span> <span class="toctext">Recording CataRT's
+output</span></a></li>
+        <li class="toclevel-1"><a href="#KNOWN_BUGS"><span
+ class="tocnumber">7</span> <span class="toctext">KNOWN BUGS</span></a></li>
+        <li class="toclevel-1"><a href="#MORE_INFORMATION"><span
+ class="tocnumber">8</span> <span class="toctext">MORE INFORMATION</span></a></li>
+      </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>
+<script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script></p>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=1"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="DESCRIPTION"></a>
+<h2> DESCRIPTION </h2>
+<p>The concatenative real-time sound synthesis system cataRT plays
+grains (also called units) from a large corpus of segmented and
+descriptor-analysed sounds according to proximity to a target position
+in the descriptor space, controlled by the mouse or by external
+controllers. This can be seen as a content-based extension to granular
+synthesis providing direct access to specific sound characteristics.
+</p>
+<p>cataRT is implemented in MaxMSP using the FTM and Gabor
+libraries. Segmentation and MPEG-7 descriptors are loaded from text or
+SDIF files, or analysed on-the-fly.
+</p>
+<ul>
+  <li> Read the cataRT 7-page article on <a
+ href="http://catart.concatenative.net/" class="external free"
+ title="http://catart.concatenative.net" rel="nofollow">http://catart.concatenative.net</a>
+for background information (optional)
+  </li>
+</ul>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=2"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Startup_and_Initialisation"></a>
+<h2> Startup and Initialisation </h2>
+<ul>
+  <li> Double-click on <tt>cataRT-0.9.6.pat</tt> to start CataRT.
+  </li>
+  <li> In the main window that opens after a while, click on the red <i>init</i>
+button on the left.
+  </li>
+  <li> Switch DSP on by clicking on the loudspeaker icon, augment
+volume with the sliders (left slider moves both) in the lower left
+corner of the main window.
+  </li>
+  <li> You can switch the audio driver used for output by double-click
+on the <tt>dac~</tt> box.
+  </li>
+</ul>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=3"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Importing_Sounds"></a>
+<h2> Importing Sounds </h2>
+<ul>
+  <li> In the upper part of the main window, choose the segmentation
+mode and parameters see <a href="#Segmentation_Modes" title="">#Segmentation
+Modes</a> below), or use the default <i>chop</i> mode.
+  </li>
+  <li> To try out large sound files first, you can limit the number of
+seconds that are imported by dragging up and down in the <i>import
+limit</i> number box.
+  </li>
+</ul>
+<ul>
+  <li> Click the grey <i>import</i> (soundfile) button above <tt>catart.import</tt>
+to choose a sound file to analyse in the file dialog that opens.
+Alternatively, you can drag one or more sound files onto either stack
+of modules (corpus1 or corpus2).
+    <ul>
+      <li> you can drop any number of files, or whole directories whose
+contents will be imported (but not recursively)
+      </li>
+      <li> You will see the progress of analysis as a green area
+advancing underneath each stack, and the number and duration of
+imported units will be displayed underneath. It should be more than one
+unit per sound file, otherwise there is a problem with segmentation
+(choose <i>chop</i> and not too short sound files).
+      </li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li> If you have opened the corresponding <tt>catart.lcd</tt>, you
+can see the file's units coming in during analysis
+  </li>
+  <li> After import, reselect the x/y descriptors to refresh the ranges
+in <tt>catart.lcd</tt>.
+  </li>
+</ul>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=4"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Segmentation_Modes"></a>
+<h3>Segmentation Modes</h3>
+<ul>
+  <li> <i>none</i> imports the sound file as a whole </li>
+  <li> <i>chop</i> segments into equal-sized units every given ms
+(change the grain size by dragging up and down in the number box)
+    <ul>
+      <li> this is the recommended mode to start with
+      </li>
+    </ul>
+  </li>
+  <li> <i>split</i> segments into a given number of equal-sized units
+    <ul>
+      <li> this is useful to import drum loops, if you know their
+number of beats </li>
+    </ul>
+  </li>
+  <li> <i>import ASCII</i> allows you to import a segmentation from a
+text label file as written by Audacity
+  </li>
+  <li> <i>import SDIF</i> allows you to import a segmentation from [<a
+ href="http://sdif.sourceforge.net/" class="external text"
+ title="http://sdif.sourceforge.net" rel="nofollow">SDIF</a>] as
+written by AudioSculpt
+  </li>
+  <li> <i>yin note segmentation</i> segments per change of pitch
+  </li>
+  <li> <i>silence segmentation</i> splits according to an amplitude
+threshold (with is very hard to guess at the moment, lacking a
+graphical interface)
+  </li>
+</ul>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=5"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Playing"></a>
+<h2> Playing </h2>
+<ul>
+  <li> open catart.lcd for your corpus by double-click (see <a
+ href="#Controlling_the_Play_Window_.28catart.lcd.29" title="">#Controlling
+the Play Window (catart.lcd)</a> below)
+  </li>
+  <li> choose descriptors for the x- and y-axis from the grey pop-up
+menus labeled <i>X-Axis</i> and <i>Y-Axis</i>, or use one of the
+presets to the right.
+    <ul>
+      <li> To start, using <i>SpectralCentroid</i> and <i>Pitch</i>
+or <i>Loudness</i> usually gives good results.
+      </li>
+      <li> Descriptors 0-11 describe the position of each unit in the
+sound file.
+      </li>
+      <li> Descriptors 12-23 describe the mean acoustic characteristics
+of each unit.
+      </li>
+      <li> Note that for some descriptors, all units might have the
+same
+value, so that they will all be aligned to the left or upper border of
+the display.
+      </li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li> move around in lcd, units closest to mouse are played
+  </li>
+  <li> drag right/left to increase the random selection radius
+  </li>
+  <li> click to freeze position, ctrl-click to unfreeze (watch the
+checkbox labeled <i>position freeze</i> to the lower right, or click
+in it)
+    <ul>
+      <li> this is useful to change parameters without losing the
+position when units play regularly e.g. in <i>beat</i> mode
+      </li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li> experiment with different descriptors on x-/y-/colour-axis
+  </li>
+  <li> zoom in by changing the min/max next to the descriptor menu
+by dragging up/down in the number box. (Dragging left of the decimal
+point changes the integer value, dragging right of it changes in steps
+of 1/100.) You can reset the view by re-selecting a descriptor.
+  </li>
+</ul>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=6"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Trigger_Modes"></a>
+<h3> Trigger Modes </h3>
+<p>Try out different trigger methods (except <i>quant</i> and <i>seq</i>
+which don't work in the standalone version):
+The trigger method controls when the selected grains are played.
+</p>
+<ul>
+  <li> <i>bow</i> triggers closest unit each time you move the mouse
+  </li>
+  <li> <i>fence</i> plays a unit whenever a different unit becomes the
+closest one (named in homage to clattering a stick along a garden
+fence)
+  </li>
+  <li> <i>beat</i> mode triggers units via a metronome (speed is
+controlled by <i>grain rate</i> and <i>rate std</i>)
+  </li>
+  <li> <i>chain</i> mode triggers a new unit whenever the previous
+unit has finished playing
+  </li>
+  <li> <i>quant</i> is a quantized metronome, but non functional for
+the moment
+  </li>
+  <li> <i>seq</i> is for external triggering by a sequencer
+  </li>
+  <li> <i>cont</i> continues playing grains in order
+  </li>
+</ul>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=7"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Grain_Playback_Parameters"></a>
+<h3>Grain Playback Parameters</h3>
+<p>Use the common granular synthesis parameters to the left:
+</p>
+<ul>
+  <li> <i>working set</i>: don't use this!
+  </li>
+  <li> <i>radius</i>: size of the random selection radius, also
+controlled by dragging right/left
+  </li>
+  <li> <i>trigger method</i>: choose trigger mode (see above)
+  </li>
+</ul>
+<ul>
+  <li> <i>grain rate</i>: trigger speed for beat mode in ms
+  </li>
+  <li> <i>rate std</i>: amount of random deviation of grain rate in ms
+  </li>
+</ul>
+<ul>
+  <li> <i>xfade</i>: fade-in and fade-out time of each grain in ms
+  </li>
+  <li> <i>attack</i>, <i>release</i>: separate fade-in and fade-out
+time of each grain in ms
+    <dl>
+      <dd> (<i>xfade</i> and <i>attack</i>/<i>release</i>
+alternatively control the grain envelope)
+      </dd>
+    </dl>
+  </li>
+</ul>
+<ul>
+  <li> <i>grain size</i>: force length of played grain in ms, 0 means
+natural size
+  </li>
+  <li> <i>size std</i>: amount of random variation around grain size
+  </li>
+  <li> <i>onset std</i>: amount of random variation of grain start
+  </li>
+</ul>
+<ul>
+  <li> <i>transposition</i>: pitch change in half-tones
+  </li>
+  <li> <i>std</i>: amount of random variation of transposition
+  </li>
+</ul>
+<ul>
+  <li> <i>gain</i>: volume change of grain in dB
+  </li>
+  <li> <i>std</i>: amount of random variation of gain
+  </li>
+  <li> <i>reverse prob</i>: chance of playing grain reversed, 0-100%
+  </li>
+</ul>
+<ul>
+  <li> <i>pan</i>: stereo position 0 (left) - 100 (right)
+  </li>
+  <li> <i>std</i>: amount of random variation of panning per grain
+  </li>
+</ul>
+<p><br>
+</p>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=8"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Controlling_the_Play_Window_.28catart.lcd.29"></a>
+<h3>Controlling the Play Window (catart.lcd)</h3>
+<p>The following image shows the different controls in the <tt>catart.lcd</tt>
+play window.
+</p>
+<p><a
+ href="help/catart.lcd.doc.png"
+ class="image" title="Image:help/catart.lcd.doc.png"><img
+ src="help/catart.lcd.doc.png"
+ alt="lcd explanation"
+ longdesc="/index.php/Image:Catart.lcd-doc-0.9.2.png" height="618"
+ width="826"></a></p>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=9"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Saving.2FLoading_Corpora"></a>
+<h2> Saving/Loading Corpora </h2>
+<p>Whole corpora (list of sound files, descriptors, and unit data) can
+be saved and reloaded, or merged with the current corpus in memory, by
+clicking on the grey <i>import</i>, <i>export</i>, <i>merge</i>
+buttons above <tt>catart.data</tt>, which open a file dialog.
+</p>
+<p>A corpus is saved as four text files (.ds.txt, .sf.txt, .sy.txt,
+.ud.txt), you can choose any of these or just the base name (keep it
+short, since Max's file dialogs are still stuck with 31 char names).
+</p>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=10"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="Recording_CataRT.27s_output"></a>
+<h2> Recording CataRT's output </h2>
+<p>To record what is played by CataRT to a sound file on disk, choose a
+file to write by clicking on the button <i>open</i>
+in the lower part of the main window, and then click the check box left
+of that to start recording, then uncheck it to stop recording.
+</p>
+<p><br>
+</p>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=11"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="KNOWN_BUGS"></a>
+<h2> KNOWN BUGS </h2>
+<ul>
+  <li> workingset, despite its name, doesn't work at the moment
+  </li>
+</ul>
+<p><br>
+</p>
+<div class="editsection" style="float: right; margin-left: 5px;">[<a
+ href="http://imtr.ircam.fr/index.php?title=CataRT_Documentation&amp;action=edit&amp;section=12"
+ title="CataRT Documentation">edit</a>]</div>
+<a name="MORE_INFORMATION"></a>
+<h2> MORE INFORMATION </h2>
+<ul>
+  <li> cataRT page: <a href="http://imtr.ircam.fr/index.php/CataRT"
+ class="external free" title="http://imtr.ircam.fr/index.php/CataRT"
+ rel="nofollow">http://imtr.ircam.fr/index.php/CataRT</a>
+  </li>
+  <li> mailinglist (low volume and spam-free): <a
+ href="http://listes.ircam.fr/wws/info/concat" class="external free"
+ title="http://listes.ircam.fr/wws/info/concat" rel="nofollow">http://listes.ircam.fr/wws/info/concat</a>
+  </li>
+  <li> cataRT extended article: <a
+ href="http://recherche.ircam.fr/anasyn/schwarz/publications/dafx2006/catart-dafx2006-long.pdf"
+ class="external free"
+ title="http://recherche.ircam.fr/anasyn/schwarz/publications/dafx2006/catart-dafx2006-long.pdf"
+ rel="nofollow">http://recherche.ircam.fr/anasyn/schwarz/publications/dafx2006/catart-dafx2006-long.pdf</a>
+  </li>
+  <li> ReleaseNotes.txt: gives more details about changes
+  </li>
+</ul>
+<ul>
+  <li> FTM and Gabor page: <a href="http://www.ircam.fr/ftm/"
+ class="external free" title="http://www.ircam.fr/ftm/" rel="nofollow">http://www.ircam.fr/ftm/</a>
+  </li>
+  <li> FTM and Gabor wiki: <a
+ href="http://freesoftware.ircam.fr/wiki/index.php/FTM"
+ class="external free"
+ title="http://freesoftware.ircam.fr/wiki/index.php/FTM" rel="nofollow">http://freesoftware.ircam.fr/wiki/index.php/FTM</a>
+  </li>
+  <li> SDIF page: <a href="http://sdif.sourceforge.net/"
+ class="external free" title="http://sdif.sourceforge.net/"
+ rel="nofollow">http://sdif.sourceforge.net/</a>
+  </li>
+  <li> SDIF wiki: <a
+ href="http://freesoftware.ircam.fr/wiki/index.php/SDIF"
+ class="external free"
+ title="http://freesoftware.ircam.fr/wiki/index.php/SDIF" rel="nofollow">http://freesoftware.ircam.fr/wiki/index.php/SDIF</a>
+  </li>
+</ul>
+<div class="printfooter">
+Retrieved from "<a
+ href="http://imtr.ircam.fr/index.php/CataRT_Documentation">http://imtr.ircam.fr/index.php/CataRT_Documentation</a>"</div>
+</div>
+</div>
+</div>
+<!-- end of the column -->
+<div class="visualClear"></div>
+<div id="footer">
+<ul id="f-list">
+  <li id="f-lastmod"> This page was last modified 15:20, 22 February
+2008.</li>
+  <a href="http://www.mediawiki.org/"><font color="#cccc00"></font></a>
+</ul>
+</div>
+</div>
+<br>
+</body>
+</html>

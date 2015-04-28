@@ -1,0 +1,553 @@
+10
+
+dir
+0
+https://BenCello@svn.bencello.net:8443/svn/IRCAM/WoMax-Reorganized/Forum/OMax4
+https://BenCello@svn.bencello.net:8443/svn/IRCAM
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8ac33382-179b-11de-aed2-b1388017f105
+
+OMax.read.mxo
+dir
+
+
+
+add
+
+MFCCs.zsa.maxpat
+file
+
+
+
+add
+
+DeSlicer.maxpat
+file
+
+
+
+add
+
+OMax.time.maxpat
+file
+
+
+
+add
+
+ImproPlayerB.maxpat
+file
+
+
+
+add
+
+VisuImpro-Arrows.maxpat
+file
+
+
+
+add
+
+Visu-Selection.maxpat
+file
+
+
+
+add
+
+Impro-RegionSel.maxpat
+file
+
+
+
+add
+
+OMax.state2date.mxo
+dir
+
+
+
+add
+
+OMax.learn.mxo
+dir
+
+
+
+add
+
+OMax.SLT.mxo
+dir
+
+
+
+add
+
+bc.autoname.js
+file
+
+
+
+add
+
+ImproMIDI-Weigth.maxpat
+file
+
+
+
+add
+
+DeSlicer-core.maxpat
+file
+
+
+
+add
+
+_Externals&Scripts.rtf
+file
+
+
+
+add
+
+Impro-PickSimple.maxpat
+file
+
+
+
+add
+
+sr.maxpat
+file
+
+
+
+add
+
+OMax4.Forum.xml
+file
+
+
+
+add
+
+OMax.data.mxo
+dir
+
+
+
+add
+
+kNN.maxpat
+file
+
+
+
+add
+
+SVP-Player-new.maxpat
+file
+
+
+
+add
+
+ImproPoly.maxpat
+file
+
+
+
+add
+
+OMax.render.mxo
+dir
+
+
+
+add
+
+ImproSpectral-new2.maxpat
+file
+
+
+
+add
+
+OMax.MFCCs.maxpat
+file
+
+
+
+add
+
+Audio-Output.maxpat
+file
+
+
+
+add
+
+yin~.maxhelp
+file
+
+
+
+add
+
+ImproPoly-Rhythm.maxpat
+file
+
+
+
+add
+
+ImproPlayerA.maxpat
+file
+
+
+
+add
+
+yin~.mxo
+dir
+
+
+
+add
+
+Slicer-core.maxpat
+file
+
+
+
+add
+
+ImproMIDI-Octave.maxpat
+file
+
+
+
+add
+
+ImproSpectral-Weight.maxpat
+file
+
+
+
+add
+
+OMax.date2state.mxo
+dir
+
+
+
+add
+
+ImproMIDI-Weighting.maxpat
+file
+
+
+
+add
+
+MFCCs.zsa-core.maxpat
+file
+
+
+
+add
+
+OMax4.Forum.maxpat
+file
+
+
+
+add
+
+ImproMIDI-new.maxpat
+file
+
+
+
+add
+
+Slicer.maxpat
+file
+
+
+
+add
+
+OMax.seg.maxpat
+file
+
+
+
+add
+
+Oracle-SP.maxpat
+file
+
+
+
+add
+
+Oracle-MIDI.maxpat
+file
+
+
+
+add
+
+Visu-Graph.maxpat
+file
+
+
+
+add
+
+Impro-Taboo.maxpat
+file
+
+
+
+add
+
+ImproSpectral-Pitch.maxpat
+file
+
+
+
+add
+
+__ReadMe.rtf
+file
+
+
+
+add
+
+ImproMIDI-Velo.maxpat
+file
+
+
+
+add
+
+Audio-Input.maxpat
+file
+
+
+
+add
+
+ImproMIDI-Rhythm.maxpat
+file
+
+
+
+add
+
+bc.virfun.mxo
+dir
+
+
+
+add
+
+Visu-Impro.maxpat
+file
+
+
+
+add
+
+Yin+.maxpat
+file
+
+
+
+add
+
+OMax.build.mxo
+dir
+
+
+
+add
+
+ImproSpectral-Energy.maxpat
+file
+
+
+
+add
+
+OMax.yin+.maxpat
+file
+
+
+
+add
+
+ImproOut-Play.maxpat
+file
+
+
+
+add
+
+OMax.PattrStorage.maxpat
+file
+
+
+
+add
+
+ImproPoly-#Notes.maxpat
+file
+
+
+
+add
+
+Oracle-POLY.maxpat
+file
+
+
+
+add
+
+Audio-Monitor.maxpat
+file
+
+
+
+add
+
+Visu-Display.maxpat
+file
+
+
+
+add
+
+ImproPoly-Velo.maxpat
+file
+
+
+
+add
+
+VisuImpro-Attractor.maxpat
+file
+
+
+
+add
+
+ImproSpectral-Weighting.maxpat
+file
+
+
+
+add
+
+Impro-Collect.maxpat
+file
+
+
+
+add
+
+bc.yinstats.mxo
+dir
+
+
+
+add
+
+_ColorRef.rtf
+file
+
+
+
+add
+
+SVP-Play.maxpat
+file
+
+
+
+add
+
+OMax.buffer.maxpat
+file
+
+
+
+add
+
+ImproPoly-Weighting.maxpat
+file
+
+
+
+add
+
+ImproPoly-Weigth.maxpat
+file
+
+
+
+add
+
+OMax.oracle.mxo
+dir
+
+
+
+add
+
+OMax-improTarget2.maxpat
+file
+
+
+
+add
+
+Impro-Jumps.maxpat
+file
+
+
+
+add
+
+OMax.multipitch.maxpat
+file
+
+
+
+add
+

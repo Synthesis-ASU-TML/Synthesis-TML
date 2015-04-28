@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/IRCAM/!svn/ver/47/WoMax/Recherche/src/cpp
+END
+Oracle_classes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/IRCAM/!svn/ver/91/WoMax/Recherche/src/cpp/Oracle_classes.cpp
+END
+stl_pair.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/IRCAM/!svn/ver/47/WoMax/Recherche/src/cpp/stl_pair.h
+END
+Oracle_data.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/IRCAM/!svn/ver/91/WoMax/Recherche/src/cpp/Oracle_data.hpp
+END
+Oracle_label.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/IRCAM/!svn/ver/77/WoMax/Recherche/src/cpp/Oracle_label.cpp
+END
+Oracle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/IRCAM/!svn/ver/84/WoMax/Recherche/src/cpp/Oracle.cpp
+END
+Oracle_classes.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/IRCAM/!svn/ver/84/WoMax/Recherche/src/cpp/Oracle_classes.hpp
+END
+Oracle_label.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/IRCAM/!svn/ver/77/WoMax/Recherche/src/cpp/Oracle_label.hpp
+END
+Oracle_learn.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/IRCAM/!svn/ver/77/WoMax/Recherche/src/cpp/Oracle_learn.hpp
+END

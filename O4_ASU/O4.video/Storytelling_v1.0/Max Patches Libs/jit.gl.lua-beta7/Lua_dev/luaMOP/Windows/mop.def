@@ -1,0 +1,7 @@
+; mop.def : Declares the module parameters for the DLL.
+
+LIBRARY      "mop"
+
+EXPORTS
+
+luaopen_mop

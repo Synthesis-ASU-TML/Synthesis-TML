@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='audio/bypass' type='boolean' priority='0'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>1</item>
+    <item name='frequency.1' type='decimal' priority='3'>1051</item>
+    <item name='frequency.2' type='decimal' priority='3'>3628</item>
+    <item name='frequency.3' type='decimal' priority='3'>5690</item>
+    <item name='frequency.4' type='decimal' priority='3'>6721</item>
+    <item name='frequency.5' type='decimal' priority='3'>8783</item>
+    <item name='frequency.6' type='decimal' priority='3'>11361</item>
+    <item name='frequency.7' type='decimal' priority='3'>13938</item>
+    <item name='frequency.8' type='decimal' priority='3'>16000</item>
+    <item name='frequencyRatio' type='array' priority='0'>0</item>
+    <item name='gain.1' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.2' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.3' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.4' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.5' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.6' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.7' type='decimal' priority='2'>127.000000</item>
+    <item name='gain.8' type='decimal' priority='2'>127.000000</item>
+    <item name='numBands' type='integer' priority='0'>8</item>
+    <item name='q.1' type='decimal' priority='1'>100</item>
+    <item name='q.2' type='decimal' priority='1'>100</item>
+    <item name='q.3' type='decimal' priority='1'>100</item>
+    <item name='q.4' type='decimal' priority='1'>100</item>
+    <item name='q.5' type='decimal' priority='1'>100</item>
+    <item name='q.6' type='decimal' priority='1'>100</item>
+    <item name='q.7' type='decimal' priority='1'>100</item>
+    <item name='q.8' type='decimal' priority='1'>100</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 105 </item>
+  </preset>  
+
+ <preset number='2' name='3rd octave Band'>
+    <item name='audio/bypass' type='boolean' priority='0'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>1</item>
+    <item name='frequency.1' type='decimal' priority='0'>33</item>
+    <item name='frequency.2' type='decimal' priority='0'> 41.5500</item>
+    <item name='frequency.3' type='decimal' priority='0'>52.3152</item>
+    <item name='frequency.4' type='decimal' priority='0'>65.8696</item>
+    <item name='frequency.5' type='decimal' priority='0'>82.9359</item>
+    <item name='frequency.6' type='decimal' priority='0'>104.4238</item>
+    <item name='frequency.7' type='decimal' priority='0'>131.4791</item>
+    <item name='frequency.8' type='decimal' priority='0'>165.5441</item>  
+    <item name='frequency.9' type='decimal' priority='0'> 208.4351</item>
+   <item name='frequency.10' type='decimal' priority='0'> 262.4388</item>
+    <item name='frequencyRatio' type='array' priority='2'>33 1.259091</item>
+     <item name='gain.1' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.2' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.3' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.4' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.5' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.6' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.7' type='decimal' priority='3'>100.000000</item>
+     <item name='gain.8' type='decimal' priority='3'>100.000000</item> 
+     <item name='gain.9' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.10' type='decimal' priority='3'>100.000000</item> 
+    <item name='gain.11' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.12' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.13' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.14' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.15' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.16' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.17' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.18' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.19' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.20' type='decimal' priority='3'>100.000000</item> 
+    <item name='gain.21' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.22' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.23' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.24' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.25' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.26' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.27' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.28' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.29' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.30' type='decimal' priority='3'>100.000000</item> 
+    <item name='gain.31' type='decimal' priority='3'>100.000000</item>
+    <item name='gain.32' type='decimal' priority='3'>100.000000</item>
+    <item name='numBands' type='integer' priority='1'>32</item>
+     <item name='q.1' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.2' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.3' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.4' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.5' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.6' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.7' type='decimal' priority='4'> 0.793701</item>
+     <item name='q.8' type='decimal' priority='4'> 0.793701</item>
+	 <item name='q.9' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.10' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.11' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.12' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.13' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.14' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.15' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.16' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.17' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.18' type='decimal' priority='4'> 0.793701</item>
+  	<item name='q.19' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.20' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.21' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.22' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.23' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.24' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.25' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.26' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.27' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.28' type='decimal' priority='4'> 0.793701</item>
+  	<item name='q.29' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.30' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.31' type='decimal' priority='4'> 0.793701</item>
+    <item name='q.32' type='decimal' priority='4'> 0.793701</item>
+
+
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 105 </item>
+  </preset>
+</jamoma>

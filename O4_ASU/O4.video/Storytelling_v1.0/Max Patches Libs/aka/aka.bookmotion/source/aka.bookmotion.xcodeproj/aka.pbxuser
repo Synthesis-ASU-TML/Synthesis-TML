@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 41BEFC4B0B64FDE2005B494B /* MaxMSP Runtime */;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* aka.bookmotion */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* aka.bookmotion */,
+		);
+		breakpoints = (
+			41BEFC4E0B64FDFC005B494B /* aka.keylit.c:139 */,
+			41BEFC640B64FF3E005B494B /* aka.keylit.c:80 */,
+			41BEFC660B64FF47005B494B /* aka.keylit.c:109 */,
+			411684BC0B6A502500114E6F /* aka.bookmotion.c:20 */,
+		);
+		breakpointsGroup = 41BEFC5C0B64FE08005B494B /* XCBreakpointsBucket */;
+		codeSenseManager = 41D6FBAB0AE8DFA1002520C9 /* Code sense */;
+		executables = (
+			41BEFC4B0B64FDE2005B494B /* MaxMSP Runtime */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					333,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					331,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					443,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					263,
+					20,
+					48.1626,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 191690930;
+			PBXWorkspaceStateSaveDate = 191690930;
+		};
+		perUserProjectItems = {
+			411684C10B6A503100114E6F /* PBXTextBookmark */ = 411684C10B6A503100114E6F /* PBXTextBookmark */;
+			4144CB3F0B6B99230051E70C /* PBXTextBookmark */ = 4144CB3F0B6B99230051E70C /* PBXTextBookmark */;
+			4144CB400B6B99230051E70C /* PBXTextBookmark */ = 4144CB400B6B99230051E70C /* PBXTextBookmark */;
+			4144CB7A0B6B9C050051E70C /* PBXTextBookmark */ = 4144CB7A0B6B9C050051E70C /* PBXTextBookmark */;
+			4144CC1C0B6CF8CA0051E70C /* PBXTextBookmark */ = 4144CC1C0B6CF8CA0051E70C /* PBXTextBookmark */;
+			4144CC1D0B6CF8CA0051E70C /* PBXTextBookmark */ = 4144CC1D0B6CF8CA0051E70C /* PBXTextBookmark */;
+			4144CC1E0B6CF8CA0051E70C /* PBXTextBookmark */ = 4144CC1E0B6CF8CA0051E70C /* PBXTextBookmark */;
+			4144CC1F0B6CF8CA0051E70C /* PBXTextBookmark */ = 4144CC1F0B6CF8CA0051E70C /* PBXTextBookmark */;
+			4144CC200B6CF8CA0051E70C /* PBXTextBookmark */ = 4144CC200B6CF8CA0051E70C /* PBXTextBookmark */;
+			4155AEA80AF4FE230073E395 /* PBXTextBookmark */ = 4155AEA80AF4FE230073E395 /* PBXTextBookmark */;
+			4155AEAC0AF4FE230073E395 /* PBXTextBookmark */ = 4155AEAC0AF4FE230073E395 /* PBXTextBookmark */;
+			4185E2500AF0AA9F00C29CB2 /* PBXTextBookmark */ = 4185E2500AF0AA9F00C29CB2 /* PBXTextBookmark */;
+			4185E2520AF0AA9F00C29CB2 /* PBXTextBookmark */ = 4185E2520AF0AA9F00C29CB2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 41D6FBAA0AE8DFA1002520C9 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	411684AB0B6A4C5200114E6F /* aka.bookmotion.c */ = {
+		isa = PBXFileReference;
+		fileEncoding = 0;
+		lastKnownFileType = sourcecode.c.c;
+		name = aka.bookmotion.c;
+		path = "/Users/aka/development/MaxMSP UB SDK/aka-max-ub-projects/aka.bookmotion-UB/aka.bookmotion.c";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 1140}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRect = "{{0, 0}, {635, 565}}";
+		};
+	};
+	411684BC0B6A502500114E6F /* aka.bookmotion.c:20 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = 411684AB0B6A4C5200114E6F /* aka.bookmotion.c */;
+		functionName = "OpenSMS()";
+		hitCount = 1;
+		lineNumber = 20;
+		location = aka.bookmotion;
+		modificationTime = 191601889.736129;
+		state = 1;
+	};
+	411684C10B6A503100114E6F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 411684AB0B6A4C5200114E6F /* aka.bookmotion.c */;
+		name = "aka.bookmotion.c: 24";
+		rLen = 0;
+		rLoc = 209;
+		rType = 0;
+		vrLen = 1517;
+		vrLoc = 143;
+	};
+	4144CB330B6B98B70051E70C /* unimotion.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 3732}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {635, 565}}";
+			sepNavWindowFrame = "{{9, 84}, {852, 794}}";
+		};
+	};
+	4144CB3C0B6B99230051E70C /* unimotion.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = unimotion.h;
+		path = "/Users/aka/development/MaxMSP UB SDK/aka-max-ub-projects/aka.bookmotion-UB/unimotion.h";
+		sourceTree = "<absolute>";
+	};
+	4144CB3F0B6B99230051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CB330B6B98B70051E70C /* unimotion.c */;
+		name = "unimotion.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 0;
+	};
+	4144CB400B6B99230051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CB410B6B99230051E70C /* unimotion.h */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1393;
+		vrLoc = 468;
+	};
+	4144CB410B6B99230051E70C /* unimotion.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = unimotion.h;
+		path = "/Users/aka/development/MaxMSP UB SDK/aka-max-ub-projects/aka.bookmotion-UB/unimotion.h";
+		sourceTree = "<absolute>";
+	};
+	4144CB7A0B6B9C050051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CB3C0B6B99230051E70C /* unimotion.h */;
+		name = unknown;
+		rLen = 7;
+		rLoc = 968;
+		rType = 0;
+		vrLen = 1460;
+		vrLoc = 401;
+	};
+	4144CBFF0B6CF8990051E70C /* aka.bookmotion.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 1140}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRect = "{{0, 0}, {635, 565}}";
+		};
+	};
+	4144CC1C0B6CF8CA0051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CB330B6B98B70051E70C /* unimotion.c */;
+		name = "unimotion.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 0;
+	};
+	4144CC1D0B6CF8CA0051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CBFF0B6CF8990051E70C /* aka.bookmotion.c */;
+		name = "aka.bookmotion.c: 4";
+		rLen = 0;
+		rLoc = 62;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 0;
+	};
+	4144CC1E0B6CF8CA0051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CBFF0B6CF8990051E70C /* aka.bookmotion.c */;
+		name = "aka.bookmotion.c: 4";
+		rLen = 0;
+		rLoc = 62;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 0;
+	};
+	4144CC1F0B6CF8CA0051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CB330B6B98B70051E70C /* unimotion.c */;
+		name = "unimotion.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1786;
+		vrLoc = 0;
+	};
+	4144CC200B6CF8CA0051E70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4144CBFF0B6CF8990051E70C /* aka.bookmotion.c */;
+		name = "aka.bookmotion.c: 2";
+		rLen = 0;
+		rLoc = 60;
+		rType = 0;
+		vrLen = 1083;
+		vrLoc = 0;
+	};
+	4155AEA80AF4FE230073E395 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4155AEA90AF4FE230073E395 /* ext_mess.h */;
+		name = A_GIMME;
+		rLen = 7;
+		rLoc = 4317;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 3677;
+	};
+	4155AEA90AF4FE230073E395 /* ext_mess.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ext_mess.h;
+		path = /Library/Frameworks/MaxAPI.framework/Headers/ext_mess.h;
+		sourceTree = "<absolute>";
+	};
+	4155AEAC0AF4FE230073E395 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4155AEAD0AF4FE230073E395 /* ext_mess.h */;
+		name = A_GIMME;
+		rLen = 7;
+		rLoc = 4317;
+		rType = 0;
+		vrLen = 1244;
+		vrLoc = 3677;
+	};
+	4155AEAD0AF4FE230073E395 /* ext_mess.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ext_mess.h;
+		path = /Library/Frameworks/MaxAPI.framework/Headers/ext_mess.h;
+		sourceTree = "<absolute>";
+	};
+	417502920AECFE0B00831BF5 /* CarbonEventsCore.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CarbonEventsCore.h;
+		path = /System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/Headers/CarbonEventsCore.h;
+		sourceTree = "<absolute>";
+	};
+	4185E2500AF0AA9F00C29CB2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 417502920AECFE0B00831BF5 /* CarbonEventsCore.h */;
+		name = kEventAttributeNone;
+		rLen = 19;
+		rLoc = 19362;
+		rType = 0;
+		vrLen = 90;
+		vrLoc = 19313;
+	};
+	4185E2520AF0AA9F00C29CB2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 417502920AECFE0B00831BF5 /* CarbonEventsCore.h */;
+		name = kEventAttributeNone;
+		rLen = 19;
+		rLoc = 19362;
+		rType = 0;
+		vrLen = 90;
+		vrLoc = 19313;
+	};
+	41BEFB600B64F220005B494B /* aka.keylit.c */ = {
+		isa = PBXFileReference;
+		fileEncoding = 0;
+		lastKnownFileType = sourcecode.c.c;
+		name = aka.keylit.c;
+		path = "/Users/aka/development/MaxMSP UB SDK/aka-max-ub-projects/aka.mbplit-UB/aka.keylit.c";
+		sourceTree = "<absolute>";
+	};
+	41BEFC4B0B64FDE2005B494B /* MaxMSP Runtime */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = 41BEFC4C0B64FDE2005B494B /* MaxMSP Runtime.app */;
+		libgmallocEnabled = 0;
+		name = "MaxMSP Runtime";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			"in_brightness-SInt32-akakeylit_setbacklight" = 1;
+			"left-SInt32-akakeylit_getambientlight" = 1;
+			"out_brightness-SInt32-akakeylit_getbacklight" = 1;
+			"out_brightness-SInt32-akakeylit_setbacklight" = 1;
+			"right-SInt32-akakeylit_getambientlight" = 1;
+		};
+	};
+	41BEFC4C0B64FDE2005B494B /* MaxMSP Runtime.app */ = {
+		isa = PBXFileReference;
+		explicitFileType = wrapper.application;
+		name = "MaxMSP Runtime.app";
+		path = "/Applications/MaxMSP 4.6/MaxMSP Runtime.app";
+		sourceTree = "<absolute>";
+	};
+	41BEFC4E0B64FDFC005B494B /* aka.keylit.c:139 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = 41BEFB600B64F220005B494B /* aka.keylit.c */;
+		functionName = "akakeylit_setbacklight()";
+		hitCount = 1;
+		lineNumber = 139;
+		modificationTime = 191601889.736054;
+		state = 1;
+	};
+	41BEFC5C0B64FE08005B494B /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "プロジェクトブレークポイント";
+		objects = (
+			41BEFC4E0B64FDFC005B494B /* aka.keylit.c:139 */,
+			41BEFC640B64FF3E005B494B /* aka.keylit.c:80 */,
+			41BEFC660B64FF47005B494B /* aka.keylit.c:109 */,
+			411684BC0B6A502500114E6F /* aka.bookmotion.c:20 */,
+		);
+	};
+	41BEFC640B64FF3E005B494B /* aka.keylit.c:80 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = 41BEFB600B64F220005B494B /* aka.keylit.c */;
+		functionName = "akakeylit_getambientlight()";
+		hitCount = 1;
+		lineNumber = 80;
+		modificationTime = 191601889.736112;
+		state = 1;
+	};
+	41BEFC660B64FF47005B494B /* aka.keylit.c:109 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = 41BEFB600B64F220005B494B /* aka.keylit.c */;
+		functionName = "akakeylit_getbacklight()";
+		hitCount = 1;
+		lineNumber = 109;
+		modificationTime = 191601889.736121;
+		state = 1;
+	};
+	41D6FBAA0AE8DFA1002520C9 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	41D6FBAB0AE8DFA1002520C9 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D01CCC60486CAD60068D4B7 /* aka.bookmotion */ = {
+		activeExec = 0;
+	};
+}

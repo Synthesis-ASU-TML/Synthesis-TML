@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "store[1]">
+	<slot number = "1">
+		<patcher name = "panner">
+			<patcher name = "directivity">
+				<pattr name = "center_size2" value = "" />
+				<pattr name = "db_unit[1]" value = "" />
+				<pattr name = "db_unit[2]" value = "" />
+				<pattr name = "distance" value = "" />
+				<pattr name = "order" value = "" />
+				<pattr name = "prox_curve[1]" value = "" />
+				<pattr name = "prox_min[1]" value = "" />
+				<pattr name = "prox_min[2]" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "envelopes">
+			<patcher name = "tml.anal~.average~">
+				<pattr name = "avg_interval" value = "" />
+				<pattr name = "avg_mode" value = "" />
+				<pattr name = "biquad_graph" value = "" />
+				<pattr name = "biquad_toggle" value = "" />
+				<pattr name = "graph_type_ubumenu" value = "" />
+			</patcher>
+			<patcher name = "tml.anal~.average~[1]">
+				<pattr name = "avg_interval" value = "" />
+				<pattr name = "avg_mode" value = "" />
+				<pattr name = "biquad_graph" value = "" />
+				<pattr name = "biquad_toggle" value = "" />
+				<pattr name = "graph_type_ubumenu" value = "" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "nav.scale.ui">
+			</patcher>
+			<patcher name = "nav.scale.ui[1]">
+			</patcher>
+			<patcher name = "nav.scale.ui[3]">
+			</patcher>
+			<patcher name = "nav.scale.ui[2]">
+			</patcher>
+		</patcher>
+		<patcher name = "mdlys">
+			<patcher name = "mlys.free-circ-plate.pat">
+				<patcher name = "Free-Circ-Plate">
+					<pattr name = "modes" value = "" />
+					<pattr name = "radius" value = "" />
+					<pattr name = "thickness" value = "" />
+					<pattr name = "density" value = "" />
+					<pattr name = "poisson" value = "" />
+					<pattr name = "freq-loss" value = "" />
+					<pattr name = "const-loss" value = "" />
+					<pattr name = "young" value = "" />
+					<pattr name = "FreeCircPlate-storage" value = "" />
+					<pattr name = "pitch-flag" value = "" />
+					<pattr name = "pitch" value = "" />
+					<pattr name = "tune" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "" />
+					<pattr name = "access-direction" value = "" />
+					<pattr name = "access-position X" value = "" />
+					<pattr name = "access-position Y" value = "" />
+					<pattr name = "FCP-out2-Storage" value = "" />
+					<pattr name = "channel" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat[1]">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "" />
+					<pattr name = "access-direction" value = "" />
+					<pattr name = "access-position X" value = "" />
+					<pattr name = "access-position Y" value = "" />
+					<pattr name = "FCP-out1-Storage" value = "" />
+					<pattr name = "channel" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.strike.pat">
+				<patcher name = "Strike">
+					<pattr name = "hammer initial-position" value = "" />
+					<pattr name = "struck initial-position" value = "" />
+					<pattr name = "hammer access-direction" value = "" />
+					<pattr name = "struck access-direction" value = "" />
+					<pattr name = "struck access-position X" value = "" />
+					<pattr name = "struck access-position Y" value = "" />
+					<pattr name = "hammer access-position X" value = "" />
+					<pattr name = "hammer access-position Y" value = "" />
+					<pattr name = "Strike-Storage" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.mono-two-mass.pat">
+				<patcher name = "Mono-Two-Mass">
+					<pattr name = "small-mass" value = "" />
+					<pattr name = "large-mass" value = "" />
+					<pattr name = "stiffness0" value = "" />
+					<pattr name = "const-loss0" value = "" />
+					<pattr name = "freq-loss0" value = "" />
+					<pattr name = "Hammer-storage" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.position.pat">
+				<patcher name = "Position">
+					<pattr name = "position" value = "" />
+					<pattr name = "access-direction" value = "" />
+					<pattr name = "access-position X" value = "" />
+					<pattr name = "access-position Y" value = "" />
+					<pattr name = "Hammer-position-Storage" value = "" />
+					<pattr name = "channel" value = "" />
+					<pattr name = "controller" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat[2]">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "" />
+					<pattr name = "access-direction" value = "" />
+					<pattr name = "access-position X" value = "" />
+					<pattr name = "access-position Y" value = "" />
+					<pattr name = "Output-Storage" value = "" />
+					<pattr name = "channel" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.rect-plate.pat">
+				<patcher name = "Rect-Plate">
+					<pattr name = "modes" value = "" />
+					<pattr name = "length0" value = "" />
+					<pattr name = "length1" value = "" />
+					<pattr name = "thickness" value = "" />
+					<pattr name = "density" value = "" />
+					<pattr name = "poisson" value = "" />
+					<pattr name = "freq-loss" value = "" />
+					<pattr name = "const-loss" value = "" />
+					<pattr name = "young" value = "" />
+					<pattr name = "RectPlate-storage" value = "" />
+					<pattr name = "pitch-flag" value = "" />
+					<pattr name = "pitch" value = "" />
+					<pattr name = "tune" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.force.pat">
+				<patcher name = "Force">
+					<pattr name = "force" value = "" />
+					<pattr name = "access-direction" value = "" />
+					<pattr name = "access-position X" value = "" />
+					<pattr name = "access-position Y" value = "" />
+					<pattr name = "Force-Storage" value = "" />
+					<pattr name = "channel" value = "" />
+					<pattr name = "controller" value = "" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat[3]">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "" />
+					<pattr name = "access-direction" value = "" />
+					<pattr name = "access-position X" value = "" />
+					<pattr name = "access-position Y" value = "" />
+					<pattr name = "Output2-Storage" value = "" />
+					<pattr name = "channel" value = "" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "nav.rogs">
+			<pattr name = "cnst_nav.rogs" value = "" />
+			<patcher name = "nav.rand">
+				<pattr name = "cnst_nav.rand" value = "" />
+				<pattr name = "flonum" value = "" />
+				<pattr name = "flonum[1]" value = "" />
+				<pattr name = "number" value = "" />
+				<pattr name = "number[1]" value = "" />
+				<pattr name = "number[2]" value = "" />
+				<pattr name = "toggle" value = "" />
+			</patcher>
+			<pattr name = "flonum" value = "" />
+			<pattr name = "flonum[10]" value = "" />
+			<pattr name = "flonum[11]" value = "" />
+			<pattr name = "flonum[12]" value = "" />
+			<pattr name = "flonum[13]" value = "" />
+			<pattr name = "flonum[14]" value = "" />
+			<pattr name = "flonum[15]" value = "" />
+			<pattr name = "flonum[16]" value = "" />
+			<pattr name = "flonum[17]" value = "" />
+			<pattr name = "flonum[18]" value = "" />
+			<pattr name = "flonum[1]" value = "" />
+			<pattr name = "flonum[2]" value = "" />
+			<pattr name = "flonum[3]" value = "" />
+			<pattr name = "flonum[4]" value = "" />
+			<pattr name = "flonum[5]" value = "" />
+			<pattr name = "flonum[6]" value = "" />
+			<pattr name = "flonum[7]" value = "" />
+			<pattr name = "flonum[8]" value = "" />
+			<pattr name = "flonum[9]" value = "" />
+			<pattr name = "gain~" value = "" />
+			<pattr name = "number" value = "" />
+			<pattr name = "slider" value = "" />
+			<pattr name = "slider[1]" value = "" />
+			<pattr name = "slider[2]" value = "" />
+			<pattr name = "slider[3]" value = "" />
+			<pattr name = "slider[4]" value = "" />
+			<pattr name = "slider[5]" value = "" />
+			<pattr name = "slider[6]" value = "" />
+			<pattr name = "toggle" value = "" />
+			<pattr name = "toggle[1]" value = "" />
+			<pattr name = "toggle[2]" value = "" />
+			<pattr name = "toggle[3]" value = "" />
+		</patcher>
+		<patcher name = "nav.rogs[1]">
+			<patcher name = "nav.rand">
+				<pattr name = "const2_nav.rand" value = "" />
+				<pattr name = "flonum" value = "" />
+				<pattr name = "flonum[1]" value = "" />
+				<pattr name = "number" value = "" />
+				<pattr name = "number[1]" value = "" />
+				<pattr name = "number[2]" value = "" />
+				<pattr name = "toggle" value = "" />
+			</patcher>
+			<pattr name = "const2_nav.rogs" value = "" />
+			<pattr name = "flonum" value = "" />
+			<pattr name = "flonum[10]" value = "" />
+			<pattr name = "flonum[11]" value = "" />
+			<pattr name = "flonum[12]" value = "" />
+			<pattr name = "flonum[13]" value = "" />
+			<pattr name = "flonum[14]" value = "" />
+			<pattr name = "flonum[15]" value = "" />
+			<pattr name = "flonum[16]" value = "" />
+			<pattr name = "flonum[17]" value = "" />
+			<pattr name = "flonum[18]" value = "" />
+			<pattr name = "flonum[1]" value = "" />
+			<pattr name = "flonum[2]" value = "" />
+			<pattr name = "flonum[3]" value = "" />
+			<pattr name = "flonum[4]" value = "" />
+			<pattr name = "flonum[5]" value = "" />
+			<pattr name = "flonum[6]" value = "" />
+			<pattr name = "flonum[7]" value = "" />
+			<pattr name = "flonum[8]" value = "" />
+			<pattr name = "flonum[9]" value = "" />
+			<pattr name = "gain~" value = "" />
+			<pattr name = "number" value = "" />
+			<pattr name = "slider" value = "" />
+			<pattr name = "slider[1]" value = "" />
+			<pattr name = "slider[2]" value = "" />
+			<pattr name = "slider[3]" value = "" />
+			<pattr name = "slider[4]" value = "" />
+			<pattr name = "slider[5]" value = "" />
+			<pattr name = "slider[6]" value = "" />
+			<pattr name = "toggle" value = "" />
+			<pattr name = "toggle[1]" value = "" />
+			<pattr name = "toggle[2]" value = "" />
+			<pattr name = "toggle[3]" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<patcher name = "panner">
+			<patcher name = "directivity">
+				<pattr name = "center_size2" value = "0.55" />
+				<pattr name = "db_unit[1]" value = "1." />
+				<pattr name = "db_unit[2]" value = "1." />
+				<pattr name = "distance" value = "2.05" />
+				<pattr name = "order" value = "10." />
+				<pattr name = "prox_curve[1]" value = "0.15" />
+				<pattr name = "prox_min[1]" value = "2." />
+				<pattr name = "prox_min[2]" value = "0.058" />
+			</patcher>
+		</patcher>
+		<patcher name = "envelopes">
+			<patcher name = "tml.anal~.average~">
+				<pattr name = "avg_interval" value = "10" />
+				<pattr name = "avg_mode" value = "2" />
+				<pattr name = "biquad_graph" value = "1 0 2 1 0 0 99.177681 0.898209 1.019575" />
+				<pattr name = "biquad_toggle" value = "0" />
+				<pattr name = "graph_type_ubumenu" value = "2" />
+			</patcher>
+			<patcher name = "tml.anal~.average~[1]">
+				<pattr name = "avg_interval" value = "10" />
+				<pattr name = "avg_mode" value = "2" />
+				<pattr name = "biquad_graph" value = "1 0 2 1 0 0 99.177681 0.898209 1.019575" />
+				<pattr name = "biquad_toggle" value = "0" />
+				<pattr name = "graph_type_ubumenu" value = "2" />
+			</patcher>
+		</patcher>
+		<patcher name = "envo">
+			<patcher name = "nav.scale.ui">
+			</patcher>
+			<patcher name = "nav.scale.ui[1]">
+			</patcher>
+			<patcher name = "nav.scale.ui[3]">
+			</patcher>
+			<patcher name = "nav.scale.ui[2]">
+			</patcher>
+		</patcher>
+		<patcher name = "mdlys">
+			<patcher name = "mlys.free-circ-plate.pat">
+				<patcher name = "Free-Circ-Plate">
+					<pattr name = "modes" value = "80" />
+					<pattr name = "radius" value = "0.5" />
+					<pattr name = "thickness" value = "0.01" />
+					<pattr name = "density" value = "7800" />
+					<pattr name = "poisson" value = "0.3" />
+					<pattr name = "freq-loss" value = "1." />
+					<pattr name = "const-loss" value = "1." />
+					<pattr name = "young" value = "2. 11." />
+					<pattr name = "FreeCircPlate-storage" value = "-1" />
+					<pattr name = "pitch-flag" value = "1" />
+					<pattr name = "pitch" value = "32." />
+					<pattr name = "tune" value = "0" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "0." />
+					<pattr name = "access-direction" value = "0" />
+					<pattr name = "access-position X" value = "0.5" />
+					<pattr name = "access-position Y" value = "0.5" />
+					<pattr name = "FCP-out2-Storage" value = "-1" />
+					<pattr name = "channel" value = "2" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat[1]">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "0." />
+					<pattr name = "access-direction" value = "0" />
+					<pattr name = "access-position X" value = "0.5" />
+					<pattr name = "access-position Y" value = "0.5" />
+					<pattr name = "FCP-out1-Storage" value = "-1" />
+					<pattr name = "channel" value = "1" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.strike.pat">
+				<patcher name = "Strike">
+					<pattr name = "hammer initial-position" value = "0.1" />
+					<pattr name = "struck initial-position" value = "0." />
+					<pattr name = "hammer access-direction" value = "0" />
+					<pattr name = "struck access-direction" value = "0" />
+					<pattr name = "struck access-position X" value = "0.5" />
+					<pattr name = "struck access-position Y" value = "0.5" />
+					<pattr name = "hammer access-position X" value = "0.5" />
+					<pattr name = "hammer access-position Y" value = "0.5" />
+					<pattr name = "Strike-Storage" value = "-1" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.mono-two-mass.pat">
+				<patcher name = "Mono-Two-Mass">
+					<pattr name = "small-mass" value = "0.5" />
+					<pattr name = "large-mass" value = "0.5" />
+					<pattr name = "stiffness0" value = "100000" />
+					<pattr name = "const-loss0" value = "0." />
+					<pattr name = "freq-loss0" value = "100." />
+					<pattr name = "Hammer-storage" value = "-1" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.position.pat">
+				<patcher name = "Position">
+					<pattr name = "position" value = "0.1" />
+					<pattr name = "access-direction" value = "0" />
+					<pattr name = "access-position X" value = "0.5" />
+					<pattr name = "access-position Y" value = "0.5" />
+					<pattr name = "Hammer-position-Storage" value = "-1" />
+					<pattr name = "channel" value = "1" />
+					<pattr name = "controller" value = "1" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat[2]">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "0." />
+					<pattr name = "access-direction" value = "0" />
+					<pattr name = "access-position X" value = "0.5" />
+					<pattr name = "access-position Y" value = "0.5" />
+					<pattr name = "Output-Storage" value = "-1" />
+					<pattr name = "channel" value = "3" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.rect-plate.pat">
+				<patcher name = "Rect-Plate">
+					<pattr name = "modes" value = "80" />
+					<pattr name = "length0" value = "0.5" />
+					<pattr name = "length1" value = "0.5" />
+					<pattr name = "thickness" value = "0.01" />
+					<pattr name = "density" value = "7800" />
+					<pattr name = "poisson" value = "0.3" />
+					<pattr name = "freq-loss" value = "1." />
+					<pattr name = "const-loss" value = "1." />
+					<pattr name = "young" value = "2. 11." />
+					<pattr name = "RectPlate-storage" value = "-1" />
+					<pattr name = "pitch-flag" value = "1" />
+					<pattr name = "pitch" value = "55." />
+					<pattr name = "tune" value = "0" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.force.pat">
+				<patcher name = "Force">
+					<pattr name = "force" value = "0." />
+					<pattr name = "access-direction" value = "0" />
+					<pattr name = "access-position X" value = "0.5" />
+					<pattr name = "access-position Y" value = "0.5" />
+					<pattr name = "Force-Storage" value = "-1" />
+					<pattr name = "channel" value = "2" />
+					<pattr name = "controller" value = "1" />
+				</patcher>
+			</patcher>
+			<patcher name = "mlys.point-output.pat[3]">
+				<patcher name = "Point-Output">
+					<pattr name = "gain" value = "0." />
+					<pattr name = "access-direction" value = "0" />
+					<pattr name = "access-position X" value = "0.5" />
+					<pattr name = "access-position Y" value = "0.5" />
+					<pattr name = "Output2-Storage" value = "-1" />
+					<pattr name = "channel" value = "4" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "nav.rogs">
+			<pattr name = "cnst_nav.rogs" value = "-1" />
+			<patcher name = "nav.rand">
+				<pattr name = "cnst_nav.rand" value = "-1" />
+				<pattr name = "flonum" value = "0." />
+				<pattr name = "flonum[1]" value = "8." />
+				<pattr name = "number" value = "5000" />
+				<pattr name = "number[1]" value = "30000" />
+				<pattr name = "number[2]" value = "0" />
+				<pattr name = "toggle" value = "1" />
+			</patcher>
+			<pattr name = "flonum" value = "200." />
+			<pattr name = "flonum[10]" value = "140." />
+			<pattr name = "flonum[11]" value = "0." />
+			<pattr name = "flonum[12]" value = "718." />
+			<pattr name = "flonum[13]" value = "0." />
+			<pattr name = "flonum[14]" value = "23481.746094" />
+			<pattr name = "flonum[15]" value = "0." />
+			<pattr name = "flonum[16]" value = "0." />
+			<pattr name = "flonum[17]" value = "0." />
+			<pattr name = "flonum[18]" value = "0." />
+			<pattr name = "flonum[1]" value = "-960." />
+			<pattr name = "flonum[2]" value = "850." />
+			<pattr name = "flonum[3]" value = "1000." />
+			<pattr name = "flonum[4]" value = "0." />
+			<pattr name = "flonum[5]" value = "0." />
+			<pattr name = "flonum[6]" value = "575.407532" />
+			<pattr name = "flonum[7]" value = "0." />
+			<pattr name = "flonum[8]" value = "46." />
+			<pattr name = "flonum[9]" value = "-6." />
+			<pattr name = "gain~" value = "97" />
+			<pattr name = "number" value = "4" />
+			<pattr name = "slider" value = "575" />
+			<pattr name = "slider[1]" value = "200" />
+			<pattr name = "slider[2]" value = "85" />
+			<pattr name = "slider[3]" value = "24" />
+			<pattr name = "slider[4]" value = "1000" />
+			<pattr name = "slider[5]" value = "0" />
+			<pattr name = "slider[6]" value = "0" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "1" />
+			<pattr name = "toggle[2]" value = "1" />
+			<pattr name = "toggle[3]" value = "1" />
+		</patcher>
+		<patcher name = "nav.rogs[1]">
+			<patcher name = "nav.rand">
+				<pattr name = "const2_nav.rand" value = "-1" />
+				<pattr name = "flonum" value = "0." />
+				<pattr name = "flonum[1]" value = "0." />
+				<pattr name = "number" value = "164" />
+				<pattr name = "number[1]" value = "0" />
+				<pattr name = "number[2]" value = "0" />
+				<pattr name = "toggle" value = "0" />
+			</patcher>
+			<pattr name = "const2_nav.rogs" value = "-1" />
+			<pattr name = "flonum" value = "0." />
+			<pattr name = "flonum[10]" value = "0." />
+			<pattr name = "flonum[11]" value = "0." />
+			<pattr name = "flonum[12]" value = "0." />
+			<pattr name = "flonum[13]" value = "0." />
+			<pattr name = "flonum[14]" value = "0." />
+			<pattr name = "flonum[15]" value = "0." />
+			<pattr name = "flonum[16]" value = "0." />
+			<pattr name = "flonum[17]" value = "0." />
+			<pattr name = "flonum[18]" value = "0." />
+			<pattr name = "flonum[1]" value = "0." />
+			<pattr name = "flonum[2]" value = "0." />
+			<pattr name = "flonum[3]" value = "0." />
+			<pattr name = "flonum[4]" value = "0." />
+			<pattr name = "flonum[5]" value = "0." />
+			<pattr name = "flonum[6]" value = "0." />
+			<pattr name = "flonum[7]" value = "0." />
+			<pattr name = "flonum[8]" value = "0." />
+			<pattr name = "flonum[9]" value = "0." />
+			<pattr name = "gain~" value = "0" />
+			<pattr name = "number" value = "4" />
+			<pattr name = "slider" value = "0" />
+			<pattr name = "slider[1]" value = "0" />
+			<pattr name = "slider[2]" value = "0" />
+			<pattr name = "slider[3]" value = "0" />
+			<pattr name = "slider[4]" value = "0" />
+			<pattr name = "slider[5]" value = "0" />
+			<pattr name = "slider[6]" value = "0" />
+			<pattr name = "toggle" value = "0" />
+			<pattr name = "toggle[1]" value = "0" />
+			<pattr name = "toggle[2]" value = "0" />
+			<pattr name = "toggle[3]" value = "0" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

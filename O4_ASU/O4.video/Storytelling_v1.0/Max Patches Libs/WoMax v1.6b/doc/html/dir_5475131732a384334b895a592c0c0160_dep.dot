@@ -1,0 +1,18 @@
+digraph G {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_e8250d0a5be738ae169816400d03bf45 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="externals" fontname="FreeSans", fontsize="10", URL="dir_e8250d0a5be738ae169816400d03bf45.html"]
+  dir_5475131732a384334b895a592c0c0160 [shape=box, label="OMax.learn", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5475131732a384334b895a592c0c0160.html"];
+  }
+  dir_95bdf6215241184888c1fd451a6b1f2a [shape=box label="OMax.oracle" URL="dir_95bdf6215241184888c1fd451a6b1f2a.html"];
+  dir_a5cfd844215523777e1176680ff3ec1e [shape=box label="OMax.data" URL="dir_a5cfd844215523777e1176680ff3ec1e.html"];
+  dir_bc5a9248bf4fe98448844334faba2c26 [shape=box label="cpp" URL="dir_bc5a9248bf4fe98448844334faba2c26.html"];
+  dir_95bdf6215241184888c1fd451a6b1f2a->dir_bc5a9248bf4fe98448844334faba2c26 [headlabel="1", labeldistance=1.5 headhref="dir_000008_000013.html"];
+  dir_a5cfd844215523777e1176680ff3ec1e->dir_bc5a9248bf4fe98448844334faba2c26 [headlabel="2", labeldistance=1.5 headhref="dir_000005_000013.html"];
+  dir_5475131732a384334b895a592c0c0160->dir_95bdf6215241184888c1fd451a6b1f2a [headlabel="1", labeldistance=1.5 headhref="dir_000007_000008.html"];
+  dir_5475131732a384334b895a592c0c0160->dir_a5cfd844215523777e1176680ff3ec1e [headlabel="1", labeldistance=1.5 headhref="dir_000007_000005.html"];
+  dir_5475131732a384334b895a592c0c0160->dir_bc5a9248bf4fe98448844334faba2c26 [headlabel="1", labeldistance=1.5 headhref="dir_000007_000013.html"];
+}

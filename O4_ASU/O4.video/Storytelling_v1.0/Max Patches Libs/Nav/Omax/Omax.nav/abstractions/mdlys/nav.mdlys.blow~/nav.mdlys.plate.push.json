@@ -1,0 +1,63 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Mlys.PushAPlate",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"ForceAmp" : [ 80.0 ],
+					"ForcePosX" : [ 35.0 ],
+					"ForcePosY" : [ 65.0 ],
+					"ForceSmooth" : [ 100.0 ],
+					"ForceWeight" : [ 100.0 ],
+					"PickupLPosX" : [ 25.0 ],
+					"PickupLPosY" : [ 75.0 ],
+					"PickupRPosX" : [ 75.0 ],
+					"PickupRPosY" : [ 25.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlateBrightness" : [ 50.0 ],
+					"PlateDamping" : [ 50.0 ],
+					"PlateDetune" : [ 0.0 ],
+					"PlateKeybOctave" : [ 3.0 ],
+					"PlateModes" : [ 80.0 ],
+					"PlatePitch" : [ 48.0 ],
+					"ResetAll" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"ForceAmp" : [ 80.0 ],
+					"ForcePosX" : [ 35.0 ],
+					"ForcePosY" : [ 65.0 ],
+					"ForceSmooth" : [ 100.0 ],
+					"ForceWeight" : [ 100.0 ],
+					"PickupLPosX" : [ 25.0 ],
+					"PickupLPosY" : [ 75.0 ],
+					"PickupRPosX" : [ 75.0 ],
+					"PickupRPosY" : [ 25.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"PlateBrightness" : [ 47.637794 ],
+					"PlateDamping" : [ 41.338581 ],
+					"PlateDetune" : [ 0.0 ],
+					"PlateKeybOctave" : [ 3.0 ],
+					"PlateModes" : [ 142.0 ],
+					"PlatePitch" : [ 48.0 ],
+					"ResetAll" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

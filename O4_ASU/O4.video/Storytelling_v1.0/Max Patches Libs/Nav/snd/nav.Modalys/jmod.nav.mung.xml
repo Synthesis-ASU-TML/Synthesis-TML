@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='audio/freeze' type='boolean' priority='0'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>64.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='buff/choice' type='boolean' priority='0'>0</item>
+    <item name='buff/file' type='string' priority='0'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif</item>
+    <item name='buff/rand' type='boolean' priority='0'>0</item>
+    <item name='buff/scrub' type='decimal' priority='0'>0.000000</item>
+    <item name='buff/speed' type='decimal' priority='0'>0.000000</item>
+    <item name='delayLength' type='decimal' priority='0'>2853.293945</item>
+    <item name='depth' type='integer' priority='6'>0</item>
+    <item name='direction' type='integer' priority='0'>0</item>
+    <item name='folder' type='string' priority='3'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/</item>
+    <item name='gainVar' type='decimal' priority='0'>0.005000</item>
+    <item name='numChannels' type='integer' priority='1'>2</item>
+    <item name='pan' type='boolean' priority='0'>0</item>
+    <item name='params/pitch' type='decimal' priority='0'>1.000000</item>
+    <item name='params/pitchVar' type='decimal' priority='0'>0.000150</item>
+    <item name='params/rate' type='decimal' priority='0'>0.000000</item>
+    <item name='params/rateVar' type='decimal' priority='0'>18.000000</item>
+    <item name='params/size' type='decimal' priority='0'>780.000000</item>
+    <item name='params/sizeVar' type='decimal' priority='0'>42.000000</item>
+    <item name='params/spread' type='decimal' priority='0'>1.000000</item>
+    <item name='ramp' type='integer' priority='0'>6</item>
+    <item name='sieves' type='array' priority='0'>0</item>
+    <item name='tune' type='integer' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 105 </item>
+    <item name='voices' type='integer' priority='0'>14</item>
+  </preset>
+  <preset number='2' name='cloud'>
+    <item name='audio/freeze' type='boolean' priority='0'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>81.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>65.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='buff/choice' type='boolean' priority='0'>0</item>
+    <item name='buff/file' type='string' priority='0'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif</item>
+    <item name='buff/rand' type='boolean' priority='0'>0</item>
+    <item name='buff/scrub' type='decimal' priority='0'>0.000000</item>
+    <item name='buff/speed' type='decimal' priority='0'>0.000000</item>
+    <item name='delayLength' type='decimal' priority='0'>957.765259</item>
+    <item name='depth' type='integer' priority='6'>0</item>
+    <item name='direction' type='integer' priority='0'>0</item>
+    <item name='folder' type='string' priority='3'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/</item>
+    <item name='gainVar' type='decimal' priority='0'>0.005000</item>
+    <item name='numChannels' type='integer' priority='1'>2</item>
+    <item name='pan' type='boolean' priority='0'>0</item>
+    <item name='params/pitch' type='decimal' priority='0'>0.300000</item>
+    <item name='params/pitchVar' type='decimal' priority='0'>2.000000</item>
+    <item name='params/rate' type='decimal' priority='0'>0.000000</item>
+    <item name='params/rateVar' type='decimal' priority='0'>9.000000</item>
+    <item name='params/size' type='decimal' priority='0'>780.000000</item>
+    <item name='params/sizeVar' type='decimal' priority='0'>42.000000</item>
+    <item name='params/spread' type='decimal' priority='0'>1.000000</item>
+    <item name='ramp' type='integer' priority='0'>8</item>
+    <item name='sieves' type='array' priority='0'>0</item>
+    <item name='tune' type='integer' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 105 </item>
+    <item name='voices' type='integer' priority='0'>40</item>
+  </preset>
+  <preset number='3' name='crystal'>
+    <item name='audio/freeze' type='boolean' priority='0'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>81.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>65.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='buff/choice' type='boolean' priority='0'>0</item>
+    <item name='buff/file' type='string' priority='0'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/04 Water Drums 1.aif</item>
+    <item name='buff/rand' type='boolean' priority='0'>0</item>
+    <item name='buff/scrub' type='decimal' priority='0'>0.000000</item>
+    <item name='buff/speed' type='decimal' priority='0'>0.000000</item>
+    <item name='delayLength' type='decimal' priority='0'>483.882629</item>
+    <item name='depth' type='integer' priority='6'>0</item>
+    <item name='direction' type='integer' priority='0'>0</item>
+    <item name='folder' type='string' priority='3'>/Users/navid/Desktop/cAvA Project/cAvA/glitch composition/sources/</item>
+    <item name='gainVar' type='decimal' priority='0'>0.030000</item>
+    <item name='numChannels' type='integer' priority='1'>2</item>
+    <item name='pan' type='boolean' priority='0'>0</item>
+    <item name='params/pitch' type='decimal' priority='0'>5.000000</item>
+    <item name='params/pitchVar' type='decimal' priority='0'>2.000000</item>
+    <item name='params/rate' type='decimal' priority='0'>0.000000</item>
+    <item name='params/rateVar' type='decimal' priority='0'>538.000000</item>
+    <item name='params/size' type='decimal' priority='0'>215.000000</item>
+    <item name='params/sizeVar' type='decimal' priority='0'>29.000000</item>
+    <item name='params/spread' type='decimal' priority='0'>1.000000</item>
+    <item name='ramp' type='integer' priority='0'>4</item>
+    <item name='sieves' type='array' priority='0'>0</item>
+    <item name='tune' type='integer' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 105 </item>
+    <item name='voices' type='integer' priority='0'>2</item>
+  </preset>
+</jamoma>

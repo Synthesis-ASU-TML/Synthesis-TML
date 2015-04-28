@@ -1,0 +1,89 @@
+10
+
+dir
+73
+https://svn.bencello.net:8443/svn/IRCAM/WoMax/Recherche/src/externals
+https://svn.bencello.net:8443/svn/IRCAM
+
+
+
+2009-07-09T12:18:00.971279Z
+44
+lgm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8ac33382-179b-11de-aed2-b1388017f105
+
+OMax.build
+dir
+
+OMax.render
+dir
+
+OMax.date2state
+dir
+
+OMax.state2date
+dir
+
+OMax.xcconfig
+file
+75
+
+
+
+2009-10-13T08:58:45.000000Z
+f0b517b527732c0abb763c8ffaf55861
+2009-10-13T21:09:59.281250Z
+75
+BenCello
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1079
+
+OMax.learn
+dir
+
+OMax.SLT
+dir
+
+OMax.oracle
+dir
+
+OMax.data
+dir
+
+OMax.read
+dir
+

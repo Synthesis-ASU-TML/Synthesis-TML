@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/interlude/!svn/ver/107/ircam/tools/mi/analysis/help
+END
+mi.kick.maxhelp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/interlude/!svn/ver/101/ircam/tools/mi/analysis/help/mi.kick.maxhelp
+END
+mi.audiodescriptors.maxhelp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/interlude/!svn/ver/101/ircam/tools/mi/analysis/help/mi.audiodescriptors.maxhelp
+END
+mi.weights.maxhelp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/interlude/!svn/ver/107/ircam/tools/mi/analysis/help/mi.weights.maxhelp
+END
+mi.inertia.maxhelp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/interlude/!svn/ver/101/ircam/tools/mi/analysis/help/mi.inertia.maxhelp
+END

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='/excite/active' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='/excite/rate' type='integer' priority='0' mixweight='1'>4000</item>
+    <item name='/excite/smooth' type='integer' priority='0' mixweight='1'>1000</item>
+    <item name='/excite/x1' type='integer' priority='0' mixweight='1'>25</item>
+    <item name='/excite/y1' type='integer' priority='0' mixweight='1'>75</item>
+    <item name='/pickup/active' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='/pickup/rate' type='integer' priority='0' mixweight='1'>4000</item>
+    <item name='/pickup/smooth' type='integer' priority='0' mixweight='1'>1000</item>
+    <item name='/pickup/x1' type='integer' priority='0' mixweight='1'>39</item>
+    <item name='/pickup/x2' type='integer' priority='0' mixweight='1'>83</item>
+    <item name='/pickup/x3' type='integer' priority='0' mixweight='1'>43</item>
+    <item name='/pickup/x4' type='integer' priority='0' mixweight='1'>75</item>
+    <item name='/pickup/y1' type='integer' priority='0' mixweight='1'>53</item>
+    <item name='/pickup/y2' type='integer' priority='0' mixweight='1'>52</item>
+    <item name='/pickup/y3' type='integer' priority='0' mixweight='1'>0</item>
+    <item name='/pickup/y4' type='integer' priority='0' mixweight='1'>25</item>
+    <item name='audio/gain' type='decimal' priority='0' mixweight='1'>0</item>
+    <item name='audio/input/gain' type='integer' priority='0' mixweight='1'>127</item>
+    <item name='audio/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='audio/preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='brightness' type='decimal' priority='0' mixweight='1'>50.551186</item>
+    <item name='damping' type='decimal' priority='0' mixweight='1'>51.023632</item>
+    <item name='inharmonicity' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='matter' type='integer' priority='2' mixweight='1'>0</item>
+    <item name='modes' type='integer' priority='0' mixweight='1'>80</item>
+    <item name='pitch/detune' type='integer' priority='3' mixweight='1'>0</item>
+    <item name='pitch/midi' type='integer' priority='3' mixweight='1'>45</item>
+    <item name='pitch/ramp' type='integer' priority='3' mixweight='1'>0</item>
+    <item name='pitch/transp' type='integer' priority='3' mixweight='1'>0</item>
+    <item name='resonator' type='integer' priority='1' mixweight='1'>6</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+</jamoma>

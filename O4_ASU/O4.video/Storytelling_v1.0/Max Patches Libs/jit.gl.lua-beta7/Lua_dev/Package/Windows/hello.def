@@ -1,0 +1,7 @@
+; hello.def : Declares the module parameters for the DLL.
+
+LIBRARY      "hello"
+
+EXPORTS
+
+luaopen_hello

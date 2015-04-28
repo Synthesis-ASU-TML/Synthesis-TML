@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "franken.control">
+	<slot number = "1">
+		<patcher name = "flute">
+			<patcher name = "flute_pitch_mod">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "1" />
+				<pattr name = "scale_in_hi" value = "0.1" />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "13" />
+				<pattr name = "slide_toggle" value = "1" />
+				<pattr name = "slide_up" value = "13" />
+				<pattr name = "zmap_toggle" value = "1" />
+			</patcher>
+			<patcher name = "flute_pan_speed">
+				<pattr name = "clip_toggle" value = "1" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "-0.008" />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "0.52" />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "33" />
+				<pattr name = "slide_toggle" value = "1" />
+				<pattr name = "slide_up" value = "10" />
+				<pattr name = "zmap_toggle" value = "1" />
+			</patcher>
+			<patcher name = "flute_pan_speed[1]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+		</patcher>
+		<patcher name = "cello">
+			<patcher name = "cello_pitch_mod">
+				<pattr name = "clip_toggle" value = "" />
+				<pattr name = "final_offset" value = "" />
+				<pattr name = "initial_offset" value = "" />
+				<pattr name = "mslider_orientation" value = "" />
+				<pattr name = "mslider_range_hi" value = "" />
+				<pattr name = "mslider_range_lo" value = "" />
+				<pattr name = "pow_float" value = "" />
+				<pattr name = "pow_toggle" value = "" />
+				<pattr name = "scale_in_hi" value = "" />
+				<pattr name = "scale_in_lo" value = "" />
+				<pattr name = "scale_out_hi" value = "" />
+				<pattr name = "scale_out_lo" value = "" />
+				<pattr name = "slide_down" value = "" />
+				<pattr name = "slide_toggle" value = "" />
+				<pattr name = "slide_up" value = "" />
+				<pattr name = "zmap_toggle" value = "" />
+			</patcher>
+			<patcher name = "cello_pitch_mod[1]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+			<patcher name = "cello_pitch_mod[2]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<patcher name = "flute">
+			<patcher name = "flute_pitch_mod">
+				<pattr name = "clip_toggle" value = "1" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "-0.001" />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "1" />
+				<pattr name = "scale_in_hi" value = "0.19" />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "28" />
+				<pattr name = "slide_toggle" value = "1" />
+				<pattr name = "slide_up" value = "20" />
+				<pattr name = "zmap_toggle" value = "1" />
+			</patcher>
+			<patcher name = "flute_pan_speed">
+				<pattr name = "clip_toggle" value = "1" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "0.134" />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "33" />
+				<pattr name = "slide_toggle" value = "1" />
+				<pattr name = "slide_up" value = "10" />
+				<pattr name = "zmap_toggle" value = "1" />
+			</patcher>
+			<patcher name = "flute_pan_speed[1]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+		</patcher>
+		<patcher name = "cello">
+			<patcher name = "cello_pitch_mod">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+			<patcher name = "cello_pitch_mod[1]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+			<patcher name = "cello_pitch_mod[2]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<patcher name = "flute">
+			<patcher name = "flute_pitch_mod">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "1" />
+				<pattr name = "scale_in_hi" value = "0.1" />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "13" />
+				<pattr name = "slide_toggle" value = "1" />
+				<pattr name = "slide_up" value = "13" />
+				<pattr name = "zmap_toggle" value = "1" />
+			</patcher>
+			<patcher name = "flute_pan_speed">
+				<pattr name = "clip_toggle" value = "1" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "-0.005" />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "0.52" />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "33" />
+				<pattr name = "slide_toggle" value = "1" />
+				<pattr name = "slide_up" value = "22" />
+				<pattr name = "zmap_toggle" value = "1" />
+			</patcher>
+			<patcher name = "flute_pan_speed[1]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "1" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+		</patcher>
+		<patcher name = "cello">
+			<patcher name = "cello_pitch_mod">
+				<pattr name = "clip_toggle" value = "" />
+				<pattr name = "final_offset" value = "" />
+				<pattr name = "initial_offset" value = "" />
+				<pattr name = "mslider_orientation" value = "" />
+				<pattr name = "mslider_range_hi" value = "" />
+				<pattr name = "mslider_range_lo" value = "" />
+				<pattr name = "pow_float" value = "" />
+				<pattr name = "pow_toggle" value = "" />
+				<pattr name = "scale_in_hi" value = "" />
+				<pattr name = "scale_in_lo" value = "" />
+				<pattr name = "scale_out_hi" value = "" />
+				<pattr name = "scale_out_lo" value = "" />
+				<pattr name = "slide_down" value = "" />
+				<pattr name = "slide_toggle" value = "" />
+				<pattr name = "slide_up" value = "" />
+				<pattr name = "zmap_toggle" value = "" />
+			</patcher>
+			<patcher name = "cello_pitch_mod[1]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+			<patcher name = "cello_pitch_mod[2]">
+				<pattr name = "clip_toggle" value = "0" />
+				<pattr name = "final_offset" value = "0." />
+				<pattr name = "initial_offset" value = "0." />
+				<pattr name = "mslider_orientation" value = "0" />
+				<pattr name = "mslider_range_hi" value = "1." />
+				<pattr name = "mslider_range_lo" value = "0." />
+				<pattr name = "pow_float" value = "1." />
+				<pattr name = "pow_toggle" value = "0" />
+				<pattr name = "scale_in_hi" value = "1." />
+				<pattr name = "scale_in_lo" value = "0." />
+				<pattr name = "scale_out_hi" value = "1." />
+				<pattr name = "scale_out_lo" value = "0." />
+				<pattr name = "slide_down" value = "0" />
+				<pattr name = "slide_toggle" value = "0" />
+				<pattr name = "slide_up" value = "0" />
+				<pattr name = "zmap_toggle" value = "0" />
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+

@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B900EA920B64172C00F94DC5 /* lua_mop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */; };
+		B900EAF40B641C5A00F94DC5 /* PkgInfo in CopyFiles */ = {isa = PBXBuildFile; fileRef = B900EAF20B641C5500F94DC5 /* PkgInfo */; };
+		B98145070B9D231E006F7ADD /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98145060B9D231E006F7ADD /* JitterAPI.framework */; };
+		B98145270B9D244A006F7ADD /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98145260B9D244A006F7ADD /* MaxAPI.framework */; };
+		B9A0D9D80B65BFE9002AD0B7 /* Lua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A0D9D70B65BFE9002AD0B7 /* Lua.framework */; };
+		B9A0DB0A0B65D6F3002AD0B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9A0DB090B65D6F3002AD0B7 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B900EAE90B641C3400F94DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents;
+			dstSubfolderSpec = 1;
+			files = (
+				B900EAF40B641C5A00F94DC5 /* PkgInfo in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_mop.cpp; sourceTree = "<group>"; };
+		B900EA7C0B64153200F94DC5 /* mop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mop.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B900EAF20B641C5500F94DC5 /* PkgInfo */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
+		B95A289F0B80502A00A72761 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		B98145060B9D231E006F7ADD /* JitterAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitterAPI.framework; path = /Library/Frameworks/JitterAPI.framework; sourceTree = "<absolute>"; };
+		B98145260B9D244A006F7ADD /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = /Library/Frameworks/MaxAPI.framework; sourceTree = "<absolute>"; };
+		B9A0D9D70B65BFE9002AD0B7 /* Lua.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lua.framework; path = /Library/Frameworks/Lua.framework; sourceTree = "<absolute>"; };
+		B9A0DB090B65D6F3002AD0B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B900EA7A0B64153200F94DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A0D9D80B65BFE9002AD0B7 /* Lua.framework in Frameworks */,
+				B98145070B9D231E006F7ADD /* JitterAPI.framework in Frameworks */,
+				B98145270B9D244A006F7ADD /* MaxAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* lua_package */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* src */,
+				B900E8C00B632E6A00F94DC5 /* External Libraries */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				B900EAF20B641C5500F94DC5 /* PkgInfo */,
+				B9A0DB090B65D6F3002AD0B7 /* Info.plist */,
+			);
+			name = lua_package;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B900EA7C0B64153200F94DC5 /* mop.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B900E8C00B632E6A00F94DC5 /* External Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B98145260B9D244A006F7ADD /* MaxAPI.framework */,
+				B98145060B9D231E006F7ADD /* JitterAPI.framework */,
+				B95A289F0B80502A00A72761 /* OpenGL.framework */,
+				B9A0D9D70B65BFE9002AD0B7 /* Lua.framework */,
+			);
+			name = "External Libraries";
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B900EA7B0B64153200F94DC5 /* mop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B900EA7E0B64153300F94DC5 /* Build configuration list for PBXNativeTarget "mop" */;
+			buildPhases = (
+				B900EA780B64153200F94DC5 /* Resources */,
+				B900EA790B64153200F94DC5 /* Sources */,
+				B900EAE90B641C3400F94DC5 /* CopyFiles */,
+				B900EA7A0B64153200F94DC5 /* Frameworks */,
+				B900EB790B64332A00F94DC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mop;
+			productName = my;
+			productReference = B900EA7C0B64153200F94DC5 /* mop.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "lua_MOP_package" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* lua_package */;
+			projectDirPath = "";
+			targets = (
+				B900EA7B0B64153200F94DC5 /* mop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B900EA780B64153200F94DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A0DB0A0B65D6F3002AD0B7 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B900EB790B64332A00F94DC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION/Contents/MacOS\nmv $PRODUCT_NAME ../../../\ncd ../../../\nrm -r $PRODUCT_NAME.$WRAPPER_EXTENSION\nmv $PRODUCT_NAME $PRODUCT_NAME.so";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B900EA790B64153200F94DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B900EA920B64172C00F94DC5 /* lua_mop.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		B900EA7F0B64153300F94DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = so;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = /Library/Frameworks/Lua.framework/Headers/;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = hello;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		B900EA800B64153300F94DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				EXECUTABLE_EXTENSION = so;
+				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../..\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					/Library/Frameworks/MaxAPI.framework/Headers/,
+					/Library/Frameworks/Lua.framework/Headers/,
+					/Library/Frameworks/JitterAPI.framework/Headers/,
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mop;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "lua_MOP_package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B900EA7E0B64153300F94DC5 /* Build configuration list for PBXNativeTarget "mop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B900EA7F0B64153300F94DC5 /* Debug */,
+				B900EA800B64153300F94DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,83 @@
+10
+
+dir
+113
+http://trac.interlude.ircam.fr/svn/interlude/ircam/tools/mi
+http://trac.interlude.ircam.fr/svn/interlude
+
+
+
+2010-10-26T13:04:57.076605Z
+111
+bevilacq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9da7501d-c60b-4bb8-86ad-151125d8af2e
+
+#examples
+dir
+
+visualization
+dir
+
+_mi.overview.maxpat
+file
+
+
+
+
+2010-08-31T10:47:53.000000Z
+c12675bad03c37c153798c888977402c
+2010-08-31T13:09:06.226738Z
+101
+zamborlin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10147
+
+inputs
+dir
+
+analysis
+dir
+
+outputs
+dir
+
+unreleased
+dir
+
+gf
+dir
+

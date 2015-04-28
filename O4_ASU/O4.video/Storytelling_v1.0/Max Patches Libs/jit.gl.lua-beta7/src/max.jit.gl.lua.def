@@ -1,0 +1,6 @@
+;jit.gl.lua.def
+
+LIBRARY	jit.gl.lua
+
+EXPORTS
+	main

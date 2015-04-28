@@ -1,0 +1,77 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* tml.jit.lPlant */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* tml.jit.lPlant */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 4CF3346011E51EE900A7BA57 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 303250346;
+			PBXWorkspaceStateSaveDate = 303250346;
+		};
+		perUserProjectItems = {
+			4CD3627612133BAB00465798 /* PBXBookmark */ = 4CD3627612133BAB00465798 /* PBXBookmark */;
+			4CD3627D121348CA00465798 /* PBXTextBookmark */ = 4CD3627D121348CA00465798 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4CF3345F11E51EE900A7BA57 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 890}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 83}";
+			sepNavWindowFrame = "{{96, 49}, {728, 979}}";
+		};
+	};
+	4CD361871212F87600465798 /* jit.tml.lPlant.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 6227}}";
+			sepNavSelRange = "{6635, 0}";
+			sepNavVisRange = "{10821, 1196}";
+			sepNavWindowFrame = "{{30, 31}, {770, 997}}";
+		};
+	};
+	4CD3627612133BAB00465798 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4CD361871212F87600465798 /* jit.tml.lPlant.c */;
+	};
+	4CD3627D121348CA00465798 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CD361871212F87600465798 /* jit.tml.lPlant.c */;
+		name = "jit.tml.lPlant.c: 230";
+		rLen = 0;
+		rLoc = 6635;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 10821;
+	};
+	4CF3345F11E51EE900A7BA57 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4CF3346011E51EE900A7BA57 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D01CCC60486CAD60068D4B7 /* tml.jit.lPlant */ = {
+		activeExec = 0;
+	};
+	8D01CCD10486CAD60068D4B7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{142, 49}, {728, 979}}";
+		};
+	};
+}

@@ -1,0 +1,144 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "Default",
+				"data" : 				{
+					"Proba" : [ 0.56 ],
+					"Quality" : [ 0.52 ],
+					"Window" : [ 55 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 1 ],
+					"YinFreq" : [ 100 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "SaxT/ClarBb",
+				"data" : 				{
+					"Proba" : [ 0.57 ],
+					"Quality" : [ 0.48 ],
+					"Window" : [ 57 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 1 ],
+					"YinFreq" : [ 100 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "ClarBasse",
+				"data" : 				{
+					"Proba" : [ 0.58 ],
+					"Quality" : [ 0.5 ],
+					"Window" : [ 66 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 2 ],
+					"YinFreq" : [ 47 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "Voice",
+				"data" : 				{
+					"Proba" : [ 0.56 ],
+					"Quality" : [ 0.4 ],
+					"Window" : [ 55 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 2 ],
+					"YinFreq" : [ 80 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"name" : "Percussion",
+				"data" : 				{
+					"Proba" : [ 0.4 ],
+					"Quality" : [ 0.3 ],
+					"Window" : [ 40 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 3 ],
+					"YinFreq" : [ 40 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"name" : "Sound_poetry",
+				"data" : 				{
+					"Proba" : [ 0.43 ],
+					"Quality" : [ 0.32 ],
+					"Window" : [ 55 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 2 ],
+					"YinFreq" : [ 50 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"name" : "Guitar",
+				"data" : 				{
+					"Proba" : [ 0.63 ],
+					"Quality" : [ 0.52 ],
+					"Window" : [ 63 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 2 ],
+					"YinFreq" : [ 75 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"name" : "Basse",
+				"data" : 				{
+					"Proba" : [ 0.6 ],
+					"Quality" : [ 0.44 ],
+					"Window" : [ 67 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 2 ],
+					"YinFreq" : [ 41 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"name" : "Fagott",
+				"data" : 				{
+					"Proba" : [ 0.45 ],
+					"Quality" : [ 0.31 ],
+					"Window" : [ 57 ],
+					"Dmax" : [ 5.0 ],
+					"Thresh" : [ -30 ],
+					"YinSampl" : [ 2 ],
+					"YinFreq" : [ 47 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

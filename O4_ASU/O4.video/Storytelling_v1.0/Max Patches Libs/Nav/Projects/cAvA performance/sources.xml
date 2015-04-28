@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes" encoding="UTF-8"?><ambiscore>
+	<snapshot index="prms">
+		<point>
+			<number>6</number>
+			<name>breath</name>
+			<group>1</group>
+			<xyz>-0.409002 0.263450 0.000000</xyz>
+		</point>
+		<point>
+			<number>8</number>
+			<name>live</name>
+			<group>1</group>
+			<xyz>-0.558718 -0.044987 0.000000</xyz>
+		</point>
+		<point>
+			<number>7</number>
+			<name>fire</name>
+			<group>1</group>
+			<xyz>0.240073 -0.168666 0.000000</xyz>
+		</point>
+		<point>
+			<number>5</number>
+			<name>drone</name>
+			<xyz>-0.172117 -0.243686 0.000000</xyz>
+		</point>
+	</snapshot>
+</ambiscore>

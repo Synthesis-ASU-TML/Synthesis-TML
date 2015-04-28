@@ -1,0 +1,7 @@
+; hello_cpp.def : Declares the module parameters for the DLL.
+
+LIBRARY      "hello_cpp"
+
+EXPORTS
+
+luaopen_hello_cpp

@@ -1,0 +1,99 @@
+{
+	"preset_data" : [ 		{
+			"number" : 1,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 2,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 3,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 5,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 128, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 134, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 7,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 151, 10.0, 6, "obj-32", "gain~", "list", 2, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 128, 10.0 ]
+		}
+, 		{
+			"number" : 16,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 17,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 18,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 19,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 20,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 21,
+			"data" : [ 5, "<invalid>", "number", "int", 0 ]
+		}
+, 		{
+			"number" : 25,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 25, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 26,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 25, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 49,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 4, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 124, 10.0 ]
+		}
+, 		{
+			"number" : 65,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 66,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 67,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 68,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 69,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 0, 10.0 ]
+		}
+, 		{
+			"number" : 70,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 122, 10.0 ]
+		}
+, 		{
+			"number" : 72,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 0, 10.0, 6, "obj-33", "gain~", "list", 0, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 0, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 25, 6, "obj-23", "gain~", "list", 0, 10.0, 5, "obj-38", "toggle", "int", 1 ]
+		}
+, 		{
+			"number" : 73,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 134, 10.0, 6, "obj-33", "gain~", "list", 132, 10.0, 6, "obj-32", "gain~", "list", 130, 43.543308, 6, "obj-43", "gain~", "list", 131, 10.0, 6, "obj-42", "gain~", "list", 126, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 2, 10.0, 5, "obj-38", "toggle", "int", 0 ]
+		}
+, 		{
+			"number" : 74,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 134, 10.0, 6, "obj-33", "gain~", "list", 130, 10.0, 6, "obj-32", "gain~", "list", 0, 43.543308, 6, "obj-43", "gain~", "list", 2, 10.0, 6, "obj-42", "gain~", "list", 0, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 2, 10.0, 5, "obj-38", "toggle", "int", 0 ]
+		}
+, 		{
+			"number" : 75,
+			"data" : [ 6, "obj-30", "gain~", "list", 0, 10.0, 6, "obj-31", "gain~", "list", 135, 10.0, 6, "obj-33", "gain~", "list", 135, 10.0, 6, "obj-32", "gain~", "list", 134, 43.543308, 6, "obj-43", "gain~", "list", 2, 10.0, 6, "obj-42", "gain~", "list", 123, 10.0, 5, "obj-53", "number", "int", 0, 6, "obj-23", "gain~", "list", 2, 10.0, 5, "obj-38", "toggle", "int", 0 ]
+		}
+ ]
+}

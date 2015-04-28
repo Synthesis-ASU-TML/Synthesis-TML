@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='blendmodesetall' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='destination' type='string' priority='0' mixweight='1'>rendertest</item>
+    <item name='floating' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='fullscreen' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='layer1/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer1/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer1/level' type='decimal' priority='0' mixweight='1'>0.679245</item>
+    <item name='layer2/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer2/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer2/level' type='decimal' priority='0' mixweight='1'>0.716981</item>
+    <item name='layer3/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer3/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer3/level' type='decimal' priority='0' mixweight='1'>0.660377</item>
+    <item name='layer4/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer4/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer4/level' type='decimal' priority='0' mixweight='1'>0.660377</item>
+    <item name='layer5/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer5/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer5/level' type='decimal' priority='0' mixweight='1'>0.698113</item>
+    <item name='layer6/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer6/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer6/level' type='decimal' priority='0' mixweight='1'>0.698113</item>
+    <item name='layer7/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer7/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer7/level' type='decimal' priority='0' mixweight='1'>0.698113</item>
+    <item name='layer8/blendmode' type='array' priority='0' mixweight='1'>6.000000 2.000000 </item>
+    <item name='layer8/enable' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='layer8/level' type='decimal' priority='0' mixweight='1'>0.698113</item>
+    <item name='onOff' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+  <preset number='2' name='other'>
+    <item name='blendmodesetall' type='integer' priority='0' mixweight='1'>5</item>
+    <item name='destination' type='string' priority='0' mixweight='1'>rendertest</item>
+    <item name='floating' type='generic' priority='0' mixweight='1'>1</item>
+    <item name='fullscreen' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='layer1/blendmode' type='integer' priority='0' mixweight='1'>3</item>
+    <item name='layer1/level' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='layer2/blendmode' type='integer' priority='0' mixweight='1'>5</item>
+    <item name='layer2/level' type='decimal' priority='0' mixweight='1'>0.547170</item>
+    <item name='layer3/blendmode' type='integer' priority='0' mixweight='1'>2</item>
+    <item name='layer3/level' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer4/blendmode' type='integer' priority='0' mixweight='1'>5</item>
+    <item name='layer4/level' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='layer5/blendmode' type='integer' priority='0' mixweight='1'>5</item>
+    <item name='layer5/level' type='decimal' priority='0' mixweight='1'>0.603774</item>
+    <item name='layer6/blendmode' type='integer' priority='0' mixweight='1'>4</item>
+    <item name='layer6/level' type='decimal' priority='0' mixweight='1'>0.000000</item>
+    <item name='layer7/blendmode' type='integer' priority='0' mixweight='1'>5</item>
+    <item name='layer7/level' type='decimal' priority='0' mixweight='1'>1.000000</item>
+    <item name='layer8/blendmode' type='integer' priority='0' mixweight='1'>6</item>
+    <item name='layer8/level' type='decimal' priority='0' mixweight='1'>0.584906</item>
+    <item name='onOff' type='generic' priority='0' mixweight='1'>0</item>
+    <item name='video/bypass' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/mute' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='video/preview' type='boolean' priority='0' mixweight='1'>0</item>
+    <item name='view/freeze' type='boolean' priority='0' mixweight='1'>1</item>
+    <item name='view/highlight' type='string' priority='0' mixweight='1'>none</item>
+  </preset>
+</jamoma>

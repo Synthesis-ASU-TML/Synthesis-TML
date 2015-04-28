@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_o__label.html" title="Generic state of a data sequence." alt="" coords="7,59,76,88"/>
+<area shape="rect" id="node3" href="$class_o__char.html" title="State of a letter sequence." alt="" coords="148,5,217,35"/>
+<area shape="rect" id="node5" href="$class_o___m_i_d_i__mono.html" title="State of a monophonic MIDI sequence." alt="" coords="125,59,240,88"/>
+<area shape="rect" id="node7" href="$class_o__spectral.html" title="State of a spectral sequence." alt="" coords="136,112,229,141"/>
+</map>

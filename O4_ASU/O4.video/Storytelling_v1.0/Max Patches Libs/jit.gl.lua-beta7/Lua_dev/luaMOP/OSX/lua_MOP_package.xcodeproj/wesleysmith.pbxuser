@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = B900EA7B0B64153200F94DC5 /* mop */;
+		addToTargets = (
+			B900EA7B0B64153200F94DC5 /* mop */,
+		);
+		breakpoints = (
+			B95A22DE0B78080A00A72761 /* lua_mop.cpp:242 */,
+			B95A27450B7BA8DF00A72761 /* lua_hello_cpp.cpp:49 */,
+			B95A277E0B7BAD3A00A72761 /* lua_hello_cpp.cpp:39 */,
+		);
+		breakpointsGroup = B95A254E0B7B062200A72761 /* XCBreakpointsBucket */;
+		codeSenseManager = B95A22E50B78081000A72761 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					386,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					498,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					278,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 196880920;
+			PBXWorkspaceStateSaveDate = 196880920;
+		};
+		perUserProjectItems = {
+			B900B8580BBC2A3800B923A0 /* PBXBookmark */ = B900B8580BBC2A3800B923A0 /* PBXBookmark */;
+			B900B8690BBC2D3A00B923A0 /* PBXTextBookmark */ = B900B8690BBC2D3A00B923A0 /* PBXTextBookmark */;
+			B95A25890B7B29E100A72761 /* PBXTextBookmark */ = B95A25890B7B29E100A72761 /* PBXTextBookmark */;
+			B95A258B0B7B29E100A72761 /* PBXTextBookmark */ = B95A258B0B7B29E100A72761 /* PBXTextBookmark */;
+			B95A25A60B7B29E100A72761 /* PBXTextBookmark */ = B95A25A60B7B29E100A72761 /* PBXTextBookmark */;
+			B95A25A80B7B29E100A72761 /* PBXTextBookmark */ = B95A25A80B7B29E100A72761 /* PBXTextBookmark */;
+			B95A25AA0B7B29E100A72761 /* PBXTextBookmark */ = B95A25AA0B7B29E100A72761 /* PBXTextBookmark */;
+			B95A25AC0B7B29E100A72761 /* PBXTextBookmark */ = B95A25AC0B7B29E100A72761 /* PBXTextBookmark */;
+			B95A25D90B7B2A4500A72761 /* PBXTextBookmark */ = B95A25D90B7B2A4500A72761 /* PBXTextBookmark */;
+			B95A267B0B7BA2D300A72761 /* PBXTextBookmark */ = B95A267B0B7BA2D300A72761 /* PBXTextBookmark */;
+			B981452E0B9D247C006F7ADD /* PBXTextBookmark */ = B981452E0B9D247C006F7ADD /* PBXTextBookmark */;
+			B98145300B9D247C006F7ADD /* PBXTextBookmark */ = B98145300B9D247C006F7ADD /* PBXTextBookmark */;
+			B98145370B9D24B8006F7ADD /* PBXTextBookmark */ = B98145370B9D24B8006F7ADD /* PBXTextBookmark */;
+			B98145380B9D24B8006F7ADD /* PBXTextBookmark */ = B98145380B9D24B8006F7ADD /* PBXTextBookmark */;
+		};
+		sourceControlManager = B95A22E40B78081000A72761 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	B900B8580BBC2A3800B923A0 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */;
+	};
+	B900B8690BBC2D3A00B923A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */;
+		name = "lua_mop.cpp: 122";
+		rLen = 0;
+		rLoc = 3315;
+		rType = 0;
+		vrLen = 1613;
+		vrLoc = 3144;
+	};
+	B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 6650}}";
+			sepNavSelRange = "{3315, 0}";
+			sepNavVisRect = "{{0, 1608}, {690, 676}}";
+		};
+	};
+	B900EA7B0B64153200F94DC5 /* mop */ = {
+		activeExec = 0;
+	};
+	B95A22DE0B78080A00A72761 /* lua_mop.cpp:242 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B900E8C70B632F2E00F94DC5 /* lua_mop.cpp */;
+		functionName = "hello_say_hello()";
+		hitCount = 1;
+		lineNumber = 242;
+		modificationTime = 192985663.214928;
+		state = 2;
+	};
+	B95A22E40B78081000A72761 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	B95A22E50B78081000A72761 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B95A24470B7A4EE100A72761 /* lua_hello_cpp.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = lua_hello_cpp.cpp;
+		path = /Users/wesleysmith/jit.gl.lua_beta1/Lua_dev/luaMOP/lua_hello_cpp.cpp;
+		sourceTree = "<absolute>";
+	};
+	B95A254E0B7B062200A72761 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = lua_package;
+		objects = (
+			B95A22DE0B78080A00A72761 /* lua_mop.cpp:242 */,
+			B95A27450B7BA8DF00A72761 /* lua_hello_cpp.cpp:49 */,
+			B95A277E0B7BAD3A00A72761 /* lua_hello_cpp.cpp:39 */,
+		);
+	};
+	B95A25890B7B29E100A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A258A0B7B29E100A72761 /* Userdata.cpp */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 174;
+		vrLoc = 0;
+	};
+	B95A258A0B7B29E100A72761 /* Userdata.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Userdata.cpp;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata.cpp";
+		sourceTree = "<absolute>";
+	};
+	B95A258B0B7B29E100A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A258C0B7B29E100A72761 /* Userdata.h */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	B95A258C0B7B29E100A72761 /* Userdata.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Userdata.h;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata.h";
+		sourceTree = "<absolute>";
+	};
+	B95A25A60B7B29E100A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A25A70B7B29E100A72761 /* Userdata_Example.cpp */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 630;
+		vrLoc = 0;
+	};
+	B95A25A70B7B29E100A72761 /* Userdata_Example.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Userdata_Example.cpp;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata_Example.cpp";
+		sourceTree = "<absolute>";
+	};
+	B95A25A80B7B29E100A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A25A90B7B29E100A72761 /* Userdata_Example.h */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	B95A25A90B7B29E100A72761 /* Userdata_Example.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Userdata_Example.h;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata_Example.h";
+		sourceTree = "<absolute>";
+	};
+	B95A25AA0B7B29E100A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A25AB0B7B29E100A72761 /* Userdata.cpp */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 174;
+		vrLoc = 0;
+	};
+	B95A25AB0B7B29E100A72761 /* Userdata.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Userdata.cpp;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata.cpp";
+		sourceTree = "<absolute>";
+	};
+	B95A25AC0B7B29E100A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A25AD0B7B29E100A72761 /* Userdata.h */;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	B95A25AD0B7B29E100A72761 /* Userdata.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Userdata.h;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata.h";
+		sourceTree = "<absolute>";
+	};
+	B95A25C30B7B29E100A72761 /* Userdata_Example.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = Userdata_Example.cpp;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata_Example.cpp";
+		sourceTree = "<absolute>";
+	};
+	B95A25C80B7B29E100A72761 /* Userdata_Example.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Userdata_Example.h;
+		path = "/Users/wesleysmith/Documents/Downloads/userdatastuff Folder/Userdata_Example.h";
+		sourceTree = "<absolute>";
+	};
+	B95A25D90B7B2A4500A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A25C80B7B29E100A72761 /* Userdata_Example.h */;
+		name = "Userdata :: luaopen<Example>(L);";
+		rLen = 32;
+		rLoc = 99;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	B95A267B0B7BA2D300A72761 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B95A25C30B7B29E100A72761 /* Userdata_Example.cpp */;
+		name = "Userdata_Example.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 0;
+	};
+	B95A27450B7BA8DF00A72761 /* lua_hello_cpp.cpp:49 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B95A24470B7A4EE100A72761 /* lua_hello_cpp.cpp */;
+		functionName = "Lua_Hello::say_hello()";
+		hitCount = 1;
+		lineNumber = 49;
+		location = hello_cpp;
+		modificationTime = 192986243.576999;
+		state = 1;
+	};
+	B95A277E0B7BAD3A00A72761 /* lua_hello_cpp.cpp:39 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = B95A24470B7A4EE100A72761 /* lua_hello_cpp.cpp */;
+		functionName = "Lua_Hello::create()";
+		hitCount = 1;
+		lineNumber = 39;
+		location = hello_cpp;
+		modificationTime = 192986243.57709;
+		state = 1;
+	};
+	B98145220B9D243D006F7ADD /* jit.max.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = jit.max.h;
+		path = /Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/JitterAPI.framework/Headers/jit.max.h;
+		sourceTree = "<absolute>";
+	};
+	B981452E0B9D247C006F7ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9A0DB090B65D6F3002AD0B7 /* Info.plist */;
+		name = "Info.plist: 8";
+		rLen = 0;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 0;
+	};
+	B98145300B9D247C006F7ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B9A0DB090B65D6F3002AD0B7 /* Info.plist */;
+		name = "Info.plist: 8";
+		rLen = 0;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 0;
+	};
+	B98145370B9D24B8006F7ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B98145220B9D243D006F7ADD /* jit.max.h */;
+		name = "#include \"ext.h\"";
+		rLen = 17;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 0;
+	};
+	B98145380B9D24B8006F7ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B98145220B9D243D006F7ADD /* jit.max.h */;
+		name = "#include \"ext.h\"";
+		rLen = 17;
+		rLoc = 141;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 0;
+	};
+	B9A0DB090B65D6F3002AD0B7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {690, 464}}";
+			sepNavSelRange = "{287, 0}";
+			sepNavVisRect = "{{0, 0}, {690, 464}}";
+		};
+	};
+}

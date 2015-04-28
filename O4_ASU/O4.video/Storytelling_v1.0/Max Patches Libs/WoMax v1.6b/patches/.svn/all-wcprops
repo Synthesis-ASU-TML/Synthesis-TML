@@ -1,0 +1,809 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/IRCAM/!svn/ver/66/WoMax/Prod%20Fev2010/patches
+END
+OMax-drawRegions.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-drawRegions.maxpat
+END
+MFCCs.zsa.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/MFCCs.zsa.maxpat
+END
+OMax-improJumps2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/67/WoMax/Prod%20Fev2010/patches/OMax-improJumps2.maxpat
+END
+WoMax-Launcher.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-Launcher.maxpat
+END
+OMax-improCtxt.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/OMax-improCtxt.maxpat
+END
+Player.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/IRCAM/!svn/ver/64/WoMax/Prod%20Fev2010/patches/Player.maxpat
+END
+WoMax-In-Presets - copie.json
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/WoMax-In-Presets%20-%20copie.json
+END
+OMax-improSend.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/71/WoMax/Prod%20Fev2010/patches/OMax-improSend.maxpat
+END
+WoMaxOracle-v1.0b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/64/WoMax/Prod%20Fev2010/patches/WoMaxOracle-v1.0b.maxpat
+END
+OMax-play.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-play.maxpat
+END
+VisuImpro-Arrows.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/VisuImpro-Arrows.maxpat
+END
+Visu-Selection.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/Visu-Selection.maxpat
+END
+OMax-bufRead.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-bufRead.maxpat
+END
+WoMaxOut-v1.5b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/71/WoMax/Prod%20Fev2010/patches/WoMaxOut-v1.5b.maxpat
+END
+WoMaxOut-v1.6b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/WoMaxOut-v1.6b.maxpat
+END
+WoMax-ImproMIDI-v1.7b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-ImproMIDI-v1.7b.maxpat
+END
+WoMax-Visu.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-Visu.maxpat
+END
+OMax-timegraph.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-timegraph.maxpat
+END
+ImproMIDI-Jumps.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/81/WoMax/Prod%20Fev2010/patches/ImproMIDI-Jumps.maxpat
+END
+OMax-impro.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-impro.maxpat
+END
+OMax-display2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-display2.maxpat
+END
+WoMaxOracle-MIDI.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/WoMaxOracle-MIDI.maxpat
+END
+WoMaxIn-v1.0b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/64/WoMax/Prod%20Fev2010/patches/WoMaxIn-v1.0b.maxpat
+END
+ImproMIDI-Octave.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/ImproMIDI-Octave.maxpat
+END
+OfonPlay300.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IRCAM/!svn/ver/56/WoMax/Prod%20Fev2010/patches/OfonPlay300.maxpat
+END
+WoMaxIn-v1.5b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/74/WoMax/Prod%20Fev2010/patches/WoMaxIn-v1.5b.maxpat
+END
+ImproPlay.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/ImproPlay.maxpat
+END
+BCF-tranche.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/BCF-tranche.maxpat
+END
+WoMax-In-v2.5b.FTM.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-In-v2.5b.FTM.maxpat
+END
+WoMax-Forum.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/WoMax-Forum.maxpat
+END
+OMax-improViz.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improViz.maxpat
+END
+WoMaxImproOut-v1.5b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/IRCAM/!svn/ver/71/WoMax/Prod%20Fev2010/patches/WoMaxImproOut-v1.5b.maxpat
+END
+Oracle-SP.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/Oracle-SP.maxpat
+END
+wavefrom.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/IRCAM/!svn/ver/54/WoMax/Prod%20Fev2010/patches/wavefrom.maxpat
+END
+back.MFCCs.zsa.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/back.MFCCs.zsa.maxpat
+END
+back.zsa.mel-core.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/back.zsa.mel-core.maxpat
+END
+OMax-improVisu.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improVisu.maxpat
+END
+bc.bpsize.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/bc.bpsize.js
+END
+ImproMIDI-Rhythm.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/ImproMIDI-Rhythm.maxpat
+END
+ImproOut-v1.6b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/ImproOut-v1.6b.maxpat
+END
+ImproOut-v1.7b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/ImproOut-v1.7b.maxpat
+END
+Yin+.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/IRCAM/!svn/ver/81/WoMax/Prod%20Fev2010/patches/Yin+.maxpat
+END
+OMax-drawArrow.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-drawArrow.maxpat
+END
+OMax-improSLT.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/OMax-improSLT.maxpat
+END
+ImproSpectral-Jumps.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/IRCAM/!svn/ver/81/WoMax/Prod%20Fev2010/patches/ImproSpectral-Jumps.maxpat
+END
+ImproOut-Play.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/86/WoMax/Prod%20Fev2010/patches/ImproOut-Play.maxpat
+END
+OMax-improWeight2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/OMax-improWeight2.maxpat
+END
+OMax-improOctave.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improOctave.maxpat
+END
+OMax-tri.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-tri.maxpat
+END
+WoMax-In-Presets.json
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-In-Presets.json
+END
+OMax-RegionID.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-RegionID.maxpat
+END
+OMax-explorer.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-explorer.maxpat
+END
+WoMaxIn-v2.0b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/WoMaxIn-v2.0b.maxpat
+END
+Impro-Collect.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/Impro-Collect.maxpat
+END
+BCF-2000.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/BCF-2000.maxpat
+END
+_ColorRef.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/_ColorRef.rtf
+END
+OMax-improTrack.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improTrack.maxpat
+END
+OMax-improVelo.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/67/WoMax/Prod%20Fev2010/patches/OMax-improVelo.maxpat
+END
+OfonDirectPlay138.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OfonDirectPlay138.maxpat
+END
+OMax-color.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-color.maxpat
+END
+OMax-clustering.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-clustering.maxpat
+END
+OMax-improTarget2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/OMax-improTarget2.maxpat
+END
+OMax-improRhythm.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improRhythm.maxpat
+END
+OMax-ctxt.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-ctxt.maxpat
+END
+ImproPlayer2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/ImproPlayer2.maxpat
+END
+WoMax-In-v2.1b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/WoMax-In-v2.1b.maxpat
+END
+_Externals&Abstractions.rtf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/_Externals&Abstractions.rtf
+END
+WoMax-In-v2.5b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-In-v2.5b.maxpat
+END
+WoMaxImpro-v1.5b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/72/WoMax/Prod%20Fev2010/patches/WoMaxImpro-v1.5b.maxpat
+END
+WoMaxImpro-v1.6b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/WoMaxImpro-v1.6b.maxpat
+END
+Buffers.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/IRCAM/!svn/ver/71/WoMax/Prod%20Fev2010/patches/Buffers.maxpat
+END
+OMax-visustyles.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-visustyles.maxpat
+END
+OMax-improTarget.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improTarget.maxpat
+END
+OMax-colortri.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-colortri.maxpat
+END
+ImproOut-Reverb.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/ImproOut-Reverb.maxpat
+END
+OMax-drawctxt.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-drawctxt.maxpat
+END
+SVP-Player.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/SVP-Player.maxpat
+END
+ImproPlay.2X.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/ImproPlay.2X.maxpat
+END
+YINGB.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/YINGB.maxpat
+END
+Impro-RegionSel.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/Impro-RegionSel.maxpat
+END
+ImproMIDI-Weigth.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/ImproMIDI-Weigth.maxpat
+END
+sr.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/sr.maxpat
+END
+ImproSpectral.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/ImproSpectral.maxpat
+END
+Impro-PickSimple.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/Impro-PickSimple.maxpat
+END
+ImproPlayer1.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/ImproPlayer1.maxpat
+END
+kNN.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/kNN.maxpat
+END
+test.Yin+.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/51/WoMax/Prod%20Fev2010/patches/test.Yin+.maxpat
+END
+ImproMIDI.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/ImproMIDI.maxpat
+END
+OMax-arc2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-arc2.maxpat
+END
+Yin+2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/Yin+2.maxpat
+END
+OfonPlaybuf301.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OfonPlaybuf301.maxpat
+END
+ImproSpectral-Weight.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/ImproSpectral-Weight.maxpat
+END
+MFCCs.zsa-core.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/MFCCs.zsa-core.maxpat
+END
+WoMaxImproOut_mono.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/IRCAM/!svn/ver/64/WoMax/Prod%20Fev2010/patches/WoMaxImproOut_mono.maxpat
+END
+Visu-Graph.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/Visu-Graph.maxpat
+END
+Oracle-MIDI.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/Oracle-MIDI.maxpat
+END
+Routing.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/Routing.maxpat
+END
+OMax-visu.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-visu.maxpat
+END
+Impro-Taboo.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/Impro-Taboo.maxpat
+END
+OMax-colorarcs.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-colorarcs.maxpat
+END
+ImproSpectral-Pitch.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/ImproSpectral-Pitch.maxpat
+END
+WoMax-Out-v1.6b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/WoMax-Out-v1.6b.maxpat
+END
+ImproMIDI-Velo.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/ImproMIDI-Velo.maxpat
+END
+WoMax-Out-v1.8b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/WoMax-Out-v1.8b.maxpat
+END
+Yin+PitchStat.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/Yin+PitchStat.maxpat
+END
+WoMax-ImproSpectral-v1.7b.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/WoMax-ImproSpectral-v1.7b.maxpat
+END
+ImproSpectral-Energy.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/ImproSpectral-Energy.maxpat
+END
+back.SVPpoly.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/86/WoMax/Prod%20Fev2010/patches/back.SVPpoly.maxpat
+END
+OMax-improTaboo.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/OMax-improTaboo.maxpat
+END
+SVP-Out.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/IRCAM/!svn/ver/90/WoMax/Prod%20Fev2010/patches/SVP-Out.maxpat
+END
+OMax-SLTpath.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-SLTpath.maxpat
+END
+OMax-improPick2.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/OMax-improPick2.maxpat
+END
+Stat_2Arg.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/51/WoMax/Prod%20Fev2010/patches/Stat_2Arg.maxpat
+END
+OMax-selection.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-selection.maxpat
+END
+OMax-drawpitch.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-drawpitch.maxpat
+END
+OMax-colorbars.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-colorbars.maxpat
+END
+Visu-Display.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/Visu-Display.maxpat
+END
+MFCCs.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/MFCCs.maxpat
+END
+test.CompYin.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/IRCAM/!svn/ver/51/WoMax/Prod%20Fev2010/patches/test.CompYin.maxpat
+END
+OMax-suffixes.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-suffixes.maxpat
+END
+VisuImpro-Attractor.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/IRCAM/!svn/ver/87/WoMax/Prod%20Fev2010/patches/VisuImpro-Attractor.maxpat
+END
+on_segmente148.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/IRCAM/!svn/ver/71/WoMax/Prod%20Fev2010/patches/on_segmente148.maxpat
+END
+OMax-improvisator.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/OMax-improvisator.maxpat
+END
+OMax-wave.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-wave.maxpat
+END
+WoMax-In-v2.1b.NoFTM.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/IRCAM/!svn/ver/82/WoMax/Prod%20Fev2010/patches/WoMax-In-v2.1b.NoFTM.maxpat
+END
+OMax-improGraph.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/OMax-improGraph.maxpat
+END
+OMax-clusterRegions.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-clusterRegions.maxpat
+END
+SVP-Play.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/IRCAM/!svn/ver/89/WoMax/Prod%20Fev2010/patches/SVP-Play.maxpat
+END
+OMax-clusterInfluence.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-clusterInfluence.maxpat
+END
+LPC.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/IRCAM/!svn/ver/79/WoMax/Prod%20Fev2010/patches/LPC.maxpat
+END
+OMax-improRegions.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/IRCAM/!svn/ver/78/WoMax/Prod%20Fev2010/patches/OMax-improRegions.maxpat
+END
+OMax-greybars.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/IRCAM/!svn/ver/83/WoMax/Prod%20Fev2010/patches/OMax-greybars.maxpat
+END
+midiflush_canal.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/IRCAM/!svn/ver/48/WoMax/Prod%20Fev2010/patches/midiflush_canal.maxpat
+END
+WoMaxOut.maxpat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/IRCAM/!svn/ver/59/WoMax/Prod%20Fev2010/patches/WoMaxOut.maxpat
+END

@@ -1,0 +1,80 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* jit.tml.lsample */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* jit.tml.lsample */,
+		);
+		codeSenseManager = 4CEF2581111732F300A86E8A /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 286734016;
+			PBXWorkspaceStateSaveDate = 286734016;
+		};
+		perUserProjectItems = {
+			4CEF257F111732DB00A86E8A = 4CEF257F111732DB00A86E8A /* PBXBookmark */;
+			4CEF258B111735E300A86E8A = 4CEF258B111735E300A86E8A /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4CEF2580111732F300A86E8A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	43DD6FA80D7C64EA0095B8F5 /* tml.jit.rockeby.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 30;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = tml.jit.rockeby.cpp;
+		path = "/Users/michael/Desktop/Subversion Working Copies/JitterExternals/externals/jit/tml/lsample/tml.jit.rockeby.cpp";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {687, 13272}}";
+			sepNavSelRange = "{2847, 0}";
+			sepNavVisRange = "{2311, 1337}";
+			sepNavWindowFrame = "{{533, 73}, {746, 955}}";
+		};
+	};
+	4CEF257F111732DB00A86E8A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 43DD6FA80D7C64EA0095B8F5 /* tml.jit.rockeby.cpp */;
+	};
+	4CEF2580111732F300A86E8A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4CEF2581111732F300A86E8A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4CEF258B111735E300A86E8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43DD6FA80D7C64EA0095B8F5 /* tml.jit.rockeby.cpp */;
+		name = "tml.jit.rockeby.cpp: 116";
+		rLen = 0;
+		rLoc = 2847;
+		rType = 0;
+		vrLen = 1337;
+		vrLoc = 2311;
+	};
+	4CEF2594111736CF00A86E8A /* max.jit.tml.lsample.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 1344}}";
+			sepNavSelRange = "{1532, 0}";
+			sepNavVisRange = "{0, 1076}";
+			sepNavWindowFrame = "{{1848, -131}, {764, 984}}";
+		};
+	};
+	4CEF2595111736CF00A86E8A /* tml.jit.lsample.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {705, 13410}}";
+			sepNavSelRange = "{137, 0}";
+			sepNavVisRange = "{2729, 1455}";
+		};
+	};
+	8D01CCC60486CAD60068D4B7 /* jit.tml.lsample */ = {
+		activeExec = 0;
+	};
+}

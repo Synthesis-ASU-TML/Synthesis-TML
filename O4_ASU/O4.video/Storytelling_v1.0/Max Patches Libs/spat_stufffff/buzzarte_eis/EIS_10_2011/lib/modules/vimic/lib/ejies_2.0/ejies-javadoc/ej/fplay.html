@@ -1,0 +1,713 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<!-- Generated with DocFlex/Doclet 1.4.9 on Thu Feb 19 16:56:32 CET 2009 -->
+<SCRIPT LANGUAGE="JavaScript">
+function loadFrame_summary(docHRef) {
+	if (parent.summary != null)
+		parent.summary.location.href = docHRef;
+	else
+		parent.location.href = docHRef;
+}
+</SCRIPT>
+<STYLE TYPE="text/css">
+A:link {text-decoration: underline; color: #0000FF}
+.p1 { padding: 1.7pt 2.8pt 1.7pt 2.8pt; background-color:#FFF2CC; border: 1px solid black }
+.p2 { margin-top:1.7pt }
+.p3 { margin-top:14.5pt; white-space:nowrap }
+.p4 { white-space:nowrap }
+.p5 { margin-top:10.5pt }
+.p6 { margin-top:8.5pt }
+.p7 { margin-top:14pt }
+.p8 { margin:0pt }
+.p9 { margin-top:9.9pt }
+.p10 { margin-top:9.3pt }
+.p11 { margin-top:13.3pt }
+.p12 { margin: 0pt 0.5pt 0pt 0.5pt }
+.p13 { text-indent:30pt; margin-top:2pt }
+.p14 { text-align:right }
+.p15 { margin-top:19.8pt; padding:1.7pt; background-color:#CCCCFF; border: 1px solid #666666 }
+.p16 { margin-top:13.6pt }
+.p17 { margin-top:11.6pt }
+.p18 { margin-top:14.1pt }
+.p19 { margin-top:9.6pt }
+.p20 { margin-top:30pt; padding-top:2pt; border-top: 1px solid #808080 }
+.p21 { margin-top:6pt }
+.f1 { font-family: "Arial", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; color: black }
+.f2 { font-size: 160%; font-weight: bold }
+.f3 { font-size: 90%; font-weight: bold }
+.f4 { font-family: "Courier New", monospace; font-size: 90% }
+.f5 { font-family: "Courier New", monospace; font-size: 90%; font-weight: bold }
+.f6 { font-weight: bold }
+.f7 { font-size: 120%; font-weight: bold }
+.f8 { font-family: "Courier New", monospace; font-size: 70% }
+.f9 { font-size: 140%; font-weight: bold }
+.f10 { font-family: "Verdana", sans-serif; font-size: 70%; color: #808080 }
+</STYLE>
+</HEAD>
+<BODY>
+<DIV CLASS="f1"><DIV CLASS="p1"><SPAN CLASS="f2">Class fplay</SPAN></DIV><DIV CLASS="p2"><SPAN CLASS="f3"><A HREF="package-summary.html" TARGET="detail" onClick="loadFrame_summary('package-frame.html');">ej</A></SPAN></DIV><DIV CLASS="p3"><SPAN CLASS="f4">java.lang.Object</SPAN></DIV><DIV CLASS="p4"><SPAN CLASS="f4">&nbsp;&nbsp;<IMG SRC="doc-files/inherit.gif" WIDTH="15" HEIGHT="14">com.cycling74.max.MaxObject</SPAN></DIV><DIV CLASS="p4"><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="doc-files/inherit.gif" WIDTH="15" HEIGHT="14"><A HREF="ej.html">ej.ej</A></SPAN></DIV><DIV CLASS="p4"><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="doc-files/inherit.gif" WIDTH="15" HEIGHT="14"></SPAN><SPAN CLASS="f5">ej.fplay</SPAN></DIV><DIV CLASS="p5"><HR></DIV>
+<DIV CLASS="p6">public class <SPAN CLASS="f6">fplay</SPAN></DIV><DIV>extends <A HREF="ej.html">ej</A></DIV><DIV CLASS="p7">Multi function editor (like ej.function.js without the graphics)</DIV><DIV CLASS="p7"><SPAN CLASS="f6">Author:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV>jourdan</DIV></DD></DL>
+<DIV><SPAN CLASS="f6">Version:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV>$Revision: 1.32 $</DIV></DD></DL>
+<DIV><SPAN CLASS="f6">See Also:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV>"ej.function.js"</DIV></DD></DL>
+<DIV CLASS="p9"><HR></DIV>
+<DIV CLASS="p10">
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="3" BORDER="1">
+<TR>
+<TD BGCOLOR="#EEEEFF"><SPAN CLASS="f6">Fields inherited from class com.cycling74.max.MaxObject</SPAN></TD>
+</TR>
+<TR>
+<TD><SPAN CLASS="f4">EMPTY_STRING_ARRAY, NO_INLETS, NO_OUTLETS</SPAN></TD>
+</TR>
+</TABLE></DIV>
+<DIV CLASS="p11">
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="3" BORDER="1">
+<COLGROUP SPAN="3"></COLGROUP>
+<TR BGCOLOR="#CCCCFF">
+<TD COLSPAN="3"><DIV CLASS="p12"><SPAN CLASS="f7">Constructor Summary</SPAN></DIV></TD>
+</TR>
+<TR>
+<TD COLSPAN="3" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#fplay(com.cycling74.max.Atom[])">fplay</A></SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[] args)</SPAN><DIV CLASS="p13">create a fplay object</DIV></DIV></TD>
+</TR>
+</TABLE></DIV>
+<DIV CLASS="p11">
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="3" BORDER="1">
+<COLGROUP SPAN="3"></COLGROUP>
+<TR BGCOLOR="#CCCCFF">
+<TD COLSPAN="3"><DIV CLASS="p12"><SPAN CLASS="f7">Method Summary</SPAN></DIV></TD>
+</TR>
+<TR>
+<TD WIDTH="9.9%" ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#addfunction()">addfunction</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Method used to add a bpf to the object, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#addfunction(java.lang.String)">addfunction</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Method used to add a bpf to the object, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#addpoints(double[])">addpoints</A></SPAN><SPAN CLASS="f4">(double[] val)</SPAN><DIV CLASS="p13">Fast method to add points</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#all(com.cycling74.max.Atom[])">all</A></SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[] args)</SPAN><DIV CLASS="p13">Send a message to eveery bpf</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#anything(java.lang.String, com.cycling74.max.Atom[])">anything</A></SPAN><SPAN CLASS="f4">(String s, com.cycling74.max.Atom[] args)</SPAN><DIV CLASS="p13">Look at any message to know if it's a name of a bpf, or a method's name of this ej.fplay object</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#autodomain()">autodomain</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Change the domain depending on the position of the first and last points (lowest and highest <i>x</i> value)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#autorange()">autorange</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Change the range depending on the position of the first and last points (lowest and highest <i>y</i> value)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#bang()">bang</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Output all breakpoints of the current function in line format (initial value followed by a list of deltatime-value pairs)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#clear()">clear</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Remove all the points of the current bpf</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#clear(int[])">clear</A></SPAN><SPAN CLASS="f4">(int[] idx)</SPAN><DIV CLASS="p13">Remove the specified points</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#clearsustain()">clearsustain</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Remove the sustain state of every point of the current bpf</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#dblclick()">dblclick</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Display functions informations when you double click on the object</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#deletefunction(int)">deletefunction</A></SPAN><SPAN CLASS="f4">(int i)</SPAN><DIV CLASS="p13">Delete a bpf, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#deletefunction(java.lang.String)">deletefunction</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Delete a bpf, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#display(int)">display</A></SPAN><SPAN CLASS="f4">(int idx)</SPAN><DIV CLASS="p13">Change the current bpf to...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#display(java.lang.String)">display</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Change the current bpf to...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#domain(double)">domain</A></SPAN><SPAN CLASS="f4">(double max)</SPAN><DIV CLASS="p13">Change the domain (x axis) dimensions</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#domain(double, double)">domain</A></SPAN><SPAN CLASS="f4">(double min, double max)</SPAN><DIV CLASS="p13">Change the domain (x axis) dimensions</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#domainAndRange(com.cycling74.max.Atom[])">domainAndRange</A></SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[] args)</SPAN><DIV CLASS="p13">used internally...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#dump()">dump</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">send all points to the dump outlet as pair of <i>x y</i></DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#dump(java.lang.String)">dump</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Send all points to a receive object as pair of <i>x y</i></DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#dumpmatrix()">dumpmatrix</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send all points to the dump outlet as a Jitter Matrix (1 plane, 2 dim, type float32)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#dumpmatrix(java.lang.String)">dumpmatrix</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Send all points to a receive object as a Jitter Matrix (1 plane, 2 dim, type float32)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#fix(int, int)">fix</A></SPAN><SPAN CLASS="f4">(int idx, int state)</SPAN><DIV CLASS="p13">Prevents the user from moving a point.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#flip()">flip</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">flip the function on both axis</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#flip_x()">flip_x</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">flip the function on the x axis</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#flip_y()">flip_y</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">flip the function on the y axis</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#fswitch()">fswitch</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Change the current function to the next one availlable, then send a message to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getcurrent()">getcurrent</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send the current function name to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getdisplay()">getdisplay</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send the function index to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getdomain()">getdomain</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send the range limits of the current function to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getfix()">getfix</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Get the list of the fixed points of the current function to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getname()">getname</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send the name of the functions to the dumpout outlet (in umenu format).</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getnbpoints()">getnbpoints</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send the number of point of the current function to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getrange()">getrange</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send the domain limits of the current function to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#getsustain()">getsustain</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Get the list of the sustained points of the current function to the dumpout outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#inlet(float)">inlet</A></SPAN><SPAN CLASS="f4">(float f)</SPAN><DIV CLASS="p13">Send the interpolated y for this x for the current function at left outlet</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#inlet(int)">inlet</A></SPAN><SPAN CLASS="f4">(int i)</SPAN><DIV CLASS="p13">Send the interpolated y for this x for the current function at left outlet</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#insertfunction()">insertfunction</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">inert a bpf at the current location, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#insertfunction(java.lang.String)">insertfunction</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">insert a bpf at the current location, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#jit_matrix(java.lang.String)">jit_matrix</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Set points from a Jitter matrix.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#list(float[])">list</A></SPAN><SPAN CLASS="f4">(float[] args)</SPAN><DIV CLASS="p13">Add or move a point</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#listdump()">listdump</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send all points to the dump outlet as an unique list which contains pairs of <i>x y</i></DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#listdump(java.lang.String)">listdump</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Send all points to a receive object as an unique list which contains paris of <i>x y</i></DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#name(java.lang.String)">name</A></SPAN><SPAN CLASS="f4">(String name)</SPAN><DIV CLASS="p13">Change the name of the current bpf.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#name(java.lang.String[])">name</A></SPAN><SPAN CLASS="f4">(String[] names)</SPAN><DIV CLASS="p13">Change the names of the functions</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#next()">next</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">The next message continues a list output from the sustain point where the output of the last bang or next message ended.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#normalize()">normalize</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Normalize all the points of the current function.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#normalize_x()">normalize_x</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Normalize points of the current function depending on the domain.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#normalize_y()">normalize_y</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Normalize points of the current function depending on the range.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#nth(int)">nth</A></SPAN><SPAN CLASS="f4">(int i)</SPAN><DIV CLASS="p13">Send the y value of the point (<i>index</i>) to the leftmost outlet.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#range(double, double)">range</A></SPAN><SPAN CLASS="f4">(double min, double max)</SPAN><DIV CLASS="p13">Change the range (y axis) dimensions</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#read()">read</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Display a dialog box to select the file to read.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#read(java.lang.String)">read</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Attempt to read a text file</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#redrawoff()">redrawoff</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Does nothing, it's just here for compatibility reasons...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#redrawon()">redrawon</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Does nothing, it's just here for compatibility reasons...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#removeduplicate()">removeduplicate</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Delete every contigus points with the same <i>y</i> value.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#save()">save</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">used internaly...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#setdomain(double)">setdomain</A></SPAN><SPAN CLASS="f4">(double max)</SPAN><DIV CLASS="p13">change the domain (change the point's values to fit the domain)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#setdomain(double, double)">setdomain</A></SPAN><SPAN CLASS="f4">(double min, double max)</SPAN><DIV CLASS="p13">change the domain (change the point's values to fit the domain)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#setrange(double, double)">setrange</A></SPAN><SPAN CLASS="f4">(double min, double max)</SPAN><DIV CLASS="p13">change the range (change the point's values to fit the range)</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#smooth()">smooth</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Smooth the <i>y</i> values with the neighboors...</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#sustain(int, int)">sustain</A></SPAN><SPAN CLASS="f4">(int idx, int state)</SPAN><DIV CLASS="p13">Set the sustain state of the point <i>index</i></DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#sync()">sync</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send to the dump outlet every informations to synchronize the contents of this ej.fplay with another object like ej.fplay or ej.function.js</i>.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#sync(java.lang.String)">sync</A></SPAN><SPAN CLASS="f4">(String sendName)</SPAN><DIV CLASS="p13">Send to a receive object every information to synchronize the contents of this ej.fplay with another object like ej.fplay or ej.function.js</i>.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#synccurrent()">synccurrent</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Send to the dump outlet every informations to synchronize the current function.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#synccurrent(java.lang.String)">synccurrent</A></SPAN><SPAN CLASS="f4">(String sendName)</SPAN><DIV CLASS="p13">Send to a receive object every informations to synchronize the current function.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#syncfunctions(com.cycling74.max.Atom[])">syncfunctions</A></SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[] args)</SPAN><DIV CLASS="p13">Message used for the synchronisation.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#syncpoints(double[])">syncpoints</A></SPAN><SPAN CLASS="f4">(double[] val)</SPAN><DIV CLASS="p13">Message used for the synchronisation.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#unfix()">unfix</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Set the fix state of every points of the current function to false</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#write()">write</A></SPAN><SPAN CLASS="f4">()</SPAN><DIV CLASS="p13">Display a dialog box to write the contents of the object as a text file.</DIV></DIV></TD>
+</TR>
+<TR>
+<TD ALIGN="right" VALIGN="top"><DIV CLASS="p12"><DIV CLASS="p14"><SPAN CLASS="f8">void</SPAN></DIV></DIV></TD>
+<TD COLSPAN="2" WIDTH="90.1%" VALIGN="top"><DIV CLASS="p12"><SPAN CLASS="f5"><A HREF="#write(java.lang.String)">write</A></SPAN><SPAN CLASS="f4">(String s)</SPAN><DIV CLASS="p13">Write the contents of the objects as a text file</DIV></DIV></TD>
+</TR>
+</TABLE></DIV>
+<DIV CLASS="p11">
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="3" BORDER="1">
+<TR>
+<TD BGCOLOR="#EEEEFF"><SPAN CLASS="f6">Methods inherited from class ej.<A HREF="ej.html">ej</A></SPAN></TD>
+</TR>
+<TR>
+<TD><SPAN CLASS="f4"><A HREF="ej.html#dblclick()">dblclick</A>, <A HREF="ej.html#isNumber(com.cycling74.max.Atom)">isNumber</A>, <A HREF="ej.html#post(boolean)">post</A>, <A HREF="ej.html#post(long)">post</A>, <A HREF="ej.html#post(double)">post</A>, <A HREF="ej.html#post(com.cycling74.max.Atom)">post</A>, <A HREF="ej.html#post(com.cycling74.max.Atom[])">post</A>, <A HREF="ej.html#post(double[])">post</A></SPAN></TD>
+</TR>
+</TABLE></DIV>
+<DIV CLASS="p11">
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="3" BORDER="1">
+<TR>
+<TD BGCOLOR="#EEEEFF"><SPAN CLASS="f6">Methods inherited from class com.cycling74.max.MaxObject</SPAN></TD>
+</TR>
+<TR>
+<TD><SPAN CLASS="f4">error, gc, getAttr, getAttrAtomArray, getAttrBool, getAttrBoolArray, getAttrByte, getAttrByteArray, getAttrChar, getAttrCharArray, getAttrDouble, getAttrDoubleArray, getAttrFloat, getAttrFloatArray, getAttributeInfo, getAttrInt, getAttrIntArray, getAttrLongArray, getAttrShort, getAttrShortArray, getAttrString, getAttrStringArray, getCodeSourcePath, getContext, getErrorStream, getInfoIdx, getInletAssist, getInletType, getLongAttr, getMaxBox, getName, getNumInlets, getNumOutlets, getOutletAssist, getOutletType, getParentPatcher, getPostStream, ouch, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outlet, outletBang, outletBangHigh, outletHigh, outletHigh, outletHigh, outletHigh, outletHigh, outletHigh, outletHigh, outletHigh, outletHigh, outletHigh, post, postCodePath, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setAttr, setName, showException, showException, toString, viewsource, zap</SPAN></TD>
+</TR>
+</TABLE></DIV>
+<DIV CLASS="p11">
+<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="3" BORDER="1">
+<TR>
+<TD BGCOLOR="#EEEEFF"><SPAN CLASS="f6">Methods inherited from class java.lang.Object</SPAN></TD>
+</TR>
+<TR>
+<TD><SPAN CLASS="f4">equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</SPAN></TD>
+</TR>
+</TABLE></DIV>
+<DIV CLASS="p15"><SPAN CLASS="f9">Constructor Detail</SPAN></DIV><A NAME="fplay(com.cycling74.max.Atom[])"><DIV CLASS="p16"><SPAN CLASS="f7">fplay</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;</SPAN><SPAN CLASS="f5">fplay</SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[]&nbsp;args)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">create a fplay object</DIV></DD></DL>
+<DIV CLASS="p15"><SPAN CLASS="f9">Method Detail</SPAN></DIV><A NAME="dblclick()"><DIV CLASS="p16"><SPAN CLASS="f7">dblclick</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">dblclick</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Display functions informations when you double click on the object</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4"><A HREF="ej.html#dblclick()">dblclick</A></SPAN> in class <SPAN CLASS="f4"><A HREF="ej.html">ej</A></SPAN></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="bang()"><DIV CLASS="p19"><SPAN CLASS="f7">bang</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">bang</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Output all breakpoints of the current function in line format (initial value followed by a list of deltatime-value pairs)</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4"><A HREF="ej.html#bang()">bang</A></SPAN> in class <SPAN CLASS="f4"><A HREF="ej.html">ej</A></SPAN></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="inlet(int)"><DIV CLASS="p19"><SPAN CLASS="f7">inlet</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">inlet</SPAN><SPAN CLASS="f4">(int&nbsp;i)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the interpolated y for this x for the current function at left outlet</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4"><A HREF="ej.html#inlet(int)">inlet</A></SPAN> in class <SPAN CLASS="f4"><A HREF="ej.html">ej</A></SPAN></DIV></DD></DL>
+<DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">i</SPAN> - X value</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="inlet(float)"><DIV CLASS="p19"><SPAN CLASS="f7">inlet</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">inlet</SPAN><SPAN CLASS="f4">(float&nbsp;f)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the interpolated y for this x for the current function at left outlet</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4"><A HREF="ej.html#inlet(float)">inlet</A></SPAN> in class <SPAN CLASS="f4"><A HREF="ej.html">ej</A></SPAN></DIV></DD></DL>
+<DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">f</SPAN> - X value</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="list(float[])"><DIV CLASS="p19"><SPAN CLASS="f7">list</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">list</SPAN><SPAN CLASS="f4">(float[]&nbsp;args)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Add or move a point</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">list</SPAN> in class <SPAN CLASS="f4">com.cycling74.max.MaxObject</SPAN></DIV></DD></DL>
+<DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">args</SPAN> - <br>2 elements (x, y): add the new point at the location <i>x y</i>
+ <br>3 elements (idx, x, y): move the point <i>idx</i> to the location <i>x y</i>. idx starts at 0.</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="anything(java.lang.String, com.cycling74.max.Atom[])"><DIV CLASS="p19"><SPAN CLASS="f7">anything</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">anything</SPAN><SPAN CLASS="f4">(String&nbsp;s,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;com.cycling74.max.Atom[]&nbsp;args)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Look at any message to know if it's a name of a bpf, or a method's name of this ej.fplay object</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4"><A HREF="ej.html#anything(java.lang.String, com.cycling74.max.Atom[])">anything</A></SPAN> in class <SPAN CLASS="f4"><A HREF="ej.html">ej</A></SPAN></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="all(com.cycling74.max.Atom[])"><DIV CLASS="p19"><SPAN CLASS="f7">all</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">all</SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[]&nbsp;args)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send a message to eveery bpf</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">args</SPAN> - quite any message</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="addfunction()"><DIV CLASS="p19"><SPAN CLASS="f7">addfunction</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">addfunction</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Method used to add a bpf to the object, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="addfunction(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">addfunction</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">addfunction</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Method used to add a bpf to the object, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - name of the bpf</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="insertfunction()"><DIV CLASS="p19"><SPAN CLASS="f7">insertfunction</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">insertfunction</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">inert a bpf at the current location, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="insertfunction(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">insertfunction</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">insertfunction</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">insert a bpf at the current location, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - name of the bpf</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="deletefunction(int)"><DIV CLASS="p19"><SPAN CLASS="f7">deletefunction</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">deletefunction</SPAN><SPAN CLASS="f4">(int&nbsp;i)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Delete a bpf, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">i</SPAN> - bpf index (start at 0)</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="deletefunction(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">deletefunction</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">deletefunction</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Delete a bpf, then send the names of the bpf to the dumpout outlet in u(bu)menu format</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - bfp name</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="addpoints(double[])"><DIV CLASS="p19"><SPAN CLASS="f7">addpoints</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">addpoints</SPAN><SPAN CLASS="f4">(double[]&nbsp;val)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Fast method to add points</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">val</SPAN> - list of pairs <i>x y</i></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="jit_matrix(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">jit_matrix</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">jit_matrix</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Set points from a Jitter matrix.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - matrix name (~ address)</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="read()"><DIV CLASS="p19"><SPAN CLASS="f7">read</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">read</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Display a dialog box to select the file to read.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="read(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">read</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">read</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Attempt to read a text file</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - file name (if in search path), or file path</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="write()"><DIV CLASS="p19"><SPAN CLASS="f7">write</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">write</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Display a dialog box to write the contents of the object as a text file.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="write(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">write</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">write</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Write the contents of the objects as a text file</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - file name (if in the search path), file path</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="fswitch()"><DIV CLASS="p19"><SPAN CLASS="f7">fswitch</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">fswitch</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the current function to the next one availlable, then send a message to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="display(int)"><DIV CLASS="p19"><SPAN CLASS="f7">display</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">display</SPAN><SPAN CLASS="f4">(int&nbsp;idx)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the current bpf to...</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">idx</SPAN> - index of the new current bpf</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="display(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">display</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">display</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the current bpf to...</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - name of the new current bpf</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="nth(int)"><DIV CLASS="p19"><SPAN CLASS="f7">nth</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">nth</SPAN><SPAN CLASS="f4">(int&nbsp;i)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the y value of the point (<i>index</i>) to the leftmost outlet.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">i</SPAN> - index of the point</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="next()"><DIV CLASS="p19"><SPAN CLASS="f7">next</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">next</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">The next message continues a list output from the sustain point where the output of the last bang or next message ended.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="dump()"><DIV CLASS="p19"><SPAN CLASS="f7">dump</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">dump</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">send all points to the dump outlet as pair of <i>x y</i></DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="listdump()"><DIV CLASS="p19"><SPAN CLASS="f7">listdump</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">listdump</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send all points to the dump outlet as an unique list which contains pairs of <i>x y</i></DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="dumpmatrix()"><DIV CLASS="p19"><SPAN CLASS="f7">dumpmatrix</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">dumpmatrix</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send all points to the dump outlet as a Jitter Matrix (1 plane, 2 dim, type float32)</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="dump(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">dump</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">dump</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send all points to a receive object as pair of <i>x y</i></DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - name of the receive object you want to send it to.</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="listdump(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">listdump</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">listdump</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send all points to a receive object as an unique list which contains paris of <i>x y</i></DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - name of the receive object you want to send it to.</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="dumpmatrix(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">dumpmatrix</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">dumpmatrix</SPAN><SPAN CLASS="f4">(String&nbsp;s)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send all points to a receive object as a Jitter Matrix (1 plane, 2 dim, type float32)</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">s</SPAN> - name of the receive object you want to send it to.</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="clear()"><DIV CLASS="p19"><SPAN CLASS="f7">clear</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">clear</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Remove all the points of the current bpf</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="clear(int[])"><DIV CLASS="p19"><SPAN CLASS="f7">clear</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">clear</SPAN><SPAN CLASS="f4">(int[]&nbsp;idx)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Remove the specified points</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">idx</SPAN> - index (starting at 0) of the points of the current bpf to be deleted</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="name(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">name</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">name</SPAN><SPAN CLASS="f4">(String&nbsp;name)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the name of the current bpf.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">name</SPAN> - new name for the function</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="name(java.lang.String[])"><DIV CLASS="p19"><SPAN CLASS="f7">name</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">name</SPAN><SPAN CLASS="f4">(String[]&nbsp;names)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the names of the functions</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">names</SPAN> - names of the functions</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="domain(double)"><DIV CLASS="p19"><SPAN CLASS="f7">domain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">domain</SPAN><SPAN CLASS="f4">(double&nbsp;max)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the domain (x axis) dimensions</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">max</SPAN> - maximum value (minimum will be 0)</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="domain(double, double)"><DIV CLASS="p19"><SPAN CLASS="f7">domain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">domain</SPAN><SPAN CLASS="f4">(double&nbsp;min,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double&nbsp;max)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the domain (x axis) dimensions</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">min</SPAN> - minimum value</DIV></DD></DL>
+<DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">max</SPAN> - maximum value</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="range(double, double)"><DIV CLASS="p19"><SPAN CLASS="f7">range</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">range</SPAN><SPAN CLASS="f4">(double&nbsp;min,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double&nbsp;max)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the range (y axis) dimensions</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">min</SPAN> - minimum value</DIV></DD></DL>
+<DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">max</SPAN> - maximum value</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="setdomain(double)"><DIV CLASS="p19"><SPAN CLASS="f7">setdomain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">setdomain</SPAN><SPAN CLASS="f4">(double&nbsp;max)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">change the domain (change the point's values to fit the domain)</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">max</SPAN> - domain maximum value (minimum will be 0)</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="setdomain(double, double)"><DIV CLASS="p19"><SPAN CLASS="f7">setdomain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">setdomain</SPAN><SPAN CLASS="f4">(double&nbsp;min,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double&nbsp;max)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">change the domain (change the point's values to fit the domain)</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">min</SPAN> - domain minimum value</DIV></DD></DL>
+<DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">max</SPAN> - domain maximum value</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="setrange(double, double)"><DIV CLASS="p19"><SPAN CLASS="f7">setrange</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">setrange</SPAN><SPAN CLASS="f4">(double&nbsp;min,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double&nbsp;max)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">change the range (change the point's values to fit the range)</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">min</SPAN> - range minimum value</DIV></DD></DL>
+<DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">max</SPAN> - range maximum value</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="autodomain()"><DIV CLASS="p19"><SPAN CLASS="f7">autodomain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">autodomain</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the domain depending on the position of the first and last points (lowest and highest <i>x</i> value)</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="autorange()"><DIV CLASS="p19"><SPAN CLASS="f7">autorange</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">autorange</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Change the range depending on the position of the first and last points (lowest and highest <i>y</i> value)</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="normalize()"><DIV CLASS="p19"><SPAN CLASS="f7">normalize</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">normalize</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Normalize all the points of the current function.
+ This will strech the points to &#8220;fill" the domain and the range.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="normalize_x()"><DIV CLASS="p19"><SPAN CLASS="f7">normalize_x</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">normalize_x</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Normalize points of the current function depending on the domain.
+ This will strech the points to &#8220;fill" the domain.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="normalize_y()"><DIV CLASS="p19"><SPAN CLASS="f7">normalize_y</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">normalize_y</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Normalize points of the current function depending on the range.
+ This will strech the points to &#8220;fill" the range.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="flip()"><DIV CLASS="p19"><SPAN CLASS="f7">flip</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">flip</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">flip the function on both axis</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="flip_x()"><DIV CLASS="p19"><SPAN CLASS="f7">flip_x</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">flip_x</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">flip the function on the x axis</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="flip_y()"><DIV CLASS="p19"><SPAN CLASS="f7">flip_y</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">flip_y</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">flip the function on the y axis</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="removeduplicate()"><DIV CLASS="p19"><SPAN CLASS="f7">removeduplicate</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">removeduplicate</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Delete every contigus points with the same <i>y</i> value.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="smooth()"><DIV CLASS="p19"><SPAN CLASS="f7">smooth</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">smooth</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Smooth the <i>y</i> values with the neighboors...</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="sustain(int, int)"><DIV CLASS="p19"><SPAN CLASS="f7">sustain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">sustain</SPAN><SPAN CLASS="f4">(int&nbsp;idx,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;state)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Set the sustain state of the point <i>index</i></DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">idx</SPAN> - number of the point (starting at 0)</DIV></DD></DL>
+<DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">state</SPAN> - 1 if the point is sustained, 0 otherwise.</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="fix(int, int)"><DIV CLASS="p19"><SPAN CLASS="f7">fix</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">fix</SPAN><SPAN CLASS="f4">(int&nbsp;idx,</SPAN><BR><SPAN CLASS="f4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int&nbsp;state)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Prevents the user from moving a point.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">idx</SPAN> - index of the point (starting at 0)</DIV></DD></DL>
+<DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">state</SPAN> - <i>1</i> for fix, <i>0</i> for unfix</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getname()"><DIV CLASS="p19"><SPAN CLASS="f7">getname</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getname</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the name of the functions to the dumpout outlet (in umenu format).</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getdomain()"><DIV CLASS="p19"><SPAN CLASS="f7">getdomain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getdomain</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the range limits of the current function to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getrange()"><DIV CLASS="p19"><SPAN CLASS="f7">getrange</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getrange</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the domain limits of the current function to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getcurrent()"><DIV CLASS="p19"><SPAN CLASS="f7">getcurrent</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getcurrent</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the current function name to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getdisplay()"><DIV CLASS="p19"><SPAN CLASS="f7">getdisplay</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getdisplay</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the function index to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getsustain()"><DIV CLASS="p19"><SPAN CLASS="f7">getsustain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getsustain</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Get the list of the sustained points of the current function to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getfix()"><DIV CLASS="p19"><SPAN CLASS="f7">getfix</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getfix</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Get the list of the fixed points of the current function to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="clearsustain()"><DIV CLASS="p19"><SPAN CLASS="f7">clearsustain</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">clearsustain</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Remove the sustain state of every point of the current bpf</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="unfix()"><DIV CLASS="p19"><SPAN CLASS="f7">unfix</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">unfix</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Set the fix state of every points of the current function to false</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="getnbpoints()"><DIV CLASS="p19"><SPAN CLASS="f7">getnbpoints</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">getnbpoints</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send the number of point of the current function to the dumpout outlet.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="sync()"><DIV CLASS="p19"><SPAN CLASS="f7">sync</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">sync</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send to the dump outlet every informations to synchronize the contents of this ej.fplay with another object like ej.fplay or ej.function.js</i>.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="synccurrent()"><DIV CLASS="p19"><SPAN CLASS="f7">synccurrent</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">synccurrent</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send to the dump outlet every informations to synchronize the current function.</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="sync(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">sync</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">sync</SPAN><SPAN CLASS="f4">(String&nbsp;sendName)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send to a receive object every information to synchronize the contents of this ej.fplay with another object like ej.fplay or ej.function.js</i>.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">sendName</SPAN> - name of the receive object you'll send the values to</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="synccurrent(java.lang.String)"><DIV CLASS="p19"><SPAN CLASS="f7">synccurrent</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">synccurrent</SPAN><SPAN CLASS="f4">(String&nbsp;sendName)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Send to a receive object every informations to synchronize the current function.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">sendName</SPAN> - name of the receive object you'll send the values to</DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="syncfunctions(com.cycling74.max.Atom[])"><DIV CLASS="p19"><SPAN CLASS="f7">syncfunctions</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">syncfunctions</SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[]&nbsp;args)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Message used for the synchronisation.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">args</SPAN> - <i>[function index]</i> <i>[function name]</i> <i>domain and range</i></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="syncpoints(double[])"><DIV CLASS="p19"><SPAN CLASS="f7">syncpoints</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">syncpoints</SPAN><SPAN CLASS="f4">(double[]&nbsp;val)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Message used for the synchronisation.</DIV><DIV><SPAN CLASS="f6">Parameters:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">val</SPAN> - <i>[function index]</i> <i>[val_x val_y state]*</i></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="save()"><DIV CLASS="p19"><SPAN CLASS="f7">save</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">save</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">used internaly... to store parameters in the patch.</DIV><DIV><SPAN CLASS="f6">Overrides:</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV><SPAN CLASS="f4">save</SPAN> in class <SPAN CLASS="f4">com.cycling74.max.MaxObject</SPAN></DIV></DD></DL>
+</DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="domainAndRange(com.cycling74.max.Atom[])"><DIV CLASS="p19"><SPAN CLASS="f7">domainAndRange</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">domainAndRange</SPAN><SPAN CLASS="f4">(com.cycling74.max.Atom[]&nbsp;args)</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">used internally... don't use it!</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="redrawon()"><DIV CLASS="p19"><SPAN CLASS="f7">redrawon</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">redrawon</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Does nothing, it's just here for compatibility reasons...</DIV></DD></DL>
+<DIV CLASS="p18"><HR></DIV>
+<A NAME="redrawoff()"><DIV CLASS="p19"><SPAN CLASS="f7">redrawoff</SPAN></DIV></A><DIV CLASS="p17"><SPAN CLASS="f4">public&nbsp;void&nbsp;</SPAN><SPAN CLASS="f5">redrawoff</SPAN><SPAN CLASS="f4">()</SPAN></DIV><DL CLASS="p8"><DD>
+<DIV CLASS="p7">Does nothing, it's just here for compatibility reasons...</DIV></DD></DL>
+<DIV CLASS="p20"><SPAN CLASS="f10">Java API documentation generated with <A HREF="http://www.filigris.com/products/docflex_javadoc/doclet.php" TARGET="_blank">DocFlex/Doclet</A> v1.4.9</SPAN></DIV><DIV CLASS="p21"><SPAN CLASS="f10">DocFlex/Doclet is both a multi-format Javadoc doclet and a free edition of <A HREF="http://www.filigris.com/products/docflex_javadoc/" TARGET="_blank">DocFlex/Javadoc</A>. If you need to customize your Javadoc without writing a full-blown doclet from scratch, DocFlex/Javadoc may be the only tool able to help you! Find out more at <A HREF="http://www.docflex.com/" TARGET="_blank">www.docflex.com</A></SPAN></DIV></DIV>
+</BODY>
+</HTML>

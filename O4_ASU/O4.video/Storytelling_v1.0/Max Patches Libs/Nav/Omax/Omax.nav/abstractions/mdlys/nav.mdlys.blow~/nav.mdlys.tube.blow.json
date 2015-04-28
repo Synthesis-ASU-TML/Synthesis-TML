@@ -1,0 +1,108 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Mlys.BlowInATube",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"AudioOutputGain" : [ 0.0 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ReedPos" : [ 0.0 ],
+					"ReedSmooth" : [ 100.0 ],
+					"ReedWeight" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"TubeBrightness" : [ 50.0 ],
+					"TubeDamping" : [ 50.0 ],
+					"TubeDetune" : [ 0.0 ],
+					"TubeKeybOctave" : [ 2.0 ],
+					"TubeModes" : [ 80.0 ],
+					"TubePitch" : [ 36.0 ],
+					"TubeRadius0" : [ 1.0 ],
+					"TubeRadius1" : [ 1.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.25 ],
+					"Fma.SignalMapper~::Drive" : [ 0.0 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 0.0 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMin" : [ 200.000198 ],
+					"Fma.SignalMapper~::Smooth" : [ 250.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"AudioOutputGain" : [ -0.173228 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ReedPos" : [ 19.0 ],
+					"ReedSmooth" : [ 100.0 ],
+					"ReedWeight" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"TubeBrightness" : [ 50.0 ],
+					"TubeDamping" : [ 77.559052 ],
+					"TubeDetune" : [ 0.0 ],
+					"TubeKeybOctave" : [ 2.0 ],
+					"TubeModes" : [ 196.0 ],
+					"TubePitch" : [ 66.0 ],
+					"TubeRadius0" : [ 1.0 ],
+					"TubeRadius1" : [ 1.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.25 ],
+					"Fma.SignalMapper~::Drive" : [ 0.0 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 14.289527 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -53.94466 ],
+					"Fma.SignalMapper~::OutMin" : [ 200.000198 ],
+					"Fma.SignalMapper~::Smooth" : [ 250.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"AudioOutputGain" : [ -16.969276 ],
+					"AudioRecord" : [ 0.0 ],
+					"AudioSetup" : [ 0.0 ],
+					"PickupPosL" : [ 25.0 ],
+					"PickupPosR" : [ 75.0 ],
+					"PickupSmooth" : [ 100.0 ],
+					"ReedPos" : [ 38.0 ],
+					"ReedSmooth" : [ 100.0 ],
+					"ReedWeight" : [ 100.0 ],
+					"ResetAll" : [ 0.0 ],
+					"TubeBrightness" : [ 50.0 ],
+					"TubeDamping" : [ 87.401573 ],
+					"TubeDetune" : [ 0.0 ],
+					"TubeKeybOctave" : [ 2.0 ],
+					"TubeModes" : [ 196.0 ],
+					"TubePitch" : [ 66.0 ],
+					"TubeRadius0" : [ 1.0 ],
+					"TubeRadius1" : [ 1.0 ],
+					"Fma.SignalMapper~::Compand" : [ 0.25 ],
+					"Fma.SignalMapper~::Drive" : [ 0.0 ],
+					"Fma.SignalMapper~::Enable" : [ 1.0 ],
+					"Fma.SignalMapper~::Gain" : [ 0.431739 ],
+					"Fma.SignalMapper~::Invert" : [ 0.0 ],
+					"Fma.SignalMapper~::OutMax" : [ -109.1092 ],
+					"Fma.SignalMapper~::OutMin" : [ 180.392136 ],
+					"Fma.SignalMapper~::Smooth" : [ 137.1651 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

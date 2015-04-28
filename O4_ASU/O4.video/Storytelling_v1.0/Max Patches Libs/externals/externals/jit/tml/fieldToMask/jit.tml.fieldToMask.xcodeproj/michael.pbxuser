@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D01CCC60486CAD60068D4B7 /* tml.jit.fieldToMask */;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7 /* tml.jit.fieldToMask */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 4CF3346011E51EE900A7BA57 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 301429699;
+			PBXWorkspaceStateSaveDate = 301429699;
+		};
+		perUserProjectItems = {
+			4C92838911F7AD7C0059B541 /* PBXTextBookmark */ = 4C92838911F7AD7C0059B541 /* PBXTextBookmark */;
+			4C92838A11F7AD7C0059B541 /* PBXTextBookmark */ = 4C92838A11F7AD7C0059B541 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4CF3345F11E51EE900A7BA57 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {669, 890}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 83}";
+			sepNavWindowFrame = "{{96, 49}, {728, 979}}";
+		};
+	};
+	4C92830511F773D50059B541 /* jit.tml.fieldToMask.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 4732}}";
+			sepNavSelRange = "{9283, 0}";
+			sepNavVisRange = "{8152, 1287}";
+			sepNavWindowFrame = "{{229, 10}, {770, 997}}";
+		};
+	};
+	4C92830611F773D50059B541 /* max.jit.tml.fieldToMask.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 1404}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1898}";
+			sepNavWindowFrame = "{{73, 5}, {770, 997}}";
+		};
+	};
+	4C92838911F7AD7C0059B541 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C92830511F773D50059B541 /* jit.tml.fieldToMask.c */;
+		name = "jit.tml.fieldToMask.c: 246";
+		rLen = 0;
+		rLoc = 8068;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 6528;
+	};
+	4C92838A11F7AD7C0059B541 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C92830511F773D50059B541 /* jit.tml.fieldToMask.c */;
+		name = "jit.tml.fieldToMask.c: 318";
+		rLen = 0;
+		rLoc = 9283;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 8152;
+	};
+	4CF3345F11E51EE900A7BA57 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4CF3346011E51EE900A7BA57 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D01CCC60486CAD60068D4B7 /* tml.jit.fieldToMask */ = {
+		activeExec = 0;
+	};
+	8D01CCD10486CAD60068D4B7 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{142, 49}, {728, 979}}";
+		};
+	};
+}

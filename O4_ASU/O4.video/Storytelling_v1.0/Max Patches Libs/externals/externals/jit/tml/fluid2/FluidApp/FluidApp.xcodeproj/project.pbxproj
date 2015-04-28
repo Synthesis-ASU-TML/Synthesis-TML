@@ -1,0 +1,1605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272D27670F62E15B004E794A /* FluidServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 272D27660F62E15B004E794A /* FluidServer.c */; };
+		272D28060F62F18C004E794A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D28050F62F18C004E794A /* OpenGL.framework */; };
+		27A18B930F66F3FF0023F24B /* field_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18B920F66F3FF0023F24B /* field_pvt.c */; };
+		27A18B940F66F3FF0023F24B /* field_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18B920F66F3FF0023F24B /* field_pvt.c */; };
+		27A18BB20F6700DF0023F24B /* error_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18BB10F6700DF0023F24B /* error_pvt.c */; };
+		27A18BB30F6700DF0023F24B /* error_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18BB10F6700DF0023F24B /* error_pvt.c */; };
+		27A18C590F672BBE0023F24B /* fluid_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18C580F672BBE0023F24B /* fluid_pvt.c */; };
+		27A18C5A0F672BBE0023F24B /* fluid_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18C580F672BBE0023F24B /* fluid_pvt.c */; };
+		27A2F24B0F6D827900667640 /* fluid_advection_stam.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A2F24A0F6D827900667640 /* fluid_advection_stam.c */; };
+		27A2F24C0F6D827900667640 /* fluid_advection_stam.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A2F24A0F6D827900667640 /* fluid_advection_stam.c */; };
+		27A661E00F64292E009AC619 /* netServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A661DF0F64292E009AC619 /* netServer.c */; };
+		27A661E10F64292E009AC619 /* netServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A661DF0F64292E009AC619 /* netServer.c */; };
+		27A662FA0F645E8D009AC619 /* netClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A662F90F645E8D009AC619 /* netClient.c */; };
+		27A662FB0F645E8D009AC619 /* netClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A662F90F645E8D009AC619 /* netClient.c */; };
+		27B6BE46100FFEE300152E4E /* FluidAppDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6BE45100FFEE300152E4E /* FluidAppDocument.m */; };
+		27BD78E60FB10B450077C0B0 /* half.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BD78E50FB10B450077C0B0 /* half.c */; };
+		27BD78E70FB10B450077C0B0 /* half.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BD78E50FB10B450077C0B0 /* half.c */; };
+		27BD791E0FB111C60077C0B0 /* half.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BD78E50FB10B450077C0B0 /* half.c */; };
+		27BD79250FB112070077C0B0 /* FluidTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BD79240FB112070077C0B0 /* FluidTest.c */; };
+		4C003CD610D8FCC800CC4467 /* fluid_advection_fwd2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C003CD510D8FCC800CC4467 /* fluid_advection_fwd2.c */; };
+		4C003CD710D8FCC800CC4467 /* fluid_advection_fwd2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C003CD510D8FCC800CC4467 /* fluid_advection_fwd2.c */; };
+		4C003CD810D8FCC800CC4467 /* fluid_advection_fwd2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C003CD510D8FCC800CC4467 /* fluid_advection_fwd2.c */; };
+		4C04EAFA10D0318500D95ED8 /* FluidAppClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C04EAF910D0318500D95ED8 /* FluidAppClientController.m */; };
+		4C04EAFB10D0318500D95ED8 /* FluidAppClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C04EAF910D0318500D95ED8 /* FluidAppClientController.m */; };
+		4C0B4AC8100422F100C7C081 /* error_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18BB10F6700DF0023F24B /* error_pvt.c */; };
+		4C0B4ACA1004230700C7C081 /* netClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A662F90F645E8D009AC619 /* netClient.c */; };
+		4C1BA6770FBC6D7200A74684 /* FluidZip_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BA6760FBC6D7200A74684 /* FluidZip_main.m */; };
+		4C1BA6810FBC6EA300A74684 /* FluidZip_Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BA6800FBC6EA300A74684 /* FluidZip_Delegate.m */; };
+		4C1BA69A0FBC709800A74684 /* FluidZip_Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BA6990FBC709800A74684 /* FluidZip_Window.m */; };
+		4C1BA6B70FBC720800A74684 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		4C30F9490FD853FA00B2B86D /* mp_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9480FD853FA00B2B86D /* mp_queue.c */; };
+		4C30F94A0FD853FA00B2B86D /* mp_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9480FD853FA00B2B86D /* mp_queue.c */; };
+		4C30F94B0FD853FA00B2B86D /* mp_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9480FD853FA00B2B86D /* mp_queue.c */; };
+		4C30F9540FD86C3500B2B86D /* mp_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9530FD86C3500B2B86D /* mp_x.c */; };
+		4C30F9550FD86C3500B2B86D /* mp_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9530FD86C3500B2B86D /* mp_x.c */; };
+		4C30F9560FD86C3500B2B86D /* mp_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9530FD86C3500B2B86D /* mp_x.c */; };
+		4C437047104DDD7F0069E6D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		4C43704A104DDD7F0069E6D9 /* FluidApp_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* FluidApp_main.m */; settings = {ATTRIBUTES = (); }; };
+		4C43706A104DDD7F0069E6D9 /* netServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A661DF0F64292E009AC619 /* netServer.c */; };
+		4C43706B104DDD7F0069E6D9 /* netClient.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A662F90F645E8D009AC619 /* netClient.c */; };
+		4C43706C104DDD7F0069E6D9 /* field_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18B920F66F3FF0023F24B /* field_pvt.c */; };
+		4C43706D104DDD7F0069E6D9 /* error_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18BB10F6700DF0023F24B /* error_pvt.c */; };
+		4C43706E104DDD7F0069E6D9 /* fluid_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18C580F672BBE0023F24B /* fluid_pvt.c */; };
+		4C43706F104DDD7F0069E6D9 /* lagrange_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5E72B0F69833700CE7928 /* lagrange_pvt.c */; };
+		4C437070104DDD7F0069E6D9 /* fluid_advection_stam.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A2F24A0F6D827900667640 /* fluid_advection_stam.c */; };
+		4C437075104DDD7F0069E6D9 /* X_NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7307A30F9BDA4300C6D0BD /* X_NumberFormatter.m */; };
+		4C437077104DDD7F0069E6D9 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE10E0F9D5B540013795C /* memory.c */; };
+		4C437078104DDD7F0069E6D9 /* mp_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B36380F9E9F2D005D64F4 /* mp_mutex.c */; };
+		4C43707F104DDD7F0069E6D9 /* half.c in Sources */ = {isa = PBXBuildFile; fileRef = 27BD78E50FB10B450077C0B0 /* half.c */; };
+		4C437080104DDD7F0069E6D9 /* mp_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9480FD853FA00B2B86D /* mp_queue.c */; };
+		4C437081104DDD7F0069E6D9 /* mp_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9530FD86C3500B2B86D /* mp_x.c */; };
+		4C437082104DDD7F0069E6D9 /* mp_taskWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */; };
+		4C437083104DDD7F0069E6D9 /* netInStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825030FEB30E3003AEE44 /* netInStream.c */; };
+		4C437084104DDD7F0069E6D9 /* netOutStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825040FEB30E3003AEE44 /* netOutStream.c */; };
+		4C437085104DDD7F0069E6D9 /* mp_coherence.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C54726A1003A3EF0069EB93 /* mp_coherence.c */; };
+		4C437086104DDD7F0069E6D9 /* FluidAppDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6BE45100FFEE300152E4E /* FluidAppDocument.m */; };
+		4C437087104DDD7F0069E6D9 /* FluidAppGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9955C7102219A900C1AD6F /* FluidAppGL.m */; };
+		4C437088104DDD7F0069E6D9 /* fluid_advection_repos.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E8C104496AC003F84A0 /* fluid_advection_repos.c */; };
+		4C43708A104DDD7F0069E6D9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		4C43708B104DDD7F0069E6D9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272D28050F62F18C004E794A /* OpenGL.framework */; };
+		4C51E64C1129DA4000C54F93 /* fluid_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C51E64B1129DA4000C54F93 /* fluid_server.c */; };
+		4C51E64D1129DA4000C54F93 /* fluid_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C51E64B1129DA4000C54F93 /* fluid_server.c */; };
+		4C51E64E1129DA4000C54F93 /* fluid_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C51E64B1129DA4000C54F93 /* fluid_server.c */; };
+		4C54726B1003A3EF0069EB93 /* mp_coherence.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C54726A1003A3EF0069EB93 /* mp_coherence.c */; };
+		4C54726C1003A3EF0069EB93 /* mp_coherence.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C54726A1003A3EF0069EB93 /* mp_coherence.c */; };
+		4C54726D1003A3EF0069EB93 /* mp_coherence.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C54726A1003A3EF0069EB93 /* mp_coherence.c */; };
+		4C549E9410BEEB1500D9A7AC /* FluidAppDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C549E9310BEEB1500D9A7AC /* FluidAppDocument.xib */; };
+		4C549E9510BEEB1500D9A7AC /* FluidAppDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C549E9310BEEB1500D9A7AC /* FluidAppDocument.xib */; };
+		4C549E9910BEEB2400D9A7AC /* FluidApp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C549E9710BEEB2400D9A7AC /* FluidApp.xib */; };
+		4C549E9A10BEEB2400D9A7AC /* FluidApp.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C549E9710BEEB2400D9A7AC /* FluidApp.xib */; };
+		4C549E9E10BEEB4900D9A7AC /* FluidZip.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C549E9D10BEEB4900D9A7AC /* FluidZip.xib */; };
+		4C549EA110BEEB6300D9A7AC /* FluidZip_Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C549EA010BEEB6300D9A7AC /* FluidZip_Window.xib */; };
+		4C618B8F10BC854800C8790C /* field_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C618B8E10BC854800C8790C /* field_server.c */; };
+		4C618B9010BC854800C8790C /* field_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C618B8E10BC854800C8790C /* field_server.c */; };
+		4C618B9110BC854800C8790C /* field_server.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C618B8E10BC854800C8790C /* field_server.c */; };
+		4C618C7D10BCBDA500C8790C /* field_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C618C7C10BCBDA500C8790C /* field_client.c */; };
+		4C618C7E10BCBDA500C8790C /* field_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C618C7C10BCBDA500C8790C /* field_client.c */; };
+		4C618C7F10BCBDA500C8790C /* field_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C618C7C10BCBDA500C8790C /* field_client.c */; };
+		4C6E8EF7111B32D000431481 /* mp_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8EF6111B32D000431481 /* mp_stack.c */; };
+		4C6E8EF8111B32D000431481 /* mp_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8EF6111B32D000431481 /* mp_stack.c */; };
+		4C6E8EF9111B32D000431481 /* mp_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8EF6111B32D000431481 /* mp_stack.c */; };
+		4C6E8EFA111B32D000431481 /* mp_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8EF6111B32D000431481 /* mp_stack.c */; };
+		4C72961210C1E9AD001A515D /* error_lst.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C72961110C1E9AD001A515D /* error_lst.c */; };
+		4C72961310C1E9AD001A515D /* error_lst.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C72961110C1E9AD001A515D /* error_lst.c */; };
+		4C72961410C1E9AD001A515D /* error_lst.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C72961110C1E9AD001A515D /* error_lst.c */; };
+		4C7307A40F9BDA4300C6D0BD /* X_NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7307A30F9BDA4300C6D0BD /* X_NumberFormatter.m */; };
+		4C76D4ED0FDC2F8A00FED6DB /* mp_taskWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */; };
+		4C76D4EE0FDC2F8A00FED6DB /* mp_taskWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */; };
+		4C76D4EF0FDC2F8A00FED6DB /* mp_taskWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */; };
+		4C78C0D510C852AD0048858A /* fluid_visual.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C0D410C852AD0048858A /* fluid_visual.c */; };
+		4C78C0D610C852AD0048858A /* fluid_visual.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C0D410C852AD0048858A /* fluid_visual.c */; };
+		4C78C0D710C852AD0048858A /* fluid_visual.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C78C0D410C852AD0048858A /* fluid_visual.c */; };
+		4C7C7ACE1062D87F00214ADB /* FluidTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C7ACD1062D87F00214ADB /* FluidTools.m */; };
+		4C7C7ACF1062D87F00214ADB /* FluidTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C7ACD1062D87F00214ADB /* FluidTools.m */; };
+		4C83E88810D6F44C00561E2A /* fluid_advection_fwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C83E88710D6F44C00561E2A /* fluid_advection_fwd.c */; };
+		4C83E88910D6F44C00561E2A /* fluid_advection_fwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C83E88710D6F44C00561E2A /* fluid_advection_fwd.c */; };
+		4C83E88A10D6F44C00561E2A /* fluid_advection_fwd.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C83E88710D6F44C00561E2A /* fluid_advection_fwd.c */; };
+		4C86232210665D9400C466CE /* fluid_vorticity.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C86232110665D9400C466CE /* fluid_vorticity.c */; };
+		4C86232310665D9400C466CE /* fluid_vorticity.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C86232110665D9400C466CE /* fluid_vorticity.c */; };
+		4C86232410665D9400C466CE /* fluid_vorticity.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C86232110665D9400C466CE /* fluid_vorticity.c */; };
+		4C87DC3E10FA1CF500A23521 /* fluid_heat.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C87DC3D10FA1CF500A23521 /* fluid_heat.c */; };
+		4C87DC3F10FA1CF500A23521 /* fluid_heat.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C87DC3D10FA1CF500A23521 /* fluid_heat.c */; };
+		4C87DC4010FA1CF500A23521 /* fluid_heat.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C87DC3D10FA1CF500A23521 /* fluid_heat.c */; };
+		4C87DCF610FA61F300A23521 /* Select360.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87DCF510FA61F300A23521 /* Select360.m */; };
+		4C87DCF710FA61F300A23521 /* Select360.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87DCF510FA61F300A23521 /* Select360.m */; };
+		4C880694110DBFFC00CBA3F3 /* viscosity_xy.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4C880693110DBFFC00CBA3F3 /* viscosity_xy.cl */; };
+		4C880695110DBFFC00CBA3F3 /* viscosity_xy.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4C880693110DBFFC00CBA3F3 /* viscosity_xy.cl */; };
+		4C8806AF110DC15200CBA3F3 /* viscosity_xy.cl in Resources */ = {isa = PBXBuildFile; fileRef = 4C880693110DBFFC00CBA3F3 /* viscosity_xy.cl */; };
+		4C892A6111845FFD0031C6A8 /* FluidGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C892A6011845FFD0031C6A8 /* FluidGradient.m */; };
+		4C892A6211845FFD0031C6A8 /* FluidGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C892A6011845FFD0031C6A8 /* FluidGradient.m */; };
+		4C8B36390F9E9F2D005D64F4 /* mp_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B36380F9E9F2D005D64F4 /* mp_mutex.c */; };
+		4C8B363A0F9E9F2D005D64F4 /* mp_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B36380F9E9F2D005D64F4 /* mp_mutex.c */; };
+		4C8B54B31059C8CC00D7DC5E /* fluid_repos.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B54B21059C8CC00D7DC5E /* fluid_repos.c */; };
+		4C8B54B41059C8CC00D7DC5E /* fluid_repos.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B54B21059C8CC00D7DC5E /* fluid_repos.c */; };
+		4C8B54B51059C8CC00D7DC5E /* fluid_repos.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B54B21059C8CC00D7DC5E /* fluid_repos.c */; };
+		4C8D337B11047D6900EF6539 /* fluid_gpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D337A11047D6900EF6539 /* fluid_gpu.c */; };
+		4C8D337C11047D6900EF6539 /* fluid_gpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D337A11047D6900EF6539 /* fluid_gpu.c */; };
+		4C8D337D11047D6900EF6539 /* fluid_gpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D337A11047D6900EF6539 /* fluid_gpu.c */; };
+		4C8D79A011792449004CC2D0 /* FluidTransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D799F11792449004CC2D0 /* FluidTransparentWindow.m */; };
+		4C8D79A111792449004CC2D0 /* FluidTransparentWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D799F11792449004CC2D0 /* FluidTransparentWindow.m */; };
+		4C8D79EF11792D35004CC2D0 /* FluidDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D79EE11792D35004CC2D0 /* FluidDialogView.m */; };
+		4C8D79F011792D35004CC2D0 /* FluidDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8D79EE11792D35004CC2D0 /* FluidDialogView.m */; };
+		4C8DE10F0F9D5B540013795C /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE10E0F9D5B540013795C /* memory.c */; };
+		4C8DE1100F9D5B540013795C /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE10E0F9D5B540013795C /* memory.c */; };
+		4C8DE601117BC21F00DBEE43 /* FluidColorChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE600117BC21F00DBEE43 /* FluidColorChooser.m */; };
+		4C8DE602117BC21F00DBEE43 /* FluidColorChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE600117BC21F00DBEE43 /* FluidColorChooser.m */; };
+		4C8E16440FC44AD90051397F /* Test_Half.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E16430FC44AD90051397F /* Test_Half.c */; };
+		4C8E16540FC44B450051397F /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE10E0F9D5B540013795C /* memory.c */; };
+		4C8E16820FC4544D0051397F /* Test_Locality.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E16810FC4544D0051397F /* Test_Locality.c */; };
+		4C8EC37B10FB4D2F00A86994 /* advection.cl in Resources */ = {isa = PBXBuildFile; fileRef = 4CA4C8ED10F748CF00436A6B /* advection.cl */; };
+		4C8F45D811695C380033D1F5 /* FluidVisualController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F45D711695C380033D1F5 /* FluidVisualController.m */; };
+		4C8F45D911695C380033D1F5 /* FluidVisualController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F45D711695C380033D1F5 /* FluidVisualController.m */; };
+		4C91C58210CEEF0400FC4080 /* StatusFail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C57F10CEEF0400FC4080 /* StatusFail.png */; };
+		4C91C58310CEEF0400FC4080 /* StatusGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C58010CEEF0400FC4080 /* StatusGood.png */; };
+		4C91C58410CEEF0400FC4080 /* StatusPending.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C58110CEEF0400FC4080 /* StatusPending.png */; };
+		4C91C58510CEEF0400FC4080 /* StatusFail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C57F10CEEF0400FC4080 /* StatusFail.png */; };
+		4C91C58610CEEF0400FC4080 /* StatusGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C58010CEEF0400FC4080 /* StatusGood.png */; };
+		4C91C58710CEEF0400FC4080 /* StatusPending.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C58110CEEF0400FC4080 /* StatusPending.png */; };
+		4C91C58810CEEF0400FC4080 /* StatusFail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C57F10CEEF0400FC4080 /* StatusFail.png */; };
+		4C91C58910CEEF0400FC4080 /* StatusGood.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C58010CEEF0400FC4080 /* StatusGood.png */; };
+		4C91C58A10CEEF0400FC4080 /* StatusPending.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C91C58110CEEF0400FC4080 /* StatusPending.png */; };
+		4C91C5A110CEF47B00FC4080 /* FluidAppServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91C5A010CEF47B00FC4080 /* FluidAppServerController.m */; };
+		4C91C5A210CEF47B00FC4080 /* FluidAppServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91C5A010CEF47B00FC4080 /* FluidAppServerController.m */; };
+		4C94575410EE3DEB00D482E6 /* gpgpu_field.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C94575310EE3DEB00D482E6 /* gpgpu_field.c */; };
+		4C94575510EE3DEB00D482E6 /* gpgpu_field.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C94575310EE3DEB00D482E6 /* gpgpu_field.c */; };
+		4C94575610EE3DEB00D482E6 /* gpgpu_field.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C94575310EE3DEB00D482E6 /* gpgpu_field.c */; };
+		4C9457E610EE779F00D482E6 /* gpgpu_program.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C9457E510EE779F00D482E6 /* gpgpu_program.c */; };
+		4C9457E710EE779F00D482E6 /* gpgpu_program.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C9457E510EE779F00D482E6 /* gpgpu_program.c */; };
+		4C9457E810EE779F00D482E6 /* gpgpu_program.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C9457E510EE779F00D482E6 /* gpgpu_program.c */; };
+		4C94580C10EE7B4300D482E6 /* memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94580A10EE7B4300D482E6 /* memory.m */; };
+		4C94580D10EE7B4300D482E6 /* memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94580A10EE7B4300D482E6 /* memory.m */; };
+		4C94581610EE7CB300D482E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C94581510EE7CB300D482E6 /* Cocoa.framework */; };
+		4C94583D10EE871400D482E6 /* viscosity.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4C94583C10EE871400D482E6 /* viscosity.cl */; };
+		4C94583E10EE871400D482E6 /* viscosity.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4C94583C10EE871400D482E6 /* viscosity.cl */; };
+		4C95D8D81156AD2D0084CA22 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D8D71156AD2D0084CA22 /* bitstream.c */; };
+		4C95D8D91156AD2D0084CA22 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D8D71156AD2D0084CA22 /* bitstream.c */; };
+		4C95D8DA1156AD2D0084CA22 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D8D71156AD2D0084CA22 /* bitstream.c */; };
+		4C95D8DB1156AD2D0084CA22 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D8D71156AD2D0084CA22 /* bitstream.c */; };
+		4C95D8DC1156AD2D0084CA22 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D8D71156AD2D0084CA22 /* bitstream.c */; };
+		4C95D8FF1156BF160084CA22 /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DE10E0F9D5B540013795C /* memory.c */; };
+		4C95D9001156BF160084CA22 /* memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94580A10EE7B4300D482E6 /* memory.m */; };
+		4C95D9031156BF260084CA22 /* error_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18BB10F6700DF0023F24B /* error_pvt.c */; };
+		4C95D9041156BF260084CA22 /* error_lst.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C72961110C1E9AD001A515D /* error_lst.c */; };
+		4C95D9071156BF3C0084CA22 /* mp_mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B36380F9E9F2D005D64F4 /* mp_mutex.c */; };
+		4C95D9081156BF3C0084CA22 /* mp_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9480FD853FA00B2B86D /* mp_queue.c */; };
+		4C95D9091156BF3C0084CA22 /* mp_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C30F9530FD86C3500B2B86D /* mp_x.c */; };
+		4C95D90A1156BF3C0084CA22 /* mp_taskWorld.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */; };
+		4C95D90B1156BF3C0084CA22 /* mp_coherence.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C54726A1003A3EF0069EB93 /* mp_coherence.c */; };
+		4C95D90C1156BF3C0084CA22 /* mp_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C6E8EF6111B32D000431481 /* mp_stack.c */; };
+		4C9955C8102219A900C1AD6F /* FluidAppGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9955C7102219A900C1AD6F /* FluidAppGL.m */; };
+		4C9F2CA91065A87300651C4B /* fluid_viscosity.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F2CA81065A87300651C4B /* fluid_viscosity.c */; };
+		4C9F2CAA1065A87300651C4B /* fluid_viscosity.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F2CA81065A87300651C4B /* fluid_viscosity.c */; };
+		4C9F2CAB1065A87300651C4B /* fluid_viscosity.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F2CA81065A87300651C4B /* fluid_viscosity.c */; };
+		4CA33EAF10D1729800C50A88 /* fluid_input.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA33EAE10D1729800C50A88 /* fluid_input.c */; };
+		4CA33EB010D1729800C50A88 /* fluid_input.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA33EAE10D1729800C50A88 /* fluid_input.c */; };
+		4CA33EB110D1729800C50A88 /* fluid_input.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CA33EAE10D1729800C50A88 /* fluid_input.c */; };
+		4CA4C8EE10F748CF00436A6B /* advection.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4C8ED10F748CF00436A6B /* advection.cl */; };
+		4CA4C8EF10F748CF00436A6B /* advection.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4CA4C8ED10F748CF00436A6B /* advection.cl */; };
+		4CBC1E8D104496AC003F84A0 /* fluid_advection_repos.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E8C104496AC003F84A0 /* fluid_advection_repos.c */; };
+		4CBC1E8E104496AC003F84A0 /* fluid_advection_repos.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC1E8C104496AC003F84A0 /* fluid_advection_repos.c */; };
+		4CBF5EB41120B46300A4E997 /* Test_Pipeline.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF5EB31120B46300A4E997 /* Test_Pipeline.c */; };
+		4CBF5EB51120B46300A4E997 /* Test_Pipeline.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF5EB31120B46300A4E997 /* Test_Pipeline.c */; };
+		4CBF5EB61120B46300A4E997 /* Test_Pipeline.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF5EB31120B46300A4E997 /* Test_Pipeline.c */; };
+		4CBF5EB71120B46300A4E997 /* Test_Pipeline.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CBF5EB31120B46300A4E997 /* Test_Pipeline.c */; };
+		4CC5E72C0F69833700CE7928 /* lagrange_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5E72B0F69833700CE7928 /* lagrange_pvt.c */; };
+		4CC5E72D0F69833700CE7928 /* lagrange_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5E72B0F69833700CE7928 /* lagrange_pvt.c */; };
+		4CC757221063060F003C1369 /* fluid_pressure.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC757211063060F003C1369 /* fluid_pressure.c */; };
+		4CC757231063060F003C1369 /* fluid_pressure.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC757211063060F003C1369 /* fluid_pressure.c */; };
+		4CC757241063060F003C1369 /* fluid_pressure.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CC757211063060F003C1369 /* fluid_pressure.c */; };
+		4CC8483A108F74AB00CCE02D /* FluidToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC84839108F74AB00CCE02D /* FluidToolbar.m */; };
+		4CC8483B108F74AB00CCE02D /* FluidToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC84839108F74AB00CCE02D /* FluidToolbar.m */; };
+		4CCA947811727FC1008C7D55 /* Colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCA947711727FC1008C7D55 /* Colors.png */; };
+		4CCA947911727FC1008C7D55 /* Colors.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCA947711727FC1008C7D55 /* Colors.png */; };
+		4CCB577F10D25E6200F686C2 /* FluidAppSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB577E10D25E6200F686C2 /* FluidAppSliderCell.m */; };
+		4CCB578010D25E6200F686C2 /* FluidAppSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB577E10D25E6200F686C2 /* FluidAppSliderCell.m */; };
+		4CD92D7F10A314D500714BD3 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD92D4D10A2FC6B00714BD3 /* OpenCL.framework */; };
+		4CD92DEF10A351FE00714BD3 /* fluid_cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD92DEE10A351FE00714BD3 /* fluid_cpu.c */; };
+		4CD92DF010A351FE00714BD3 /* fluid_cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD92DEE10A351FE00714BD3 /* fluid_cpu.c */; };
+		4CD92DF110A351FE00714BD3 /* fluid_cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD92DEE10A351FE00714BD3 /* fluid_cpu.c */; };
+		4CE8F07B108E43430014AD01 /* fluid_dampen.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8F07A108E43430014AD01 /* fluid_dampen.c */; };
+		4CE8F07C108E43430014AD01 /* fluid_dampen.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8F07A108E43430014AD01 /* fluid_dampen.c */; };
+		4CE8F07D108E43430014AD01 /* fluid_dampen.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8F07A108E43430014AD01 /* fluid_dampen.c */; };
+		4CF0366010F35AA600D55D20 /* viscosity.cl in Resources */ = {isa = PBXBuildFile; fileRef = 4C94583C10EE871400D482E6 /* viscosity.cl */; };
+		4CF036CE10F368AA00D55D20 /* pressure.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4CF036CD10F368AA00D55D20 /* pressure.cl */; };
+		4CF036CF10F368AA00D55D20 /* pressure.cl in Sources */ = {isa = PBXBuildFile; fileRef = 4CF036CD10F368AA00D55D20 /* pressure.cl */; };
+		4CF036D010F368B000D55D20 /* pressure.cl in Resources */ = {isa = PBXBuildFile; fileRef = 4CF036CD10F368AA00D55D20 /* pressure.cl */; };
+		4CF137F111231F0200A34095 /* fluid_pressure_rb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF137F011231F0200A34095 /* fluid_pressure_rb.c */; };
+		4CF137F211231F0200A34095 /* fluid_pressure_rb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF137F011231F0200A34095 /* fluid_pressure_rb.c */; };
+		4CF137F311231F0200A34095 /* fluid_pressure_rb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF137F011231F0200A34095 /* fluid_pressure_rb.c */; };
+		4CF13825112325CF00A34095 /* fluid_viscosity_rb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13824112325CF00A34095 /* fluid_viscosity_rb.c */; };
+		4CF13826112325CF00A34095 /* fluid_viscosity_rb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13824112325CF00A34095 /* fluid_viscosity_rb.c */; };
+		4CF13827112325CF00A34095 /* fluid_viscosity_rb.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF13824112325CF00A34095 /* fluid_viscosity_rb.c */; };
+		4CF1CC3610CAC3B000B770B7 /* FluidTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1CC3510CAC3B000B770B7 /* FluidTabView.m */; };
+		4CF1CC3710CAC3B000B770B7 /* FluidTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1CC3510CAC3B000B770B7 /* FluidTabView.m */; };
+		4CF1CC8610CB206A00B770B7 /* FluidTabTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1CC8510CB206A00B770B7 /* FluidTabTopView.m */; };
+		4CF1CC8710CB206A00B770B7 /* FluidTabTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1CC8510CB206A00B770B7 /* FluidTabTopView.m */; };
+		4CF1CCA110CB21A900B770B7 /* FluidTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1CCA010CB21A900B770B7 /* FluidTabButton.m */; };
+		4CF1CCA210CB21A900B770B7 /* FluidTabButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1CCA010CB21A900B770B7 /* FluidTabButton.m */; };
+		4CF1F30610D8508800089E91 /* fluid_advection_stam2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1F30510D8508800089E91 /* fluid_advection_stam2.c */; };
+		4CF1F30710D8508800089E91 /* fluid_advection_stam2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1F30510D8508800089E91 /* fluid_advection_stam2.c */; };
+		4CF1F30810D8508800089E91 /* fluid_advection_stam2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF1F30510D8508800089E91 /* fluid_advection_stam2.c */; };
+		4CF20D69109DC08300BB2332 /* FluidFPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF20D68109DC08300BB2332 /* FluidFPSView.m */; };
+		4CF20D6A109DC08300BB2332 /* FluidFPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF20D68109DC08300BB2332 /* FluidFPSView.m */; };
+		4CF20D94109DC6E800BB2332 /* FluidApp_Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF20D93109DC6E800BB2332 /* FluidApp_Delegate.m */; };
+		4CF20D95109DC6E800BB2332 /* FluidApp_Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF20D93109DC6E800BB2332 /* FluidApp_Delegate.m */; };
+		4CF2E8D71118A3B300AE2CD6 /* fluid_messenger.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E8D61118A3B300AE2CD6 /* fluid_messenger.c */; };
+		4CF2E8D81118A3B300AE2CD6 /* fluid_messenger.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E8D61118A3B300AE2CD6 /* fluid_messenger.c */; };
+		4CF2E8D91118A3B300AE2CD6 /* fluid_messenger.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF2E8D61118A3B300AE2CD6 /* fluid_messenger.c */; };
+		4CF797A61157DFE300508F1A /* field_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = 27A18B920F66F3FF0023F24B /* field_pvt.c */; };
+		4CF825050FEB30E3003AEE44 /* netInStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825030FEB30E3003AEE44 /* netInStream.c */; };
+		4CF825060FEB30E3003AEE44 /* netOutStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825040FEB30E3003AEE44 /* netOutStream.c */; };
+		4CF825070FEB30E3003AEE44 /* netInStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825030FEB30E3003AEE44 /* netInStream.c */; };
+		4CF825080FEB30E3003AEE44 /* netOutStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825040FEB30E3003AEE44 /* netOutStream.c */; };
+		4CF825090FEB30E3003AEE44 /* netInStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825030FEB30E3003AEE44 /* netInStream.c */; };
+		4CF8250A0FEB30E3003AEE44 /* netOutStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CF825040FEB30E3003AEE44 /* netOutStream.c */; };
+		4CFD34F810ED20D100B8FF8A /* gpgpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD34F710ED20D100B8FF8A /* gpgpu.c */; };
+		4CFD34F910ED20D100B8FF8A /* gpgpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD34F710ED20D100B8FF8A /* gpgpu.c */; };
+		4CFD34FA10ED20D100B8FF8A /* gpgpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CFD34F710ED20D100B8FF8A /* gpgpu.c */; };
+		4CFEB5FC10E2934E00C684CA /* field_msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CFEB5FB10E2934E00C684CA /* field_msg.c */; };
+		4CFEB5FD10E2934E00C684CA /* field_msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CFEB5FB10E2934E00C684CA /* field_msg.c */; };
+		4CFEB5FE10E2934E00C684CA /* field_msg.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CFEB5FB10E2934E00C684CA /* field_msg.c */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* FluidApp_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* FluidApp_main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272D26BA0F62DF35004E794A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272D26B70F62DF23004E794A;
+			remoteInfo = FluidServer;
+		};
+		4C437044104DDD7F0069E6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 272D26B70F62DF23004E794A;
+			remoteInfo = FluidServer;
+		};
+		4CD92E6D10A35B0500714BD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = FluidApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		272D26B80F62DF23004E794A /* FluidServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FluidServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		272D27660F62E15B004E794A /* FluidServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FluidServer.c; sourceTree = "<group>"; };
+		272D27B20F62EB22004E794A /* FluidApp_Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidApp_Util.h; sourceTree = "<group>"; };
+		272D28050F62F18C004E794A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		27A18B910F66F3FF0023F24B /* field_pvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field_pvt.h; sourceTree = "<group>"; };
+		27A18B920F66F3FF0023F24B /* field_pvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = field_pvt.c; sourceTree = "<group>"; };
+		27A18BA90F66F6660023F24B /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		27A18BB00F6700DF0023F24B /* error_pvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error_pvt.h; sourceTree = "<group>"; };
+		27A18BB10F6700DF0023F24B /* error_pvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error_pvt.c; sourceTree = "<group>"; };
+		27A18C520F6728C00023F24B /* fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluid.h; sourceTree = "<group>"; };
+		27A18C570F672BBE0023F24B /* fluid_pvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluid_pvt.h; sourceTree = "<group>"; };
+		27A18C580F672BBE0023F24B /* fluid_pvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_pvt.c; sourceTree = "<group>"; };
+		27A2F24A0F6D827900667640 /* fluid_advection_stam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_advection_stam.c; sourceTree = "<group>"; };
+		27A661DE0F64292E009AC619 /* netServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netServer.h; sourceTree = "<group>"; };
+		27A661DF0F64292E009AC619 /* netServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netServer.c; sourceTree = "<group>"; };
+		27A661E40F642960009AC619 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		27A662F80F645E8D009AC619 /* netClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = netClient.h; sourceTree = "<group>"; };
+		27A662F90F645E8D009AC619 /* netClient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netClient.c; sourceTree = "<group>"; };
+		27A665030F64A527009AC619 /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		27B6BE44100FFEE300152E4E /* FluidAppDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidAppDocument.h; sourceTree = "<group>"; };
+		27B6BE45100FFEE300152E4E /* FluidAppDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidAppDocument.m; sourceTree = "<group>"; };
+		27BD78E40FB10B450077C0B0 /* half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
+		27BD78E50FB10B450077C0B0 /* half.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = half.c; sourceTree = "<group>"; };
+		27BD79190FB111930077C0B0 /* FluidTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FluidTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BD79240FB112070077C0B0 /* FluidTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FluidTest.c; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* FluidApp_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidApp_main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* FluidApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidApp_Prefix.pch; sourceTree = "<group>"; };
+		4C003CD510D8FCC800CC4467 /* fluid_advection_fwd2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_advection_fwd2.c; sourceTree = "<group>"; };
+		4C04EAF810D0318500D95ED8 /* FluidAppClientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidAppClientController.h; sourceTree = "<group>"; };
+		4C04EAF910D0318500D95ED8 /* FluidAppClientController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidAppClientController.m; sourceTree = "<group>"; };
+		4C1BA6700FBC6D3900A74684 /* FluidZip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidZip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1BA6720FBC6D3A00A74684 /* FluidZip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FluidZip-Info.plist"; sourceTree = "<group>"; };
+		4C1BA6760FBC6D7200A74684 /* FluidZip_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidZip_main.m; sourceTree = "<group>"; };
+		4C1BA67F0FBC6EA300A74684 /* FluidZip_Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidZip_Delegate.h; sourceTree = "<group>"; };
+		4C1BA6800FBC6EA300A74684 /* FluidZip_Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidZip_Delegate.m; sourceTree = "<group>"; };
+		4C1BA6980FBC709800A74684 /* FluidZip_Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidZip_Window.h; sourceTree = "<group>"; };
+		4C1BA6990FBC709800A74684 /* FluidZip_Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidZip_Window.m; sourceTree = "<group>"; };
+		4C30F9480FD853FA00B2B86D /* mp_queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_queue.c; sourceTree = "<group>"; };
+		4C30F9530FD86C3500B2B86D /* mp_x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_x.c; sourceTree = "<group>"; };
+		4C414FEF0FF1941C002B8CD1 /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		4C43708F104DDD7F0069E6D9 /* FluidApp_x64.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidApp_x64.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C437091104DDD7F0069E6D9 /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		4C51E64B1129DA4000C54F93 /* fluid_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_server.c; sourceTree = "<group>"; };
+		4C54726A1003A3EF0069EB93 /* mp_coherence.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_coherence.c; sourceTree = "<group>"; };
+		4C549E9310BEEB1500D9A7AC /* FluidAppDocument.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FluidAppDocument.xib; sourceTree = "<group>"; };
+		4C549E9810BEEB2400D9A7AC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FluidApp.xib; sourceTree = "<group>"; };
+		4C549E9D10BEEB4900D9A7AC /* FluidZip.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FluidZip.xib; sourceTree = "<group>"; };
+		4C549EA010BEEB6300D9A7AC /* FluidZip_Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FluidZip_Window.xib; sourceTree = "<group>"; };
+		4C618B8E10BC854800C8790C /* field_server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = field_server.c; sourceTree = "<group>"; };
+		4C618C7C10BCBDA500C8790C /* field_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = field_client.c; sourceTree = "<group>"; };
+		4C6E8EF6111B32D000431481 /* mp_stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_stack.c; sourceTree = "<group>"; };
+		4C72961110C1E9AD001A515D /* error_lst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error_lst.c; sourceTree = "<group>"; };
+		4C7307A20F9BDA4300C6D0BD /* X_NumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X_NumberFormatter.h; sourceTree = "<group>"; };
+		4C7307A30F9BDA4300C6D0BD /* X_NumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = X_NumberFormatter.m; sourceTree = "<group>"; };
+		4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_taskWorld.c; sourceTree = "<group>"; };
+		4C78C0D410C852AD0048858A /* fluid_visual.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_visual.c; sourceTree = "<group>"; };
+		4C7C7ACC1062D87F00214ADB /* FluidTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidTools.h; sourceTree = "<group>"; };
+		4C7C7ACD1062D87F00214ADB /* FluidTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidTools.m; sourceTree = "<group>"; };
+		4C83E88710D6F44C00561E2A /* fluid_advection_fwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_advection_fwd.c; sourceTree = "<group>"; };
+		4C86232110665D9400C466CE /* fluid_vorticity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_vorticity.c; sourceTree = "<group>"; };
+		4C87DC3D10FA1CF500A23521 /* fluid_heat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_heat.c; sourceTree = "<group>"; };
+		4C87DCF410FA61F300A23521 /* Select360.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Select360.h; sourceTree = "<group>"; };
+		4C87DCF510FA61F300A23521 /* Select360.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Select360.m; sourceTree = "<group>"; };
+		4C880693110DBFFC00CBA3F3 /* viscosity_xy.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = viscosity_xy.cl; sourceTree = "<group>"; };
+		4C892A5F11845FFD0031C6A8 /* FluidGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidGradient.h; sourceTree = "<group>"; };
+		4C892A6011845FFD0031C6A8 /* FluidGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidGradient.m; sourceTree = "<group>"; };
+		4C8B36380F9E9F2D005D64F4 /* mp_mutex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp_mutex.c; sourceTree = "<group>"; };
+		4C8B54B21059C8CC00D7DC5E /* fluid_repos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_repos.c; sourceTree = "<group>"; };
+		4C8D337A11047D6900EF6539 /* fluid_gpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_gpu.c; sourceTree = "<group>"; };
+		4C8D799E11792449004CC2D0 /* FluidTransparentWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidTransparentWindow.h; sourceTree = "<group>"; };
+		4C8D799F11792449004CC2D0 /* FluidTransparentWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidTransparentWindow.m; sourceTree = "<group>"; };
+		4C8D79ED11792D35004CC2D0 /* FluidDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidDialogView.h; sourceTree = "<group>"; };
+		4C8D79EE11792D35004CC2D0 /* FluidDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidDialogView.m; sourceTree = "<group>"; };
+		4C8DE10D0F9D59840013795C /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
+		4C8DE10E0F9D5B540013795C /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
+		4C8DE5FF117BC21F00DBEE43 /* FluidColorChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidColorChooser.h; sourceTree = "<group>"; };
+		4C8DE600117BC21F00DBEE43 /* FluidColorChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidColorChooser.m; sourceTree = "<group>"; };
+		4C8E16430FC44AD90051397F /* Test_Half.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test_Half.c; sourceTree = "<group>"; };
+		4C8E16810FC4544D0051397F /* Test_Locality.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test_Locality.c; sourceTree = "<group>"; };
+		4C8F45D611695C380033D1F5 /* FluidVisualController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidVisualController.h; sourceTree = "<group>"; };
+		4C8F45D711695C380033D1F5 /* FluidVisualController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidVisualController.m; sourceTree = "<group>"; };
+		4C91C57F10CEEF0400FC4080 /* StatusFail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusFail.png; sourceTree = "<group>"; };
+		4C91C58010CEEF0400FC4080 /* StatusGood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusGood.png; sourceTree = "<group>"; };
+		4C91C58110CEEF0400FC4080 /* StatusPending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusPending.png; sourceTree = "<group>"; };
+		4C91C59F10CEF47B00FC4080 /* FluidAppServerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidAppServerController.h; sourceTree = "<group>"; };
+		4C91C5A010CEF47B00FC4080 /* FluidAppServerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidAppServerController.m; sourceTree = "<group>"; };
+		4C94575310EE3DEB00D482E6 /* gpgpu_field.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gpgpu_field.c; sourceTree = "<group>"; };
+		4C9457E510EE779F00D482E6 /* gpgpu_program.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gpgpu_program.c; sourceTree = "<group>"; };
+		4C94580A10EE7B4300D482E6 /* memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = memory.m; sourceTree = "<group>"; };
+		4C94581510EE7CB300D482E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4C94583C10EE871400D482E6 /* viscosity.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = viscosity.cl; sourceTree = "<group>"; };
+		4C95D8D61156A5350084CA22 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		4C95D8D71156AD2D0084CA22 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		4C9955C6102219A900C1AD6F /* FluidAppGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidAppGL.h; sourceTree = "<group>"; };
+		4C9955C7102219A900C1AD6F /* FluidAppGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidAppGL.m; sourceTree = "<group>"; };
+		4C9F2CA81065A87300651C4B /* fluid_viscosity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_viscosity.c; sourceTree = "<group>"; };
+		4CA33EAE10D1729800C50A88 /* fluid_input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_input.c; sourceTree = "<group>"; };
+		4CA4C8ED10F748CF00436A6B /* advection.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = advection.cl; sourceTree = "<group>"; };
+		4CBC1E8C104496AC003F84A0 /* fluid_advection_repos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_advection_repos.c; sourceTree = "<group>"; };
+		4CBF5EB31120B46300A4E997 /* Test_Pipeline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test_Pipeline.c; sourceTree = "<group>"; };
+		4CC5E7270F697C4900CE7928 /* lagrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lagrange.h; sourceTree = "<group>"; };
+		4CC5E72A0F69833700CE7928 /* lagrange_pvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lagrange_pvt.h; sourceTree = "<group>"; };
+		4CC5E72B0F69833700CE7928 /* lagrange_pvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lagrange_pvt.c; sourceTree = "<group>"; };
+		4CC757211063060F003C1369 /* fluid_pressure.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_pressure.c; sourceTree = "<group>"; };
+		4CC84838108F74AB00CCE02D /* FluidToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidToolbar.h; sourceTree = "<group>"; };
+		4CC84839108F74AB00CCE02D /* FluidToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidToolbar.m; sourceTree = "<group>"; };
+		4CCA947711727FC1008C7D55 /* Colors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Colors.png; sourceTree = "<group>"; };
+		4CCB577D10D25E6200F686C2 /* FluidAppSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidAppSliderCell.h; sourceTree = "<group>"; };
+		4CCB577E10D25E6200F686C2 /* FluidAppSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidAppSliderCell.m; sourceTree = "<group>"; };
+		4CD34055104055D200C318A4 /* fluid_macros_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluid_macros_2.h; sourceTree = "<group>"; };
+		4CD6461E0FA7AB7D00073448 /* mpx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpx.h; sourceTree = "<group>"; };
+		4CD92D4D10A2FC6B00714BD3 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = /System/Library/Frameworks/OpenCL.framework; sourceTree = "<absolute>"; };
+		4CD92DED10A351FE00714BD3 /* fluid_cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluid_cpu.h; sourceTree = "<group>"; };
+		4CD92DEE10A351FE00714BD3 /* fluid_cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_cpu.c; sourceTree = "<group>"; };
+		4CE8F07A108E43430014AD01 /* fluid_dampen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_dampen.c; sourceTree = "<group>"; };
+		4CF0309310E64A0F009FF567 /* x_simd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x_simd.h; sourceTree = "<group>"; };
+		4CF036CD10F368AA00D55D20 /* pressure.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pressure.cl; sourceTree = "<group>"; };
+		4CF137F011231F0200A34095 /* fluid_pressure_rb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_pressure_rb.c; sourceTree = "<group>"; };
+		4CF13824112325CF00A34095 /* fluid_viscosity_rb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_viscosity_rb.c; sourceTree = "<group>"; };
+		4CF1CC3410CAC3B000B770B7 /* FluidTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidTabView.h; sourceTree = "<group>"; };
+		4CF1CC3510CAC3B000B770B7 /* FluidTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidTabView.m; sourceTree = "<group>"; };
+		4CF1CC8410CB206A00B770B7 /* FluidTabTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidTabTopView.h; sourceTree = "<group>"; };
+		4CF1CC8510CB206A00B770B7 /* FluidTabTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidTabTopView.m; sourceTree = "<group>"; };
+		4CF1CC9F10CB21A900B770B7 /* FluidTabButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidTabButton.h; sourceTree = "<group>"; };
+		4CF1CCA010CB21A900B770B7 /* FluidTabButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidTabButton.m; sourceTree = "<group>"; };
+		4CF1F30510D8508800089E91 /* fluid_advection_stam2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_advection_stam2.c; sourceTree = "<group>"; };
+		4CF20D67109DC08300BB2332 /* FluidFPSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidFPSView.h; sourceTree = "<group>"; };
+		4CF20D68109DC08300BB2332 /* FluidFPSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidFPSView.m; sourceTree = "<group>"; };
+		4CF20D92109DC6E800BB2332 /* FluidApp_Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidApp_Delegate.h; sourceTree = "<group>"; };
+		4CF20D93109DC6E800BB2332 /* FluidApp_Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidApp_Delegate.m; sourceTree = "<group>"; };
+		4CF2E8D61118A3B300AE2CD6 /* fluid_messenger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fluid_messenger.c; sourceTree = "<group>"; };
+		4CF825030FEB30E3003AEE44 /* netInStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netInStream.c; sourceTree = "<group>"; };
+		4CF825040FEB30E3003AEE44 /* netOutStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = netOutStream.c; sourceTree = "<group>"; };
+		4CFA69690FAA952000E6847C /* fluid_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluid_macros.h; sourceTree = "<group>"; };
+		4CFD34F610ED20D100B8FF8A /* gpgpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpgpu.h; sourceTree = "<group>"; };
+		4CFD34F710ED20D100B8FF8A /* gpgpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gpgpu.c; sourceTree = "<group>"; };
+		4CFD34FB10ED212C00B8FF8A /* gpgpu_pvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpgpu_pvt.h; sourceTree = "<group>"; };
+		4CFEB5FB10E2934E00C684CA /* field_msg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = field_msg.c; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* FluidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272D26B60F62DF23004E794A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C94581610EE7CB300D482E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BD79170FB111930077C0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BA66E0FBC6D3900A74684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1BA6B70FBC720800A74684 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C437089104DDD7F0069E6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C43708A104DDD7F0069E6D9 /* Cocoa.framework in Frameworks */,
+				4C43708B104DDD7F0069E6D9 /* OpenGL.framework in Frameworks */,
+				4CD92D7F10A314D500714BD3 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				272D28060F62F18C004E794A /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* FluidApp.app */,
+				272D26B80F62DF23004E794A /* FluidServer */,
+				27BD79190FB111930077C0B0 /* FluidTest */,
+				4C1BA6700FBC6D3900A74684 /* FluidZip.app */,
+				4C43708F104DDD7F0069E6D9 /* FluidApp_x64.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272D26D30F62DFE5004E794A /* FluidServer */ = {
+			isa = PBXGroup;
+			children = (
+				272D27660F62E15B004E794A /* FluidServer.c */,
+			);
+			name = FluidServer;
+			sourceTree = "<group>";
+		};
+		27A18BA10F66F6070023F24B /* error */ = {
+			isa = PBXGroup;
+			children = (
+				27A18BA90F66F6660023F24B /* error.h */,
+				27A18BB00F6700DF0023F24B /* error_pvt.h */,
+				27A18BB10F6700DF0023F24B /* error_pvt.c */,
+				4C72961110C1E9AD001A515D /* error_lst.c */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
+		27A18C510F67287E0023F24B /* fluid */ = {
+			isa = PBXGroup;
+			children = (
+				4C94576F10EE476200D482E6 /* GPU */,
+				4CD92DF210A3521400714BD3 /* CPU */,
+				27A18C520F6728C00023F24B /* fluid.h */,
+				27A18C570F672BBE0023F24B /* fluid_pvt.h */,
+				27A18C580F672BBE0023F24B /* fluid_pvt.c */,
+				4CF2E8D61118A3B300AE2CD6 /* fluid_messenger.c */,
+				4C51E64B1129DA4000C54F93 /* fluid_server.c */,
+			);
+			path = fluid;
+			sourceTree = "<group>";
+		};
+		27A661DD0F642221009AC619 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				4CF825030FEB30E3003AEE44 /* netInStream.c */,
+				4CF825040FEB30E3003AEE44 /* netOutStream.c */,
+				27A662F80F645E8D009AC619 /* netClient.h */,
+				27A662F90F645E8D009AC619 /* netClient.c */,
+				27A661DE0F64292E009AC619 /* netServer.h */,
+				27A661DF0F64292E009AC619 /* netServer.c */,
+				27A661E40F642960009AC619 /* net.h */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		27A665020F64A473009AC619 /* field */ = {
+			isa = PBXGroup;
+			children = (
+				27A665030F64A527009AC619 /* field.h */,
+				27A18B910F66F3FF0023F24B /* field_pvt.h */,
+				27A18B920F66F3FF0023F24B /* field_pvt.c */,
+				4C618B8E10BC854800C8790C /* field_server.c */,
+				4C618C7C10BCBDA500C8790C /* field_client.c */,
+				4CFEB5FB10E2934E00C684CA /* field_msg.c */,
+			);
+			path = field;
+			sourceTree = "<group>";
+		};
+		27BD78E30FB10B080077C0B0 /* half */ = {
+			isa = PBXGroup;
+			children = (
+				27BD78E40FB10B450077C0B0 /* half.h */,
+				27BD78E50FB10B450077C0B0 /* half.c */,
+			);
+			name = half;
+			sourceTree = "<group>";
+		};
+		27BD79140FB1113A0077C0B0 /* FluidTest */ = {
+			isa = PBXGroup;
+			children = (
+				27BD79240FB112070077C0B0 /* FluidTest.c */,
+				4C8E16430FC44AD90051397F /* Test_Half.c */,
+				4C8E16810FC4544D0051397F /* Test_Locality.c */,
+				4CBF5EB31120B46300A4E997 /* Test_Pipeline.c */,
+			);
+			name = FluidTest;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FluidApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C95D8D51156A3E10084CA22 /* bitstream */,
+				4CFD34F510ED20A400B8FF8A /* gpgpu */,
+				4CF0309210E649E3009FF567 /* SIMD */,
+				4C91C57E10CEEF0400FC4080 /* Resources */,
+				27BD78E30FB10B080077C0B0 /* half */,
+				27A18BA10F66F6070023F24B /* error */,
+				27A665020F64A473009AC619 /* field */,
+				27A18C510F67287E0023F24B /* fluid */,
+				4CC5E7260F697C1300CE7928 /* lagrange */,
+				4C8DE10B0F9D592F0013795C /* memory */,
+				4C8B362C0F9E9BEA005D64F4 /* mp */,
+				27A661DD0F642221009AC619 /* net */,
+				4C414FEA0FF19394002B8CD1 /* transform */,
+				272D26D30F62DFE5004E794A /* FluidServer */,
+				29B97315FDCFA39411CA2CEA /* FluidApp */,
+				27BD79140FB1113A0077C0B0 /* FluidTest */,
+				4C1BA66A0FBC6D0E00A74684 /* FluidZip */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4C94581510EE7CB300D482E6 /* Cocoa.framework */,
+			);
+			name = FluidApp;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* FluidApp */ = {
+			isa = PBXGroup;
+			children = (
+				4CF20D92109DC6E800BB2332 /* FluidApp_Delegate.h */,
+				4CF20D93109DC6E800BB2332 /* FluidApp_Delegate.m */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				32CA4F630368D1EE00C91783 /* FluidApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* FluidApp_main.m */,
+				272D27B20F62EB22004E794A /* FluidApp_Util.h */,
+				4C7307A20F9BDA4300C6D0BD /* X_NumberFormatter.h */,
+				4C7307A30F9BDA4300C6D0BD /* X_NumberFormatter.m */,
+				27B6BE44100FFEE300152E4E /* FluidAppDocument.h */,
+				27B6BE45100FFEE300152E4E /* FluidAppDocument.m */,
+				4C9955C6102219A900C1AD6F /* FluidAppGL.h */,
+				4C9955C7102219A900C1AD6F /* FluidAppGL.m */,
+				4C7C7ACC1062D87F00214ADB /* FluidTools.h */,
+				4C7C7ACD1062D87F00214ADB /* FluidTools.m */,
+				4CC84838108F74AB00CCE02D /* FluidToolbar.h */,
+				4CC84839108F74AB00CCE02D /* FluidToolbar.m */,
+				4CF20D67109DC08300BB2332 /* FluidFPSView.h */,
+				4CF20D68109DC08300BB2332 /* FluidFPSView.m */,
+				4CF1CC3410CAC3B000B770B7 /* FluidTabView.h */,
+				4CF1CC3510CAC3B000B770B7 /* FluidTabView.m */,
+				4CF1CC8410CB206A00B770B7 /* FluidTabTopView.h */,
+				4CF1CC8510CB206A00B770B7 /* FluidTabTopView.m */,
+				4CF1CC9F10CB21A900B770B7 /* FluidTabButton.h */,
+				4CF1CCA010CB21A900B770B7 /* FluidTabButton.m */,
+				4C91C59F10CEF47B00FC4080 /* FluidAppServerController.h */,
+				4C91C5A010CEF47B00FC4080 /* FluidAppServerController.m */,
+				4C04EAF810D0318500D95ED8 /* FluidAppClientController.h */,
+				4C04EAF910D0318500D95ED8 /* FluidAppClientController.m */,
+				4CCB577D10D25E6200F686C2 /* FluidAppSliderCell.h */,
+				4CCB577E10D25E6200F686C2 /* FluidAppSliderCell.m */,
+				4C87DCF410FA61F300A23521 /* Select360.h */,
+				4C87DCF510FA61F300A23521 /* Select360.m */,
+				4C8F45D611695C380033D1F5 /* FluidVisualController.h */,
+				4C8F45D711695C380033D1F5 /* FluidVisualController.m */,
+				4C8D799E11792449004CC2D0 /* FluidTransparentWindow.h */,
+				4C8D799F11792449004CC2D0 /* FluidTransparentWindow.m */,
+				4C8D79ED11792D35004CC2D0 /* FluidDialogView.h */,
+				4C8D79EE11792D35004CC2D0 /* FluidDialogView.m */,
+				4C8DE5FF117BC21F00DBEE43 /* FluidColorChooser.h */,
+				4C8DE600117BC21F00DBEE43 /* FluidColorChooser.m */,
+				4C892A5F11845FFD0031C6A8 /* FluidGradient.h */,
+				4C892A6011845FFD0031C6A8 /* FluidGradient.m */,
+			);
+			name = FluidApp;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C549E9310BEEB1500D9A7AC /* FluidAppDocument.xib */,
+				4C549E9710BEEB2400D9A7AC /* FluidApp.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				4C437091104DDD7F0069E6D9 /* Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272D28050F62F18C004E794A /* OpenGL.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				4CD92D4D10A2FC6B00714BD3 /* OpenCL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C1BA66A0FBC6D0E00A74684 /* FluidZip */ = {
+			isa = PBXGroup;
+			children = (
+				4C549E9D10BEEB4900D9A7AC /* FluidZip.xib */,
+				4C549EA010BEEB6300D9A7AC /* FluidZip_Window.xib */,
+				4C1BA6720FBC6D3A00A74684 /* FluidZip-Info.plist */,
+				4C1BA6760FBC6D7200A74684 /* FluidZip_main.m */,
+				4C1BA67F0FBC6EA300A74684 /* FluidZip_Delegate.h */,
+				4C1BA6800FBC6EA300A74684 /* FluidZip_Delegate.m */,
+				4C1BA6980FBC709800A74684 /* FluidZip_Window.h */,
+				4C1BA6990FBC709800A74684 /* FluidZip_Window.m */,
+			);
+			name = FluidZip;
+			sourceTree = "<group>";
+		};
+		4C414FEA0FF19394002B8CD1 /* transform */ = {
+			isa = PBXGroup;
+			children = (
+				4C414FEF0FF1941C002B8CD1 /* transform.h */,
+			);
+			name = transform;
+			sourceTree = "<group>";
+		};
+		4C8B362C0F9E9BEA005D64F4 /* mp */ = {
+			isa = PBXGroup;
+			children = (
+				4CD6461E0FA7AB7D00073448 /* mpx.h */,
+				4C8B36380F9E9F2D005D64F4 /* mp_mutex.c */,
+				4C30F9480FD853FA00B2B86D /* mp_queue.c */,
+				4C30F9530FD86C3500B2B86D /* mp_x.c */,
+				4C76D4EC0FDC2F8A00FED6DB /* mp_taskWorld.c */,
+				4C54726A1003A3EF0069EB93 /* mp_coherence.c */,
+				4C6E8EF6111B32D000431481 /* mp_stack.c */,
+			);
+			name = mp;
+			sourceTree = "<group>";
+		};
+		4C8DE10B0F9D592F0013795C /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				4C8DE10D0F9D59840013795C /* memory.h */,
+				4C8DE10E0F9D5B540013795C /* memory.c */,
+				4C94580A10EE7B4300D482E6 /* memory.m */,
+			);
+			name = memory;
+			sourceTree = "<group>";
+		};
+		4C91C57E10CEEF0400FC4080 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CCA947711727FC1008C7D55 /* Colors.png */,
+				4C91C57F10CEEF0400FC4080 /* StatusFail.png */,
+				4C91C58010CEEF0400FC4080 /* StatusGood.png */,
+				4C91C58110CEEF0400FC4080 /* StatusPending.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C94576F10EE476200D482E6 /* GPU */ = {
+			isa = PBXGroup;
+			children = (
+				4C94583C10EE871400D482E6 /* viscosity.cl */,
+				4C880693110DBFFC00CBA3F3 /* viscosity_xy.cl */,
+				4CF036CD10F368AA00D55D20 /* pressure.cl */,
+				4CA4C8ED10F748CF00436A6B /* advection.cl */,
+				4C8D337A11047D6900EF6539 /* fluid_gpu.c */,
+			);
+			name = GPU;
+			sourceTree = "<group>";
+		};
+		4C95D8D51156A3E10084CA22 /* bitstream */ = {
+			isa = PBXGroup;
+			children = (
+				4C95D8D61156A5350084CA22 /* bitstream.h */,
+				4C95D8D71156AD2D0084CA22 /* bitstream.c */,
+			);
+			path = bitstream;
+			sourceTree = "<group>";
+		};
+		4CC5E7260F697C1300CE7928 /* lagrange */ = {
+			isa = PBXGroup;
+			children = (
+				4CC5E7270F697C4900CE7928 /* lagrange.h */,
+				4CC5E72A0F69833700CE7928 /* lagrange_pvt.h */,
+				4CC5E72B0F69833700CE7928 /* lagrange_pvt.c */,
+			);
+			path = lagrange;
+			sourceTree = "<group>";
+		};
+		4CD92DF210A3521400714BD3 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				4CD92DED10A351FE00714BD3 /* fluid_cpu.h */,
+				4CD92DEE10A351FE00714BD3 /* fluid_cpu.c */,
+				4C83E88710D6F44C00561E2A /* fluid_advection_fwd.c */,
+				4C003CD510D8FCC800CC4467 /* fluid_advection_fwd2.c */,
+				27A2F24A0F6D827900667640 /* fluid_advection_stam.c */,
+				4CF1F30510D8508800089E91 /* fluid_advection_stam2.c */,
+				4CBC1E8C104496AC003F84A0 /* fluid_advection_repos.c */,
+				4C8B54B21059C8CC00D7DC5E /* fluid_repos.c */,
+				4C9F2CA81065A87300651C4B /* fluid_viscosity.c */,
+				4CC757211063060F003C1369 /* fluid_pressure.c */,
+				4C86232110665D9400C466CE /* fluid_vorticity.c */,
+				4CE8F07A108E43430014AD01 /* fluid_dampen.c */,
+				4C87DC3D10FA1CF500A23521 /* fluid_heat.c */,
+				4C78C0D410C852AD0048858A /* fluid_visual.c */,
+				4CA33EAE10D1729800C50A88 /* fluid_input.c */,
+				4CFA69690FAA952000E6847C /* fluid_macros.h */,
+				4CD34055104055D200C318A4 /* fluid_macros_2.h */,
+				4CF137F011231F0200A34095 /* fluid_pressure_rb.c */,
+				4CF13824112325CF00A34095 /* fluid_viscosity_rb.c */,
+			);
+			name = CPU;
+			sourceTree = "<group>";
+		};
+		4CF0309210E649E3009FF567 /* SIMD */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0309310E64A0F009FF567 /* x_simd.h */,
+			);
+			name = SIMD;
+			sourceTree = "<group>";
+		};
+		4CFD34F510ED20A400B8FF8A /* gpgpu */ = {
+			isa = PBXGroup;
+			children = (
+				4CFD34F610ED20D100B8FF8A /* gpgpu.h */,
+				4CFD34F710ED20D100B8FF8A /* gpgpu.c */,
+				4CFD34FB10ED212C00B8FF8A /* gpgpu_pvt.h */,
+				4C94575310EE3DEB00D482E6 /* gpgpu_field.c */,
+				4C9457E510EE779F00D482E6 /* gpgpu_program.c */,
+			);
+			path = gpgpu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272D26B70F62DF23004E794A /* FluidServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272D26BF0F62DF5F004E794A /* Build configuration list for PBXNativeTarget "FluidServer" */;
+			buildPhases = (
+				272D26B50F62DF23004E794A /* Sources */,
+				272D26B60F62DF23004E794A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidServer;
+			productName = FluidServer;
+			productReference = 272D26B80F62DF23004E794A /* FluidServer */;
+			productType = "com.apple.product-type.tool";
+		};
+		27BD79180FB111930077C0B0 /* FluidTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BD791B0FB111B20077C0B0 /* Build configuration list for PBXNativeTarget "FluidTest" */;
+			buildPhases = (
+				27BD79160FB111930077C0B0 /* Sources */,
+				27BD79170FB111930077C0B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidTest;
+			productName = FluidTest;
+			productReference = 27BD79190FB111930077C0B0 /* FluidTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		4C1BA66F0FBC6D3900A74684 /* FluidZip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1BA6750FBC6D3B00A74684 /* Build configuration list for PBXNativeTarget "FluidZip" */;
+			buildPhases = (
+				4C1BA66C0FBC6D3900A74684 /* Resources */,
+				4C1BA66D0FBC6D3900A74684 /* Sources */,
+				4C1BA66E0FBC6D3900A74684 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidZip;
+			productName = FluidZip;
+			productReference = 4C1BA6700FBC6D3900A74684 /* FluidZip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C437042104DDD7F0069E6D9 /* FluidApp_64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C43708C104DDD7F0069E6D9 /* Build configuration list for PBXNativeTarget "FluidApp_64" */;
+			buildPhases = (
+				4C437045104DDD7F0069E6D9 /* Resources */,
+				4C437049104DDD7F0069E6D9 /* Sources */,
+				4C437089104DDD7F0069E6D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C437043104DDD7F0069E6D9 /* PBXTargetDependency */,
+				4CD92E6E10A35B0500714BD3 /* PBXTargetDependency */,
+			);
+			name = FluidApp_64;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FluidApp;
+			productReference = 4C43708F104DDD7F0069E6D9 /* FluidApp_x64.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* FluidApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FluidApp" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272D26BB0F62DF35004E794A /* PBXTargetDependency */,
+			);
+			name = FluidApp;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FluidApp;
+			productReference = 8D1107320486CEB800E47090 /* FluidApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FluidApp" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FluidApp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* FluidApp */,
+				272D26B70F62DF23004E794A /* FluidServer */,
+				27BD79180FB111930077C0B0 /* FluidTest */,
+				4C1BA66F0FBC6D3900A74684 /* FluidZip */,
+				4C437042104DDD7F0069E6D9 /* FluidApp_64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1BA66C0FBC6D3900A74684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C549E9E10BEEB4900D9A7AC /* FluidZip.xib in Resources */,
+				4C549EA110BEEB6300D9A7AC /* FluidZip_Window.xib in Resources */,
+				4C91C58810CEEF0400FC4080 /* StatusFail.png in Resources */,
+				4C91C58910CEEF0400FC4080 /* StatusGood.png in Resources */,
+				4C91C58A10CEEF0400FC4080 /* StatusPending.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C437045104DDD7F0069E6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8806AF110DC15200CBA3F3 /* viscosity_xy.cl in Resources */,
+				4C8EC37B10FB4D2F00A86994 /* advection.cl in Resources */,
+				4CF036D010F368B000D55D20 /* pressure.cl in Resources */,
+				4CF0366010F35AA600D55D20 /* viscosity.cl in Resources */,
+				4C437047104DDD7F0069E6D9 /* InfoPlist.strings in Resources */,
+				4C549E9510BEEB1500D9A7AC /* FluidAppDocument.xib in Resources */,
+				4C549E9910BEEB2400D9A7AC /* FluidApp.xib in Resources */,
+				4C91C58510CEEF0400FC4080 /* StatusFail.png in Resources */,
+				4C91C58610CEEF0400FC4080 /* StatusGood.png in Resources */,
+				4C91C58710CEEF0400FC4080 /* StatusPending.png in Resources */,
+				4CCA947911727FC1008C7D55 /* Colors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				4C549E9410BEEB1500D9A7AC /* FluidAppDocument.xib in Resources */,
+				4C549E9A10BEEB2400D9A7AC /* FluidApp.xib in Resources */,
+				4C91C58210CEEF0400FC4080 /* StatusFail.png in Resources */,
+				4C91C58310CEEF0400FC4080 /* StatusGood.png in Resources */,
+				4C91C58410CEEF0400FC4080 /* StatusPending.png in Resources */,
+				4CCA947811727FC1008C7D55 /* Colors.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272D26B50F62DF23004E794A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272D27670F62E15B004E794A /* FluidServer.c in Sources */,
+				27A661E00F64292E009AC619 /* netServer.c in Sources */,
+				27A662FB0F645E8D009AC619 /* netClient.c in Sources */,
+				27A18B930F66F3FF0023F24B /* field_pvt.c in Sources */,
+				27A18BB20F6700DF0023F24B /* error_pvt.c in Sources */,
+				27A18C5A0F672BBE0023F24B /* fluid_pvt.c in Sources */,
+				4CC5E72C0F69833700CE7928 /* lagrange_pvt.c in Sources */,
+				27A2F24C0F6D827900667640 /* fluid_advection_stam.c in Sources */,
+				4C8DE1100F9D5B540013795C /* memory.c in Sources */,
+				4C8B36390F9E9F2D005D64F4 /* mp_mutex.c in Sources */,
+				27BD78E70FB10B450077C0B0 /* half.c in Sources */,
+				4C30F9490FD853FA00B2B86D /* mp_queue.c in Sources */,
+				4C30F9540FD86C3500B2B86D /* mp_x.c in Sources */,
+				4C76D4ED0FDC2F8A00FED6DB /* mp_taskWorld.c in Sources */,
+				4CF825050FEB30E3003AEE44 /* netInStream.c in Sources */,
+				4CF825060FEB30E3003AEE44 /* netOutStream.c in Sources */,
+				4C54726C1003A3EF0069EB93 /* mp_coherence.c in Sources */,
+				4CBC1E8E104496AC003F84A0 /* fluid_advection_repos.c in Sources */,
+				4C8B54B51059C8CC00D7DC5E /* fluid_repos.c in Sources */,
+				4CC757231063060F003C1369 /* fluid_pressure.c in Sources */,
+				4C9F2CAA1065A87300651C4B /* fluid_viscosity.c in Sources */,
+				4C86232310665D9400C466CE /* fluid_vorticity.c in Sources */,
+				4CE8F07C108E43430014AD01 /* fluid_dampen.c in Sources */,
+				4CD92DF010A351FE00714BD3 /* fluid_cpu.c in Sources */,
+				4C618B9010BC854800C8790C /* field_server.c in Sources */,
+				4C618C7E10BCBDA500C8790C /* field_client.c in Sources */,
+				4C72961310C1E9AD001A515D /* error_lst.c in Sources */,
+				4C78C0D610C852AD0048858A /* fluid_visual.c in Sources */,
+				4CA33EB110D1729800C50A88 /* fluid_input.c in Sources */,
+				4C83E88A10D6F44C00561E2A /* fluid_advection_fwd.c in Sources */,
+				4CF1F30810D8508800089E91 /* fluid_advection_stam2.c in Sources */,
+				4C003CD710D8FCC800CC4467 /* fluid_advection_fwd2.c in Sources */,
+				4CFEB5FD10E2934E00C684CA /* field_msg.c in Sources */,
+				4CFD34F810ED20D100B8FF8A /* gpgpu.c in Sources */,
+				4C94575610EE3DEB00D482E6 /* gpgpu_field.c in Sources */,
+				4C9457E710EE779F00D482E6 /* gpgpu_program.c in Sources */,
+				4C87DC4010FA1CF500A23521 /* fluid_heat.c in Sources */,
+				4C8D337D11047D6900EF6539 /* fluid_gpu.c in Sources */,
+				4CF2E8D91118A3B300AE2CD6 /* fluid_messenger.c in Sources */,
+				4C6E8EFA111B32D000431481 /* mp_stack.c in Sources */,
+				4CBF5EB71120B46300A4E997 /* Test_Pipeline.c in Sources */,
+				4CF137F111231F0200A34095 /* fluid_pressure_rb.c in Sources */,
+				4CF13826112325CF00A34095 /* fluid_viscosity_rb.c in Sources */,
+				4C51E64E1129DA4000C54F93 /* fluid_server.c in Sources */,
+				4C95D8DA1156AD2D0084CA22 /* bitstream.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BD79160FB111930077C0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0B4AC8100422F100C7C081 /* error_pvt.c in Sources */,
+				4C8E16540FC44B450051397F /* memory.c in Sources */,
+				27BD791E0FB111C60077C0B0 /* half.c in Sources */,
+				27BD79250FB112070077C0B0 /* FluidTest.c in Sources */,
+				4C8E16440FC44AD90051397F /* Test_Half.c in Sources */,
+				4C8E16820FC4544D0051397F /* Test_Locality.c in Sources */,
+				4C30F94A0FD853FA00B2B86D /* mp_queue.c in Sources */,
+				4C30F9550FD86C3500B2B86D /* mp_x.c in Sources */,
+				4C76D4EE0FDC2F8A00FED6DB /* mp_taskWorld.c in Sources */,
+				4CF825070FEB30E3003AEE44 /* netInStream.c in Sources */,
+				4CF825080FEB30E3003AEE44 /* netOutStream.c in Sources */,
+				4C54726B1003A3EF0069EB93 /* mp_coherence.c in Sources */,
+				4C0B4ACA1004230700C7C081 /* netClient.c in Sources */,
+				4C6E8EF9111B32D000431481 /* mp_stack.c in Sources */,
+				4CBF5EB41120B46300A4E997 /* Test_Pipeline.c in Sources */,
+				4C95D8D91156AD2D0084CA22 /* bitstream.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1BA66D0FBC6D3900A74684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF797A61157DFE300508F1A /* field_pvt.c in Sources */,
+				4C1BA6770FBC6D7200A74684 /* FluidZip_main.m in Sources */,
+				4C1BA6810FBC6EA300A74684 /* FluidZip_Delegate.m in Sources */,
+				4C1BA69A0FBC709800A74684 /* FluidZip_Window.m in Sources */,
+				4C95D8FF1156BF160084CA22 /* memory.c in Sources */,
+				4C95D9001156BF160084CA22 /* memory.m in Sources */,
+				4C95D8DB1156AD2D0084CA22 /* bitstream.c in Sources */,
+				4C95D9031156BF260084CA22 /* error_pvt.c in Sources */,
+				4C95D9041156BF260084CA22 /* error_lst.c in Sources */,
+				4C95D9071156BF3C0084CA22 /* mp_mutex.c in Sources */,
+				4C95D9081156BF3C0084CA22 /* mp_queue.c in Sources */,
+				4C95D9091156BF3C0084CA22 /* mp_x.c in Sources */,
+				4C95D90A1156BF3C0084CA22 /* mp_taskWorld.c in Sources */,
+				4C95D90B1156BF3C0084CA22 /* mp_coherence.c in Sources */,
+				4C95D90C1156BF3C0084CA22 /* mp_stack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C437049104DDD7F0069E6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C43704A104DDD7F0069E6D9 /* FluidApp_main.m in Sources */,
+				4C43706A104DDD7F0069E6D9 /* netServer.c in Sources */,
+				4C43706B104DDD7F0069E6D9 /* netClient.c in Sources */,
+				4C43706C104DDD7F0069E6D9 /* field_pvt.c in Sources */,
+				4C43706D104DDD7F0069E6D9 /* error_pvt.c in Sources */,
+				4C43706E104DDD7F0069E6D9 /* fluid_pvt.c in Sources */,
+				4C43706F104DDD7F0069E6D9 /* lagrange_pvt.c in Sources */,
+				4C437070104DDD7F0069E6D9 /* fluid_advection_stam.c in Sources */,
+				4C437075104DDD7F0069E6D9 /* X_NumberFormatter.m in Sources */,
+				4C437077104DDD7F0069E6D9 /* memory.c in Sources */,
+				4C437078104DDD7F0069E6D9 /* mp_mutex.c in Sources */,
+				4C43707F104DDD7F0069E6D9 /* half.c in Sources */,
+				4C437080104DDD7F0069E6D9 /* mp_queue.c in Sources */,
+				4C437081104DDD7F0069E6D9 /* mp_x.c in Sources */,
+				4C437082104DDD7F0069E6D9 /* mp_taskWorld.c in Sources */,
+				4C437083104DDD7F0069E6D9 /* netInStream.c in Sources */,
+				4C437084104DDD7F0069E6D9 /* netOutStream.c in Sources */,
+				4C437085104DDD7F0069E6D9 /* mp_coherence.c in Sources */,
+				4C437086104DDD7F0069E6D9 /* FluidAppDocument.m in Sources */,
+				4C437087104DDD7F0069E6D9 /* FluidAppGL.m in Sources */,
+				4C437088104DDD7F0069E6D9 /* fluid_advection_repos.c in Sources */,
+				4C8B54B31059C8CC00D7DC5E /* fluid_repos.c in Sources */,
+				4C7C7ACE1062D87F00214ADB /* FluidTools.m in Sources */,
+				4CC757221063060F003C1369 /* fluid_pressure.c in Sources */,
+				4C9F2CAB1065A87300651C4B /* fluid_viscosity.c in Sources */,
+				4C86232210665D9400C466CE /* fluid_vorticity.c in Sources */,
+				4CE8F07B108E43430014AD01 /* fluid_dampen.c in Sources */,
+				4CC8483A108F74AB00CCE02D /* FluidToolbar.m in Sources */,
+				4CF20D6A109DC08300BB2332 /* FluidFPSView.m in Sources */,
+				4CF20D95109DC6E800BB2332 /* FluidApp_Delegate.m in Sources */,
+				4CD92DEF10A351FE00714BD3 /* fluid_cpu.c in Sources */,
+				4C618B9110BC854800C8790C /* field_server.c in Sources */,
+				4C618C7F10BCBDA500C8790C /* field_client.c in Sources */,
+				4C72961210C1E9AD001A515D /* error_lst.c in Sources */,
+				4C78C0D710C852AD0048858A /* fluid_visual.c in Sources */,
+				4CF1CC3610CAC3B000B770B7 /* FluidTabView.m in Sources */,
+				4CF1CC8610CB206A00B770B7 /* FluidTabTopView.m in Sources */,
+				4CF1CCA110CB21A900B770B7 /* FluidTabButton.m in Sources */,
+				4C91C5A210CEF47B00FC4080 /* FluidAppServerController.m in Sources */,
+				4C04EAFA10D0318500D95ED8 /* FluidAppClientController.m in Sources */,
+				4CA33EAF10D1729800C50A88 /* fluid_input.c in Sources */,
+				4CCB577F10D25E6200F686C2 /* FluidAppSliderCell.m in Sources */,
+				4C83E88810D6F44C00561E2A /* fluid_advection_fwd.c in Sources */,
+				4CF1F30610D8508800089E91 /* fluid_advection_stam2.c in Sources */,
+				4C003CD610D8FCC800CC4467 /* fluid_advection_fwd2.c in Sources */,
+				4CFEB5FE10E2934E00C684CA /* field_msg.c in Sources */,
+				4CFD34FA10ED20D100B8FF8A /* gpgpu.c in Sources */,
+				4C94575510EE3DEB00D482E6 /* gpgpu_field.c in Sources */,
+				4C9457E610EE779F00D482E6 /* gpgpu_program.c in Sources */,
+				4C94580D10EE7B4300D482E6 /* memory.m in Sources */,
+				4C94583D10EE871400D482E6 /* viscosity.cl in Sources */,
+				4CF036CE10F368AA00D55D20 /* pressure.cl in Sources */,
+				4CA4C8EE10F748CF00436A6B /* advection.cl in Sources */,
+				4C87DC3E10FA1CF500A23521 /* fluid_heat.c in Sources */,
+				4C87DCF610FA61F300A23521 /* Select360.m in Sources */,
+				4C8D337B11047D6900EF6539 /* fluid_gpu.c in Sources */,
+				4C880694110DBFFC00CBA3F3 /* viscosity_xy.cl in Sources */,
+				4CF2E8D71118A3B300AE2CD6 /* fluid_messenger.c in Sources */,
+				4C6E8EF8111B32D000431481 /* mp_stack.c in Sources */,
+				4CBF5EB61120B46300A4E997 /* Test_Pipeline.c in Sources */,
+				4CF137F211231F0200A34095 /* fluid_pressure_rb.c in Sources */,
+				4CF13827112325CF00A34095 /* fluid_viscosity_rb.c in Sources */,
+				4C51E64D1129DA4000C54F93 /* fluid_server.c in Sources */,
+				4C95D8D81156AD2D0084CA22 /* bitstream.c in Sources */,
+				4C8F45D811695C380033D1F5 /* FluidVisualController.m in Sources */,
+				4C8D79A011792449004CC2D0 /* FluidTransparentWindow.m in Sources */,
+				4C8D79EF11792D35004CC2D0 /* FluidDialogView.m in Sources */,
+				4C8DE602117BC21F00DBEE43 /* FluidColorChooser.m in Sources */,
+				4C892A6111845FFD0031C6A8 /* FluidGradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* FluidApp_main.m in Sources */,
+				27A661E10F64292E009AC619 /* netServer.c in Sources */,
+				27A662FA0F645E8D009AC619 /* netClient.c in Sources */,
+				27A18B940F66F3FF0023F24B /* field_pvt.c in Sources */,
+				27A18BB30F6700DF0023F24B /* error_pvt.c in Sources */,
+				27A18C590F672BBE0023F24B /* fluid_pvt.c in Sources */,
+				4CC5E72D0F69833700CE7928 /* lagrange_pvt.c in Sources */,
+				27A2F24B0F6D827900667640 /* fluid_advection_stam.c in Sources */,
+				4C7307A40F9BDA4300C6D0BD /* X_NumberFormatter.m in Sources */,
+				4C8DE10F0F9D5B540013795C /* memory.c in Sources */,
+				4C8B363A0F9E9F2D005D64F4 /* mp_mutex.c in Sources */,
+				27BD78E60FB10B450077C0B0 /* half.c in Sources */,
+				4C30F94B0FD853FA00B2B86D /* mp_queue.c in Sources */,
+				4C30F9560FD86C3500B2B86D /* mp_x.c in Sources */,
+				4C76D4EF0FDC2F8A00FED6DB /* mp_taskWorld.c in Sources */,
+				4CF825090FEB30E3003AEE44 /* netInStream.c in Sources */,
+				4CF8250A0FEB30E3003AEE44 /* netOutStream.c in Sources */,
+				4C54726D1003A3EF0069EB93 /* mp_coherence.c in Sources */,
+				27B6BE46100FFEE300152E4E /* FluidAppDocument.m in Sources */,
+				4C9955C8102219A900C1AD6F /* FluidAppGL.m in Sources */,
+				4CBC1E8D104496AC003F84A0 /* fluid_advection_repos.c in Sources */,
+				4C8B54B41059C8CC00D7DC5E /* fluid_repos.c in Sources */,
+				4C7C7ACF1062D87F00214ADB /* FluidTools.m in Sources */,
+				4CC757241063060F003C1369 /* fluid_pressure.c in Sources */,
+				4C9F2CA91065A87300651C4B /* fluid_viscosity.c in Sources */,
+				4C86232410665D9400C466CE /* fluid_vorticity.c in Sources */,
+				4CE8F07D108E43430014AD01 /* fluid_dampen.c in Sources */,
+				4CC8483B108F74AB00CCE02D /* FluidToolbar.m in Sources */,
+				4CF20D69109DC08300BB2332 /* FluidFPSView.m in Sources */,
+				4CF20D94109DC6E800BB2332 /* FluidApp_Delegate.m in Sources */,
+				4CD92DF110A351FE00714BD3 /* fluid_cpu.c in Sources */,
+				4C618B8F10BC854800C8790C /* field_server.c in Sources */,
+				4C618C7D10BCBDA500C8790C /* field_client.c in Sources */,
+				4C72961410C1E9AD001A515D /* error_lst.c in Sources */,
+				4C78C0D510C852AD0048858A /* fluid_visual.c in Sources */,
+				4CF1CC3710CAC3B000B770B7 /* FluidTabView.m in Sources */,
+				4CF1CC8710CB206A00B770B7 /* FluidTabTopView.m in Sources */,
+				4CF1CCA210CB21A900B770B7 /* FluidTabButton.m in Sources */,
+				4C91C5A110CEF47B00FC4080 /* FluidAppServerController.m in Sources */,
+				4C04EAFB10D0318500D95ED8 /* FluidAppClientController.m in Sources */,
+				4CA33EB010D1729800C50A88 /* fluid_input.c in Sources */,
+				4CCB578010D25E6200F686C2 /* FluidAppSliderCell.m in Sources */,
+				4C83E88910D6F44C00561E2A /* fluid_advection_fwd.c in Sources */,
+				4CF1F30710D8508800089E91 /* fluid_advection_stam2.c in Sources */,
+				4C003CD810D8FCC800CC4467 /* fluid_advection_fwd2.c in Sources */,
+				4CFEB5FC10E2934E00C684CA /* field_msg.c in Sources */,
+				4CFD34F910ED20D100B8FF8A /* gpgpu.c in Sources */,
+				4C94575410EE3DEB00D482E6 /* gpgpu_field.c in Sources */,
+				4C9457E810EE779F00D482E6 /* gpgpu_program.c in Sources */,
+				4C94580C10EE7B4300D482E6 /* memory.m in Sources */,
+				4C94583E10EE871400D482E6 /* viscosity.cl in Sources */,
+				4CF036CF10F368AA00D55D20 /* pressure.cl in Sources */,
+				4CA4C8EF10F748CF00436A6B /* advection.cl in Sources */,
+				4C87DC3F10FA1CF500A23521 /* fluid_heat.c in Sources */,
+				4C87DCF710FA61F300A23521 /* Select360.m in Sources */,
+				4C8D337C11047D6900EF6539 /* fluid_gpu.c in Sources */,
+				4C880695110DBFFC00CBA3F3 /* viscosity_xy.cl in Sources */,
+				4CF2E8D81118A3B300AE2CD6 /* fluid_messenger.c in Sources */,
+				4C6E8EF7111B32D000431481 /* mp_stack.c in Sources */,
+				4CBF5EB51120B46300A4E997 /* Test_Pipeline.c in Sources */,
+				4CF137F311231F0200A34095 /* fluid_pressure_rb.c in Sources */,
+				4CF13825112325CF00A34095 /* fluid_viscosity_rb.c in Sources */,
+				4C51E64C1129DA4000C54F93 /* fluid_server.c in Sources */,
+				4C95D8DC1156AD2D0084CA22 /* bitstream.c in Sources */,
+				4C8F45D911695C380033D1F5 /* FluidVisualController.m in Sources */,
+				4C8D79A111792449004CC2D0 /* FluidTransparentWindow.m in Sources */,
+				4C8D79F011792D35004CC2D0 /* FluidDialogView.m in Sources */,
+				4C8DE601117BC21F00DBEE43 /* FluidColorChooser.m in Sources */,
+				4C892A6211845FFD0031C6A8 /* FluidGradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272D26BB0F62DF35004E794A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272D26B70F62DF23004E794A /* FluidServer */;
+			targetProxy = 272D26BA0F62DF35004E794A /* PBXContainerItemProxy */;
+		};
+		4C437043104DDD7F0069E6D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 272D26B70F62DF23004E794A /* FluidServer */;
+			targetProxy = 4C437044104DDD7F0069E6D9 /* PBXContainerItemProxy */;
+		};
+		4CD92E6E10A35B0500714BD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* FluidApp */;
+			targetProxy = 4CD92E6D10A35B0500714BD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C549E9710BEEB2400D9A7AC /* FluidApp.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C549E9810BEEB2400D9A7AC /* English */,
+			);
+			name = FluidApp.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272D26C00F62DF5F004E794A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "ppc i386 ppc64 x86_64";
+				COPY_PHASE_STRIP = NO;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_STRICT_ALIASING = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = FluidServer;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		272D26C10F62DF5F004E794A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "ppc i386 ppc64 x86_64";
+				COPY_PHASE_STRIP = NO;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = FLUID_SERVER;
+				GCC_STRICT_ALIASING = YES;
+				GCC_UNROLL_LOOPS = YES;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = FluidServer;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		27BD791C0FB111B20077C0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = FluidTest;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		27BD791D0FB111B20077C0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 4;
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = FluidTest;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4C1BA6730FBC6D3B00A74684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "FluidZip-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = FluidZip;
+			};
+			name = Debug;
+		};
+		4C1BA6740FBC6D3B00A74684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_FAST_MATH = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_STRICT_ALIASING = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "FluidZip-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = FluidZip;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4C43708D104DDD7F0069E6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = MP_OPENCL;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = FluidApp_x64;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4C43708E104DDD7F0069E6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SSE41_EXTENSIONS = YES;
+				GCC_ENABLE_SSE42_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = MP_OPENCL;
+				GCC_STRICT_ALIASING = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LLVM_LTO = YES;
+				PRODUCT_NAME = FluidApp_x64;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				VALID_ARCHS = "i386 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = MAC_10_4;
+				GCC_STRICT_ALIASING = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = FluidApp;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				GCC_ALTIVEC_EXTENSIONS = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_FAST_MATH = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = MAC_10_4;
+				GCC_STRICT_ALIASING = YES;
+				GCC_UNROLL_LOOPS = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = FluidApp;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					tbb/src,
+					tbb/include,
+				);
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					tbb/src,
+					tbb/include,
+				);
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272D26BF0F62DF5F004E794A /* Build configuration list for PBXNativeTarget "FluidServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272D26C00F62DF5F004E794A /* Debug */,
+				272D26C10F62DF5F004E794A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BD791B0FB111B20077C0B0 /* Build configuration list for PBXNativeTarget "FluidTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BD791C0FB111B20077C0B0 /* Debug */,
+				27BD791D0FB111B20077C0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1BA6750FBC6D3B00A74684 /* Build configuration list for PBXNativeTarget "FluidZip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1BA6730FBC6D3B00A74684 /* Debug */,
+				4C1BA6740FBC6D3B00A74684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C43708C104DDD7F0069E6D9 /* Build configuration list for PBXNativeTarget "FluidApp_64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C43708D104DDD7F0069E6D9 /* Debug */,
+				4C43708E104DDD7F0069E6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FluidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FluidApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

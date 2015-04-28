@@ -1,0 +1,80 @@
+{
+	"pattrstorage" : 	{
+		"name" : "catart.lcd[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "steerGlitch",
+				"data" : 				{
+					"catart.lcd::attack" : [ 2 ],
+					"catart.lcd::c-descriptor-max" : [ -2.127672 ],
+					"catart.lcd::c-descriptor-menu" : [ "Loudness 15" ],
+					"catart.lcd::c-descriptor-min" : [ -200.0 ],
+					"catart.lcd::duration" : [ 166 ],
+					"catart.lcd::duration_std" : [ 74 ],
+					"catart.lcd::gain" : [ -10.0 ],
+					"catart.lcd::gain_std" : [ 9.0 ],
+					"catart.lcd::i_voice" : [ 0 ],
+					"catart.lcd::onset_std" : [ 0 ],
+					"catart.lcd::pan" : [ 50 ],
+					"catart.lcd::pan_std" : [ 70 ],
+					"catart.lcd::position-freeze" : [ 0 ],
+					"catart.lcd::radius" : [ 0.0 ],
+					"catart.lcd::rate" : [ 1000.0 ],
+					"catart.lcd::rate_std" : [ 0.0 ],
+					"catart.lcd::release" : [ 5 ],
+					"catart.lcd::reverse" : [ 16 ],
+					"catart.lcd::transposition" : [ 0.0 ],
+					"catart.lcd::transposition_std" : [ 0.0 ],
+					"catart.lcd::trigger" : [ "fence" ],
+					"catart.lcd::workset" : [ 0.0 ],
+					"catart.lcd::x-descriptor-active" : [ 0 ],
+					"catart.lcd::x-descriptor-max" : [ 2240.354736 ],
+					"catart.lcd::x-descriptor-menu" : [ "SpectralCentroid 18" ],
+					"catart.lcd::x-descriptor-min" : [ 0.0 ],
+					"catart.lcd::xfade" : [ 9 ],
+					"catart.lcd::xfade[1]" : [ 0 ],
+					"catart.lcd::y-descriptor-active" : [ 0 ],
+					"catart.lcd::y-descriptor-active[1]" : [ 0 ],
+					"catart.lcd::y-descriptor-active[2]" : [ 0 ],
+					"catart.lcd::y-descriptor-active[3]" : [ 0 ],
+					"catart.lcd::y-descriptor-max" : [ 0.966911 ],
+					"catart.lcd::y-descriptor-menu" : [ "Periodicity 16" ],
+					"catart.lcd::y-descriptor-menu[1]" : [ "SoundFile 3" ],
+					"catart.lcd::y-descriptor-menu[2]" : [ "SoundSet 4" ],
+					"catart.lcd::y-descriptor-min" : [ 0.0 ],
+					"catart.lcd::position" : [ 0, 7 ],
+					"catart::corpusname" : [ "Macintosh HD:/Users/navid/Desktop/2013_04_Steer/cataRT/steerFloor" ],
+					"gb.contact.cataRT.analyzer::SensivityAverage" : [ 5 ],
+					"gb.contact.cataRT.analyzer::autoThreshold" : [ 0 ],
+					"gb.contact.cataRT.analyzer::loudnessThresh" : [ 0.000194 ],
+					"gb.contact.cataRT.analyzer::periodicityThresh" : [ 0.003 ],
+					"gb.contact.cataRT.analyzer::speedlim" : [ 12 ],
+					"gb.contact.cataRT.analyzer::trigMode" : [ 0 ],
+					"gb.contact.cataRT.analyzer::analyze::gb.contact.onset::bonkDebounce" : [ 100 ],
+					"gb.contact.cataRT.analyzer::analyze::gb.contact.onset::bonkMinVel" : [ 18.0 ],
+					"gb.contact.cataRT.analyzer::analyze::gb.contact.onset::bonkSchmitTresh" : [ 10.0, 60.0 ],
+					"SOUNDsets::SoundSetMatrix" : [ 0, 4, 1, 0, 5, 1, 0, 6, 1, 0, 7, 1, 0, 9, 1, 0, 11, 1 ],
+					"catart.weights.gui::weights" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 5.479452, 7.123288, 0.0, 0.0, 0.547945, 0.684932, 4.383562, 3.150685, 5.068493, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"catart.synthesis.gui2::attack" : [ 3 ],
+					"catart.synthesis.gui2::duration" : [ 593 ],
+					"catart.synthesis.gui2::duration_std" : [ 177 ],
+					"catart.synthesis.gui2::gain" : [ -13.0 ],
+					"catart.synthesis.gui2::gain_std" : [ 12.0 ],
+					"catart.synthesis.gui2::onset_std" : [ 0 ],
+					"catart.synthesis.gui2::pan" : [ 100 ],
+					"catart.synthesis.gui2::pan_std" : [ 69 ],
+					"catart.synthesis.gui2::release" : [ 3 ],
+					"catart.synthesis.gui2::reverse" : [ 30 ],
+					"catart.synthesis.gui2::transposition" : [ -12.0 ],
+					"catart.synthesis.gui2::transposition_std" : [ 0.0 ],
+					"catart.synthesis.gui2::xfade" : [ 3 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

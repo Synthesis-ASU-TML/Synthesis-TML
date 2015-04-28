@@ -1,0 +1,17 @@
+Lobjects Universal Binaries
+Here are eleventy-three Lobjects converted to the new Mach-o intel compatible format.
+I think they all work, but I can't be sure. Send bug reports to me at 
+
+elsea@ucsc.edu
+
+Place Lobjects_10_06.UB in  Max/Cycling'74/externals/   
+Place Lstartup_10_06.UB Max/Cycling'74/max-startup/
+Place Lhelp_10-06  in Max/max-Help/
+
+Some popular objects haven't made it yet because they need more than just a recompile.
+These are: 
+
+Lpref
+Lspace
+I'll get to them as soon as possible, but not before late November.
+pqe Oct 16, 2006

@@ -1,0 +1,15 @@
+digraph G {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="FreeSans"];
+  edge [ labelfontsize="10", labelfontname="FreeSans"];
+  subgraph clusterdir_e8250d0a5be738ae169816400d03bf45 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="externals" fontname="FreeSans", fontsize="10", URL="dir_e8250d0a5be738ae169816400d03bf45.html"]
+  dir_95119ab96754d269c7a25f02eab1e79d [shape=box, label="OMax.build", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_95119ab96754d269c7a25f02eab1e79d.html"];
+  }
+  dir_a5cfd844215523777e1176680ff3ec1e [shape=box label="OMax.data" URL="dir_a5cfd844215523777e1176680ff3ec1e.html"];
+  dir_bc5a9248bf4fe98448844334faba2c26 [shape=box label="cpp" URL="dir_bc5a9248bf4fe98448844334faba2c26.html"];
+  dir_a5cfd844215523777e1176680ff3ec1e->dir_bc5a9248bf4fe98448844334faba2c26 [headlabel="2", labeldistance=1.5 headhref="dir_000005_000013.html"];
+  dir_95119ab96754d269c7a25f02eab1e79d->dir_a5cfd844215523777e1176680ff3ec1e [headlabel="1", labeldistance=1.5 headhref="dir_000004_000005.html"];
+  dir_95119ab96754d269c7a25f02eab1e79d->dir_bc5a9248bf4fe98448844334faba2c26 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000013.html"];
+}
