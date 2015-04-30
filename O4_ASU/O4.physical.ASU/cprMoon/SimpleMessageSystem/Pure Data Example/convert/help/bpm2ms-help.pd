@@ -1,0 +1,8 @@
+#N canvas 0 0 454 304 12;
+#X obj 135 130 bpm2ms;
+#X floatatom 135 80 5 0 0 0 - - -;
+#X floatatom 136 188 5 0 0 0 - - -;
+#X text 184 80 Bpm;
+#X text 184 188 Interval in milliseconds;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;

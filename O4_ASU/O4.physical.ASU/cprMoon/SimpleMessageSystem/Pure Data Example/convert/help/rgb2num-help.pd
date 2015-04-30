@@ -1,0 +1,27 @@
+#N canvas 323 203 458 308 10;
+#X obj 113 16 cnv 15 250 250 empty can change_my_color! 20 12 0 14
+-260064 -262144 0;
+#X msg 183 230 \; can color \$1;
+#X obj 190 67 nbx 5 14 0 255 0 0 empty empty empty 0 -6 0 10 -262144
+-1 -1 255 256;
+#X obj 210 99 nbx 5 14 0 255 0 0 empty empty empty 0 -6 0 10 -262144
+-1 -1 125 256;
+#X obj 244 120 nbx 5 14 0 255 0 0 empty empty empty 0 -6 0 10 -262144
+-1 -1 125 256;
+#X obj 290 45 loadbang;
+#X msg 288 73 125;
+#X obj 207 204 rgb2num;
+#X obj 214 154 t b f;
+#X obj 268 155 t b f;
+#X connect 2 0 7 0;
+#X connect 3 0 8 0;
+#X connect 4 0 9 0;
+#X connect 5 0 6 0;
+#X connect 6 0 2 0;
+#X connect 6 0 3 0;
+#X connect 6 0 4 0;
+#X connect 7 0 1 0;
+#X connect 8 0 7 0;
+#X connect 8 1 7 1;
+#X connect 9 0 7 0;
+#X connect 9 1 7 2;

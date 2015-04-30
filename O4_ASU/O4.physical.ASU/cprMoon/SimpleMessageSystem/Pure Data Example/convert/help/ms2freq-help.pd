@@ -1,0 +1,8 @@
+#N canvas 0 0 454 304 12;
+#X obj 120 154 ms2freq;
+#X floatatom 125 113 5 0 0 0 - - -;
+#X floatatom 118 206 5 0 0 0 - - -;
+#X text 180 108 Interval in milliseconds;
+#X text 167 206 Frequency;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;

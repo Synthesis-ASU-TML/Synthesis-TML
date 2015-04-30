@@ -1,0 +1,107 @@
+#N canvas 104 52 1066 797 10;
+#X obj 5 311 print ascii_codes;
+#X obj 153 312 print ERROR;
+#X text 142 90 <-- spaces are treated (ascii code 32);
+#X msg 105 155 CR;
+#X text 135 156 <-- cariage return;
+#X msg 113 182 LF CR;
+#X msg 116 213 SPACE;
+#X text 156 213 <-- space character;
+#X obj 6 -112 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 6 -86 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 6 20 cnv 15 15 15 empty empty empty 20 12 0 14 -258699 -66577
+0;
+#X obj 617 134 cnv 15 15 15 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X obj 620 305 cnv 15 15 15 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 621 330 cnv 15 15 15 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 642 328 OUTLET 2: Outputs errors.;
+#X text 642 303 OUTLET 1: Outputs ascii codes.;
+#X text 24 20 Requires: pd 0.39 \, coll(cyclone lib) and zexy.;
+#X text 26 -87 Mode 0 converts pd atoms (floats \, lists and symbols)
+into ascii codes (integers). You can also use special characters (carriage
+return \, line feed \, spaces \, etc...) with the 2nd "special character"
+inlet).;
+#X obj 4 -23 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 69 48 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0;
+#X obj 612 14 cnv 15 15 15 empty empty empty 20 12 0 14 -258699 -66577
+0;
+#X obj 78 357 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 620 278 cnv 15 15 15 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X obj 3 613 print ascii_codes;
+#X obj 143 613 print ERROR;
+#X obj 46 256 pd2ascii;
+#X msg 133 444 COMMA;
+#X text 630 14 Argument 1 determines the mode:;
+#X text 627 59 - Any special character (see list below) selects message
+mode with that special character as an "end of message".;
+#X text 26 -26 Message mode is equivalent to mode 0 but automatically
+adds an "end of message" special character (determined by arg 1) at
+the end of a message.;
+#X text 638 280 INLET 2: Change mode.;
+#X text 630 190 - A "bang" will output a carriage return (code 13/special
+character CR) by default or the selected "end of messsage" special
+character.;
+#X text 631 157 - If a float \, list or symbol is sent \, pd2ascii
+will convert it to it's ascii code(s).;
+#X text 636 132 INLET 1:;
+#X text 630 237 - pd2ascii will try to convert any other type to a
+special character.;
+#X obj 683 361 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X text 626 37 - 0 \, any other number \, or no argument selects mode
+0;
+#X msg 19 90 list hello world;
+#X text 65 58 Mode 0 does not append any special characters;
+#X text 687 419 CR: carriage return/code 13;
+#X text 686 435 SPACE: space/code 32;
+#X text 688 451 LF: line feed/code 10;
+#X text 688 468 NULL: code 0;
+#X msg 13 420 list hello world;
+#X text 139 420 Note that a 13 (CR) is appended at the end of the output.
+;
+#X text 180 447 13 (CR) is not appended to special characters.;
+#X msg 134 472 SPACE;
+#X text 40 371 Message mode appends the selected "end of messsage"
+special character;
+#X text 125 536 The selected "end of message" special character is
+a carriage return (CR/code 13).;
+#X text 153 181 <-- cariage return + line feed (spaces are ignored
+for special characters);
+#X msg 56 117 1024;
+#X text 95 117 <-- converts this float to it's ascii codes (49 48 50
+52);
+#X msg 146 502 LF;
+#X text 175 503 Inlet 2 changes the "end of message" special character.
+;
+#X text 22 -114 pd2ascii by tof \, tof@danslchamp.org \, 2006/08/23
+;
+#X obj 29 534 pd2ascii CR;
+#X text 628 392 Common special characters:;
+#X obj 684 508 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X text 629 538 See "ascii4pd.txt for the whole list of special characters"
+;
+#X obj 613 -105 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X text 633 -106 version 3;
+#X connect 3 0 25 0;
+#X connect 5 0 25 0;
+#X connect 6 0 25 0;
+#X connect 25 0 0 0;
+#X connect 25 1 1 0;
+#X connect 26 0 55 0;
+#X connect 37 0 25 0;
+#X connect 43 0 55 0;
+#X connect 46 0 55 0;
+#X connect 50 0 25 0;
+#X connect 52 0 55 1;
+#X connect 55 0 23 0;
+#X connect 55 1 24 0;

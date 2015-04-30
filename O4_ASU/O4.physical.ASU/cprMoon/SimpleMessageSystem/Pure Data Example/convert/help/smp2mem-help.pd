@@ -1,0 +1,8 @@
+#N canvas 0 0 454 304 12;
+#X text 125 71 number of samples;
+#X obj 79 115 smp2mem;
+#X floatatom 80 69 5 0 0 0 - - -;
+#X floatatom 79 158 10 0 0 0 - - -;
+#X text 165 159 size in Megabytes;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;

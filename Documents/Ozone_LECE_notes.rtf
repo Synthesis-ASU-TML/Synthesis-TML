@@ -1,0 +1,109 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Optima-Regular;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red49\green49\blue49;\red250\green91\blue20;}
+\margl1440\margr1440\vieww12840\viewh13740\viewkind1
+\deftab720
+\pard\pardeftab720\qc
+
+\f0\b\fs28 \cf0 Ozone LECE notes
+\b0 \
+\pard\pardeftab720
+\cf0 \
+29 March 2015\
+\
+It was fun to do the Atmosphere panel yesterday. \'a0 Let\'92s review the instruments\'85 \'a0\'a0\
+\
+My main comment is that instead of creating custom code for a specific state / scenario that 
+\i displaces
+\i0  the other instruments, we need to make the suite of instruments in Ozone available in parallel as well. \'a0The way to do this is to continue to learn the suite of Ozone instruments which are a fairly small (5 or so) number of instruments, all resident in memory on the trashcan, where each can be varied widely (and wildly) in look and feel by parameterization and pre-sets. \'a0 Rather than code from scratch, let\'92s see what you can do by modifying parameters of the rich suite of code that already exists.\
+\
+We\'92ll need the full suite for rehearsals this week, because the Dean\'92s invited the President and Provost for April 7-9. \'a0A visit may or may not happen that week, but that is the earliest date by which we need to be able demo the full spectrum of Ozone++ \'a0\ul including\ulnone \'a0timespace and elastic.\
+\
+Ideally addressable under Mira interface tabs on \'a0multiple iPads \'a0\'97 say 3 iPads \'a0\'97 so different people can be walking on the floor simultaneously varying different layers.\
+\
+\pard\pardeftab720
+
+\b \cf0 Visuals
+\b0 :\
+The visuals from yesterday were ok, but were far too sparse and simple and specialized to be adequate for the VIP shows to come. \'a0We need the visuals to be \ul cross-fadable\ulnone  to the older (and visually richer) instruments :\'a0\
+	timespace,\'a0\
+	particles,\'a0\
+	Navier-Stokes,\'a0\
+	elastic time,\
+	live portal feed,\
+	canned feeds (in a jit.submatrix + jit.rota),\
+	vectorfield\
+\
+We must be able to layer in the other instruments. \'a0 Connor: this was already written in Ozone so I\'92d like you to integrate your particular Jitter instruments into the framework what Evan left behind.\
+\
+Project line art \'97 Most of the textures do not work very well for demo purposes. \'a0And they never appear as clearly as line art. \'a0(Connor : I\'92ll \'a0send separately the simple vectorfield patch so you can incorporate it into our kit of video instruments as a basic utility. \'a0 It would be worthwhile making a particle system that\'92s driven bib the vector field \ul without\ulnone  Navier-Stokes, so that the particles will flow unbound. )\
+\
+
+\b Sound
+\b0 :\
+Ditto. \'a0This is in a better state of playability. \'a0The main needs are\
+(1) True spatialization \'97 \'a0Julain and Navid had this so it must be exposed. \'a0Don\'92t be shy to ask for help.\
+(2) Much clearer relation to movement (and location) \'97 please for ideation purposes, let\'92s put in a sonic reticulation i.e.\
+	\'a0Julian\'92s jitgrid2snd\
+	Navid\'92s wind ,\'a0\
+	Garrett's tuned scales,\
+are the most successful.\
+	ask Todd for the percussive code, or write it based on Julian\'92s rhythm.\
+\
+Garrett has a great idea of writing \ul a separate Mira tab for rhythm flow from instrument to instrument \'97 cross-modally:\ulnone \
+	lights\
+	fans\
+	video\
+	sound\
+Each of these instruments should be able to register i/o 
+\i rhythm_type
+\i0  which is an FTM matrix a la Julian\'92s rhythm kit.\
+\
+Connor: You should run the default sound instrument patches directly on your own visual computer, so that they run with sound even if they have to play out thru your own local computer speakers. \'a0 \ul All video instruments must make (local)\'a0sound\ulnone  by default, if only as an experiential design aid. \'a0This means that the video computer should have its own audio out to the sound mixer etc. etc.\
+	\
+
+\b Lighting
+\b0 :\
+	All lights need to be addressed under a uniform interface.\
+	right now the floor lamps, overhead LED\'92s, fans\'a0\
+	seem separate. \'a0 Even if the device level interfaces are distinct, they \'a0should be addressable by a uniform channel map.\
+\
+I\'92m not sure how to treat the iCue and Byron\'92s motorized mount. \'a0I\'92m inclined to treat them as a new class of Ozone instruments: 
+\b bodies
+\b0 .\
+For now these bodies are merely objects made of light. \'a0They should take a parameter of type rhythm to introduce warbles in time (i.e. speed), and space (displacement).\
+\
+The fans can be part of yet another new class of Ozone instruments : 
+\b field
+\b0 .\
+\
+\
+\
+\pard\pardeftab720
+
+\f1\fs20 \cf2 _________________________________________________________________________________
+\f0 ______
+\f1 _
+\fs28 \cf0 \
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://asu.academia.edu/XinWeiSha"}}{\fldrslt 
+\f0\fs22 \cf0 Sha Xin Wei}}
+\f0 \'a0
+\fs22 \'95\'a0Professor and Director \'95\'a0{\field{\*\fldinst{HYPERLINK "http://ame.asu.edu/"}}{\fldrslt School of Arts, Media and Engineering}}\'a0+\'a0{\field{\*\fldinst{HYPERLINK "http://synthesiscenter.net/"}}{\fldrslt Synthesis}}
+\fs28 \
+\pard\pardeftab720
+
+\fs22 \cf0 Herberger Institute for Design and the Arts + Fulton Schools of Engineering\'a0\'95 ASU
+\fs28 \
+
+\fs22 skype: shaxinwei\'a0\'95
+\fs28 \'a0mobile:\'a0+1-650-815-9962\
+\pard\pardeftab720
+
+\b\fs20 \cf3 Founding Director, Topological Media Lab \'95\'a0\'a0{\field{\*\fldinst{HYPERLINK "http://topologicalmedialab.net/"}}{\fldrslt topologicalmedialab.net/}}
+\b0\fs28 \cf0 \
+\pard\pardeftab720
+
+\fs20 \cf2 _________________________________________________________________________________________________
+\fs24 \cf0 \
+}

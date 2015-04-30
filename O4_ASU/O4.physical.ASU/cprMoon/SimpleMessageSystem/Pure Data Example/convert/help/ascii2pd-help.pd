@@ -1,0 +1,245 @@
+#N canvas 250 27 939 864 10;
+#X msg 59 252 44;
+#X obj 31 474 print NORMAL;
+#X obj 290 451 print ERROR;
+#X msg 138 295 49;
+#X msg 100 277 78;
+#X text 493 299 Middle outlet: special pd character (CR: carriage return
+\, SPACE: space \, LF: line feed \, etc...). See file ascii4pd.txt
+for more).;
+#X floatatom 44 352 5 0 0 0 - - -;
+#X text 127 276 The "N" character.;
+#X obj 12 22 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 12 51 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 13 155 cnv 15 15 15 empty empty empty 20 12 0 14 -258699 -66577
+0;
+#X obj 480 195 cnv 15 15 15 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X obj 474 281 cnv 15 15 15 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 473 302 cnv 15 15 15 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 475 346 cnv 15 15 15 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X text 166 295 The "1" character.;
+#X text 33 156 Requires: pd 0.39 \, coll(cyclone lib) and zexy.;
+#N canvas 1 0 805 693 complete 0;
+#X msg 117 167 43 \, 43 \, 43 \, 13;
+#X obj 239 486 print IGNORED;
+#X msg 162 266 49 \, 53 \, 55 \, 13;
+#X obj 107 422 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 142 431 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X msg 147 231 52 \, 56 \, 32 \, 49 \, 48 \, 13;
+#X msg 132 200 50 \, 43 \, 43 \, 32 \, 13;
+#X msg 161 298 104 101 108 108 111 32 119 111 114 108 100 13;
+#X text 235 397 CR (carriage return ends and outputs the message).
+;
+#X text 243 413 SPACE (starts a new element of a list).;
+#X text 215 165 "+++" followed by a carriage return.;
+#X text 253 200 "2++" followed by a carriage return.;
+#X text 321 226 The list "48 10" followed by a carriage return.;
+#X text 317 235 Note that that ascii code 32 (space) was used to seperate
+the elements of the list.;
+#X text 488 300 The list "hello world";
+#X text 268 269 The float "157";
+#X msg 167 325 49 \, 48 \, 48;
+#X msg 168 346 13;
+#X obj 125 396 route CR SPACE;
+#X text 88 70 In the following example \, we use the stream2message
+abstraction to build pd messages once a series of ascii codes is terminated
+by a carriage return (code 13). We also treat the space character (code
+32) to make lists. DO NOT FORGET TO END YOUR MESSAGES WITH A CARRIAGE
+RETURN (code 13).;
+#X obj 85 487 print RESULT;
+#X text 256 323 STEP 1) Send "100" to concat.;
+#X text 198 346 STEP 2) In this example \, the number 13 instructs
+concat to output the stored "100" as a message.;
+#N canvas 0 0 944 597 stream2message 0;
+#X obj 17 40 inlet;
+#X obj 230 45 inlet;
+#X text 13 15 atoms \, bang outputs;
+#X obj 380 346 repack 1024;
+#X obj 278 564 list prepend;
+#X obj 201 611 lister;
+#X msg 283 453 list;
+#X obj 160 328 t b b b;
+#X obj 362 378 route bang;
+#X obj 200 652 route bang;
+#X msg 132 464 list;
+#X obj 276 593 t a a;
+#X obj 464 444 list2symbol;
+#X obj 464 408 t a b;
+#X msg 531 411 symbol;
+#X obj 243 692 outlet;
+#X msg 87 155 bang;
+#X obj 355 517 symbol2list;
+#X obj 398 267 t a a;
+#X obj 396 490 demultiplex 0 1;
+#X msg 338 421 0;
+#X obj 503 315 route float;
+#X msg 659 421 1;
+#X msg 216 129 bang;
+#X text 227 20 atoms \, bang puts a space;
+#X obj 53 114 route bang list;
+#X obj 231 99 route bang list;
+#X obj 192 234 print ERROR;
+#X msg 171 191 stream2message does not take lists!;
+#X obj 438 602 list trim;
+#X obj 702 338 route -;
+#X connect 0 0 25 0;
+#X connect 1 0 26 0;
+#X connect 3 0 8 0;
+#X connect 4 0 11 0;
+#X connect 5 0 9 0;
+#X connect 6 0 4 1;
+#X connect 7 0 6 0;
+#X connect 7 0 10 0;
+#X connect 7 0 20 0;
+#X connect 7 1 5 0;
+#X connect 7 2 3 0;
+#X connect 8 1 13 0;
+#X connect 9 1 29 0;
+#X connect 10 0 5 0;
+#X connect 11 0 5 1;
+#X connect 11 1 4 1;
+#X connect 12 0 19 0;
+#X connect 13 0 12 0;
+#X connect 13 1 14 0;
+#X connect 14 0 12 1;
+#X connect 16 0 7 0;
+#X connect 17 0 4 0;
+#X connect 18 0 3 0;
+#X connect 18 1 21 0;
+#X connect 19 0 17 0;
+#X connect 19 1 4 0;
+#X connect 20 0 19 1;
+#X connect 21 1 30 0;
+#X connect 22 0 19 1;
+#X connect 23 0 3 0;
+#X connect 25 0 16 0;
+#X connect 25 1 28 0;
+#X connect 25 2 18 0;
+#X connect 26 0 23 0;
+#X connect 26 1 28 0;
+#X connect 26 2 18 0;
+#X connect 28 0 27 0;
+#X connect 29 0 15 0;
+#X connect 30 1 22 0;
+#X restore 86 453 pd stream2message;
+#X obj 86 370 ascii2pd;
+#X connect 0 0 24 0;
+#X connect 2 0 24 0;
+#X connect 3 0 23 0;
+#X connect 4 0 23 1;
+#X connect 5 0 24 0;
+#X connect 6 0 24 0;
+#X connect 7 0 24 0;
+#X connect 16 0 24 0;
+#X connect 17 0 24 0;
+#X connect 18 0 3 0;
+#X connect 18 1 4 0;
+#X connect 18 2 1 0;
+#X connect 23 0 20 0;
+#X connect 24 0 23 0;
+#X connect 24 1 18 0;
+#X restore 55 1032 pd complete control;
+#X msg 151 325 104 101 108 108 111 32 119 111 114 108 100;
+#X obj 478 396 cnv 15 15 15 empty empty empty 20 12 0 14 -258699 -66577
+0;
+#X text 498 397 Argument:;
+#X obj 228 907 print ERROR;
+#X text 84 249 The special character " \, ";
+#X obj 31 906 print MESAGE;
+#X text 31 48 Mode 0 converts ascii codes (integers between 0 and 127)
+into pd atoms (floats \, symbols or special characters). Usefull for
+serial communication.;
+#X text 20 223 MODE 0 does not build messages (outputs every character)
+;
+#X obj 59 503 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 66 195 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X text 493 280 Left outlet: pd symbol or float.;
+#X text 494 344 Right outlet: outputs wrong inputs.;
+#X msg 74 669 104 101 108 108 111 32 119 111 114 108 100 13;
+#X text 414 670 The mesage "hello world". Note the number 13 ending
+the message.;
+#X text 485 870 DO NOT FORGET TO END YOUR MESSAGES WITH A CARRIAGE
+RETURN (code 13).;
+#X text 502 194 Left inlet: ascii code ( integer \; 0 >= i >= 127)
+to be converted to it's ascii character.;
+#X obj 481 232 cnv 15 15 15 empty empty empty 20 12 0 14 -128992 -66577
+0;
+#X text 20 623 A carriage return (code 13) ends and outputs a message.
+Space (code 32) separates elements.;
+#X msg 165 815 43 32 43 32 43 13;
+#X obj 67 998 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X text 31 1014 ADVANCED USE;
+#X text 32 21 ascii2pd by tof \, tof@danslchamp.org \, 2006/08/23;
+#X obj 11 98 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X text 265 701 The message "+++".;
+#X msg 143 728 43 \, 43 \, 10 \, 43 \, 13;
+#X obj 31 432 route float symbol list;
+#X obj 187 476 print SPECIAL;
+#X text 280 727 The message "+++" will be broken in two by the special
+charater LF (code 10).;
+#X text 299 816 The message "+ + +". Note the number 13 ending the
+message and the number 32 that spaces the elements.;
+#X msg 133 700 43 \, 43 \, 43 \, 13;
+#X text 16 524 MESSAGE MODE builds messages once it receives the "end
+of message" special character.;
+#X msg 154 769 43 \, 43 \, 43 \, 10 \, 13;
+#X obj 93 377 ascii2pd;
+#X obj 133 902 print END;
+#X text 297 770 Many programs or hardware end a message with a line
+feed (LF) and a carriage return (CR).;
+#X obj 103 935 route +;
+#X obj 105 967 print;
+#X text 32 99 Message has the same features of mode 0 AND constructs
+PD messages.;
+#X text 499 414 - 0 \, any number or nothing: do not build messages.
+;
+#X text 539 541 CR: carriage return/code 13;
+#X text 538 557 SPACE: space/code 32;
+#X text 540 573 LF: line feed/code 10;
+#X text 540 590 NULL: code 0;
+#X text 480 514 Common special characters:;
+#X obj 508 499 cnv 5 300 5 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X text 498 432 - Special character: build messages using that special
+character as the "end of message" flag. Space (code 32) separates elements
+of a message.;
+#X text 503 231 Right inlet: change mode.;
+#X text 477 615 See "ascii4pd.txt for the whole list of special characters"
+;
+#X obj 486 18 cnv 15 15 15 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 74 842 ascii2pd CR;
+#X text 506 17 version 3.1;
+#X connect 0 0 50 0;
+#X connect 3 0 50 0;
+#X connect 4 0 50 0;
+#X connect 6 0 50 0;
+#X connect 18 0 50 0;
+#X connect 30 0 67 0;
+#X connect 36 0 67 0;
+#X connect 42 0 67 0;
+#X connect 43 0 1 0;
+#X connect 43 1 1 0;
+#X connect 43 2 1 0;
+#X connect 43 3 44 0;
+#X connect 47 0 67 0;
+#X connect 49 0 67 0;
+#X connect 50 0 43 0;
+#X connect 50 2 2 0;
+#X connect 53 0 54 0;
+#X connect 67 0 23 0;
+#X connect 67 0 53 0;
+#X connect 67 1 51 0;
+#X connect 67 2 21 0;

@@ -1,0 +1,7 @@
+#N canvas 303 224 458 308 10;
+#X text 117 132 samples to milliseconds conversion;
+#X floatatom 64 94 5 0 0 0 - - -;
+#X floatatom 78 200 5 0 0 0 - - -;
+#X obj 65 139 smp2ms;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;

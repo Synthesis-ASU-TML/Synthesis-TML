@@ -1,0 +1,12 @@
+#N canvas 262 222 698 305 10;
+#X floatatom 86 52 5 0 0 0 - - -;
+#X floatatom 86 93 5 0 0 0 - - -;
+#X floatatom 86 138 5 0 0 0 - - -;
+#X obj 86 70 / 10;
+#X obj 86 112 arrondir;
+#X text 173 52 Rounds numbers to the closest integer.;
+#X text 174 30 Arrondit a l'entier le plus proche.;
+#X connect 0 0 3 0;
+#X connect 1 0 4 0;
+#X connect 3 0 1 0;
+#X connect 4 0 2 0;

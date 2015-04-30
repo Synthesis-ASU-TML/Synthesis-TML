@@ -1,0 +1,11 @@
+#N canvas 591 300 620 386 10;
+#X msg 152 168 list foo bar;
+#X obj 151 287 print B;
+#X text 36 19 Converts spaces to any other character excluding numbers.
+;
+#X obj 152 244 convert/spaces2 _;
+#X text 42 39 Requires zexy and clyclone(spell).;
+#X msg 32 190 avoice 2.wav;
+#X connect 0 0 3 0;
+#X connect 3 0 1 0;
+#X connect 5 0 3 0;

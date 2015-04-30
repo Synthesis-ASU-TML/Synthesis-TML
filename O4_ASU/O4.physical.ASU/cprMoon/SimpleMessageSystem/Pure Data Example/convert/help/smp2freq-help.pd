@@ -1,0 +1,8 @@
+#N canvas 0 0 543 359 12;
+#X obj 68 110 smp2freq;
+#X floatatom 71 61 5 0 0 0 - - -;
+#X floatatom 71 187 5 0 0 0 - - -;
+#X text 121 58 Number of samples;
+#X text 127 189 Frequency to play samples at normal speed;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;

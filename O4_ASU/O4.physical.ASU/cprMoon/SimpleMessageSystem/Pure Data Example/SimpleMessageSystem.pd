@@ -1,0 +1,86 @@
+#N canvas 1417 110 881 813 10;
+#X obj 160 178 tgl 15 0 empty empty empty 0 -6 0 8 -262144 -1 -1 0
+1;
+#X text 194 102 Read analog pins (0-5);
+#X text 212 129 Read digital pins (2-13);
+#X text 222 394 DO NOT FORGET TO SET COMPORT TO THE PORT NUMBER MATCHING
+THE ARDUINO ON YOUR SYSTEM!;
+#X msg 124 100 list r a;
+#X msg 142 129 list r d;
+#X obj 91 645 route a d;
+#X floatatom 69 782 5 0 0 0 - - -;
+#X obj 194 696 print digitals;
+#X obj 91 744 unpack f f f f f f;
+#X floatatom 110 782 5 0 0 0 - - -;
+#X floatatom 155 783 5 0 0 0 - - -;
+#X floatatom 196 783 5 0 0 0 - - -;
+#X floatatom 238 784 5 0 0 0 - - -;
+#X floatatom 279 784 5 0 0 0 - - -;
+#X msg 17 310 close;
+#X obj 91 278 convert/pd2ascii CR;
+#X obj 91 538 convert/ascii2pd CR;
+#X floatatom 309 216 5 0 255 0 - - -;
+#X msg 160 205 list w d 13 \$1;
+#X msg 309 239 list w a 9 \$1;
+#X text 180 176 Write (digital) pin 13 \, HIGH (1) or LOW (0);
+#X text 355 215 Set PWM (write analog) of pin 9;
+#X obj 91 581 route list float symbol;
+#X floatatom 122 611 5 0 0 0 - - -;
+#X symbolatom 170 610 10 0 0 0 - - -;
+#X obj 254 641 print SPECIAL_CHAR;
+#X text 418 111 Start your messages with the list prefix (or pd2ascii
+will try to send special characters)!;
+#X text 535 93 !!!!!!!!!!!!!!!;
+#X text 540 144 !!!!!!!!!!!!!!!;
+#X text 236 276 pd2ascii is configured here to automatically append
+a carriage return (CR) at the end of messages.;
+#X text 272 572 The route parse the resulting messages. The list \,
+float or symbol types indicate a complete message. Anything else is
+a special character.;
+#X text 445 13 This example uses version 3 of ascii4pd abstractions
+(included with the SimpleMessageSystem download)!;
+#X text 18 15 For use with the Arduino SimpleMessageSystem example
+1;
+#X text 241 535 ascii2pd is configured here to output a message when
+it receives a carriage return (CR).;
+#X text 224 448 On Linux (and probably OSX) you can run a bash (terminal)
+command to find out the number of the Arduino (USB) port: visit http://wiki.dataflow.ws/comport
+for more details.;
+#X text 223 428 On my Debian machine \, port 4 maps to the Arduino
+(ttyUSB0);
+#X obj 112 307 loadbang;
+#X msg 110 332 stopbit 1;
+#X text 225 357 DO NOT FORGET TO SET THE STOPBIT AT 1 OR ERRORS WILL
+OCCUR IN THE STREAM OF DATA!;
+#X obj 330 732 timer;
+#X obj 339 700 t b b;
+#X floatatom 340 766 5 0 0 0 - - -;
+#X obj 91 415 comport 4 9600;
+#X connect 0 0 19 0;
+#X connect 4 0 16 0;
+#X connect 5 0 16 0;
+#X connect 6 0 9 0;
+#X connect 6 0 41 0;
+#X connect 6 1 8 0;
+#X connect 9 0 7 0;
+#X connect 9 1 10 0;
+#X connect 9 2 11 0;
+#X connect 9 3 12 0;
+#X connect 9 4 13 0;
+#X connect 9 5 14 0;
+#X connect 15 0 43 0;
+#X connect 16 0 43 0;
+#X connect 17 0 23 0;
+#X connect 18 0 20 0;
+#X connect 19 0 16 0;
+#X connect 20 0 16 0;
+#X connect 23 0 6 0;
+#X connect 23 1 24 0;
+#X connect 23 2 25 0;
+#X connect 23 3 26 0;
+#X connect 37 0 38 0;
+#X connect 38 0 43 0;
+#X connect 40 0 42 0;
+#X connect 41 0 40 0;
+#X connect 41 1 40 1;
+#X connect 43 0 17 0;

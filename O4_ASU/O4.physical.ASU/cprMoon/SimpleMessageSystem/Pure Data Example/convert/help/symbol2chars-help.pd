@@ -1,0 +1,9 @@
+#N canvas 515 339 496 386 12;
+#X msg 138 69 test;
+#X obj 49 198 print character_list;
+#X obj 240 198 print character_count;
+#X text 94 26 Requires ZEXY and PD 0.39;
+#X obj 138 119 symbol2chars;
+#X connect 0 0 4 0;
+#X connect 4 0 1 0;
+#X connect 4 1 2 0;
