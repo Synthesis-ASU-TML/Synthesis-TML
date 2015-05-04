@@ -1,0 +1,1107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+    "http://www.w3.org/TR/1998/REC-html40-19980424/loose.dtd">
+<html><head>
+    <title>NeuralNetwork</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="generator" content="HeaderDoc" />
+<meta name="xcode-display" content="render" />
+<style><!--
+.toc_contents_text {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+ul.tocSubEntryList li.tocSubEntry {
+    list-style: none;
+}
+
+#colorbox {
+		display: none;
+}
+.spec_sheet_line {
+		margin-bottom: 1px;
+}
+.collapsible {
+		display: none;
+}
+.toc_leadspace {
+		width: 10; min-width: 10;
+}
+.disclosure_triangle_td {
+		width: 14; min-width: 14;
+		font-size: 10px;
+		vertical-align: middle;
+}
+.specbox td {
+		font-size: 13px;
+}
+.specbox td a {
+		font-size: 13px;
+}
+.specbox td code {
+		font-size: 13px;
+}
+.specbox td tt {
+		font-size: 13px;
+}
+.specbox td pre {
+		font-size: 13px;
+}
+.specbox a {
+		font-size: 12px;
+}
+.disclosure_triangle_td a:hover {
+		text-decoration: none;
+}
+.disclosure_triangle_td a:hover {
+		text-decoration: none;
+}
+.hd_toc_box {
+		padding-top: 10px;
+		padding-right: 15px;
+}.tocSeparator {
+		margin-top: 15px;
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+}
+.tocSubEntryList {
+		margin-left: 0px;
+		padding-left: 40px;
+		padding-top: 0px;
+		margin-top: 2px;
+		padding-bottom: 0px;
+		margin-bottom: 8px;
+}
+.hd_toc_heading_table {
+		margin-top: 2px;
+		margin-bottom: 2px;
+}
+.hd_toc_entry_table {
+		margin-top: 2px;
+		margin-bottom: 2px;
+}
+.tocSubEntry {
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-top: 0px;
+		margin-bottom: 1px;
+}
+.tocSubEntry a {
+		font-size: 10pt;
+}
+.tocSubheading {
+		padding-left: 14px;
+		margin-left: 0px;
+		margin-top: 5px;
+		padding-top: 0px;
+		font-size: 16px;
+		color: #808080;
+}
+
+#tocMenu {
+		border-right: 1px solid #c0c0c0;
+		background-color: #f4f4ff;
+		top:0px;
+		left:0px;
+		width:230px;
+		height:100%;
+}
+#bodyContents {
+		width: auto;
+		padding-left: 15px;
+}
+--></style>
+<script language="JavaScript" type="text/javascript"><!--
+function getNewHTTPObject()
+{
+        var xmlhttp;
+
+        /** Special IE only code ... */
+        /*@cc_on
+          @if (@_jscript_version >= 5)
+              try
+              {
+                  xmlhttp = new ActiveXObject('Msxml2.XMLHTTP');
+              }
+              catch (e)
+              {
+                  try
+                  {
+                      xmlhttp = new ActiveXObject('Microsoft.XMLHTTP');
+                  }
+                  catch (E)
+                  {
+                      xmlhttp = false;
+                  }
+             }
+          @else
+             xmlhttp = false;
+        @end @*/
+
+        /** Every other browser on the planet */
+        if (!xmlhttp && typeof XMLHttpRequest != 'undefined')
+        {
+            try
+            {
+                xmlhttp = new XMLHttpRequest();
+            }
+            catch (e)
+            {
+                xmlhttp = false;
+            }
+        }
+
+        return xmlhttp;
+}
+
+function hidetoc() {
+	var toc = document.getElementById('tocMenu');
+	var src = toc.getAttribute('src');
+	var xhr = getNewHTTPObject();
+	xhr.open('GET', src, true);
+	xhr.onreadystatechange = function() {
+		if(xhr.readyState == 4) {
+			var toc = document.getElementById('tocMenu');
+			toc.innerHTML = xhr.responseText;
+		}
+	}
+	xhr.send(null);
+	var origURL = parent.document.URL;
+	var contentURL = origURL.substring(origURL.indexOf('?')+1, origURL.length);
+	if (contentURL.length == origURL.length) {
+		jumpPos = origURL.substring(origURL.indexOf('#')+1, origURL.length);
+	}
+	if (contentURL == "hidetoc") {
+		var body = document.getElementById('bodyContents');
+		if (toc && body) {
+			toc.style.display = 'none';
+			body.style.marginLeft = '0px';
+		}
+	}
+}
+
+function disclosure_triangle(elt) {
+   var linkelt = elt;
+   while (elt && elt.tagName != 'TABLE') { elt = elt.parentNode;}
+   if (!elt) { return; }
+   while (elt && elt.tagName != 'DIV') { elt = elt.nextSibling;}
+   if (!elt) { return; }
+   if (parseInt(linkelt.getAttribute('state'))) {
+      // It's open.  Close it
+      linkelt.innerHTML = '&#x25B7;';
+      linkelt.setAttribute('state', 0);
+      linkelt.setAttribute('class', 'closed_disclosure_triangle');
+      elt.style.display = 'none';
+   } else {
+      // It's closed.  Open it
+      linkelt.innerHTML = '&#x25BC;';
+      linkelt.setAttribute('state', 1);
+      linkelt.setAttribute('class', 'open_disclosure_triangle');
+      elt.style.display = 'block';
+   }
+}
+--></script>
+<style type="text/css"><!--.char {background: #ffffff; color:#0000ff;}.comment {background:#ffffff; color:#236e25}.function {background:#ffffff; color:#A00000;}.keyword {background:#ffffff; color:#761550;}.number {background: #ffffff; color:#0000ff;}.param {background:#ffffff; color:#000000;}.preprocessor {background:#ffffff; color:#236e25}.string {background: #ffffff; color:#891315;}.template {background:#ffffff; color:#761550;}.text {font:family:Helvetica, Verdana;}.type {background:#ffffff; color:#761550;}.var {background:#ffffff; color:#000000;}div {font-size: 10pt; text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #000000;}td {font-size: 10pt; text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #000000;}span.hd_tocAccessSpace { display: block; font-size: 1px; height: 3px; min-height: 3px; }span.hd_tocGroupSpace { display: block; font-size: 1px; height: 3px; min-height: 3px; }span.hd_tocGroup { display: block; font-weight: bold; font-size: 10pt; text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #000000; margin-left: 0px; padding-left: 40px; }span.hd_tocGroup + span.hd_tocAccess { padding-top: 5px; }td.toc_contents_text {font-size: 11pt; text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #000000; }li.tocSubEntry {font-size: 11pt; text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #000000;}p {font-size: 10pt; text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #000000;}a:link {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #36c;}a:visited {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #36c;}a:visited:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #36c;}a:active {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #36c;}a:hover {text-decoration: underline; font-family: lucida grande, geneva, helvetica, arial, sans-serif; color: #36c;}h2.h2tight { margin-top: 0px; padding-top: 0px; }h1 { margin-top: 13px; padding-top: 0px; }h4 {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: tiny; font-weight: bold;}h5 {text-decoration: none; font-family: lucida grande, geneva, helvetica, arial, sans-serif; font-size: 10.1pt; font-weight: bold;}pre {text-decoration: none; font-family: Courier, Consolas, monospace; color: #666; font-size: 10pt;}pre a { font-family: Courier, Consolas, monospace; color: #666;font-size: 10pt;}pre a:link { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}pre a:visited { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}pre a:visited:hover { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}pre a:active { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}pre a:hover { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}code {text-decoration: none; font-family: Courier, Consolas, monospace; color: #666;font-size: 10pt;}code a { font-family: Courier, Consolas, monospace; color: #666;font-size: 10pt;}code a:link { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}code a:visited { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}code a:visited:hover { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}code a:active { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}code a:hover { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}tt {text-decoration: none; font-family: Courier, Consolas, monospace; color: #666;font-size: 10pt;}tt a { font-family: Courier, Consolas, monospace; color: #666;font-size: 10pt;}tt a:link { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}tt a:visited { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}tt a:visited:hover { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}tt a:active { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}tt a:hover { font-family: Courier, Consolas, monospace; color: #36c;font-size: 10pt;}body  {text-decoration: none; font-family: Courier, Consolas, monospace; color: #666;font-size: 10pt; padding-left: 0px; padding-top: 0px; margin-left: 0px; margin-top: 0px; border: none; }#hd_outermost_table { margin-left: 0px; border-spacing: 0px; margin-top: 0px; padding-left: 0px; padding-top: 0px; border: none; }#hd_outermost_table > tr { border-spacing: 0px; margin-left: 0px; margin-top: 0px; padding-left: 0px; padding-top: 0px; border: none; }#hd_outermost_table > tr > td { border-spacing: 0px; margin-left: 0px; margin-top: 0px; }#hd_outermost_table > tbody > tr { border-spacing: 0px; margin-left: 0px; margin-top: 0px; padding-left: 0px; padding-top: 0px; border: none; }#hd_outermost_table > tbody > tr > td { border-spacing: 0px; margin-left: 0px; margin-top: 0px; padding-top: 3px; }.afterName { display: none; }.list_indent { margin-left: 40px; }.declaration_indent { margin-left: 40px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px; min-height: 12px; vertical-align: middle; }.declaration_indent pre { margin-top: 20px; padding-top: 0px; margin-bottom: 20px; padding-bottom: 0px; }.gapBeforeFooter { display: none; }hr { height: 0px; min-height: 0px; border-top: none; border-left: none; border-right: none; border-bottom: 1px solid #909090;}hr.afterHeader { display: none }.param_group_indent { margin-left: 25px; }.param_indent { margin-left: 40px; margin-top: 0px; padding-top: 0px; }.param_indent dl { margin-top: 4px; padding-top: 0px; }dl dd > p:first-child { margin-top: 2px; padding-top: 0px; }.param_indent dl dd > p:first-child { margin-top: 2px; padding-top: 0px; }.group_indent { margin-left: 40px; }.group_desc_indent { margin-left: 20px; }.warning_indent { margin-left: 40px; }.important_indent { margin-left: 40px; }.note_indent { margin-left: 40px; }h3 {       color: #3C4C6C;}.tight {       margin-top: 2px; margin-bottom: 0px;       padding-top: 0px; padding-bottom: 0px;}h3 a {       color: #3C4C6C;	font-size: 16px;	font-style: normal;	font-variant: normal;	font-weight: bold;	height: 0px;	line-height: normal;}.hd_tocAccess { display: block; margin-left: 40px; font-style: italic; font-size: 10px; font-weight: normal; color: #303030; }.tocSubheading { margin-bottom: 4px; }--></style></head><body bgcolor="#ffffff" onload="hidetoc();" >
+<!-- headerDoc=Header;  uid=//apple_ref/doc/header/NeuralNetwork.h;   name=NeuralNetwork -->
+<a name="//apple_ref/doc/header/NeuralNetwork.h"></a>
+<table id="hd_outermost_table" height="100%" width="100%"><tr><td valign='top' id='tocMenu' src='toc.html'></td>
+<td id='bodyContents' valign='top'>
+<a name="top"></a>
+<h1><a name="NeuralNetwork">NeuralNetwork</a></h1>
+<div class="spec_sheet_info_box"><table cellspacing="0" class="specbox">
+<tr><td scope="row"><b>Includes:</b></td><td><div style="margin-bottom:1px"><div class="content_text"><!-- a logicalPath="//apple_ref/doc/header/Object.h" machineGenerated="true" -->"Object.h"<!-- /a --></div></div></td></tr>
+</table></div>
+<h2>Introduction</h2>
+<p><!-- headerDoc=abstract;uid=//apple_ref/doc/header/NeuralNetwork.h;name=start --><!-- begin abstract --><p>An ANSI C pseudoclass for manipulating neural networks
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/doc/header/NeuralNetwork.h;name=end --></p>
+<hr class="afterClassOrHeaderInfo"><br><a name="HeaderDoc_classes"></a>
+<h2 class="h2tight">C Pseudoclasses</h2>
+<dl>
+<dt><tt><a href="Classes/NeuralNetwork/index.html#//apple_ref/c/cl/NeuralNetwork" target="_top">NeuralNetwork</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="Classes/OpaqueNeuralNetworkStruct/index.html#//apple_ref/c/cl/OpaqueNeuralNetworkStruct" target="_top">OpaqueNeuralNetworkStruct</a></tt></dt>
+<dd></dd>
+</dl>
+<hr class="afterClassEmbeddedTOC"><br><a name='HeaderDoc_groups'><h2 class="h2tight" >Groups</h2></a>
+
+<h3>Constructors / Destructors</h3>
+<div class='group_desc_indent'>
+</div>
+<h4>Group members:</h4>
+<div class='group_indent'>
+<dl>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnNew" target="_top" machineGenerated="true" -->nnNew<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnDestroy" target="_top" machineGenerated="true" -->nnDestroy<!-- /a --></tt></dt>
+<dd></dd>
+</dl>
+</div>
+<p>&nbsp;</p>
+<h3>Accessors</h3>
+<div class='group_desc_indent'>
+</div>
+<h4>Group members:</h4>
+<div class='group_indent'>
+<dl>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnNumLayers" target="_top" machineGenerated="true" -->nnNumLayers<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnNumNeuronsInLayer" target="_top" machineGenerated="true" -->nnNumNeuronsInLayer<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnNumInputNeurons" target="_top" machineGenerated="true" -->nnNumInputNeurons<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnNumOutputNeurons" target="_top" machineGenerated="true" -->nnNumOutputNeurons<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnLearningRate" target="_top" machineGenerated="true" -->nnLearningRate<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSetLearningRate" target="_top" machineGenerated="true" -->nnSetLearningRate<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnAnnealingRate" target="_top" machineGenerated="true" -->nnAnnealingRate<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSetAnnealingRate" target="_top" machineGenerated="true" -->nnSetAnnealingRate<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSetAnnealingFunction" target="_top" machineGenerated="true" -->nnSetAnnealingFunction<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnAnneal" target="_top" machineGenerated="true" -->nnAnneal<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSetActivationFunctionInLayer" target="_top" machineGenerated="true" -->nnSetActivationFunctionInLayer<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSetHiddenLayersActivationFunction" target="_top" machineGenerated="true" -->nnSetHiddenLayersActivationFunction<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSetOutputLayerActivationFunction" target="_top" machineGenerated="true" -->nnSetOutputLayerActivationFunction<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnInputBuffer" target="_top" machineGenerated="true" -->nnInputBuffer<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnOutputBuffer" target="_top" machineGenerated="true" -->nnOutputBuffer<!-- /a --></tt></dt>
+<dd></dd>
+</dl>
+</div>
+<p>&nbsp;</p>
+<h3>Misc</h3>
+<div class='group_desc_indent'>
+</div>
+<h4>Group members:</h4>
+<div class='group_indent'>
+<dl>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnPrintOutputBuffer" target="_top" machineGenerated="true" -->nnPrintOutputBuffer<!-- /a --></tt></dt>
+<dd></dd>
+</dl>
+</div>
+<p>&nbsp;</p>
+<h3>Training</h3>
+<div class='group_desc_indent'>
+</div>
+<h4>Group members:</h4>
+<div class='group_indent'>
+<dl>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnTrainOnce" target="_top" machineGenerated="true" -->nnTrainOnce<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnTrain" target="_top" machineGenerated="true" -->nnTrain<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnForgetTraining" target="_top" machineGenerated="true" -->nnForgetTraining<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnErrorRate" target="_top" machineGenerated="true" -->nnErrorRate<!-- /a --></tt></dt>
+<dd></dd>
+</dl>
+</div>
+<p>&nbsp;</p>
+<h3>Files</h3>
+<div class='group_desc_indent'>
+</div>
+<h4>Group members:</h4>
+<div class='group_indent'>
+<dl>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnOpen" target="_top" machineGenerated="true" -->nnOpen<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnSave" target="_top" machineGenerated="true" -->nnSave<!-- /a --></tt></dt>
+<dd></dd>
+</dl>
+</div>
+<p>&nbsp;</p>
+<h3>Cogitating</h3>
+<div class='group_desc_indent'>
+</div>
+<h4>Group members:</h4>
+<div class='group_indent'>
+<dl>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnCalculateOutput" target="_top" machineGenerated="true" -->nnCalculateOutput<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnCalculateOutputForInput" target="_top" machineGenerated="true" -->nnCalculateOutputForInput<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnIndexOfHighestOutputNeuron" target="_top" machineGenerated="true" -->nnIndexOfHighestOutputNeuron<!-- /a --></tt></dt>
+<dd></dd>
+<dt><tt><!-- a logicalPath="//apple_ref/c/func/nnIndexOfRandomOutputNeuron" target="_top" machineGenerated="true" -->nnIndexOfRandomOutputNeuron<!-- /a --></tt></dt>
+<dd></dd>
+</dl>
+</div>
+<hr class="afterGroupHeading"><a name="HeaderDoc_functions"></a>
+<h2 class="h2tight">Functions</h2>
+<dl>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnNew" target="_top">nnNew</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnDestroy" target="_top">nnDestroy</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnOpen" target="_top">nnOpen</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSave" target="_top">nnSave</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnNumLayers" target="_top">nnNumLayers</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnNumNeuronsInLayer" target="_top">nnNumNeuronsInLayer</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnNumInputNeurons" target="_top">nnNumInputNeurons</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnNumOutputNeurons" target="_top">nnNumOutputNeurons</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnLearningRate" target="_top">nnLearningRate</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSetLearningRate" target="_top">nnSetLearningRate</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnAnnealingRate" target="_top">nnAnnealingRate</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSetAnnealingRate" target="_top">nnSetAnnealingRate</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSetAnnealingFunction" target="_top">nnSetAnnealingFunction</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnAnneal" target="_top">nnAnneal</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSetActivationFunctionInLayer" target="_top">nnSetActivationFunctionInLayer</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSetHiddenLayersActivationFunction" target="_top">nnSetHiddenLayersActivationFunction</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnSetOutputLayerActivationFunction" target="_top">nnSetOutputLayerActivationFunction</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnInputBuffer" target="_top">nnInputBuffer</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnOutputBuffer" target="_top">nnOutputBuffer</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnTrainOnce" target="_top">nnTrainOnce</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnTrain" target="_top">nnTrain</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnForgetTraining" target="_top">nnForgetTraining</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnErrorRate" target="_top">nnErrorRate</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnCalculateOutput" target="_top">nnCalculateOutput</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnCalculateOutputForInput" target="_top">nnCalculateOutputForInput</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnIndexOfHighestOutputNeuron" target="_top">nnIndexOfHighestOutputNeuron</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnIndexOfRandomOutputNeuron" target="_top">nnIndexOfRandomOutputNeuron</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/nnPrintOutputBuffer" target="_top">nnPrintOutputBuffer</a></tt></dt>
+<dd></dd>
+</dl>
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnNew;   name=nnNew -->
+<a name="//apple_ref/c/func/nnNew"></a>
+<h3><a name="nnNew">nnNew</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNew;name=start --><!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --><span class="type">*</span> <!-- a logicalPath="//apple_ref/c/instm/nnNew //apple_ref/c/clm/nnNew //apple_ref/c/intfcm/nnNew //apple_ref/c/intfm/nnNew //apple_ref/c/func/nnNew //apple_ref/c/ftmplt/nnNew //apple_ref/c/defn/nnNew //apple_ref/c/macro/nnNew //apple_ref/doc/anysymbol/nnNew" machineGenerated="true" --><span class="function">nnNew</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">numLayers</span>,
+    ...);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNew;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNew/numLayers;   name=numLayers -->
+<a name="//apple_ref/doc/functionparam/nnNew/numLayers"></a>
+<code>numLayers</code></dt><dd><p>the number of layers in the network, including the input, 
+hidden and output layers</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNew/...;   name=... -->
+<a name="//apple_ref/doc/functionparam/nnNew/..."></a>
+<code>...</code></dt><dd><p>integers representing the number of neurons in each layer,
+the first number corresponds to the input layer, and 
+the last to the output layer</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>returns the NeuralNetwork object, or NULL if it could not
+be created
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNew;name=start --><p>create and initialize a NeuralNetwork object<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNew;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnDestroy;   name=nnDestroy -->
+<a name="//apple_ref/c/func/nnDestroy"></a>
+<h3><a name="nnDestroy">nnDestroy</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnDestroy;name=start --><!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --><span class="type">*</span> <!-- a logicalPath="//apple_ref/c/instm/nnDestroy //apple_ref/c/clm/nnDestroy //apple_ref/c/intfcm/nnDestroy //apple_ref/c/intfm/nnDestroy //apple_ref/c/func/nnDestroy //apple_ref/c/ftmplt/nnDestroy //apple_ref/c/defn/nnDestroy //apple_ref/c/macro/nnDestroy //apple_ref/doc/anysymbol/nnDestroy" machineGenerated="true" --><span class="function">nnDestroy</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnDestroy;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnDestroy/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnDestroy/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>NULL<br />
+use like:<br />
+network = nnDestroy(network);<br />
+to prevent runtime segmentation faults;<br />
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnDestroy;name=start --><p>destroy the NeuralNetwork object and free all of
+its resources<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnDestroy;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnOpen;   name=nnOpen -->
+<a name="//apple_ref/c/func/nnOpen"></a>
+<h3><a name="nnOpen">nnOpen</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnOpen;name=start --><!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --><span class="type">*</span> <!-- a logicalPath="//apple_ref/c/instm/nnOpen //apple_ref/c/clm/nnOpen //apple_ref/c/intfcm/nnOpen //apple_ref/c/intfm/nnOpen //apple_ref/c/func/nnOpen //apple_ref/c/ftmplt/nnOpen //apple_ref/c/defn/nnOpen //apple_ref/c/macro/nnOpen //apple_ref/doc/anysymbol/nnOpen" machineGenerated="true" --><span class="function">nnOpen</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/char //apple_ref/c/tdef/char //apple_ref/c/tag/char //apple_ref/c/struct/char //apple_ref/c/intf/char //apple_ref/doc/anysymbol/char" machineGenerated="true" --><span class="type">char</span><!-- /a --> <span class="type">*</span><span class="param">filename</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnOpen;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnOpen/filename;   name=filename -->
+<a name="//apple_ref/doc/functionparam/nnOpen/filename"></a>
+<code>filename</code></dt><dd><p>the path of the saved object</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the NeuralNetwork object or NULL if an error occurred
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnOpen;name=start --><p>open a previously saved NeuralNetwork object<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnOpen;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSave;   name=nnSave -->
+<a name="//apple_ref/c/func/nnSave"></a>
+<h3><a name="nnSave">nnSave</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSave;name=start --><!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSave //apple_ref/c/clm/nnSave //apple_ref/c/intfcm/nnSave //apple_ref/c/intfm/nnSave //apple_ref/c/func/nnSave //apple_ref/c/ftmplt/nnSave //apple_ref/c/defn/nnSave //apple_ref/c/macro/nnSave //apple_ref/doc/anysymbol/nnSave" machineGenerated="true" --><span class="function">nnSave</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/char //apple_ref/c/tdef/char //apple_ref/c/tag/char //apple_ref/c/struct/char //apple_ref/c/intf/char //apple_ref/doc/anysymbol/char" machineGenerated="true" --><span class="type">char</span><!-- /a --> <span class="type">*</span><span class="param">filename</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSave;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSave/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnSave/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to save</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSave/filename;   name=filename -->
+<a name="//apple_ref/doc/functionparam/nnSave/filename"></a>
+<code>filename</code></dt><dd><p>the path of the saved object</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>1 on success, otherwise 0;
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSave;name=start --><p>Save a NeuralNetwork object to disk. This does not create a portable file type, 
+as the binary structrue of the file will depend upon the system's byte order
+and size of various data types. This method is only intended to accomodate 
+individual networks running on individual robots<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSave;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnNumLayers;   name=nnNumLayers -->
+<a name="//apple_ref/c/func/nnNumLayers"></a>
+<h3><a name="nnNumLayers">nnNumLayers</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumLayers;name=start --><!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnNumLayers //apple_ref/c/clm/nnNumLayers //apple_ref/c/intfcm/nnNumLayers //apple_ref/c/intfm/nnNumLayers //apple_ref/c/func/nnNumLayers //apple_ref/c/ftmplt/nnNumLayers //apple_ref/c/defn/nnNumLayers //apple_ref/c/macro/nnNumLayers //apple_ref/doc/anysymbol/nnNumLayers" machineGenerated="true" --><span class="function">nnNumLayers</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumLayers;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNumLayers/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnNumLayers/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the number of layers in the network including the input
+and output layers
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumLayers;name=start --><p>get the number of layers in the network<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumLayers;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnNumNeuronsInLayer;   name=nnNumNeuronsInLayer -->
+<a name="//apple_ref/c/func/nnNumNeuronsInLayer"></a>
+<h3><a name="nnNumNeuronsInLayer">nnNumNeuronsInLayer</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumNeuronsInLayer;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnNumNeuronsInLayer //apple_ref/c/clm/nnNumNeuronsInLayer //apple_ref/c/intfcm/nnNumNeuronsInLayer //apple_ref/c/intfm/nnNumNeuronsInLayer //apple_ref/c/func/nnNumNeuronsInLayer //apple_ref/c/ftmplt/nnNumNeuronsInLayer //apple_ref/c/defn/nnNumNeuronsInLayer //apple_ref/c/macro/nnNumNeuronsInLayer //apple_ref/doc/anysymbol/nnNumNeuronsInLayer" machineGenerated="true" --><span class="function">nnNumNeuronsInLayer</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <span class="keyword">unsigned</span> <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">layer</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumNeuronsInLayer;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNumNeuronsInLayer/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnNumNeuronsInLayer/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNumNeuronsInLayer/layer;   name=layer -->
+<a name="//apple_ref/doc/functionparam/nnNumNeuronsInLayer/layer"></a>
+<code>layer</code></dt><dd><p>the layer to query. 0 is the input layer, 
+nnNumLayers(self)-1 is the output layer</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the number of neurons in the specified layer
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumNeuronsInLayer;name=start --><p>get the number of neurons in the specified layer<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumNeuronsInLayer;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnNumInputNeurons;   name=nnNumInputNeurons -->
+<a name="//apple_ref/c/func/nnNumInputNeurons"></a>
+<h3><a name="nnNumInputNeurons">nnNumInputNeurons</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumInputNeurons;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnNumInputNeurons //apple_ref/c/clm/nnNumInputNeurons //apple_ref/c/intfcm/nnNumInputNeurons //apple_ref/c/intfm/nnNumInputNeurons //apple_ref/c/func/nnNumInputNeurons //apple_ref/c/ftmplt/nnNumInputNeurons //apple_ref/c/defn/nnNumInputNeurons //apple_ref/c/macro/nnNumInputNeurons //apple_ref/doc/anysymbol/nnNumInputNeurons" machineGenerated="true" --><span class="function">nnNumInputNeurons</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumInputNeurons;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNumInputNeurons/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnNumInputNeurons/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the number of neurons in the specified layer
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumInputNeurons;name=start --><p>get the number of input neurons<br /> 
+this is a convenience method for<br />
+nnNumNeuronsInLayer(network, 0);<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumInputNeurons;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnNumOutputNeurons;   name=nnNumOutputNeurons -->
+<a name="//apple_ref/c/func/nnNumOutputNeurons"></a>
+<h3><a name="nnNumOutputNeurons">nnNumOutputNeurons</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumOutputNeurons;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnNumOutputNeurons //apple_ref/c/clm/nnNumOutputNeurons //apple_ref/c/intfcm/nnNumOutputNeurons //apple_ref/c/intfm/nnNumOutputNeurons //apple_ref/c/func/nnNumOutputNeurons //apple_ref/c/ftmplt/nnNumOutputNeurons //apple_ref/c/defn/nnNumOutputNeurons //apple_ref/c/macro/nnNumOutputNeurons //apple_ref/doc/anysymbol/nnNumOutputNeurons" machineGenerated="true" --><span class="function">nnNumOutputNeurons</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnNumOutputNeurons;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnNumOutputNeurons/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnNumOutputNeurons/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the number of neurons in the specified layer
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumOutputNeurons;name=start --><p>get the number of output neurons<br /> 
+this is a convenience method for<br />
+nnNumNeuronsInLayer(network, nnNumLayers(network)-1);<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnNumOutputNeurons;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnLearningRate;   name=nnLearningRate -->
+<a name="//apple_ref/c/func/nnLearningRate"></a>
+<h3><a name="nnLearningRate">nnLearningRate</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnLearningRate;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnLearningRate //apple_ref/c/clm/nnLearningRate //apple_ref/c/intfcm/nnLearningRate //apple_ref/c/intfm/nnLearningRate //apple_ref/c/func/nnLearningRate //apple_ref/c/ftmplt/nnLearningRate //apple_ref/c/defn/nnLearningRate //apple_ref/c/macro/nnLearningRate //apple_ref/doc/anysymbol/nnLearningRate" machineGenerated="true" --><span class="function">nnLearningRate</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnLearningRate;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSetLearningRate;   name=nnSetLearningRate -->
+<a name="//apple_ref/c/func/nnSetLearningRate"></a>
+<h3><a name="nnSetLearningRate">nnSetLearningRate</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetLearningRate;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSetLearningRate //apple_ref/c/clm/nnSetLearningRate //apple_ref/c/intfcm/nnSetLearningRate //apple_ref/c/intfm/nnSetLearningRate //apple_ref/c/func/nnSetLearningRate //apple_ref/c/ftmplt/nnSetLearningRate //apple_ref/c/defn/nnSetLearningRate //apple_ref/c/macro/nnSetLearningRate //apple_ref/doc/anysymbol/nnSetLearningRate" machineGenerated="true" --><span class="function">nnSetLearningRate</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="param">rate</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetLearningRate;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnAnnealingRate;   name=nnAnnealingRate -->
+<a name="//apple_ref/c/func/nnAnnealingRate"></a>
+<h3><a name="nnAnnealingRate">nnAnnealingRate</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnAnnealingRate;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnAnnealingRate //apple_ref/c/clm/nnAnnealingRate //apple_ref/c/intfcm/nnAnnealingRate //apple_ref/c/intfm/nnAnnealingRate //apple_ref/c/func/nnAnnealingRate //apple_ref/c/ftmplt/nnAnnealingRate //apple_ref/c/defn/nnAnnealingRate //apple_ref/c/macro/nnAnnealingRate //apple_ref/doc/anysymbol/nnAnnealingRate" machineGenerated="true" --><span class="function">nnAnnealingRate</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnAnnealingRate;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSetAnnealingRate;   name=nnSetAnnealingRate -->
+<a name="//apple_ref/c/func/nnSetAnnealingRate"></a>
+<h3><a name="nnSetAnnealingRate">nnSetAnnealingRate</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetAnnealingRate;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSetAnnealingRate //apple_ref/c/clm/nnSetAnnealingRate //apple_ref/c/intfcm/nnSetAnnealingRate //apple_ref/c/intfm/nnSetAnnealingRate //apple_ref/c/func/nnSetAnnealingRate //apple_ref/c/ftmplt/nnSetAnnealingRate //apple_ref/c/defn/nnSetAnnealingRate //apple_ref/c/macro/nnSetAnnealingRate //apple_ref/doc/anysymbol/nnSetAnnealingRate" machineGenerated="true" --><span class="function">nnSetAnnealingRate</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="param">rate</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetAnnealingRate;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSetAnnealingFunction;   name=nnSetAnnealingFunction -->
+<a name="//apple_ref/c/func/nnSetAnnealingFunction"></a>
+<h3><a name="nnSetAnnealingFunction">nnSetAnnealingFunction</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetAnnealingFunction;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSetAnnealingFunction //apple_ref/c/clm/nnSetAnnealingFunction //apple_ref/c/intfcm/nnSetAnnealingFunction //apple_ref/c/intfm/nnSetAnnealingFunction //apple_ref/c/func/nnSetAnnealingFunction //apple_ref/c/ftmplt/nnSetAnnealingFunction //apple_ref/c/defn/nnSetAnnealingFunction //apple_ref/c/macro/nnSetAnnealingFunction //apple_ref/doc/anysymbol/nnSetAnnealingFunction" machineGenerated="true" --><span class="function">nnSetAnnealingFunction</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnAnnealingFunction_t //apple_ref/c/tdef/nnAnnealingFunction_t //apple_ref/c/tag/nnAnnealingFunction_t //apple_ref/c/struct/nnAnnealingFunction_t //apple_ref/c/intf/nnAnnealingFunction_t //apple_ref/doc/anysymbol/nnAnnealingFunction_t" machineGenerated="true" --><span class="type">nnAnnealingFunction_t</span><!-- /a --> <span class="param">function</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetAnnealingFunction;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSetAnnealingFunction/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnSetAnnealingFunction/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSetAnnealingFunction/function;   name=function -->
+<a name="//apple_ref/doc/functionparam/nnSetAnnealingFunction/function"></a>
+<code>function</code></dt><dd><p>the new annealing function</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetAnnealingFunction;name=start --><p>customize the network's annealing function, which will be called each generation
+of nnTrain(); The default annealing function does nothing for 15 generations and 
+then just multiplies the learning rate by the annealing coefficient during each
+successive generation<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetAnnealingFunction;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnAnneal;   name=nnAnneal -->
+<a name="//apple_ref/c/func/nnAnneal"></a>
+<h3><a name="nnAnneal">nnAnneal</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnAnneal;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnAnneal //apple_ref/c/clm/nnAnneal //apple_ref/c/intfcm/nnAnneal //apple_ref/c/intfm/nnAnneal //apple_ref/c/func/nnAnneal //apple_ref/c/ftmplt/nnAnneal //apple_ref/c/defn/nnAnneal //apple_ref/c/macro/nnAnneal //apple_ref/doc/anysymbol/nnAnneal" machineGenerated="true" --><span class="function">nnAnneal</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">generation</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnAnneal;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnAnneal/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnAnneal/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnAnneal/generation;   name=generation -->
+<a name="//apple_ref/doc/functionparam/nnAnneal/generation"></a>
+<code>generation</code></dt><dd><p>the number of previously elapsed generations of training, starting at 0</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnAnneal;name=start --><p>Calls the network's annealing function to manually anneal the network. 
+This is normally done automatically by nnTrain(). The default annealing
+function does nothing for 15 generations and then just multiplies the learning
+rate by the annealing coefficient during each successive generation. 
+This behaviour can be changed with 
+nnSetAnnealingFunction();<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnAnneal;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSetActivationFunctionInLayer;   name=nnSetActivationFunctionInLayer -->
+<a name="//apple_ref/c/func/nnSetActivationFunctionInLayer"></a>
+<h3><a name="nnSetActivationFunctionInLayer">nnSetActivationFunctionInLayer</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetActivationFunctionInLayer;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSetActivationFunctionInLayer //apple_ref/c/clm/nnSetActivationFunctionInLayer //apple_ref/c/intfcm/nnSetActivationFunctionInLayer //apple_ref/c/intfm/nnSetActivationFunctionInLayer //apple_ref/c/func/nnSetActivationFunctionInLayer //apple_ref/c/ftmplt/nnSetActivationFunctionInLayer //apple_ref/c/defn/nnSetActivationFunctionInLayer //apple_ref/c/macro/nnSetActivationFunctionInLayer //apple_ref/doc/anysymbol/nnSetActivationFunctionInLayer" machineGenerated="true" --><span class="function">nnSetActivationFunctionInLayer</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnActivationFunction_t //apple_ref/c/tdef/nnActivationFunction_t //apple_ref/c/tag/nnActivationFunction_t //apple_ref/c/struct/nnActivationFunction_t //apple_ref/c/intf/nnActivationFunction_t //apple_ref/doc/anysymbol/nnActivationFunction_t" machineGenerated="true" --><span class="type">nnActivationFunction_t</span><!-- /a --> <span class="param">activation</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnActivationDerivative_t //apple_ref/c/tdef/nnActivationDerivative_t //apple_ref/c/tag/nnActivationDerivative_t //apple_ref/c/struct/nnActivationDerivative_t //apple_ref/c/intf/nnActivationDerivative_t //apple_ref/doc/anysymbol/nnActivationDerivative_t" machineGenerated="true" --><span class="type">nnActivationDerivative_t</span><!-- /a --> <span class="param">derivative</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">layer</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetActivationFunctionInLayer;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/activation;   name=activation -->
+<a name="//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/activation"></a>
+<code>activation</code></dt><dd><p>the activationFunction</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/derivative;   name=derivative -->
+<a name="//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/derivative"></a>
+<code>derivative</code></dt><dd><p>a function that computes the derivative of the activation function;</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/layer;   name=layer -->
+<a name="//apple_ref/doc/functionparam/nnSetActivationFunctionInLayer/layer"></a>
+<code>layer</code></dt><dd><p>the layer whose activation is to be set. 1 is the first hidden layer (inputs
+have no activation function), and nnNumLayers(self)-1 is the output layer.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetActivationFunctionInLayer;name=start --><p>customize neuron activation functions. By default, a tanh function is used in 
+in the hidden layers, and a sigmoidal in the output layer. 
+</p>
+<p><br /><br />the arguments 'activation' and 'derivative' may be replaced by
+a single macro that expands to the names of the built-in activation functions.
+Valid macros are:
+</p>
+<ol start="1"><li><p> NN_ACTIVATION_SIGMOID
+</p></li><li><p> NN_ACTIVATION_TANH   
+</p></li><li><p> NN_ACTIVATION_LINEAR 
+</p></li></ol><p>eg: nnSetActivationFunctionInLayer(self, NN_ACTIVATION_SIGMOID, 1);<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetActivationFunctionInLayer;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSetHiddenLayersActivationFunction;   name=nnSetHiddenLayersActivationFunction -->
+<a name="//apple_ref/c/func/nnSetHiddenLayersActivationFunction"></a>
+<h3><a name="nnSetHiddenLayersActivationFunction">nnSetHiddenLayersActivationFunction</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetHiddenLayersActivationFunction;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSetHiddenLayersActivationFunction //apple_ref/c/clm/nnSetHiddenLayersActivationFunction //apple_ref/c/intfcm/nnSetHiddenLayersActivationFunction //apple_ref/c/intfm/nnSetHiddenLayersActivationFunction //apple_ref/c/func/nnSetHiddenLayersActivationFunction //apple_ref/c/ftmplt/nnSetHiddenLayersActivationFunction //apple_ref/c/defn/nnSetHiddenLayersActivationFunction //apple_ref/c/macro/nnSetHiddenLayersActivationFunction //apple_ref/doc/anysymbol/nnSetHiddenLayersActivationFunction" machineGenerated="true" --><span class="function">nnSetHiddenLayersActivationFunction</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnActivationFunction_t //apple_ref/c/tdef/nnActivationFunction_t //apple_ref/c/tag/nnActivationFunction_t //apple_ref/c/struct/nnActivationFunction_t //apple_ref/c/intf/nnActivationFunction_t //apple_ref/doc/anysymbol/nnActivationFunction_t" machineGenerated="true" --><span class="type">nnActivationFunction_t</span><!-- /a --> <span class="param">activation</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnActivationDerivative_t //apple_ref/c/tdef/nnActivationDerivative_t //apple_ref/c/tag/nnActivationDerivative_t //apple_ref/c/struct/nnActivationDerivative_t //apple_ref/c/intf/nnActivationDerivative_t //apple_ref/doc/anysymbol/nnActivationDerivative_t" machineGenerated="true" --><span class="type">nnActivationDerivative_t</span><!-- /a --> <span class="param">derivative</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetHiddenLayersActivationFunction;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetHiddenLayersActivationFunction;name=start --><p>a convenience method that calls nnSetActivationFunctionInLayer() for each 
+hidden layer. See that method for usage details<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetHiddenLayersActivationFunction;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnSetOutputLayerActivationFunction;   name=nnSetOutputLayerActivationFunction -->
+<a name="//apple_ref/c/func/nnSetOutputLayerActivationFunction"></a>
+<h3><a name="nnSetOutputLayerActivationFunction">nnSetOutputLayerActivationFunction</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetOutputLayerActivationFunction;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnSetOutputLayerActivationFunction //apple_ref/c/clm/nnSetOutputLayerActivationFunction //apple_ref/c/intfcm/nnSetOutputLayerActivationFunction //apple_ref/c/intfm/nnSetOutputLayerActivationFunction //apple_ref/c/func/nnSetOutputLayerActivationFunction //apple_ref/c/ftmplt/nnSetOutputLayerActivationFunction //apple_ref/c/defn/nnSetOutputLayerActivationFunction //apple_ref/c/macro/nnSetOutputLayerActivationFunction //apple_ref/doc/anysymbol/nnSetOutputLayerActivationFunction" machineGenerated="true" --><span class="function">nnSetOutputLayerActivationFunction</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnActivationFunction_t //apple_ref/c/tdef/nnActivationFunction_t //apple_ref/c/tag/nnActivationFunction_t //apple_ref/c/struct/nnActivationFunction_t //apple_ref/c/intf/nnActivationFunction_t //apple_ref/doc/anysymbol/nnActivationFunction_t" machineGenerated="true" --><span class="type">nnActivationFunction_t</span><!-- /a --> <span class="param">activation</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnActivationDerivative_t //apple_ref/c/tdef/nnActivationDerivative_t //apple_ref/c/tag/nnActivationDerivative_t //apple_ref/c/struct/nnActivationDerivative_t //apple_ref/c/intf/nnActivationDerivative_t //apple_ref/doc/anysymbol/nnActivationDerivative_t" machineGenerated="true" --><span class="type">nnActivationDerivative_t</span><!-- /a --> <span class="param">derivative</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnSetOutputLayerActivationFunction;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetOutputLayerActivationFunction;name=start --><p>a convenience method that calls nnSetActivationFunctionInLayer() for the 
+output layer. See that method for usage details<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnSetOutputLayerActivationFunction;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnInputBuffer;   name=nnInputBuffer -->
+<a name="//apple_ref/c/func/nnInputBuffer"></a>
+<h3><a name="nnInputBuffer">nnInputBuffer</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnInputBuffer;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --><span class="type">*</span> <!-- a logicalPath="//apple_ref/c/instm/nnInputBuffer //apple_ref/c/clm/nnInputBuffer //apple_ref/c/intfcm/nnInputBuffer //apple_ref/c/intfm/nnInputBuffer //apple_ref/c/func/nnInputBuffer //apple_ref/c/ftmplt/nnInputBuffer //apple_ref/c/defn/nnInputBuffer //apple_ref/c/macro/nnInputBuffer //apple_ref/doc/anysymbol/nnInputBuffer" machineGenerated="true" --><span class="function">nnInputBuffer</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="type">*</span><span class="param">numNeurons</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnInputBuffer;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnInputBuffer/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnInputBuffer/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnInputBuffer/numNeurons;   name=numNeurons -->
+<a name="//apple_ref/doc/functionparam/nnInputBuffer/numNeurons"></a>
+<code>numNeurons</code></dt><dd><p>on return will contain the length of the returned buffer;
+pass NULL if you don't care.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>a pointer to the buffer
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnInputBuffer;name=start --><p>get the network's input buffer. Fill this buffer before calling 
+nnCalculateOutput()<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnInputBuffer;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnOutputBuffer;   name=nnOutputBuffer -->
+<a name="//apple_ref/c/func/nnOutputBuffer"></a>
+<h3><a name="nnOutputBuffer">nnOutputBuffer</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnOutputBuffer;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --><span class="type">*</span> <!-- a logicalPath="//apple_ref/c/instm/nnOutputBuffer //apple_ref/c/clm/nnOutputBuffer //apple_ref/c/intfcm/nnOutputBuffer //apple_ref/c/intfm/nnOutputBuffer //apple_ref/c/func/nnOutputBuffer //apple_ref/c/ftmplt/nnOutputBuffer //apple_ref/c/defn/nnOutputBuffer //apple_ref/c/macro/nnOutputBuffer //apple_ref/doc/anysymbol/nnOutputBuffer" machineGenerated="true" --><span class="function">nnOutputBuffer</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="type">*</span><span class="param">numNeurons</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnOutputBuffer;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnOutputBuffer/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnOutputBuffer/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnOutputBuffer/numNeurons;   name=numNeurons -->
+<a name="//apple_ref/doc/functionparam/nnOutputBuffer/numNeurons"></a>
+<code>numNeurons</code></dt><dd><p>on return will contain the length of the returned buffer;
+pass NULL if you don't care.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>a pointer to the buffer
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnOutputBuffer;name=start --><p>provides direct access to the output of the output-layer's neurons<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnOutputBuffer;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnTrainOnce;   name=nnTrainOnce -->
+<a name="//apple_ref/c/func/nnTrainOnce"></a>
+<h3><a name="nnTrainOnce">nnTrainOnce</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnTrainOnce;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnTrainOnce //apple_ref/c/clm/nnTrainOnce //apple_ref/c/intfcm/nnTrainOnce //apple_ref/c/intfm/nnTrainOnce //apple_ref/c/func/nnTrainOnce //apple_ref/c/ftmplt/nnTrainOnce //apple_ref/c/defn/nnTrainOnce //apple_ref/c/macro/nnTrainOnce //apple_ref/doc/anysymbol/nnTrainOnce" machineGenerated="true" --><span class="function">nnTrainOnce</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span><span class="param">targetOutput</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">numOutputs</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnTrainOnce;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrainOnce/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnTrainOnce/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrainOnce/targetOutput;   name=targetOutput -->
+<a name="//apple_ref/doc/functionparam/nnTrainOnce/targetOutput"></a>
+<code>targetOutput</code></dt><dd><p>a buffer containing the network's target output</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrainOnce/numOutputs;   name=numOutputs -->
+<a name="//apple_ref/doc/functionparam/nnTrainOnce/numOutputs"></a>
+<code>numOutputs</code></dt><dd><p>the size of 'targetOutput', which must match the number of output neurons in the network</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnTrainOnce;name=start --><p>this method compares the network's actual output to the target output,
+back-propigates errors and adjusts weights and rest-states accordingly. 
+It does not first calculate the network's actual output. Do that with<br />
+nnCalculateOutput(self);<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnTrainOnce;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnTrain;   name=nnTrain -->
+<a name="//apple_ref/c/func/nnTrain"></a>
+<h3><a name="nnTrain">nnTrain</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnTrain;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnTrain //apple_ref/c/clm/nnTrain //apple_ref/c/intfcm/nnTrain //apple_ref/c/intfm/nnTrain //apple_ref/c/func/nnTrain //apple_ref/c/ftmplt/nnTrain //apple_ref/c/defn/nnTrain //apple_ref/c/macro/nnTrain //apple_ref/doc/anysymbol/nnTrain" machineGenerated="true" --><span class="function">nnTrain</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span><span class="type">*</span><span class="param">inputBuffers</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span><span class="type">*</span><span class="param">targetOutputBuffers</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">numDataSets</span>, 
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="param">numInputNeurons</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="param">numOutputNeurons</span>, 
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="param">targetError</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <span class="param">maxNumGenerations</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnTrain;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnTrain/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/inputBuffers;   name=inputBuffers -->
+<a name="//apple_ref/doc/functionparam/nnTrain/inputBuffers"></a>
+<code>inputBuffers</code></dt><dd><p>an array of input buffers for training.</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/targetOutputBuffers;   name=targetOutputBuffers -->
+<a name="//apple_ref/doc/functionparam/nnTrain/targetOutputBuffers"></a>
+<code>targetOutputBuffers</code></dt><dd><p>an array of buffers that correspond to the target output for the input buffers</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/numDataSets;   name=numDataSets -->
+<a name="//apple_ref/doc/functionparam/nnTrain/numDataSets"></a>
+<code>numDataSets</code></dt><dd><p>the number of input buffers, which must be the same as the number of target 
+output buffers</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/numInputNeurons;   name=numInputNeurons -->
+<a name="//apple_ref/doc/functionparam/nnTrain/numInputNeurons"></a>
+<code>numInputNeurons</code></dt><dd><p>the number of objects in each input buffer, which must match the number of input 
+neurons in the network.</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/numOutputNeurons;   name=numOutputNeurons -->
+<a name="//apple_ref/doc/functionparam/nnTrain/numOutputNeurons"></a>
+<code>numOutputNeurons</code></dt><dd><p>the number of objects in each targetOutput buffer, which must match the number 
+of output neurons in the network.</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/targetError;   name=targetError -->
+<a name="//apple_ref/doc/functionparam/nnTrain/targetError"></a>
+<code>targetError</code></dt><dd><p>the error rate at which this method will return</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnTrain/maxNumGenerations;   name=maxNumGenerations -->
+<a name="//apple_ref/doc/functionparam/nnTrain/maxNumGenerations"></a>
+<code>maxNumGenerations</code></dt><dd><p>the maximum number of generations to train if the target error rate is
+not reached, and the actual error rate does not converge;</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>returns the average error rate over the last generation of training
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnTrain;name=start --><p>a convenience method that calculates the output for each of a set of input
+buffers, calls nnTrainOnce() with each of the corresponding target output 
+buffers, and repeats over many generations.
+Each generation the annealing function is called and the order of the training
+set is scrambled to aviod oscillating error-rate loops.
+This function will return when the target error rate is reached, or when the 
+specified maximum number of generations have been exhausted, whichever comes
+first.<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnTrain;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnForgetTraining;   name=nnForgetTraining -->
+<a name="//apple_ref/c/func/nnForgetTraining"></a>
+<h3><a name="nnForgetTraining">nnForgetTraining</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnForgetTraining;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnForgetTraining //apple_ref/c/clm/nnForgetTraining //apple_ref/c/intfcm/nnForgetTraining //apple_ref/c/intfm/nnForgetTraining //apple_ref/c/func/nnForgetTraining //apple_ref/c/ftmplt/nnForgetTraining //apple_ref/c/defn/nnForgetTraining //apple_ref/c/macro/nnForgetTraining //apple_ref/doc/anysymbol/nnForgetTraining" machineGenerated="true" --><span class="function">nnForgetTraining</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnForgetTraining;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnForgetTraining/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnForgetTraining/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnForgetTraining;name=start --><p>sets the weights and rest states to random numbers between -n and n, where
+n is the 1 over the square root of the number of inputs to that neuron<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnForgetTraining;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnErrorRate;   name=nnErrorRate -->
+<a name="//apple_ref/c/func/nnErrorRate"></a>
+<h3><a name="nnErrorRate">nnErrorRate</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnErrorRate;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnErrorRate //apple_ref/c/clm/nnErrorRate //apple_ref/c/intfcm/nnErrorRate //apple_ref/c/intfm/nnErrorRate //apple_ref/c/func/nnErrorRate //apple_ref/c/ftmplt/nnErrorRate //apple_ref/c/defn/nnErrorRate //apple_ref/c/macro/nnErrorRate //apple_ref/doc/anysymbol/nnErrorRate" machineGenerated="true" --><span class="function">nnErrorRate</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnErrorRate;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnErrorRate/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnErrorRate/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the error rate
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnErrorRate;name=start --><p>returns the average output-layer error rate<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnErrorRate;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnCalculateOutput;   name=nnCalculateOutput -->
+<a name="//apple_ref/c/func/nnCalculateOutput"></a>
+<h3><a name="nnCalculateOutput">nnCalculateOutput</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnCalculateOutput;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnCalculateOutput //apple_ref/c/clm/nnCalculateOutput //apple_ref/c/intfcm/nnCalculateOutput //apple_ref/c/intfm/nnCalculateOutput //apple_ref/c/func/nnCalculateOutput //apple_ref/c/ftmplt/nnCalculateOutput //apple_ref/c/defn/nnCalculateOutput //apple_ref/c/macro/nnCalculateOutput //apple_ref/doc/anysymbol/nnCalculateOutput" machineGenerated="true" --><span class="function">nnCalculateOutput</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnCalculateOutput;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnCalculateOutput/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnCalculateOutput/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnCalculateOutput;name=start --><p>calculates the network's output.
+Get the input buffer with 
+nnInputBuffer() 
+and fill it before calling this, or use nnCalculateOutputForInput() instead.<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnCalculateOutput;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnCalculateOutputForInput;   name=nnCalculateOutputForInput -->
+<a name="//apple_ref/c/func/nnCalculateOutputForInput"></a>
+<h3><a name="nnCalculateOutputForInput">nnCalculateOutputForInput</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnCalculateOutputForInput;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --><span class="type">*</span> <!-- a logicalPath="//apple_ref/c/instm/nnCalculateOutputForInput //apple_ref/c/clm/nnCalculateOutputForInput //apple_ref/c/intfcm/nnCalculateOutputForInput //apple_ref/c/intfm/nnCalculateOutputForInput //apple_ref/c/func/nnCalculateOutputForInput //apple_ref/c/ftmplt/nnCalculateOutputForInput //apple_ref/c/defn/nnCalculateOutputForInput //apple_ref/c/macro/nnCalculateOutputForInput //apple_ref/doc/anysymbol/nnCalculateOutputForInput" machineGenerated="true" --><span class="function">nnCalculateOutputForInput</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span><span class="param">input</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="param">numInputs</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="type">*</span><span class="param">numOutputs</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnCalculateOutputForInput;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnCalculateOutputForInput/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnCalculateOutputForInput/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnCalculateOutputForInput/input;   name=input -->
+<a name="//apple_ref/doc/functionparam/nnCalculateOutputForInput/input"></a>
+<code>input</code></dt><dd><p>the input for which to calculate the output</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnCalculateOutputForInput/numInputs;   name=numInputs -->
+<a name="//apple_ref/doc/functionparam/nnCalculateOutputForInput/numInputs"></a>
+<code>numInputs</code></dt><dd><p>the number of objects in 'input', which must match the number of input 
+neurons in the network.</dd>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnCalculateOutputForInput/numOutputs;   name=numOutputs -->
+<a name="//apple_ref/doc/functionparam/nnCalculateOutputForInput/numOutputs"></a>
+<code>numOutputs</code></dt><dd><p>on return will contain the length of the returned buffer;
+pass NULL if you don't care.</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the network's output buffer
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnCalculateOutputForInput;name=start --><p>a convenience method that copies the specified input values into the network's
+input buffer, and then calls nnCalculateOutput();<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnCalculateOutputForInput;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnIndexOfHighestOutputNeuron;   name=nnIndexOfHighestOutputNeuron -->
+<a name="//apple_ref/c/func/nnIndexOfHighestOutputNeuron"></a>
+<h3><a name="nnIndexOfHighestOutputNeuron">nnIndexOfHighestOutputNeuron</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnIndexOfHighestOutputNeuron;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnIndexOfHighestOutputNeuron //apple_ref/c/clm/nnIndexOfHighestOutputNeuron //apple_ref/c/intfcm/nnIndexOfHighestOutputNeuron //apple_ref/c/intfm/nnIndexOfHighestOutputNeuron //apple_ref/c/func/nnIndexOfHighestOutputNeuron //apple_ref/c/ftmplt/nnIndexOfHighestOutputNeuron //apple_ref/c/defn/nnIndexOfHighestOutputNeuron //apple_ref/c/macro/nnIndexOfHighestOutputNeuron //apple_ref/doc/anysymbol/nnIndexOfHighestOutputNeuron" machineGenerated="true" --><span class="function">nnIndexOfHighestOutputNeuron</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnIndexOfHighestOutputNeuron;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnIndexOfHighestOutputNeuron/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnIndexOfHighestOutputNeuron/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the neuron's index
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnIndexOfHighestOutputNeuron;name=start --><p>returns the index of the most active output neuron<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnIndexOfHighestOutputNeuron;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnIndexOfRandomOutputNeuron;   name=nnIndexOfRandomOutputNeuron -->
+<a name="//apple_ref/c/func/nnIndexOfRandomOutputNeuron"></a>
+<h3><a name="nnIndexOfRandomOutputNeuron">nnIndexOfRandomOutputNeuron</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnIndexOfRandomOutputNeuron;name=start --><!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnIndexOfRandomOutputNeuron //apple_ref/c/clm/nnIndexOfRandomOutputNeuron //apple_ref/c/intfcm/nnIndexOfRandomOutputNeuron //apple_ref/c/intfm/nnIndexOfRandomOutputNeuron //apple_ref/c/func/nnIndexOfRandomOutputNeuron //apple_ref/c/ftmplt/nnIndexOfRandomOutputNeuron //apple_ref/c/defn/nnIndexOfRandomOutputNeuron //apple_ref/c/macro/nnIndexOfRandomOutputNeuron //apple_ref/doc/anysymbol/nnIndexOfRandomOutputNeuron" machineGenerated="true" --><span class="function">nnIndexOfRandomOutputNeuron</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnIndexOfRandomOutputNeuron;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class='param_indent'>
+<dl>
+<dt><!-- headerDoc=functionparam;  uid=//apple_ref/doc/functionparam/nnIndexOfRandomOutputNeuron/self;   name=self -->
+<a name="//apple_ref/doc/functionparam/nnIndexOfRandomOutputNeuron/self"></a>
+<code>self</code></dt><dd><p>the NeuralNetwork object to operate upon</dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Return Value</font></h5><p><!-- begin return value --><p>the index of the chosen neuron
+
+<!-- end return value --></p><h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnIndexOfRandomOutputNeuron;name=start --><p>returns the index of a random output neuron. This method interprets the activity 
+of each neuron as a weighted probability, so that it is most likely to
+return the index of the most active neuron, depending upon how much more active
+it is than the other neurons, and so forth. This method destroys the output 
+buffer and then attempts to restore it, which will fail with custom activation
+functions that are not normalized between 0 and 1.<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnIndexOfRandomOutputNeuron;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/nnPrintOutputBuffer;   name=nnPrintOutputBuffer -->
+<a name="//apple_ref/c/func/nnPrintOutputBuffer"></a>
+<h3><a name="nnPrintOutputBuffer">nnPrintOutputBuffer</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/nnPrintOutputBuffer;name=start --><!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/instm/nnPrintOutputBuffer //apple_ref/c/clm/nnPrintOutputBuffer //apple_ref/c/intfcm/nnPrintOutputBuffer //apple_ref/c/intfm/nnPrintOutputBuffer //apple_ref/c/func/nnPrintOutputBuffer //apple_ref/c/ftmplt/nnPrintOutputBuffer //apple_ref/c/defn/nnPrintOutputBuffer //apple_ref/c/macro/nnPrintOutputBuffer //apple_ref/doc/anysymbol/nnPrintOutputBuffer" machineGenerated="true" --><span class="function">nnPrintOutputBuffer</span><!-- /a -->(
+    <!-- a logicalPath="//apple_ref/c/cl/NeuralNetwork //apple_ref/c/tdef/NeuralNetwork //apple_ref/c/tag/NeuralNetwork //apple_ref/c/struct/NeuralNetwork //apple_ref/c/intf/NeuralNetwork //apple_ref/doc/anysymbol/NeuralNetwork" machineGenerated="true" --><span class="type">NeuralNetwork</span><!-- /a --> <span class="type">*</span><span class="param">self</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/func/nnPrintOutputBuffer;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/nnPrintOutputBuffer;name=start --><p>prints the output of each output-layer neuron to stdout<!-- headerDoc=discussion;uid=//apple_ref/c/func/nnPrintOutputBuffer;name=end --><!-- end discussion -->
+<hr class="betweenSections">
+<a name="HeaderDoc_datatypes"></a>
+<h2 class="h2tight">Typedefs</h2>
+<dl>
+<dt><tt><a href="index.html#//apple_ref/c/tdef/nnNeuronCount_t" target="_top">nnNeuronCount_t</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/tdef/nnNeuronData_t" target="_top">nnNeuronData_t</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/tdef/nnActivationFunction_t" target="_top">nnActivationFunction_t</a></tt></dt>
+<dd><p>callback type for custom activation functions
+</dd>
+<dt><tt><a href="index.html#//apple_ref/c/tdef/nnActivationDerivative_t" target="_top">nnActivationDerivative_t</a></tt></dt>
+<dd><p>callback type for calculation the derivative of a custom activation functions
+</dd>
+<dt><tt><a href="index.html#//apple_ref/c/tdef/nnAnnealingFunction_t" target="_top">nnAnnealingFunction_t</a></tt></dt>
+<dd><p>callback type for custom annealing functions
+</dd>
+</dl>
+<hr class="betweenAPIEntries"><!-- headerDoc=tdef;  uid=//apple_ref/c/tdef/nnNeuronCount_t;   name=nnNeuronCount_t -->
+<a name="//apple_ref/c/tdef/nnNeuronCount_t"></a>
+<h3><a name="nnNeuronCount_t">nnNeuronCount_t</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnNeuronCount_t;name=start --><span class="keyword">typedef</span> <span class="keyword">unsigned</span> <!-- a logicalPath="//apple_ref/c/cl/int //apple_ref/c/tdef/int //apple_ref/c/tag/int //apple_ref/c/struct/int //apple_ref/c/intf/int //apple_ref/doc/anysymbol/int" machineGenerated="true" --><span class="type">int</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/econst/nnNeuronCount_t //apple_ref/c/data/nnNeuronCount_t //apple_ref/c/clconst/nnNeuronCount_t " machineGenerated="true" --><span class="var">nnNeuronCount_t</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnNeuronCount_t;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=tdef;  uid=//apple_ref/c/tdef/nnNeuronData_t;   name=nnNeuronData_t -->
+<a name="//apple_ref/c/tdef/nnNeuronData_t"></a>
+<h3><a name="nnNeuronData_t">nnNeuronData_t</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnNeuronData_t;name=start --><span class="keyword">typedef</span> <!-- a logicalPath="//apple_ref/c/cl/double //apple_ref/c/tdef/double //apple_ref/c/tag/double //apple_ref/c/struct/double //apple_ref/c/intf/double //apple_ref/doc/anysymbol/double" machineGenerated="true" --><span class="type">double</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/econst/nnNeuronData_t //apple_ref/c/data/nnNeuronData_t //apple_ref/c/clconst/nnNeuronData_t " machineGenerated="true" --><span class="var">nnNeuronData_t</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnNeuronData_t;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnNeuronData_t;name=start --><p>used for neuron calculations<br />
+including neuron inputs, outputs, weights, errors, rest states, etc...<!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnNeuronData_t;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=tdef;  uid=//apple_ref/c/tdef/nnActivationFunction_t;   name=nnActivationFunction_t -->
+<a name="//apple_ref/c/tdef/nnActivationFunction_t"></a>
+<h3><a name="nnActivationFunction_t">nnActivationFunction_t</a></h3>
+<hr class="afterName"><p><!-- headerDoc=abstract;uid=//apple_ref/c/tdef/nnActivationFunction_t;name=start --><!-- begin abstract --><p>callback type for custom activation functions
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/c/tdef/nnActivationFunction_t;name=end --></p>
+<div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnActivationFunction_t;name=start --><span class="keyword">typedef</span> <!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> ( <span class="type">*</span><!-- a logicalPath="//apple_ref/c/instm/nnActivationFunction_t //apple_ref/c/clm/nnActivationFunction_t //apple_ref/c/intfcm/nnActivationFunction_t //apple_ref/c/intfm/nnActivationFunction_t //apple_ref/c/func/nnActivationFunction_t //apple_ref/c/ftmplt/nnActivationFunction_t //apple_ref/c/defn/nnActivationFunction_t //apple_ref/c/macro/nnActivationFunction_t //apple_ref/doc/anysymbol/nnActivationFunction_t" machineGenerated="true" --><span class="function">nnActivationFunction_t</span><!-- /a -->) (
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnActivationFunction_t;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnActivationFunction_t;name=start --><p>a pointer to the sum of the weights times inputs will be passed 
+into the function, which should operate on that value "in place"
+<!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnActivationFunction_t;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=tdef;  uid=//apple_ref/c/tdef/nnActivationDerivative_t;   name=nnActivationDerivative_t -->
+<a name="//apple_ref/c/tdef/nnActivationDerivative_t"></a>
+<h3><a name="nnActivationDerivative_t">nnActivationDerivative_t</a></h3>
+<hr class="afterName"><p><!-- headerDoc=abstract;uid=//apple_ref/c/tdef/nnActivationDerivative_t;name=start --><!-- begin abstract --><p>callback type for calculation the derivative of a custom activation functions
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/c/tdef/nnActivationDerivative_t;name=end --></p>
+<div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnActivationDerivative_t;name=start --><span class="keyword">typedef</span> <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> ( <span class="type">*</span><!-- a logicalPath="//apple_ref/c/instm/nnActivationDerivative_t //apple_ref/c/clm/nnActivationDerivative_t //apple_ref/c/intfcm/nnActivationDerivative_t //apple_ref/c/intfm/nnActivationDerivative_t //apple_ref/c/func/nnActivationDerivative_t //apple_ref/c/ftmplt/nnActivationDerivative_t //apple_ref/c/defn/nnActivationDerivative_t //apple_ref/c/macro/nnActivationDerivative_t //apple_ref/doc/anysymbol/nnActivationDerivative_t" machineGenerated="true" --><span class="function">nnActivationDerivative_t</span><!-- /a -->)(
+    <span class="param">nnNeuronData_t</span> );  <!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnActivationDerivative_t;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnActivationDerivative_t;name=start --><p>should return the derivative of the value passed in
+<!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnActivationDerivative_t;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries"><!-- headerDoc=tdef;  uid=//apple_ref/c/tdef/nnAnnealingFunction_t;   name=nnAnnealingFunction_t -->
+<a name="//apple_ref/c/tdef/nnAnnealingFunction_t"></a>
+<h3><a name="nnAnnealingFunction_t">nnAnnealingFunction_t</a></h3>
+<hr class="afterName"><p><!-- headerDoc=abstract;uid=//apple_ref/c/tdef/nnAnnealingFunction_t;name=start --><!-- begin abstract --><p>callback type for custom annealing functions
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/c/tdef/nnAnnealingFunction_t;name=end --></p>
+<div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnAnnealingFunction_t;name=start --><span class="keyword">typedef</span> <!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a --> ( <span class="type">*</span><!-- a logicalPath="//apple_ref/c/instm/nnAnnealingFunction_t //apple_ref/c/clm/nnAnnealingFunction_t //apple_ref/c/intfcm/nnAnnealingFunction_t //apple_ref/c/intfm/nnAnnealingFunction_t //apple_ref/c/func/nnAnnealingFunction_t //apple_ref/c/ftmplt/nnAnnealingFunction_t //apple_ref/c/defn/nnAnnealingFunction_t //apple_ref/c/macro/nnAnnealingFunction_t //apple_ref/doc/anysymbol/nnAnnealingFunction_t" machineGenerated="true" --><span class="function">nnAnnealingFunction_t</span><!-- /a -->) (
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span><span class="param">learningRate</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronData_t //apple_ref/c/tdef/nnNeuronData_t //apple_ref/c/tag/nnNeuronData_t //apple_ref/c/struct/nnNeuronData_t //apple_ref/c/intf/nnNeuronData_t //apple_ref/doc/anysymbol/nnNeuronData_t" machineGenerated="true" --><span class="type">nnNeuronData_t</span><!-- /a --> <span class="type">*</span><span class="param">annealingRate</span>,
+    <!-- a logicalPath="//apple_ref/c/cl/nnNeuronCount_t //apple_ref/c/tdef/nnNeuronCount_t //apple_ref/c/tag/nnNeuronCount_t //apple_ref/c/struct/nnNeuronCount_t //apple_ref/c/intf/nnNeuronCount_t //apple_ref/doc/anysymbol/nnNeuronCount_t" machineGenerated="true" --><span class="type">nnNeuronCount_t</span><!-- /a --> <span class="param">generation</span>);  <!-- headerDoc=declaration;uid=//apple_ref/c/tdef/nnAnnealingFunction_t;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnAnnealingFunction_t;name=start --><p>a pointer to the network's learning rate and 
+annealing rate are passed in, and may be operated upon directly.
+The current generation is also passed, which starts at 0 for every call
+to nnTrain()
+<!-- headerDoc=discussion;uid=//apple_ref/c/tdef/nnAnnealingFunction_t;name=end --><!-- end discussion -->
+<hr class="betweenSections">
+<a name="HeaderDoc_pdefines"></a>
+<h2 class="h2tight">Macro Definitions</h2>
+<dl>
+<dt><tt><a href="index.html#//apple_ref/c/macro/NN_ACTIVATION_SIGMOID" target="_top">NN_ACTIVATION_SIGMOID</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/macro/NN_ACTIVATION_TANH" target="_top">NN_ACTIVATION_TANH</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/macro/NN_ACTIVATION_LINEAR" target="_top">NN_ACTIVATION_LINEAR</a></tt></dt>
+<dd></dd>
+</dl>
+<hr class="betweenAPIEntries"><!-- headerDoc=macro;  uid=//apple_ref/c/macro/NN_ACTIVATION_SIGMOID;   name=NN_ACTIVATION_SIGMOID -->
+<a name="//apple_ref/c/macro/NN_ACTIVATION_SIGMOID"></a>
+<h3><a name="NN_ACTIVATION_SIGMOID">NN_ACTIVATION_SIGMOID</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/macro/NN_ACTIVATION_SIGMOID;name=start --><span class="preprocessor">#define</span> <!-- a logicalPath="//apple_ref/c/cl/NN_ACTIVATION_SIGMOID //apple_ref/c/tdef/NN_ACTIVATION_SIGMOID //apple_ref/c/tag/NN_ACTIVATION_SIGMOID //apple_ref/c/struct/NN_ACTIVATION_SIGMOID //apple_ref/c/intf/NN_ACTIVATION_SIGMOID //apple_ref/c/econst/NN_ACTIVATION_SIGMOID //apple_ref/c/data/NN_ACTIVATION_SIGMOID //apple_ref/c/clconst/NN_ACTIVATION_SIGMOID //apple_ref/c/instm/NN_ACTIVATION_SIGMOID //apple_ref/c/clm/NN_ACTIVATION_SIGMOID //apple_ref/c/intfcm/NN_ACTIVATION_SIGMOID //apple_ref/c/intfm/NN_ACTIVATION_SIGMOID //apple_ref/c/func/NN_ACTIVATION_SIGMOID //apple_ref/c/ftmplt/NN_ACTIVATION_SIGMOID //apple_ref/c/defn/NN_ACTIVATION_SIGMOID //apple_ref/c/macro/NN_ACTIVATION_SIGMOID //apple_ref/doc/com/intfm/NN_ACTIVATION_SIGMOID //apple_ref/doc/anysymbol/NN_ACTIVATION_SIGMOID" machineGenerated="true" --><span class="preprocessor">NN_ACTIVATION_SIGMOID</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/cl/nnActivationFunctionSigmoid //apple_ref/c/tdef/nnActivationFunctionSigmoid //apple_ref/c/tag/nnActivationFunctionSigmoid //apple_ref/c/struct/nnActivationFunctionSigmoid //apple_ref/c/intf/nnActivationFunctionSigmoid //apple_ref/c/econst/nnActivationFunctionSigmoid //apple_ref/c/data/nnActivationFunctionSigmoid //apple_ref/c/clconst/nnActivationFunctionSigmoid //apple_ref/c/instm/nnActivationFunctionSigmoid //apple_ref/c/clm/nnActivationFunctionSigmoid //apple_ref/c/intfcm/nnActivationFunctionSigmoid //apple_ref/c/intfm/nnActivationFunctionSigmoid //apple_ref/c/func/nnActivationFunctionSigmoid //apple_ref/c/ftmplt/nnActivationFunctionSigmoid //apple_ref/c/defn/nnActivationFunctionSigmoid //apple_ref/c/macro/nnActivationFunctionSigmoid //apple_ref/doc/com/intfm/nnActivationFunctionSigmoid //apple_ref/doc/anysymbol/nnActivationFunctionSigmoid" machineGenerated="true" --><span class="preprocessor">nnActivationFunctionSigmoid</span><!-- /a --><span class="preprocessor">,</span> <!-- a logicalPath="//apple_ref/c/cl/nnActivationDerivativeSigmoid //apple_ref/c/tdef/nnActivationDerivativeSigmoid //apple_ref/c/tag/nnActivationDerivativeSigmoid //apple_ref/c/struct/nnActivationDerivativeSigmoid //apple_ref/c/intf/nnActivationDerivativeSigmoid //apple_ref/c/econst/nnActivationDerivativeSigmoid //apple_ref/c/data/nnActivationDerivativeSigmoid //apple_ref/c/clconst/nnActivationDerivativeSigmoid //apple_ref/c/instm/nnActivationDerivativeSigmoid //apple_ref/c/clm/nnActivationDerivativeSigmoid //apple_ref/c/intfcm/nnActivationDerivativeSigmoid //apple_ref/c/intfm/nnActivationDerivativeSigmoid //apple_ref/c/func/nnActivationDerivativeSigmoid //apple_ref/c/ftmplt/nnActivationDerivativeSigmoid //apple_ref/c/defn/nnActivationDerivativeSigmoid //apple_ref/c/macro/nnActivationDerivativeSigmoid //apple_ref/doc/com/intfm/nnActivationDerivativeSigmoid //apple_ref/doc/anysymbol/nnActivationDerivativeSigmoid" machineGenerated="true" --><span class="preprocessor">nnActivationDerivativeSigmoid</span><!-- /a --> <!-- headerDoc=declaration;uid=//apple_ref/c/macro/NN_ACTIVATION_SIGMOID;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=macro;  uid=//apple_ref/c/macro/NN_ACTIVATION_TANH;   name=NN_ACTIVATION_TANH -->
+<a name="//apple_ref/c/macro/NN_ACTIVATION_TANH"></a>
+<h3><a name="NN_ACTIVATION_TANH">NN_ACTIVATION_TANH</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/macro/NN_ACTIVATION_TANH;name=start --><span class="preprocessor">#define</span> <!-- a logicalPath="//apple_ref/c/cl/NN_ACTIVATION_TANH //apple_ref/c/tdef/NN_ACTIVATION_TANH //apple_ref/c/tag/NN_ACTIVATION_TANH //apple_ref/c/struct/NN_ACTIVATION_TANH //apple_ref/c/intf/NN_ACTIVATION_TANH //apple_ref/c/econst/NN_ACTIVATION_TANH //apple_ref/c/data/NN_ACTIVATION_TANH //apple_ref/c/clconst/NN_ACTIVATION_TANH //apple_ref/c/instm/NN_ACTIVATION_TANH //apple_ref/c/clm/NN_ACTIVATION_TANH //apple_ref/c/intfcm/NN_ACTIVATION_TANH //apple_ref/c/intfm/NN_ACTIVATION_TANH //apple_ref/c/func/NN_ACTIVATION_TANH //apple_ref/c/ftmplt/NN_ACTIVATION_TANH //apple_ref/c/defn/NN_ACTIVATION_TANH //apple_ref/c/macro/NN_ACTIVATION_TANH //apple_ref/doc/com/intfm/NN_ACTIVATION_TANH //apple_ref/doc/anysymbol/NN_ACTIVATION_TANH" machineGenerated="true" --><span class="preprocessor">NN_ACTIVATION_TANH</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/cl/nnActivationFunctionTanh //apple_ref/c/tdef/nnActivationFunctionTanh //apple_ref/c/tag/nnActivationFunctionTanh //apple_ref/c/struct/nnActivationFunctionTanh //apple_ref/c/intf/nnActivationFunctionTanh //apple_ref/c/econst/nnActivationFunctionTanh //apple_ref/c/data/nnActivationFunctionTanh //apple_ref/c/clconst/nnActivationFunctionTanh //apple_ref/c/instm/nnActivationFunctionTanh //apple_ref/c/clm/nnActivationFunctionTanh //apple_ref/c/intfcm/nnActivationFunctionTanh //apple_ref/c/intfm/nnActivationFunctionTanh //apple_ref/c/func/nnActivationFunctionTanh //apple_ref/c/ftmplt/nnActivationFunctionTanh //apple_ref/c/defn/nnActivationFunctionTanh //apple_ref/c/macro/nnActivationFunctionTanh //apple_ref/doc/com/intfm/nnActivationFunctionTanh //apple_ref/doc/anysymbol/nnActivationFunctionTanh" machineGenerated="true" --><span class="preprocessor">nnActivationFunctionTanh</span><!-- /a --><span class="preprocessor">,</span> <!-- a logicalPath="//apple_ref/c/cl/nnActivationDerivativeTanh //apple_ref/c/tdef/nnActivationDerivativeTanh //apple_ref/c/tag/nnActivationDerivativeTanh //apple_ref/c/struct/nnActivationDerivativeTanh //apple_ref/c/intf/nnActivationDerivativeTanh //apple_ref/c/econst/nnActivationDerivativeTanh //apple_ref/c/data/nnActivationDerivativeTanh //apple_ref/c/clconst/nnActivationDerivativeTanh //apple_ref/c/instm/nnActivationDerivativeTanh //apple_ref/c/clm/nnActivationDerivativeTanh //apple_ref/c/intfcm/nnActivationDerivativeTanh //apple_ref/c/intfm/nnActivationDerivativeTanh //apple_ref/c/func/nnActivationDerivativeTanh //apple_ref/c/ftmplt/nnActivationDerivativeTanh //apple_ref/c/defn/nnActivationDerivativeTanh //apple_ref/c/macro/nnActivationDerivativeTanh //apple_ref/doc/com/intfm/nnActivationDerivativeTanh //apple_ref/doc/anysymbol/nnActivationDerivativeTanh" machineGenerated="true" --><span class="preprocessor">nnActivationDerivativeTanh</span><!-- /a --> <!-- headerDoc=declaration;uid=//apple_ref/c/macro/NN_ACTIVATION_TANH;name=end --></pre>
+</div>
+<hr class="betweenAPIEntries"><!-- headerDoc=macro;  uid=//apple_ref/c/macro/NN_ACTIVATION_LINEAR;   name=NN_ACTIVATION_LINEAR -->
+<a name="//apple_ref/c/macro/NN_ACTIVATION_LINEAR"></a>
+<h3><a name="NN_ACTIVATION_LINEAR">NN_ACTIVATION_LINEAR</a></h3>
+<hr class="afterName"><div class='declaration_indent'>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/macro/NN_ACTIVATION_LINEAR;name=start --><span class="preprocessor">#define</span> <!-- a logicalPath="//apple_ref/c/cl/NN_ACTIVATION_LINEAR //apple_ref/c/tdef/NN_ACTIVATION_LINEAR //apple_ref/c/tag/NN_ACTIVATION_LINEAR //apple_ref/c/struct/NN_ACTIVATION_LINEAR //apple_ref/c/intf/NN_ACTIVATION_LINEAR //apple_ref/c/econst/NN_ACTIVATION_LINEAR //apple_ref/c/data/NN_ACTIVATION_LINEAR //apple_ref/c/clconst/NN_ACTIVATION_LINEAR //apple_ref/c/instm/NN_ACTIVATION_LINEAR //apple_ref/c/clm/NN_ACTIVATION_LINEAR //apple_ref/c/intfcm/NN_ACTIVATION_LINEAR //apple_ref/c/intfm/NN_ACTIVATION_LINEAR //apple_ref/c/func/NN_ACTIVATION_LINEAR //apple_ref/c/ftmplt/NN_ACTIVATION_LINEAR //apple_ref/c/defn/NN_ACTIVATION_LINEAR //apple_ref/c/macro/NN_ACTIVATION_LINEAR //apple_ref/doc/com/intfm/NN_ACTIVATION_LINEAR //apple_ref/doc/anysymbol/NN_ACTIVATION_LINEAR" machineGenerated="true" --><span class="preprocessor">NN_ACTIVATION_LINEAR</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/cl/nnActivationFunctionLinear //apple_ref/c/tdef/nnActivationFunctionLinear //apple_ref/c/tag/nnActivationFunctionLinear //apple_ref/c/struct/nnActivationFunctionLinear //apple_ref/c/intf/nnActivationFunctionLinear //apple_ref/c/econst/nnActivationFunctionLinear //apple_ref/c/data/nnActivationFunctionLinear //apple_ref/c/clconst/nnActivationFunctionLinear //apple_ref/c/instm/nnActivationFunctionLinear //apple_ref/c/clm/nnActivationFunctionLinear //apple_ref/c/intfcm/nnActivationFunctionLinear //apple_ref/c/intfm/nnActivationFunctionLinear //apple_ref/c/func/nnActivationFunctionLinear //apple_ref/c/ftmplt/nnActivationFunctionLinear //apple_ref/c/defn/nnActivationFunctionLinear //apple_ref/c/macro/nnActivationFunctionLinear //apple_ref/doc/com/intfm/nnActivationFunctionLinear //apple_ref/doc/anysymbol/nnActivationFunctionLinear" machineGenerated="true" --><span class="preprocessor">nnActivationFunctionLinear</span><!-- /a --><span class="preprocessor">,</span> <!-- a logicalPath="//apple_ref/c/cl/nnActivationDerivativeLinear //apple_ref/c/tdef/nnActivationDerivativeLinear //apple_ref/c/tag/nnActivationDerivativeLinear //apple_ref/c/struct/nnActivationDerivativeLinear //apple_ref/c/intf/nnActivationDerivativeLinear //apple_ref/c/econst/nnActivationDerivativeLinear //apple_ref/c/data/nnActivationDerivativeLinear //apple_ref/c/clconst/nnActivationDerivativeLinear //apple_ref/c/instm/nnActivationDerivativeLinear //apple_ref/c/clm/nnActivationDerivativeLinear //apple_ref/c/intfcm/nnActivationDerivativeLinear //apple_ref/c/intfm/nnActivationDerivativeLinear //apple_ref/c/func/nnActivationDerivativeLinear //apple_ref/c/ftmplt/nnActivationDerivativeLinear //apple_ref/c/defn/nnActivationDerivativeLinear //apple_ref/c/macro/nnActivationDerivativeLinear //apple_ref/doc/com/intfm/nnActivationDerivativeLinear //apple_ref/doc/anysymbol/nnActivationDerivativeLinear" machineGenerated="true" --><span class="preprocessor">nnActivationDerivativeLinear</span><!-- /a --> <!-- headerDoc=declaration;uid=//apple_ref/c/macro/NN_ACTIVATION_LINEAR;name=end --></pre>
+</div>
+<p class="gapBeforeFooter">&nbsp;</p><hr class="afterFooter"><div class="hd_copyright_and_timestamp">
+<p class="hd_timestamp">Last Updated: Friday, April 04, 2014
+</p></div>
+</td></tr></table>
+</body></html>

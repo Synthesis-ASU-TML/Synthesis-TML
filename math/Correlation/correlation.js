@@ -4,9 +4,16 @@
 / _/ _ \ '_| '_/ -_) / _` |  _| / _ \ ' \ _ | (_-<
 \__\___/_| |_| \___|_\__,_|\__|_\___/_||_(_)/ /__/
                                           |__/  
-Version: 2.0 Nov 7th 2014;
+Version  2.1 Feb 2 2015;
 
 Change Log:
+  Version 2.2 March 2 2015
+   -Changed approach to normilization
+  Version: 2.1 Feb 2 2015
+	 -Fast Quaternion Correlation finally working properly,
+	  and replaced Slow as the default.
+	 -Window functions removed because they are not mathematically 
+    appropriate
   Version: 2.0 Nov 7th 2014
     Implement Quaternion Correlation and clean up text file.
   Version 1.1a, Nov 02 2014
@@ -58,6 +65,10 @@ set_should_produce_polar_output <int> (0 ~ 1)
 
 clear
   zero the input buffers (so you dont correlate with old data)
+
+set_lag_search_window_size <float> (0.0 ~ 100)
+  restrict the search for the peak correlation to values of lag
+  near the previous peak. Expressed in percent of input_size.
 
 Discussion:
 This makes use of the convolution property which says 
@@ -131,13 +142,14 @@ var complex_input_b      = new fft_complex_signal    (input_size);
 var quaternion_input_a   = new fft_quaternion_signal (input_size);
 var quaternion_input_b   = new fft_quaternion_signal (input_size);
 var analysis_window      = new Array                 (input_size);
-var should_normalize     = false;
+var should_normalize     = true;
 var should_polar_output  = true;
 var sample_interval      = 0;
 var prev_sample_time     = 0;
 var fft_size             = nearest_power_of_two(2 * input_size);
 var one_minus_overlap_num_samples;
-
+var prev_lag_index       = fft_size * 0.5;
+var lag_search_window_size = 25; //percent of input_size
 set_window_function(window_function_name);
 set_overlap(overlap_percent);
 
@@ -209,12 +221,20 @@ function list()
       var dt = t - prev_sample_time;
       if(dt < 500) sample_interval = (sample_interval * 0.9) + (dt * 0.1);
       prev_sample_time = t;
+      sample_interval = 10; //RRRRRRRRRREEEEEEEEEEEEEEMMMMMMMMMMMMOOOOOOOOOOOOOOOOVVVVVVVVVVVVVVVVEEEEEEEEEEEEEEEEEEEE
       ++input_counter; input_counter %= one_minus_overlap_num_samples;
 
       if (input_counter == 0)
         {
   	      var result = input_signals[0].correlate(input_signals[1]);
-          var lag_index = result.rho.index_of_largest_item();
+          //var lag_index = result.rho.index_of_largest_item();
+         lag_index = result.rho.index_of_largest_item_in_range(prev_lag_index, lag_search_window_size);
+         prev_lag_index = lag_index;
+//RREEMMOOVVEE LAAATTTTEEERRR!!!!!!!!!!!!!!
+//result.rho[lag_index] = 100;
+//result.rho[lag_index+1] = 100;
+//result.rho[lag_index-1] = 100;
+
           outlet(SAMPLE_INTERVAL_OUTLET, sample_interval);
           outlet(LAG_OUTLET, ((lag_index) - (fft_size * 0.5)) * sample_interval);
 
@@ -277,6 +297,15 @@ function set_overlap(n)
 }
 
 /*-----------------------------------------------------------------------*/
+function set_lag_search_window_size(n)
+{
+  if(n > 100) n = 100;
+  if(n < 0)   n = 0;
+
+  lag_search_window_size = n;
+}
+
+/*-----------------------------------------------------------------------*/
 function clear()
 {
   input_counter        = 0;
@@ -284,6 +313,7 @@ function clear()
   complex_input_b      = new fft_complex_signal    (input_size);
   quaternion_input_a   = new fft_quaternion_signal (input_size);
   quaternion_input_b   = new fft_quaternion_signal (input_size); 
+  prev_lag_index       = fft_size * 0.5;
 }
 
 /*-----------------_------------__--__-_-----------------------------------
@@ -326,8 +356,8 @@ fft_complex_signal.prototype.correlate = function(signal_b)
     }
 
   //Fourier transform
-  a.apply_window(analysis_window);
-  b.apply_window(analysis_window);
+  //a.apply_window(analysis_window);
+  //b.apply_window(analysis_window);
   a.zero_pad(fft_size);
   b.zero_pad(fft_size);
   a.fft_decimation_in_frequency(true);
@@ -431,7 +461,7 @@ fft_complex_signal.prototype.fft_decimation_in_frequency = function(is_simplex)
               wr                  =  Math.cos(omega_two_pi_over_n);
               wi                  = -Math.sin(omega_two_pi_over_n);
 
-              //if(!is_simplex) wr   = -wr;
+              //if(!is_simplex) {wr   = -wr;}
 
 
               tempr               = r[top_index];
@@ -522,8 +552,27 @@ fft_complex_signal.prototype.polar_to_cartesian = function(signal)
 /*-----------------------------------------------------------------------*/
 fft_complex_signal.prototype.normalize = function()
 {
-  real_normalize_signal(this.real);
-  real_normalize_signal(this.imag);
+  var magnitude, greatest_magnitude = 0;
+  var a, b, i;
+  for (i=0; i<this.real.length; i++)
+    {
+      a = this.real[i];
+      b = this.imag[i];
+      magnitude = Math.sqrt(a*a + b*b);
+      if(magnitude > greatest_magnitude)
+        greatest_magnitude = magnitude;
+    }
+    
+  if(greatest_magnitude > 0)
+    {
+      greatest_magnitude = 1.0 / greatest_magnitude;
+      
+      for(i=0; i<this.real.length; i++)
+        {
+          this.real[i] *= greatest_magnitude;
+          this.imag[i] *= greatest_magnitude;         
+        }
+    }
 }
 
 /*-----------------------------------------------------------------------*/
@@ -583,10 +632,8 @@ fft_quaternion_signal.prototype.slow_correlate = function(signal_b)
 
   if(should_normalize)
     {
-      sig_a.simplex.normalize();
-      sig_a.perplex.normalize();
-      sig_b.simplex.normalize();
-      sig_b.perplex.normalize();	
+      sig_a.normalize();
+      sig_b.normalize();
     }
   
   var i, j;
@@ -655,15 +702,14 @@ fft_quaternion_signal.prototype.fast_correlate = function(signal_b)
 
   
   var sig_a = this.copy();
-  var sig_b = signal_b.copy();  
+  var sig_b = signal_b.copy(); 
+  var result = new fft_quaternion_signal(fft_size); 
   var fft_size_minus_one = fft_size - 1;
 
   if(should_normalize)
     {
-      sig_a.simplex.normalize();
-      sig_a.perplex.normalize();
-      sig_b.simplex.normalize();
-      sig_b.perplex.normalize();	
+      sig_a.normalize();
+      sig_b.normalize();
     }
 
   //Fourier transform
@@ -679,6 +725,7 @@ fft_quaternion_signal.prototype.fast_correlate = function(signal_b)
   sig_a.fft_decimation_in_frequency();
   sig_b.fft_decimation_in_frequency(); 
 
+
   sig_a.simplex.bit_reverse_indices();
   sig_a.perplex.bit_reverse_indices();
   sig_b.simplex.bit_reverse_indices();
@@ -686,51 +733,52 @@ fft_quaternion_signal.prototype.fast_correlate = function(signal_b)
 
   var i, temp;
   var a, b, c, d, e, f, u, v, w, x, y, z;
-  for(i=0; i<fft_size; i++)
+  
+  //sig_a[0] = 0;
+  
+  for(i=1; i<fft_size; i++)
     {
       a = sig_a.simplex.real[i];
       b = sig_a.simplex.imag[i];
       c = sig_b.simplex.real[i];
       d = sig_b.simplex.imag[i];
-      e = sig_b.perplex.real[fft_size_minus_one - i];
-      f = sig_b.perplex.imag[fft_size_minus_one - i];
+      e = sig_b.perplex.real[fft_size - i];
+      f = sig_b.perplex.imag[fft_size - i];
 
       u = sig_a.perplex.real[i];
       v = sig_a.perplex.imag[i];
-      w = sig_b.simplex.real[fft_size_minus_one - i];
-      x = sig_b.simplex.imag[fft_size_minus_one - i];
+      w = sig_b.simplex.real[fft_size - i];
+      x = sig_b.simplex.imag[fft_size - i];
       y = sig_b.perplex.real[i];
       z = sig_b.perplex.imag[i];
 
-      sig_a.simplex.real[i] =  (a*c) + (b*d) + (u*y) + (v*z);
-      sig_a.simplex.imag[i] = -(a*d) + (b*c) - (u*z) + (v*y);
-      sig_a.perplex.real[i] = -(a*e) + (b*f) + (u*w) - (v*x);
-      sig_a.perplex.imag[i] = -(a*f) - (b*e) + (u*x) + (v*w);
+      result.simplex.real[i] =  (a*c) + (b*d) + (u*y) + (v*z);
+      result.simplex.imag[i] = -(a*d) + (b*c) - (u*z) + (v*y);
+      result.perplex.real[i] = -(a*e) + (b*f) + (u*w) - (v*x);
+      result.perplex.imag[i] = -(a*f) - (b*e) + (u*x) + (v*w);
     }
 
   //inverse transform
+  result.simplex.bit_reverse_indices();
+  result.perplex.bit_reverse_indices();
 
-  sig_a.simplex.bit_reverse_indices();
-  sig_a.perplex.bit_reverse_indices();
-
-  sig_a.fft_decimation_in_time(); 
+  result.fft_decimation_in_time(); 
 
   for(i=0; i<(fft_size * 0.5); i++)
     {
-      sig_a.simplex.real.push(sig_a.simplex.real.shift());
-      sig_a.simplex.imag.push(sig_a.simplex.imag.shift());
-      sig_a.perplex.real.push(sig_a.perplex.real.shift());
-      sig_a.perplex.imag.push(sig_a.perplex.imag.shift());
+      result.simplex.real.push(result.simplex.real.shift());
+      result.simplex.imag.push(result.simplex.imag.shift());
+      result.perplex.real.push(result.perplex.real.shift());
+      result.perplex.imag.push(result.perplex.imag.shift());
     } 
 
-
   if(should_polar_output)
-    sig_a.cartesian_to_polar();
+    result.cartesian_to_polar();
 
-  return sig_a;
+  return result;
 }
 
-fft_quaternion_signal.prototype.correlate = fft_quaternion_signal.prototype.slow_correlate;
+fft_quaternion_signal.prototype.correlate = fft_quaternion_signal.prototype.fast_correlate;
 
 /*-----------------------------------------------------------------------*/
 fft_quaternion_signal.prototype.fft_decimation_in_time = function()
@@ -772,6 +820,41 @@ fft_quaternion_signal.prototype.copy = function()
   c.psi   = c.perplex.theta;  
 
   return c;
+}
+
+/*-----------------------------------------------------------------------*/
+fft_quaternion_signal.prototype.normalize = function()
+{
+  var mean=0;
+  var a, b, c, d, i;
+  for (i=0; i<this.simplex.real.length; i++)
+    {
+      a = this.simplex.real[i];
+      b = this.simplex.imag[i];
+      c = this.perplex.real[i];
+      d = this.perplex.imag[i];
+      mean += Math.sqrt(a*a + b*b + c*c + d*d);
+    }
+
+  if(this.simplex.real.length > 0)
+    mean /= this.simplex.real.length;
+
+  if(mean != 0)
+    {
+	  //divide by signal length so metric in invarint of signal length
+	  //10 is arbitrary scale factor
+      mean = 40.0 / (mean * input_size);
+      
+      for(i=0; i<this.simplex.real.length; i++)
+        {
+          this.simplex.real[i] *= mean;
+          this.simplex.imag[i] *= mean;
+          this.perplex.real[i] *= mean;
+          this.perplex.imag[i] *= mean;
+          
+          //post(this.simplex.real[i], this.simplex.imag[i], this.perplex.real[i], this.perplex.imag[i], '\n');
+        }
+    }
 }
 
 /*-----------------------------------------------------------------------*/
@@ -879,6 +962,36 @@ Array.prototype.index_of_largest_item = function()
         {
           result = i;
           largest = this[i];
+        }
+    }
+  return result;
+}
+
+/*-----------------------------------------------------------------------*/
+Array.prototype.index_of_largest_item_in_range = function(center, range_percent)
+{
+  var range = input_size * range_percent * 0.01;
+  range = parseInt(range);
+  //range *= 0.5;
+
+  var start = center - range;
+  var end   = center + range;
+  if(start < 0) start = 0;
+  if(end > this.length) end = this.length;
+  var result = start;  
+  var largest = this[result];
+  var i;
+  var weight, temp;
+
+  for(i=start+1; i<end; i++)
+    {
+	  weight = -Math.abs(i - center) * (1.0/range) + 1.0;
+	  if(weight < 0) weight = 0;
+	  temp = this[i]; //* weight;
+      if(temp > largest)
+        {
+          result = i;
+          largest = temp;
         }
     }
   return result;
