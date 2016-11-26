@@ -1,0 +1,29 @@
+{
+	"pattrstorage" : 	{
+		"name" : "vid-indiv",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "blur-1",
+				"data" : 				{
+					"blur" : [ 3.0 ],
+					"slideUp" : [ 0.3 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 1.2 ],
+					"contrast" : [ 1.9 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 2.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

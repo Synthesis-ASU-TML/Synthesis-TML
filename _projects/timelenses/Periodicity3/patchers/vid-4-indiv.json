@@ -1,0 +1,29 @@
+{
+	"pattrstorage" : 	{
+		"name" : "vid-4-indiv",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "rfkjfekerer",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.9 ],
+					"slideDown" : [ 0.9 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 0.86 ],
+					"contrast" : [ 1.1 ],
+					"convolMix" : [ 0.5 ],
+					"convolA" : [ 0.7 ],
+					"brightness" : [ 3.09 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

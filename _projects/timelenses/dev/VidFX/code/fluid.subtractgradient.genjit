@@ -1,0 +1,199 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 433.0, 79.0, 1453.0, 1083.0 ],
+		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 567.0, 14.0, 84.0, 22.0 ],
+					"style" : "",
+					"text" : "in 3 obstacles"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 15,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 112.0, 1059.0, 457.0, 208.0 ],
+					"style" : "",
+					"text" : "\nVelocity = in2;\nPressure = in1;\nstepsize = 1/dim;\nhalfrdx = .5;///dim;\n\npL = sample(Pressure, norm-vec(stepsize, 0));\npR = sample(Pressure, norm+vec(stepsize, 0));\npB = sample(Pressure, norm-vec(0, stepsize));\npT = sample(Pressure, norm+vec(0, stepsize));\n\nuNew = in2;\n\nuNew -= halfrdx * vec(pR.x-pL.x, pT.y - pB.y);\nout1 = uNew;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 46,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 561.0, 1028.0, 157.0, 623.0 ],
+					"style" : "",
+					"text" : "samplePressure(p, coord, s) {\n\tx, y = 0;\n\tif(coord.x<s.x) {\n\t\tx = s.x;\n\t} else if(coord.x>(1.-s.x)) {\n\t\tx = -s.x;\n\t} else if(coord.y < s.y) {\n\t\ty = s.y;\n\t} else if(coord.y>(1-s.y)) {\n\t\ty = -s.y;\n\t}\n\tnearest(p, coord+vec(x,y), boundmode=\"clamp\");\n\t\n}\t\n\t\n\n\nVelocity = in2;\nPressure = in1;\nstepsize = 1/dim;\nhalfrdx = .5;///dim;\n\npL = samplePressure(Pressure, norm-vec(stepsize, 0),stepsize);\npR = samplePressure(Pressure, norm+vec(stepsize, 0),stepsize);\npB = samplePressure(Pressure, norm-vec(0, stepsize),stepsize);\npT = samplePressure(Pressure, norm+vec(0, stepsize),stepsize);\n\nuNew = in2;\n\nuNew -= halfrdx * vec(pR.x-pL.x, pT.y - pB.y);\nout1 = uNew;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 15,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1142.0, 214.0, 305.0, 208.0 ],
+					"style" : "",
+					"text" : "\nVelocity = in2;\nPressure = in1;\nstepsize = 1/dim;\nhalfrdx = .5;///dim;\n\npL = nearest(Pressure, norm-vec(stepsize, 0));\npR = nearest(Pressure, norm+vec(stepsize, 0));\npB = nearest(Pressure, norm-vec(0, stepsize));\npT = nearest(Pressure, norm+vec(0, stepsize));\n\nuNew = in2;\n\nuNew -= halfrdx * vec(pR.x-pL.x, pT.y - pB.y);\nout1 = uNew;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1041.5, 823.0, 617.0, 181.0 ],
+					"style" : "",
+					"text" : "\npos = norm-((TimeStep*stepsize)*Velocity.xy);\nif(Boundary > 0) {\n\tsL = nearest(Source, pos-vec(stepsize, 0), boundmode=\"clamp\");\n\tsR = nearest(Source, pos+vec(stepsize, 0), boundmode=\"clamp\");\n\tsB = nearest(Source, pos-vec(0, stepsize), boundmode=\"clamp\");\n\tsT = nearest(Source, pos+vec(0, stepsize), boundmode=\"clamp\");\n} else {\n\tsL = nearest(Source, pos-vec(stepsize, 0));\n\tsR = nearest(Source, pos+vec(stepsize, 0));\n\tsB = nearest(Source, pos-vec(0, stepsize));\n\tsT = nearest(Source, pos+vec(0, stepsize));\n}"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "Param Clamped(0);\nParam GradientScale(1);\nPressure = in1;\r\nVelocity = in2;\r\nObstacles = in3;\nstepsize = 1/dim;\nhalfrdx = .5;///dim;\n\r\nobstV_x = 0;\r\nobstV_y = 0;\r\nvMask_x = 1;\r\nvMask_y = 1;\r\nres = 0;\r\n\r\nif(Obstacles.x>0) {\r\n\tres = Obstacles.yz;\r\n} else {\r\n\r\n\tif(Clamped>0) {\n\t\tpL = sample(Pressure, norm-vec(stepsize, 0), boundmode=\"clamp\");\n\t\tpR = sample(Pressure, norm+vec(stepsize, 0),boundmode=\"clamp\");\n\t\tpB = sample(Pressure, norm-vec(0, stepsize),boundmode=\"clamp\");\n\t\tpT = sample(Pressure, norm+vec(0, stepsize),boundmode=\"clamp\");\r\n\t\tpC = sample(Pressure, norm);\r\n\t//obstacles\r\n\t\toL = sample(Obstacles, norm-vec(stepsize, 0),boundmode=\"clamp\");\n\t\toR = sample(Obstacles, norm+vec(stepsize, 0),boundmode=\"clamp\");\n\t\toB = sample(Obstacles, norm-vec(0, stepsize),boundmode=\"clamp\");\n\t\toT = sample(Obstacles, norm+vec(0, stepsize),boundmode=\"clamp\");\r\n\r\n\r\n\t\tif(oL.x>0) {pL = pC; obstV_x=oL.y;vMask_x = 0;}\n\t\tif(oR.x>0) {pR = pC; obstV_x=oR.y;vMask_x = 0;}\r\n\t\tif(oB.x>0) {pB = pC; obstV_y=oB.z;vMask_y = 0;}\r\n\t\tif(oT.x>0) {pT = pC; obstV_y=oT.z;vMask_y = 0;}\r\n\r\n\t\t\t\r\n\t\toldV = sample(Velocity, norm).xy;\r\n\t\tgrad = vec(pR.x-pL.x, pT.y - pB.y)*GradientScale;\r\n\t\tnewV = oldV-grad;\r\n\t\t\r\n\t\tres  = (newV*vec(vMask_x, vMask_y))+vec(obstV_x, obstV_y);\r\n\t\r\n\t} else {\r\n\t\tpL = sample(Pressure, norm-vec(stepsize, 0));\n\t\tpR = sample(Pressure, norm+vec(stepsize, 0));\n\t\tpB = sample(Pressure, norm-vec(0, stepsize));\n\t\tpT = sample(Pressure, norm+vec(0, stepsize));\r\n\t\tpC = sample(Pressure, norm);\r\n\t//obstacles\r\n\t\toL = sample(Obstacles, norm-vec(stepsize, 0));\n\t\toR = sample(Obstacles, norm+vec(stepsize, 0));\n\t\toB = sample(Obstacles, norm-vec(0, stepsize));\n\t\toT = sample(Obstacles, norm+vec(0, stepsize));\r\n\r\n\r\n\t\tif(oL.x>0) {pL = pC; obstV_x=oL.y;vMask_x = 0;}\n\t\tif(oR.x>0) {pR = pC; obstV_x=oR.y;vMask_x = 0;}\r\n\t\tif(oB.x>0) {pB = pC; obstV_y=oB.z;vMask_y = 0;}\r\n\r\n\t\toldV = sample(Velocity, norm).xy;\r\n\t\tgrad = vec(pR.x-pL.x, pT.y - pB.y)*GradientScale;\r\n\t\tnewV = oldV-grad;\r\n\t\tres  = (newV*vec(vMask_x, vMask_y))+vec(obstV_x, obstV_y);\r\n\t}\r\n}\n\n\nout1 = res;",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "codebox",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 78.800003, 65.599998, 792.0, 875.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 14.0, 73.0, 22.0 ],
+					"style" : "",
+					"text" : "in 1 velocity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 305.0, 14.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "in 2 pressure"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 70.0, 1035.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+ ]
+	}
+
+}

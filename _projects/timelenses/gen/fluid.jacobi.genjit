@@ -1,0 +1,229 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 3,
+			"architecture" : "x86",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 726.0, 167.0, 919.0, 937.0 ],
+		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 655.0, 890.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 559.0, 3.0, 84.0, 22.0 ],
+					"style" : "",
+					"text" : "in 3 obstacles"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"linecount" : 49,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 734.0, 896.0, 158.0, 663.0 ],
+					"style" : "",
+					"text" : "samplePressure(p, coord, s) {\n\tx, y = 0;\n\tif(coord.x<s.x) {\n\t\tx = s.x;\n\t} else if(coord.x>(1.-s.x)) {\n\t\tx = -s.x;\n\t} else if(coord.y < s.y) {\n\t\ty = s.y;\n\t} else if(coord.y>(1-s.y)) {\n\t\ty = -s.y;\n\t}\n\treturn nearest(p, coord+vec(x,y), boundmode=\"clamp\");\n\t\n}\t\n\t\nalpha = -(1/dim*1/dim);\nrBeta = .25;\nPressure = in1;\nDivergence = in2;\n\nstepsize = 1/dim;\n\nxL = samplePressure(Pressure, norm-vec(stepsize, 0), stepsize);\nxR = samplePressure(Pressure, norm+vec(stepsize, 0), stepsize);\nxB = samplePressure(Pressure, norm-vec(0, stepsize), stepsize);\nxT = samplePressure(Pressure, norm+vec(0, stepsize), stepsize);\n\n\nbC = Divergence;\n\n\nout2 = in2;\nout1 = (xL + xR + xB + xT + alpha * bC) *rBeta;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 24,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1114.0, 199.0, 150.0, 328.0 ],
+					"style" : "",
+					"text" : "\nalpha = -(1/dim*1/dim);\nrBeta = .25;\nPressure = in1;\nDivergence = in2;\n\nstepsize = 1/dim;\n\nxL = nearest(Pressure, norm-vec(stepsize, 0));\nxR = nearest(Pressure, norm+vec(stepsize, 0));\nxB = nearest(Pressure, norm-vec(0, stepsize));\nxT = nearest(Pressure, norm+vec(0, stepsize));\n\n\nbC = Divergence;\n\n\nout2 = in2;\nout1 = (xL + xR + xB + xT + alpha * bC) *rBeta;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 361.0, 886.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 23,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 99.0, 1019.0, 150.0, 315.0 ],
+					"style" : "",
+					"text" : "Param InverseBeta(.25);\n\nAlpha = -1;\nPressure = in1;\nDivergence = in2;\n\n\npN = nearest(Pressure, (cell+vec(0,1))/dim);\npS = nearest(Pressure, (cell+vec(0,-1))/dim);\npE = nearest(Pressure, (cell+vec(1,0))/dim);\npW = nearest(Pressure, (cell+vec(-1,0))/dim);\npC = Pressure;\n\n\nbC = Divergence;\nout2 = Divergence;\nout1 = (pW + pE + pS + pN + Alpha * bC) * InverseBeta;"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "Param Clamped(0);\nalpha = -(1/dim*1/dim);\nrBeta = .25;\nPressure = in1;\nDivergence = in2;\r\nObstacles = in3;\n\r\nbC = Divergence;\r\n\nstepsize = 1/dim;\n\r\noutvals = vec(0,0,0,0);\r\n\r\nif(Clamped>0) {\n\txL = sample(Pressure, norm-vec(stepsize, 0),boundmode=\"clamp\");\n\txR = sample(Pressure, norm+vec(stepsize, 0),boundmode=\"clamp\");\n\txB = sample(Pressure, norm-vec(0, stepsize),boundmode=\"clamp\");\n\txT = sample(Pressure, norm+vec(0, stepsize),boundmode=\"clamp\");\r\n\txC = sample(Pressure, norm);\r\n\r\n\t//obstacles\r\n\toL = sample(Obstacles, norm-vec(stepsize, 0),boundmode=\"clamp\");\n\toR = sample(Obstacles, norm+vec(stepsize, 0),boundmode=\"clamp\");\n\toB = sample(Obstacles, norm-vec(0, stepsize),boundmode=\"clamp\");\n\toT = sample(Obstacles, norm+vec(0, stepsize),boundmode=\"clamp\");\n\r\n\tif(oL.x>0) xL = xC;\r\n\tif(oR.x>0) xR = xC;\r\n\tif(oB.x>0) xB = xC;\r\n\tif(oT.x>0) xT = xC;\r\n\toutvals = (xL + xR + xB + xT + alpha * bC) *rBeta;\r\n} else {\r\n\t\r\n\txL = sample(Pressure, norm-vec(stepsize, 0));\n\txR = sample(Pressure, norm+vec(stepsize, 0));\n\txB = sample(Pressure, norm-vec(0, stepsize));\n\txT = sample(Pressure, norm+vec(0, stepsize));\r\n\txC = sample(Pressure, norm);\r\n\r\n\t//obstacles\r\n\toL = sample(Obstacles, norm-vec(stepsize, 0));\n\toR = sample(Obstacles, norm+vec(stepsize, 0));\n\toB = sample(Obstacles, norm-vec(0, stepsize));\n\toT = sample(Obstacles, norm+vec(0, stepsize));\n\r\n\tif(oL.x>0) xL = xC;\r\n\tif(oR.x>0) xR = xC;\r\n\tif(oB.x>0) xB = xC;\r\n\tif(oT.x>0) xT = xC;\r\n\toutvals = (xL + xR + xB + xT + alpha * bC) *rBeta;\r\n\t\r\n\t\r\n}\r\n\n\n\n\r\nout3 = in3;\nout2 = in2;\nout1 = outvals;",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "codebox",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 62.0, 32.0, 645.0, 789.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 14.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "in 1 pressure"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 229.0, 14.0, 92.0, 22.0 ],
+					"style" : "",
+					"text" : "in 2 divergence"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 64.0, 866.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+ ],
+		"autosave" : 0
+	}
+
+}

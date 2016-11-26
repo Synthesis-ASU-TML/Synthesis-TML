@@ -1,0 +1,309 @@
+{
+	"pattrstorage" : 	{
+		"name" : "vid-indiv",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "blur-1",
+				"data" : 				{
+					"blur" : [ 3.0 ],
+					"slideUp" : [ 0.3 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 1.2 ],
+					"contrast" : [ 1.9 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 2.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "basic",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 16.0 ],
+					"avgLuma" : [ 0.91 ],
+					"contrast" : [ 1.5 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "blur-2",
+				"data" : 				{
+					"blur" : [ 3.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 1.2 ],
+					"contrast" : [ 1.09 ],
+					"convolMix" : [ 0.8 ],
+					"convolA" : [ 0.2 ],
+					"brightness" : [ 3.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "slide-1",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.95 ],
+					"slideDown" : [ 0.9 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 0.72 ],
+					"contrast" : [ 1.9 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 2.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"name" : "slide-2",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.95 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 10.0 ],
+					"avgLuma" : [ 1.32 ],
+					"contrast" : [ 1.08 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 4.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"name" : "bloom-1",
+				"data" : 				{
+					"blur" : [ 10.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 0.4 ],
+					"avgLuma" : [ 0.91 ],
+					"contrast" : [ 1.09 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 2.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"name" : "bloom-2",
+				"data" : 				{
+					"blur" : [ 10.0 ],
+					"slideUp" : [ 0.98 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 0.4 ],
+					"avgLuma" : [ 0.91 ],
+					"contrast" : [ 1.09 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 17.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"name" : "slide-3",
+				"data" : 				{
+					"blur" : [ 1.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.99 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 0.4 ],
+					"avgLuma" : [ 1.0 ],
+					"contrast" : [ 1.044 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 3.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"name" : "kinda-normal",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.3 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 1.2 ],
+					"contrast" : [ 1.019 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 3.0 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"name" : "slide-4",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.95 ],
+					"slideDown" : [ 0.9 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 1.2 ],
+					"contrast" : [ 1.019 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 3.0 ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"name" : "bloom-3",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.95 ],
+					"slideDown" : [ 0.9 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 4.8 ],
+					"bloomWidth" : [ 0.4 ],
+					"bloomThresh" : [ 0.4 ],
+					"avgLuma" : [ 1.2 ],
+					"contrast" : [ 1.019 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 3.0 ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"name" : "slide-5",
+				"data" : 				{
+					"blur" : [ 2.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.95 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 10.0 ],
+					"avgLuma" : [ 1.32 ],
+					"contrast" : [ 1.08 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 4.0 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"name" : "contrast-1",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.3 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 0.5 ],
+					"contrast" : [ 1.17 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 28.0 ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"name" : "contrast-2",
+				"data" : 				{
+					"blur" : [ 2.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.95 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 10.0 ],
+					"avgLuma" : [ 1.32 ],
+					"contrast" : [ 1.08 ],
+					"convolMix" : [ 0.0 ],
+					"convolA" : [ 0.0 ],
+					"brightness" : [ 4.0 ]
+				}
+
+			}
+,
+			"15" : 			{
+				"id" : 15,
+				"name" : "normal-2",
+				"data" : 				{
+					"blur" : [ 0.0 ],
+					"slideUp" : [ 0.0 ],
+					"slideDown" : [ 0.0 ],
+					"opacity" : [ 1.0 ],
+					"bloomAmt" : [ 1.0 ],
+					"bloomWidth" : [ 0.5 ],
+					"bloomThresh" : [ 1.5 ],
+					"avgLuma" : [ 0.0 ],
+					"contrast" : [ 1.0 ],
+					"convolMix" : [ 0.4 ],
+					"convolA" : [ 0.8 ],
+					"brightness" : [ 2.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
